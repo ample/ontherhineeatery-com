@@ -11,7 +11,7 @@ export const colors = {
   gray300: "#D3CDC3", // Latte
   gray500: "#79766F", // Toast
   gray700: "#404040", // Charcoal
-  gray800: "#252422B3", // pg + opacity
+  gray800: "#252422", // pg
   black: "#000000",
   cantaloupe: "#E1907D",
   robinegg: "#87C4B6",
