@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@storybook/addon-backgrounds": "^5.1.11",
+    "@storybook/addon-knobs": "^5.1.11",
+    "@storybook/addon-notes": "^5.1.11",
+    "@storybook/addon-viewport": "^5.1.11",
     "gatsby": "^2.15.14",
     "gatsby-image": "^2.2.18",
     "gatsby-plugin-manifest": "^2.2.16",
