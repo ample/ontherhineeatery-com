@@ -18,9 +18,9 @@ const stories = storiesOf(/* Story Group */, module)
 // stories.addParameters({
 //   backgrounds: [
 //     { name: "white", value: g.colors.white, default: true },
-//     { name: "salt", value: g.colors.salt, default: false },
+//     { name: "gray200", value: g.colors.gray200, default: false },
 //     { name: "robinegg", value: g.colors.robinegg, default: false },
-//     { name: "charcoal", value: g.colors.charcoal, default: false },
+//     { name: "gray700", value: g.colors.gray700, default: false },
 //   ],
 // })
 
