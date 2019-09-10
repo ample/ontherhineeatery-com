@@ -15,14 +15,15 @@ stories.addDecorator(withKnobs)
 stories.add(
   "Link",
   () => (
-    <GlobalStyles>
+    <>
+      <GlobalStyles />
       {data.map((link, i) => (
         <div key={`link_${i}`} style={{ margin: 40 }}>
           <div>{link.desc}</div>
           <Link to={link.url}>{link.label}</Link>
         </div>
       ))}
-    </GlobalStyles>
+    </>
   ),
   { notes: notes }
 )

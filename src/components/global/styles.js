@@ -1,10 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { css, createGlobalStyle } from "styled-components"
 
-const GlobalStyles = ({ children }) => <>{children}</>
+import normalize from "./normalize"
 
-GlobalStyles.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+const allstyles = css`
+  ${normalize}
+`
+
+const GlobalStyles = createGlobalStyle`${allstyles}`
 
 export default GlobalStyles

@@ -21,7 +21,8 @@ stories.add(
   "Variables",
   () => {
     return (
-      <GlobalStyles>
+      <>
+        <GlobalStyles />
         <div style={{ maxWidth: 992, margin: "auto" }}>
           <h2 style={{ marginTop: 60 }}>Global Variables</h2>
 
@@ -33,7 +34,10 @@ stories.add(
             <Swatches>
               <div>
                 <div
-                  style={{ backgroundColor: g.colors.white, color: g.colors.gray700 }}
+                  style={{
+                    backgroundColor: g.colors.white,
+                    color: g.colors.gray700,
+                  }}
                 >
                   white
                 </div>
@@ -41,7 +45,10 @@ stories.add(
               </div>
               <div>
                 <div
-                  style={{ backgroundColor: g.colors.gray100, color: g.colors.gray700 }}
+                  style={{
+                    backgroundColor: g.colors.gray100,
+                    color: g.colors.gray700,
+                  }}
                 >
                   gray100
                 </div>
@@ -53,7 +60,10 @@ stories.add(
               </div>
               <div>
                 <div
-                  style={{ backgroundColor: g.colors.gray200, color: g.colors.gray700 }}
+                  style={{
+                    backgroundColor: g.colors.gray200,
+                    color: g.colors.gray700,
+                  }}
                 >
                   gray200
                 </div>
@@ -65,7 +75,10 @@ stories.add(
               </div>
               <div>
                 <div
-                  style={{ backgroundColor: g.colors.gray300, color: g.colors.gray700 }}
+                  style={{
+                    backgroundColor: g.colors.gray300,
+                    color: g.colors.gray700,
+                  }}
                 >
                   gray300
                 </div>
@@ -175,7 +188,7 @@ stories.add(
             </section>
           </Group>
         </div>
-      </GlobalStyles>
+      </>
     )
   }
   // { notes: notes_variables }

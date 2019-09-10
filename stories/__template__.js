@@ -30,9 +30,10 @@ stories.add(
     // let knob = text("Text", "Hello World")
 
     return (
-      <GlobalStyles>
+      <>
+        <GlobalStyles />
         {/* <Component /> */}
-      </GlobalStyles>
+      </>
     )
   },
   // { notes: notes }
