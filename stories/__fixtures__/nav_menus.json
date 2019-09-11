@@ -1,0 +1,60 @@
+{
+  "edges": [
+    {
+      "node": {
+        "id": "64be540c-bc08-5e08-b286-38be9c2fd3b5",
+        "title": "footer",
+        "links": [
+          {
+            "id": "3730d3f3-7d07-5445-ae4a-1b1df2461e57",
+            "title": "Eat + Drink",
+            "url": "#"
+          },
+          {
+            "id": "98939aaa-626a-568e-a019-eb75930712a3",
+            "title": "Who We Are",
+            "url": "#"
+          },
+          {
+            "id": "feeab922-45f6-5d4a-94cd-81111c2f67c6",
+            "title": "Events",
+            "url": "#"
+          },
+          {
+            "id": "7fbe44fe-1832-544b-90eb-793dffb50be3",
+            "title": "Find Us",
+            "url": "#"
+          }
+        ]
+      }
+    },
+    {
+      "node": {
+        "id": "5a8381dc-a800-577a-bc7b-1e383261181d",
+        "title": "header",
+        "links": [
+          {
+            "id": "3730d3f3-7d07-5445-ae4a-1b1df2461e57",
+            "title": "Eat + Drink",
+            "url": "#"
+          },
+          {
+            "id": "98939aaa-626a-568e-a019-eb75930712a3",
+            "title": "Who We Are",
+            "url": "#"
+          },
+          {
+            "id": "feeab922-45f6-5d4a-94cd-81111c2f67c6",
+            "title": "Events",
+            "url": "#"
+          },
+          {
+            "id": "7fbe44fe-1832-544b-90eb-793dffb50be3",
+            "title": "Find Us",
+            "url": "#"
+          }
+        ]
+      }
+    }
+  ]
+}

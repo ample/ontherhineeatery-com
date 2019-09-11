@@ -1,0 +1,58 @@
+{
+  "edges": [
+    {
+      "node": {
+        "id": "5e610cce-945d-50a4-b69d-9fa8fc032e4b",
+        "key": "copyright",
+        "value": {
+          "value": "© 2019 All rights reserved. Nullam quis risus eget urna mollis ornare vel eu leo."
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "721724ce-1881-5eb2-a12f-422e2ced497f",
+        "key": "hours",
+        "value": {
+          "value": "Mon 7am-8pm \nTues-Thurs 7am-9pm \nFri 7am-10pm \nSat 9am-10pm \nSun 9am-8pm"
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "129bf3ac-f1b7-5f68-9457-48e3db2713b8",
+        "key": "address",
+        "value": {
+          "value": "1234 Street Name\nCincinnati, Ohio 45202\n513-098-7654"
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "675c2b5a-8c49-50df-85f6-648c613924dc",
+        "key": "facebook_url",
+        "value": {
+          "value": "#"
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "0ad87c85-050a-5170-8496-ad6f4a612d31",
+        "key": "twitter_url",
+        "value": {
+          "value": "#"
+        }
+      }
+    },
+    {
+      "node": {
+        "id": "1a877cb6-5025-5c6f-8353-04409acfcf0c",
+        "key": "instagram_url",
+        "value": {
+          "value": "#"
+        }
+      }
+    }
+  ]
+}
