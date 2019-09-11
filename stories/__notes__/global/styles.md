@@ -18,8 +18,7 @@ The type styles adjust to mobile-friendly sizes at the `md` breakpoint.
 
 Use rems wherever possible. `1rem` = `10px`
 
-## &lt;p>, &lt;h1>, &lt;h2>, &lt;h3>, &lt;h4>, &lt;h5>, &lt;h6>, &lt;section>,
-#&lt;nav>, &lt;header>, &lt;footer>, &lt;div>
+## &lt;p>, &lt;h1>, &lt;h2>, &lt;h3>, &lt;h4>, &lt;h5>, &lt;h6>, &lt;section>, &lt;nav>, &lt;header>, &lt;footer>, &lt;div>
 
 These elements have six optional utility classes, shown on the Canvas tab:
 `text-xs`, `text-sm`, `text-md`, `text-center`, `text-light`, and `text-quote`.
