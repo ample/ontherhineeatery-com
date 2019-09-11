@@ -13,14 +13,14 @@ const StyledFooter = styled.footer`
   padding: 6.4rem 2.4rem 2.4rem 2.4rem;
   background-color: ${g.colors.gray800};
 
-  @media ${g.screen.max.sm} {
+  @media ${g.screen.max.md} {
     padding: 3rem 2.4rem 5.5rem 2.4rem;
   }
 `
 
 const StyledLogo = styled(Logo)`
   height: 6.5rem;
-  @media ${g.screen.max.sm} {
+  @media ${g.screen.max.md} {
     height: 5rem;
   }
 `
