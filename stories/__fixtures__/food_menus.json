@@ -1,0 +1,128 @@
+{
+  "edges": [
+    {
+      "node": {
+        "id": "5b0f24d8-066d-5084-9c68-7626aca66c66",
+        "title": "1883 Cafe & Bar - Lunch",
+        "label": "Lunch",
+        "items": [
+          {
+            "id": "c1080270-4c72-5d49-8e12-5c57e3d5e7a5",
+            "title": "1883 - Arroz Caldo",
+            "label": "Arroz Caldo",
+            "body": {
+              "body": "chicken, ginger rice porridge, egg",
+              "childMarkdownRemark": {
+                "html": "<p>chicken, ginger rice porridge, egg</p>"
+              }
+            }
+          },
+          {
+            "id": "30d00bcc-444a-5ae1-af8a-99e84ef4b9a7",
+            "title": "1883 - Sandwich",
+            "label": "Sandwich",
+            "body": {
+              "body": "It so good",
+              "childMarkdownRemark": {
+                "html": "<p>It so good</p>"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "node": {
+        "id": "00d84ab7-78a6-5cd7-95c2-bb7fe67fddec",
+        "title": "1883 Cafe & Bar - Dinner",
+        "label": "Dinner",
+        "items": [
+          {
+            "id": "c1080270-4c72-5d49-8e12-5c57e3d5e7a5",
+            "title": "1883 - Arroz Caldo",
+            "label": "Arroz Caldo",
+            "body": {
+              "body": "chicken, ginger rice porridge, egg",
+              "childMarkdownRemark": {
+                "html": "<p>chicken, ginger rice porridge, egg</p>"
+              }
+            }
+          },
+          {
+            "id": "30d00bcc-444a-5ae1-af8a-99e84ef4b9a7",
+            "title": "1883 - Sandwich",
+            "label": "Sandwich",
+            "body": {
+              "body": "It so good",
+              "childMarkdownRemark": {
+                "html": "<p>It so good</p>"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "node": {
+        "id": "63244e85-cf82-58f0-a303-d4d6315da300",
+        "title": "1883 Cafe & Bar - Small Plates",
+        "label": "Small Plates",
+        "items": [
+          {
+            "id": "c1080270-4c72-5d49-8e12-5c57e3d5e7a5",
+            "title": "1883 - Arroz Caldo",
+            "label": "Arroz Caldo",
+            "body": {
+              "body": "chicken, ginger rice porridge, egg",
+              "childMarkdownRemark": {
+                "html": "<p>chicken, ginger rice porridge, egg</p>"
+              }
+            }
+          },
+          {
+            "id": "30d00bcc-444a-5ae1-af8a-99e84ef4b9a7",
+            "title": "1883 - Sandwich",
+            "label": "Sandwich",
+            "body": {
+              "body": "It so good",
+              "childMarkdownRemark": {
+                "html": "<p>It so good</p>"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "node": {
+        "id": "ffe33963-f794-516d-8aac-9baf5b71f958",
+        "title": "1883 Cafe & Bar - Breakfast",
+        "label": "Breakfast",
+        "items": [
+          {
+            "id": "c1080270-4c72-5d49-8e12-5c57e3d5e7a5",
+            "title": "1883 - Arroz Caldo",
+            "label": "Arroz Caldo",
+            "body": {
+              "body": "chicken, ginger rice porridge, egg",
+              "childMarkdownRemark": {
+                "html": "<p>chicken, ginger rice porridge, egg</p>"
+              }
+            }
+          },
+          {
+            "id": "30d00bcc-444a-5ae1-af8a-99e84ef4b9a7",
+            "title": "1883 - Sandwich",
+            "label": "Sandwich",
+            "body": {
+              "body": "It so good",
+              "childMarkdownRemark": {
+                "html": "<p>It so good</p>"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
