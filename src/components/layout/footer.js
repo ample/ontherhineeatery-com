@@ -44,6 +44,7 @@ const Copyright = styled.p`
   color: ${g.colors.white + "66"};
   max-width: 60%;
   margin: auto;
+  margin-top: 3rem;
 `
 
 const Footer = props => {
