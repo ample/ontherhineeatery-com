@@ -1,0 +1,12 @@
+[
+  {
+    "desc": "External links use standard <a>",
+    "url": "https://www.ontherhine.com/",
+    "label": "https://www.ontherhine.com/"
+  },
+  {
+    "desc": "Internal links use Gatsby <Link>",
+    "url": "/about",
+    "label": "/about"
+  }
+]
