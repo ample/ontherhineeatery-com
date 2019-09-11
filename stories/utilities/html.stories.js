@@ -13,9 +13,10 @@ stories.add(
   "HTML",
   () => {
     return (
-      <GlobalStyles>
+      <>
+        <GlobalStyles />
         <HTML field={fixture[0].data} />
-      </GlobalStyles>
+      </>
     )
   },
   {

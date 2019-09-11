@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
-// import notes from "./__notes__/global/variables.md"
+import notes from "../__notes__/global/variables.md"
 
 const stories = storiesOf("Global", module)
 
@@ -21,19 +21,21 @@ stories.add(
   "Variables",
   () => {
     return (
-      <GlobalStyles>
-        <div style={{ maxWidth: 992, margin: "auto" }}>
+      <>
+        <GlobalStyles />
+        <div style={{ maxWidth: 992, margin: "auto" }} className="text-center">
           <h2 style={{ marginTop: 60 }}>Global Variables</h2>
 
           <Group>
-            <h5>
-              Colors <br />
-              <code>$&#123;colors.name&#125;</code>
-            </h5>
+            <h3>Colors</h3>
+            <code>$&#123;colors.name&#125;</code>
             <Swatches>
               <div>
                 <div
-                  style={{ backgroundColor: g.colors.white, color: g.colors.gray700 }}
+                  style={{
+                    backgroundColor: g.colors.white,
+                    color: g.colors.gray700,
+                  }}
                 >
                   white
                 </div>
@@ -41,7 +43,10 @@ stories.add(
               </div>
               <div>
                 <div
-                  style={{ backgroundColor: g.colors.gray100, color: g.colors.gray700 }}
+                  style={{
+                    backgroundColor: g.colors.gray100,
+                    color: g.colors.gray700,
+                  }}
                 >
                   gray100
                 </div>
@@ -53,7 +58,10 @@ stories.add(
               </div>
               <div>
                 <div
-                  style={{ backgroundColor: g.colors.gray200, color: g.colors.gray700 }}
+                  style={{
+                    backgroundColor: g.colors.gray200,
+                    color: g.colors.gray700,
+                  }}
                 >
                   gray200
                 </div>
@@ -65,7 +73,10 @@ stories.add(
               </div>
               <div>
                 <div
-                  style={{ backgroundColor: g.colors.gray300, color: g.colors.gray700 }}
+                  style={{
+                    backgroundColor: g.colors.gray300,
+                    color: g.colors.gray700,
+                  }}
                 >
                   gray300
                 </div>
@@ -94,6 +105,16 @@ stories.add(
               <div>
                 <div style={{ backgroundColor: g.colors.gray800 }}>gray800</div>
                 <code>
+                  #252422
+                  <br />
+                  pg text
+                </code>
+              </div>
+              <div>
+                <div style={{ backgroundColor: g.colors.gray800 + "B3" }}>
+                  gray800 + "B3"
+                </div>
+                <code>
                   #252422B3
                   <br />
                   pg text (70%)
@@ -119,11 +140,9 @@ stories.add(
           </Group>
 
           <Group>
-            <h5>
-              Fonts <br />
-              <code>$&#123;fonts.type&#125;</code>
-            </h5>
-            <section>
+            <h3>Fonts</h3>
+            <code>$&#123;fonts.type&#125;</code>
+            <section style={{ maxWidth: 768, margin: "auto" }}>
               <div className="oswald">
                 <code>fonts.oswald</code>
                 <br />
@@ -145,7 +164,7 @@ stories.add(
           </Group>
 
           <Group>
-            <h5>Media Queries</h5>
+            <h3>Media Queries</h3>
             (max-width)
             <section>
               <code>
@@ -175,21 +194,24 @@ stories.add(
             </section>
           </Group>
         </div>
-      </GlobalStyles>
+      </>
     )
-  }
-  // { notes: notes_variables }
+  },
+  { notes: notes }
 )
+
+// ------------------ For spec sheet only
 
 const Group = styled.div`
   text-align: center;
   color: ${g.colors.gray700};
-  h5 {
+  h3 {
     margin-top: 60px;
   }
   section {
-    margin-bottom: 3rem;
     padding: 1rem;
+    max-width: 768px;
+    margin: 1.5rem auto;
     border: 1px solid gainsboro;
   }
   .oswald {
@@ -222,7 +244,8 @@ const Swatches = styled.div`
       font-family: monospace;
       font-weight: bold;
       color: white;
-      padding: 1.5rem 1rem;
+      padding: 2.5rem 1rem;
+      margin-top: 1rem;
     }
   }
 `
