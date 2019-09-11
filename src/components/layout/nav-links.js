@@ -17,7 +17,8 @@ const Wrapper = styled.nav`
     color: ${g.colors.white};
     letter-spacing: 0.08rem;
     text-decoration: none;
-    &:hover {
+    &:hover,
+    &:focus {
       color: ${g.colors.gray300};
     }
   }
@@ -33,10 +34,14 @@ const Wrapper = styled.nav`
   }
 `
 
-const NavLinks = ({className, ...props}) => (
+const NavLinks = ({ className, ...props }) => (
   <Wrapper className={className}>
     {props.nav.map((navItem, idx) => (
-      <Link to={navItem.url} activeClassName="nav-active">
+      <Link
+        to={navItem.url}
+        activeClassName="nav-active"
+        aria-label={navItem.title.toLowerCase()}
+      >
         {navItem.title}
       </Link>
     ))}

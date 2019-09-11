@@ -23,7 +23,8 @@ const Icon = styled(Link)`
     transition: fill 0.1s ease-out;
   }
 
-  &:hover svg {
+  &:hover svg,
+  &:focus svg {
     fill: ${props => (props.dark ? g.colors.white : g.colors.gray700)};
   }
 
