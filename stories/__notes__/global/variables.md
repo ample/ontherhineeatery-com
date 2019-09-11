@@ -1,6 +1,7 @@
 # Global Variables
 
-Color, Font, Breakpoint, and Screen variable objects can be imported to any component.
+Color, Font, Breakpoint, and Screen variable objects can be imported to any
+component.
 
 To add or update variables, see `/components/global/variables`.
 
@@ -30,13 +31,16 @@ g.colors.robinegg
 
 The `screen` object is used for media queries.
 
-It has two child objects - `min` and `max`, representing `(min-width:)` and `(max-width:)` respectively.
+It has two child objects - `min` and `max`, representing `(min-width:)` and
+`(max-width:)` respectively.
 
-`min` and `max` each have four breakpoints, listed below. These breakpoints match the `react-grid-system`.
+`min` and `max` each have four breakpoints, listed below. These breakpoints
+match the `react-grid-system`.
 
 ### Output
 
-Screen variables include the entire `min-width` or `max-width` query. For example:
+Screen variables include the entire `min-width` or `max-width` query. For
+example:
 
 ```jsx
 ${screen.min.lg} // => (min-width: 992px)

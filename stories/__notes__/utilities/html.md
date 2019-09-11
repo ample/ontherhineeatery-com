@@ -1,9 +1,9 @@
 # HTML Utility
 
-The HTML utility accepts two properties. The first is a required property `field`. The field
-property must be an object with a `childMarkdownRemark` key, which subsequently has a
-single key, `html`, which ultimately holds the HTML string that is to be
-rendered within a `<div>` element.
+The HTML utility accepts two properties. The first is a required property
+`field`. The field property must be an object with a `childMarkdownRemark` key,
+which subsequently has a single key, `html`, which ultimately holds the HTML
+string that is to be rendered within a `<div>` element.
 
 This component is structured in this way because this is the strcture expected
 by [the gatsby-transformer-remark
@@ -12,9 +12,9 @@ generally, we only need to use this component in conjunction with data coming
 from the CMS database. Thus, it was likely transformed from markdown into an
 HTML string.
 
-The HTML utility also accepts an optional string property `className`. It allows the
-component to be styled, either with CSS classes or by extending it with Styled
-Components: `styled(HTML)`.
+The HTML utility also accepts an optional string property `className`. It allows
+the component to be styled, either with CSS classes or by extending it with
+Styled Components: `styled(HTML)`.
 
 ## Usage
 
@@ -35,7 +35,8 @@ const body = page.body.childMarkdownRemark.html
 // => <h1>Hello World</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 ```
 
-Then we can send that object directly to the HTML utility to have it rendered on the page.
+Then we can send that object directly to the HTML utility to have it rendered on
+the page.
 
 ```jsx
 <HTML field={body} />
