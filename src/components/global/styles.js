@@ -27,6 +27,7 @@ const brand = css`
 
   a {
     color: inherit;
+    transition: color 0.1s ease-out;
   }
 
   img,
