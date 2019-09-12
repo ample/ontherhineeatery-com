@@ -21,8 +21,7 @@ const NavBtn = styled.button`
   }
 
   &:hover svg,
-  &:focus svg,
-  &.nav-active svg {
+  &:focus svg {
     fill: ${g.colors.gray300};
     cursor: pointer;
   }
@@ -51,7 +50,8 @@ const StyledNavLinks = styled(NavLinks)`
       border-top: 1px solid ${g.colors.gray300};
     }
     &:hover,
-    &:focus {
+    &:focus,
+    &.nav-active {
       color: ${g.colors.gray700};
     }
   }

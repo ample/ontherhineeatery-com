@@ -18,7 +18,8 @@ const Wrapper = styled.nav`
     letter-spacing: 0.08rem;
     text-decoration: none;
     &:hover,
-    &:focus {
+    &:focus,
+    &.nav-active {
       color: ${g.colors.gray300};
     }
   }
