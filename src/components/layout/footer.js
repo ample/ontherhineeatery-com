@@ -32,12 +32,19 @@ const StyledNavLinks = styled(NavLinks)`
 const Hours = styled.div`
   color: ${g.colors.white + "B3"};
   list-style-type: none;
+  margin-bottom: 2.4rem;
 `
 
-const Address = styled.div`
+const LocationLink = styled(Link)`
+  display: block;
   color: ${g.colors.white + "B3"};
-  text-decoration: underline;
-  padding: 2.4rem;
+  &:last-of-type {
+    margin-bottom: 2.4rem;
+  }
+  &:hover,
+  &:focus {
+    color: ${g.colors.white};
+  }
 `
 
 const Copyright = styled.p`
@@ -52,38 +59,55 @@ const Footer = props => {
     const collection = props.settings.filter(n => n.node.key === name)
     return collection.length > 0 ? collection[0].node.value.value : null
   }
-  // console.log("this is the setting: ", getSetting("address"))
+  const getMapLink = address => {
+    const maplink = address.replace(/\s|\n/g, "+").replace(/,/g, "&2C")
+    return `https://www.google.com/maps/search/?api=1&query=${maplink}`
+  }
   return (
     <StyledFooter className="text-center">
       <Link to="/" aria-label="On The Rhine Logo - Home Page Link">
         <StyledLogo />
       </Link>
+
       <StyledNavLinks nav={props.nav} />
+
       <Hours
         aria-label="On The Rhine Food Hall Hours"
         dangerouslySetInnerHTML={{
           __html: getSetting("hours").replace(/\n/g, "<br />"),
         }}
-      ></Hours>
-      <Address
+      />
+
+      <LocationLink
+        to={getMapLink(getSetting("address"))}
+        aria-label={`On The Rhine Google Maps Link`}
         dangerouslySetInnerHTML={{
           __html: getSetting("address").replace(/\n/g, "<br />"),
         }}
       />
+
+      <LocationLink
+        to={`tel:${getSetting("phone")}`}
+        target="_self"
+        aria-label={`On The Rhine Phone Number Link`}
+      >
+        {getSetting("phone")}
+      </LocationLink>
+
       <SocialIcons
         vendor="On The Rhine Food Hall"
-        icons={props.social} // Replace with footer social links
+        icons={JSON.parse(getSetting("footer_icons"))}
         dark={true}
       />
+
       <Copyright className="text-xs">{getSetting("copyright")}</Copyright>
     </StyledFooter>
   )
 }
 
 Footer.propTypes = {
-  settings: PropTypes.object.isRequired,
+  settings: PropTypes.array.isRequired,
   nav: PropTypes.array.isRequired,
-  social: PropTypes.object.isRequired,
 }
 
 export default Footer
