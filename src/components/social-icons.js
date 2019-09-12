@@ -6,7 +6,7 @@ import SVG from "react-inlinesvg"
 import * as g from "./global/variables"
 
 import Link from "./utilities/link"
-import website from "../images/icons/social-instagram.svg"
+import website from "../images/icons/social-website.svg"
 import facebook from "../images/icons/social-facebook.svg"
 import instagram from "../images/icons/social-instagram.svg"
 import twitter from "../images/icons/social-twitter.svg"
