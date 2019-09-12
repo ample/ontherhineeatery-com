@@ -87,6 +87,14 @@ stories.add(
                 </code>
               </div>
               <div>
+                <div style={{ backgroundColor: g.colors.gray400 }}>gray400</div>
+                <code>
+                  #848179
+                  <br />
+                  btn text
+                </code>
+              </div>
+              <div>
                 <div style={{ backgroundColor: g.colors.gray500 }}>gray500</div>
                 <code>
                   #79766F
