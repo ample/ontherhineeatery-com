@@ -5,9 +5,9 @@ import { withKnobs, boolean } from "@storybook/addon-knobs"
 import GlobalStyles from "../../src/components/global/styles"
 import { colors } from "../../src/components/global/variables"
 
-import VendorLogoContainer from "../../src/components/vendor-logo-container"
+import VendorLogo from "../../src/components/vendor-logo-container/vendor-logo"
 import data from "../__fixtures__/vendors"
-import notes from "../__notes__/vendor-logo-container/index.md"
+import notes from "../__notes__/vendor-logo-container/vendor-logo.md"
 
 const stories = storiesOf("Vendor Logos", module)
 
@@ -21,20 +21,19 @@ stories.addParameters({
 })
 
 stories.add(
-  "VendorLogoContainer",
+  "VendorLogo",
   () => {
-    const vendorsList = [
-      data.edges[0].node,
-      data.edges[0].node,
-      data.edges[0].node,
-      data.edges[0].node,
-      data.edges[0].node,
-    ]
+    const vendor = data.edges[0].node
     const small = boolean("Small", false)
     return (
       <>
         <GlobalStyles />
-        <VendorLogoContainer logos={vendorsList} small={small} />
+        <VendorLogo
+          title={vendor.title}
+          logo={vendor.logo}
+          small={small}
+          to={`/${vendor.permalink}`}
+        />
       </>
     )
   },
