@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import styled from "styled-components"
 
 import * as g from "../global/variables"
+import { useSetting, useMapLink } from "../hooks"
 
 import Link from "../utilities/link"
 import Logo from "../logo"
@@ -55,14 +56,7 @@ const Copyright = styled.p`
 `
 
 const Footer = props => {
-  const getSetting = name => {
-    const collection = props.settings.filter(n => n.node.key === name)
-    return collection.length > 0 ? collection[0].node.value.value : null
-  }
-  const getMapLink = address => {
-    const maplink = address.replace(/\s|\n/g, "+").replace(/,/g, "&2C")
-    return `https://www.google.com/maps/search/?api=1&query=${maplink}`
-  }
+  const getSetting = name => useSetting(props.settings, name)
   return (
     <StyledFooter className="text-center">
       <Link to="/" aria-label="On The Rhine Logo - Home Page Link">
@@ -79,7 +73,7 @@ const Footer = props => {
       />
 
       <LocationLink
-        to={getMapLink(getSetting("address"))}
+        to={useMapLink(getSetting("address"))}
         aria-label={`On The Rhine Google Maps Link`}
         dangerouslySetInnerHTML={{
           __html: getSetting("address").replace(/\n/g, "<br />"),

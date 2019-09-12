@@ -1,10 +1,11 @@
-import React, { useState, useEffect, useRef } from "react"
+import React, { useRef } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import MediaQuery from "react-responsive"
 import SVG from "react-inlinesvg"
 
 import * as g from "../../global/variables"
+import { useToggleMenu } from "../../hooks"
 
 import NavLinks from "../nav-links"
 import hamburger from "../../../images/icons/icon-hamburger.svg"
@@ -58,25 +59,8 @@ const StyledNavLinks = styled(NavLinks)`
 `
 
 const NavMobile = props => {
-  const [isOpen, setOpen] = useState(false)
-  const toggleNav = () => setOpen(!isOpen)
-
   const nodeRef = useRef()
-
-  useEffect(() => {
-    const handleOutsideClick = e => {
-      if (!nodeRef.current.contains(e.target)) {
-        toggleNav()
-      }
-    }
-    if (isOpen) {
-      document.addEventListener("mousedown", handleOutsideClick)
-    }
-    return () => {
-      document.removeEventListener("mousedown", handleOutsideClick)
-    }
-  }, [isOpen])
-
+  const [isOpen, toggleNav] = useToggleMenu(nodeRef)
   return (
     <div ref={nodeRef}>
       <NavBtn
