@@ -41,6 +41,7 @@ const NavLinks = ({ className, ...props }) => (
         to={navItem.url}
         activeClassName="nav-active"
         aria-label={navItem.title.toLowerCase()}
+        key={`navLink_${idx}`}
       >
         {navItem.title}
       </Link>
