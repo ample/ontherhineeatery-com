@@ -26,7 +26,7 @@ stories.add(
     return (
       <>
         <GlobalStyles />
-        <Logo color={color} />
+        <Logo color={color} style={{ maxWidth: 300 }} />
       </>
     )
   },
