@@ -34,7 +34,7 @@
                 "body": {
                   "body": "351, Monon Blvd \nCarmel, IN 46032\n740-221-2123\n\n[Get directions](#)",
                   "childMarkdownRemark": {
-                    "html": "<p>351, Monon Blvd\nCarmel, IN 46032\n740-221-2123</p>\n<p><a href=\"#\">Get directions</a></p>"
+                    "html": "<p>351, Monon Blvd\nCarmel, IN 46032\n740-221-2123</p>\n<small><a href=\"#\"><em>Get directions</em></a></small>"
                   }
                 }
               },
@@ -45,7 +45,7 @@
                 "body": {
                   "body": "## Food Hall Hours\n\nMon 7am-8pm   \nTues-Thurs 7am-9pm  \nFri 7am-10pm  \nSat 9am-10pm  \nSun 9am-8pm\n\n*Restaurant times may vary. See [our full lineup](#) for details.",
                   "childMarkdownRemark": {
-                    "html": "<h2>Food Hall Hours</h2>\n<p>Mon 7am-8pm<br>\nTues-Thurs 7am-9pm<br>\nFri 7am-10pm<br>\nSat 9am-10pm<br>\nSun 9am-8pm</p>\n<p>*Restaurant times may vary. See <a href=\"#\">our full lineup</a> for details.</p>"
+                    "html": "<h2>Food Hall Hours</h2>\n<p>Mon 7am-8pm<br>\nTues-Thurs 7am-9pm<br>\nFri 7am-10pm<br>\nSat 9am-10pm<br>\nSun 9am-8pm</p>\n<small>*Restaurant times may vary. See <a href=\"#\"><em><strong>our full lineup</strong></em></a> for details.</small>"
                   }
                 }
               }
