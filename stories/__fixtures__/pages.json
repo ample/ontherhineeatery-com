@@ -45,7 +45,7 @@
                 "body": {
                   "body": "## Food Hall Hours\n\nMon 7am-8pm   \nTues-Thurs 7am-9pm  \nFri 7am-10pm  \nSat 9am-10pm  \nSun 9am-8pm\n\n*Restaurant times may vary. See [our full lineup](#) for details.",
                   "childMarkdownRemark": {
-                    "html": "<h2>Food Hall Hours</h2>\n<p>Mon 7am-8pm<br>\nTues-Thurs 7am-9pm<br>\nFri 7am-10pm<br>\nSat 9am-10pm<br>\nSun 9am-8pm</p>\n<small>*Restaurant times may vary. See <a href=\"#\"><em><strong>our full lineup</strong></em></a> for details.</small>"
+                    "html": "<h2>Food Hall Hours</h2>\n<p>Mon 7am-8pm\nTues-Thurs 7am-9pm\nFri 7am-10pm\nSat 9am-10pm\nSun 9am-8pm</p>\n<small>*Restaurant times may vary. See <a href=\"#\"><em><strong>our full lineup</strong></em></a> for details.</small>"
                   }
                 }
               }

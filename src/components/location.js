@@ -35,6 +35,9 @@ const HoursCol = styled(Col)`
     color: ${g.colors.gray800 + "B3"};
     margin-bottom: auto;
   }
+  p {
+    white-space: pre;
+  }
 
   @media ${g.screen.max.sm} {
     order: 1;
