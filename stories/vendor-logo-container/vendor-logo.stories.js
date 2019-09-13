@@ -31,6 +31,7 @@ stories.add(
         <VendorLogo
           title={vendor.title}
           logo={vendor.logo}
+          featured_image={vendor.featured_image}
           small={small}
           to={`/${vendor.permalink}`}
         />

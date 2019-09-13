@@ -20,6 +20,7 @@ const VendorLogoContainer = props => (
         title={vendor.title}
         to={`/${vendor.permalink}`}
         logo={vendor.logo}
+        featured_image={vendor.featured_image}
         small={props.small}
       />
     ))}
