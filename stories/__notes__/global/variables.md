@@ -34,8 +34,7 @@ The `screen` object is used for media queries.
 It has two child objects - `min` and `max`, representing `(min-width:)` and
 `(max-width:)` respectively.
 
-`min` and `max` each have four breakpoints, listed below. These breakpoints
-match the `react-grid-system`.
+`min` and `max` each have four breakpoints, listed below.
 
 ### Output
 
