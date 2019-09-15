@@ -7,6 +7,7 @@ const HTML = ({ field, className }) => {
     <div
       dangerouslySetInnerHTML={{ __html: field.childMarkdownRemark.html }}
       className={className}
+      style={{ whiteSpace: "pre-line" }}
     />
   )
 }

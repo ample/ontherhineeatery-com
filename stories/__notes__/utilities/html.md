@@ -50,3 +50,15 @@ Which would translate to something like this:
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div>
 ```
+
+The `\n` character will create a line-break:
+
+```js
+const body = page.body.childMarkdownRemark.html
+// => <p>Lorem ipsum dolor\nsit amet, consectetur.</p>
+```
+
+Will display like this when rendered:
+
+Lorem ipsum dolor<br/>
+sit amet, consectetur.
