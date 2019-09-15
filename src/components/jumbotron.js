@@ -8,20 +8,21 @@ import * as g from "./global/variables"
 
 const Title = styled.div``
 const Hero = styled.div``
+
 const Texture = styled.div`
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2;
   img,
   picture,
   .gatsby-image-wrapper {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.25;
+    object-position: top center !important;
+    mix-blend-mode: screen;
   }
 `
 
@@ -32,20 +33,17 @@ const StyledJumbotron = styled.section`
   height: ${props => (props.hero ? "48.8rem" : "auto")};
   position: relative;
   z-index: 10;
-
   ${Title} {
     position: relative;
     z-index: 20;
     padding: 3.2rem;
     padding-top: 9rem;
   }
-
   ${Hero} {
     position: relative;
     z-index: 30;
     width: 100%;
     margin-top: 0.8rem;
-
     img,
     picture,
     .gatsby-image-wrapper {
@@ -58,7 +56,6 @@ const StyledJumbotron = styled.section`
 
   @media ${g.screen.min.sm} and ${g.screen.max.md} {
     height: ${props => (props.hero ? "38.2rem" : "auto")};
-
     ${Title} {
       padding-top: ${props => (props.hero ? "9rem" : "3.2rem")};
       display: ${props => (props.hero ? "block" : "flex")};
@@ -66,7 +63,6 @@ const StyledJumbotron = styled.section`
       justify-content: center;
       min-height: ${props => (props.hero ? "auto" : "34rem")};
     }
-
     ${Hero} {
       img,
       picture,
@@ -78,7 +74,6 @@ const StyledJumbotron = styled.section`
 
   @media ${g.screen.max.sm} {
     height: auto;
-
     ${Title} {
       padding: 3.2rem;
       order: 2;
@@ -87,7 +82,6 @@ const StyledJumbotron = styled.section`
       justify-content: center;
       min-height: 34rem;
     }
-
     ${Hero} {
       order: 1;
       margin-top: 0rem;
@@ -124,11 +118,11 @@ const Jumbotron = props => (
   <StyledJumbotron
     className="text-center"
     hero={props.hero ? true : false}
-    color={colorList[props.bgColor]}
+    color={colorList[props.jumbotron_color]}
   >
     <Title>
       <h1 className="text-light">{props.title}</h1>
-      <h4 className={props.bgColor === "gray" ? "text-light" : ""}>
+      <h4 className={props.jumbotron_color === "gray" ? "text-light" : ""}>
         {props.subtitle}
       </h4>
     </Title>
@@ -143,9 +137,9 @@ const Jumbotron = props => (
         </Grid>
       </Hero>
     )}
-    {props.bgTexture && (
+    {props.jumbotron_texture && (
       <Texture>
-        <Img fluid={props.bgTexture.fluid} />
+        <Img fluid={props.jumbotron_texture.fluid} />
       </Texture>
     )}
   </StyledJumbotron>
@@ -155,12 +149,12 @@ Jumbotron.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   hero: PropTypes.object, // contains fluid image
-  bgTexture: PropTypes.object, // contains fluid image
-  bgColor: PropTypes.string,
+  jumbotron_texture: PropTypes.object, // contains fluid image
+  jumbotron_color: PropTypes.string,
 }
 
 Jumbotron.defaultProps = {
-  bgColor: "robinegg", // "gray", "cantaloupe", "robinegg"
+  jumbotron_color: "robinegg", // "gray", "cantaloupe", "robinegg"
 }
 
 export default Jumbotron

@@ -17,9 +17,9 @@ stories.add(
   "Jumbotron",
   () => {
     let hero = boolean("hero", true)
-    let bgTexture = boolean("bgTexture", true)
-    let bgColor = select(
-      "bgColor",
+    let jumbotron_texture = boolean("jumbotron_texture", true)
+    let jumbotron_color = select(
+      "jumbotron_color",
       {
         Gray: "gray",
         Robinegg: "robinegg",
@@ -34,8 +34,8 @@ stories.add(
           title={data.edges[0].node.title}
           subtitle={data.edges[0].node.subtitle}
           hero={hero ? data.edges[0].node.image : null}
-          bgTexture={bgTexture ? data.edges[0].node.image : null}
-          bgColor={bgColor}
+          jumbotron_texture={jumbotron_texture ? data.edges[0].node.jumbotron_texture : null}
+          jumbotron_color={jumbotron_color}
         />
       </>
     )
