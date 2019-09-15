@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import styled from "styled-components"
 import { Grid, Row, Col } from "react-flexbox-grid"
 
-import * as g from "./global/variables"
+import * as g from "../global/variables"
 
 const Title = styled.div``
 const Hero = styled.div``
