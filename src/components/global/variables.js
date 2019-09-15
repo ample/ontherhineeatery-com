@@ -9,6 +9,7 @@ export const colors = {
   gray100: "#FAF8F4", // Salt
   gray200: "#F2EFE9", // container bg
   gray300: "#D3CDC3", // Latte
+  gray400: "#848179", // btn text
   gray500: "#79766F", // Toast
   gray700: "#404040", // Charcoal
   gray800: "#252422", // pg

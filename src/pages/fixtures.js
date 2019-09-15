@@ -117,6 +117,11 @@ export const query = graphql`
               ...GatsbyContentfulFluid_withWebp
             }
           }
+          featured_image {
+            fluid(maxWidth: 2400) {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
           body {
             body
             childMarkdownRemark {
