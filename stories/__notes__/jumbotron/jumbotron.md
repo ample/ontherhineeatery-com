@@ -17,10 +17,25 @@ There are three optional props (see knobs):
 
 - `hero` (object) - The featured image below the subtitle.
 - `jumbotron_color` (string) - Adds one of three colors behind the title &
-subtitle. default: `"robinegg"`
+  subtitle. default: `"robinegg"`
   - options:
     - `"gray"` (Makes the subtitle text color white.)
     - `"cantaloupe"`
     - `"robinegg"`
 - `jumbotron_texture` (object) - Semi-transparent image that is colored based on
- `jumbotron_color`
+  `jumbotron_color`
+
+## Usage
+
+The Jumbotron is a self-closing tag with no children. All content is passed as
+props:
+
+```jsx
+<Jumbotron
+  title={title}
+  subtitle={subtitle}
+  hero={hero}
+  jumbotron_texture={jumbotron_texture}
+  jumbotron_color={jumbotron_color}
+/>
+```
