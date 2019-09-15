@@ -5,9 +5,9 @@ import { withKnobs, boolean, select } from "@storybook/addon-knobs"
 import GlobalStyles from "../src/components/global/styles"
 import * as g from "../src/components/global/variables"
 
-import Jumbotron from "../src/components/jumbotron"
+import Jumbotron from "../src/components/jumbotron/"
 import data from "./__fixtures__/pages.json"
-// import notes from "./__notes__/jumbotron.md"
+import notes from "./__notes__/jumbotron/index.md"
 
 const stories = storiesOf("Jumbotron", module)
 
@@ -39,6 +39,6 @@ stories.add(
         />
       </>
     )
-  }
-  // { notes: notes }
+  },
+  { notes: notes }
 )
