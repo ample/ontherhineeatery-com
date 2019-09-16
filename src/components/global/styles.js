@@ -4,6 +4,7 @@ import { css, createGlobalStyle } from "styled-components"
 
 import * as g from "./variables"
 import normalize from "./_normalize"
+import formStyles from "./_forms"
 
 const brand = css`
   html {
@@ -239,6 +240,7 @@ const brand = css`
 const allstyles = css`
   ${normalize}
   ${brand}
+  ${formStyles}
 `
 
 const GlobalStyles = createGlobalStyle`${allstyles}`
