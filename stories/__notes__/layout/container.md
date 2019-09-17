@@ -12,6 +12,11 @@ accepts two optional props:
 
 ## Styling
 
+### Markdown Styles
+
+The Global stylesheet should handle the styling for any elements passed in from
+the CMS markdown editor.
+
 ### Utility Classes
 
 See the Global Styles story for a full list of available utility classes.
