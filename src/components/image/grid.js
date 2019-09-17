@@ -38,7 +38,7 @@ const StyledGrid = styled.div`
 
   .grid-image_0 {
     -ms-grid-row: 3;
-    -ms-grid-row-span: 4;
+    -ms-grid-row-span: 5;
     -ms-grid-column: 1;
     -ms-grid-column-span: 4;
 
