@@ -67,16 +67,18 @@ const Footer = props => {
 
       <Hours
         aria-label="On The Rhine Food Hall Hours"
+        className="newline"
         dangerouslySetInnerHTML={{
-          __html: getSetting("hours").replace(/\n/g, "<br />"),
+          __html: getSetting("hours"),
         }}
       />
 
       <LocationLink
         to={useMapLink(getSetting("address"))}
         aria-label={`On The Rhine Google Maps Link`}
+        className="newline"
         dangerouslySetInnerHTML={{
-          __html: getSetting("address").replace(/\n/g, "<br />"),
+          __html: getSetting("address"),
         }}
       />
 

@@ -172,6 +172,11 @@ const brand = css`
     font-size: 1.3rem;
   }
 
+  ${"" /* Handles '\n' characters.  */}
+  .newline {
+    white-space: pre-line;
+  }
+
   ${"" /* Styles below 'md' breakpoint */}
 
   @media ${g.screen.max.md} {

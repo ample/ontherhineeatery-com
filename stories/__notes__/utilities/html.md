@@ -51,7 +51,7 @@ Which would translate to something like this:
 </div>
 ```
 
-The `\n` character will create a line-break:
+Newline `\n` characters in the data will automatically create line breaks:
 
 ```js
 const body = page.body.childMarkdownRemark.html
