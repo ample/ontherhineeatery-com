@@ -4,89 +4,145 @@ import styled, { css } from "styled-components"
 import { Row, Col } from "react-flexbox-grid"
 
 import * as g from "./global/variables"
+import { useMapLink } from "./hooks"
 
 import HTML from "./utilities/html"
+import Link from "./utilities/link"
 import Container from "./layout/container"
 
-const smallMixin = css`
-  small,
-  small * {
-    color: ${g.colors.cantaloupe};
-    font-size: 1.1rem;
-    a,
-    a * {
-      &:hover,
-      &:focus {
-        text-decoration: none;
-      }
+const Note = styled.div`
+  color: ${g.colors.cantaloupe};
+  font-size: 1.1rem;
+  margin-top: 1.6rem;
+  a,
+  a * {
+    font-style: italic;
+    &:hover,
+    &:focus {
+      color: ${g.colors.gray400};
     }
   }
 `
 
+const Hours = styled.div``
+
 const HoursCol = styled(Col)`
   order: 2;
   color: ${g.colors.gray500};
-  ${smallMixin}
-  h2 {
-    font-family: ${g.fonts.source};
-    text-transform: capitalize;
-    font-size: 2.1rem;
-    letter-spacing: normal;
+  ${Hours} {
+    white-space: pre-wrap;
+  }
+  h6 {
     color: ${g.colors.gray800 + "B3"};
+    font-family: ${g.fonts.source};
+    font-size: 2.1rem;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: normal;
     margin-bottom: auto;
   }
-  p {
-    white-space: pre;
+  ${Note} a {
+    font-weight: 700;
   }
-
   @media ${g.screen.max.sm} {
     order: 1;
     text-align: center;
   }
 `
 
+const Primary = styled.div``
+
 const AddressCol = styled(Col)`
   order: 1;
   text-align: right;
-  color: ${g.colors.gray800 + "B3"};
   font-size: 2.1rem;
-  line-height: 1.5;
-  p {
-    text-decoration: underline;
-    text-transform: uppercase;
+  ${Primary} {
     white-space: pre;
+    text-transform: uppercase;
     letter-spacing: 0.175rem;
+    margin-bottom: 2.6rem;
+    line-height: 1.5;
   }
-  ${smallMixin}
-
+  a {
+    display: block;
+    &:hover,
+    &:focus {
+      color: ${g.colors.gray400};
+    }
+  }
   @media ${g.screen.max.sm} {
     order: 2;
     text-align: center;
-    margin-top: 3.6rem;
+    margin-top: 4rem;
     font-size: 1.6rem;
-    line-height: 1.6;
-    small, small * {
+    ${Note} {
       font-size: 1.6rem;
     }
   }
 `
 
+const HoursBlock = props => (
+  <>
+    <h6>Food Hall Hours</h6>
+    <Hours className="text-sm">{props.hours}</Hours>
+    <Note>
+      *Restaurant times may vary. See our{" "}
+      <Link to={props.full_lineup} aria-label={`Full Lineup Link`}>
+        full lineup
+      </Link>{" "}
+      for details.
+    </Note>
+  </>
+)
+
+const AddressBlock = props => (
+  <>
+    <Primary>
+      <Link
+        to={useMapLink(props.address)}
+        aria-label={`On The Rhine Google Maps Link`}
+      >
+        {props.address}
+      </Link>
+      <Link
+        to={`tel:${props.phone}`}
+        target="_self"
+        aria-label={`On The Rhine Phone Number Link`}
+      >
+        {props.phone}
+      </Link>
+    </Primary>
+
+    <Note>
+      <Link
+        to={useMapLink(props.address)}
+        aria-label={`On The Rhine Google Maps Link`}
+      >
+        Get directions
+      </Link>
+    </Note>
+  </>
+)
+
 const Location = props => (
   <Container>
     <Row middle="sm">
       <HoursCol xs={12} sm>
-        <HTML field={props.hours} className="text-sm" />
+        <HoursBlock {...props} />
       </HoursCol>
       <AddressCol xs={12} sm>
-        <HTML field={props.address} />
+        <AddressBlock {...props} />
       </AddressCol>
     </Row>
   </Container>
 )
 
 Location.propTypes = {
-  hours: PropTypes.object.isRequired,
-  address: PropTypes.object.isRequired,
+  hours: PropTypes.string.isRequired,
+  address: PropTypes.string.isRequired,
+  phone: PropTypes.string.isRequired,
+  full_lineup: PropTypes.string.isRequired,
 }
 
 export default Location

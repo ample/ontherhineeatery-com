@@ -17,8 +17,10 @@ stories.add(
       <>
         <GlobalStyles />
         <Location
-          hours={data.edges[0].node.containers[0].blocks[1].body}
-          address={data.edges[0].node.containers[0].blocks[0].body}
+          hours={data.edges[0].node.containers[0].hours}
+          address={data.edges[0].node.containers[0].address}
+          phone={data.edges[0].node.containers[0].phone}
+          full_lineup={data.edges[0].node.containers[0].full_lineup}
         />
       </>
     )

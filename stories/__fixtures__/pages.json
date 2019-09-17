@@ -24,32 +24,10 @@
         },
         "containers": [
           {
-            "__typename": "ContentfulContentContainer",
-            "title": "Find Us - Location",
-            "blocks": [
-              {
-                "__typename": "ContentfulContentBlock",
-                "id": "3b6b48a9-f7bc-5e8b-b2c5-b310777a7a70",
-                "title": "[Find Us] Location - Address",
-                "body": {
-                  "body": "351, Monon Blvd \nCarmel, IN 46032\n740-221-2123\n\n[Get directions](#)",
-                  "childMarkdownRemark": {
-                    "html": "<p>351, Monon Blvd\nCarmel, IN 46032\n740-221-2123</p>\n<small><a href=\"#\"><em>Get directions</em></a></small>"
-                  }
-                }
-              },
-              {
-                "__typename": "ContentfulContentBlock",
-                "id": "d5e7ad67-bad1-575a-868b-71a3cbf00dd2",
-                "title": "[Find Us] Location - Hours",
-                "body": {
-                  "body": "## Food Hall Hours\n\nMon 7am-8pm   \nTues-Thurs 7am-9pm  \nFri 7am-10pm  \nSat 9am-10pm  \nSun 9am-8pm\n\n*Restaurant times may vary. See [our full lineup](#) for details.",
-                  "childMarkdownRemark": {
-                    "html": "<h2>Food Hall Hours</h2>\n<p>Mon 7am-8pm\nTues-Thurs 7am-9pm\nFri 7am-10pm\nSat 9am-10pm\nSun 9am-8pm</p>\n<small>*Restaurant times may vary. See <a href=\"#\"><em><strong>our full lineup</strong></em></a> for details.</small>"
-                  }
-                }
-              }
-            ],
+            "hours": "Mon 7am-8pm\nTues-Thurs 7am-9pm\nFri 7am-10pm\nSat 9am-10pm\nSun 9am-8pm",
+            "address": "351, Monon Blvd\nCarmel, IN 46032",
+            "phone": "740-221-2123",
+            "full_lineup": "#",
             "background_color": "white",
             "style": "default"
           },
