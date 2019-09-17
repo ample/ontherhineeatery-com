@@ -30,15 +30,18 @@ You can use `text-md` to reset the font size back to default.
 
 Links inherit their parent component's style and color.
 
+## Block Quotes
+
+Style block quotes with either the `<blockquote>` tag or the `text-quote` class.
+
+## `\n` Character
+
+Add the `newline` class to elements whose data includes newline (`\n`)
+characters. The `HTML` utility includes this class by default.
+
 ## &lt;img>, &lt;svg>
 
 Images are set to `display: inline-block; vertical-align: middle;` to remove the
 default bottom white space.
 
 Images have a utility class `border` that adds a 10px white border.
-
-
-## `\n` Character
-
-Add the `newline` class to elements whose data includes newline (`\n`)
-characters. The `HTML` utility includes this class by default.

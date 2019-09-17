@@ -100,7 +100,7 @@ stories.add(
             </p>
             <p>
               <div className="text-center">
-                <strong>.text-quote (36px/28px)</strong>
+                <strong>{"<"}blockquote>, .text-quote (36px/28px)</strong>
               </div>
               <div className="text-quote">
                 Integer posuere erat a ante venenatis.
