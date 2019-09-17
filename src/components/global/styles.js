@@ -158,7 +158,9 @@ const brand = css`
   }
 
   img,
-  svg {
+  svg,
+  picture,
+  .gatsby-image-wrapper {
     &.border {
       border: 1rem solid ${g.colors.white};
     }
@@ -198,6 +200,7 @@ const brand = css`
     h4 {
       font-size: 1.9rem;
       letter-spacing: 0.4rem;
+      line-height: 1.25
     }
 
     h5,

@@ -3,11 +3,11 @@ import { storiesOf } from "@storybook/react"
 import { Grid, Row, Col } from "react-flexbox-grid"
 import { withKnobs, select } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../src/components/global/styles"
-import * as g from "../src/components/global/variables"
+import GlobalStyles from "../../src/components/global/styles"
+import * as g from "../../src/components/global/variables"
 
-import Container from "../src/components/layout/container"
-import notes from "./__notes__/layout/container.md"
+import Container from "../../src/components/layout/container"
+import notes from "../__notes__/layout/container.md"
 
 const stories = storiesOf("Layout", module)
 
@@ -22,7 +22,7 @@ stories.add(
         Salt: g.colors.gray100,
         Gray200: g.colors.gray200,
         RobinEgg: g.colors.robinegg,
-        White: g.colors.white,
+        None: "none"
       },
       g.colors.gray100
     )
