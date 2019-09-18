@@ -141,8 +141,7 @@ const Location = props => (
 Location.propTypes = {
   hours: PropTypes.string.isRequired,
   address: PropTypes.string.isRequired,
-  phone: PropTypes.string.isRequired,
-  full_lineup: PropTypes.string.isRequired,
+  phone: PropTypes.string.isRequired
 }
 
 export default Location

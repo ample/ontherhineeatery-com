@@ -60,8 +60,12 @@ export const PageAttributes = graphql`
           name
           label
           required
-          options
+          options {
+            label
+            value
+          }
           type
+          className
         }
       }
       ... on ContentfulLocationContainer {

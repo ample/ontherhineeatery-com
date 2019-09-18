@@ -17,13 +17,21 @@ const Form = ({ config }) => {
   )
 
   const renderSelect = opts => (
-    <FormSelect options={opts.options} placeholder={opts.label} />
+    <FormSelect
+      options={opts.options}
+      placeholder={opts.label}
+      key={opts.name}
+    />
   )
 
-  const renderSubmit = opts => <Button type="submit">{opts.label}</Button>
+  const renderSubmit = opts => (
+    <Button type="submit" key={opts.name}>
+      {opts.label}
+    </Button>
+  )
 
   const renderTextarea = opts => (
-    <textarea placeholder={opts.label} rows={opts.rows || 5} />
+    <textarea placeholder={opts.label} rows={opts.rows || 5} key={opts.name} />
   )
 
   const fieldMap = {
