@@ -3,11 +3,20 @@
 The Container component applies a background color and wraps its children in the
 default Grid. This component doesn't work with background images.
 
-It accepts one optional prop,`bgColor`. This color will fill the width of its
-parent container.
+It accepts two optional props:
+
+- `bgColor` (string) - This color will fill the width of its parent container.
+default: `"transparent"`
+- `padding` (string) - Single rem value that affects top and bottom padding.
+default: `"3.6rem"`
 
 All children are wrapped in a `<Grid>` component from the
 [`react-flexbox-grid`](http://roylee0704.github.io/react-flexbox-grid/) plugin.
+
+## Line Breaks
+
+The `\n` character will create a line-break on any string inside curly
+brackets `{}` or passed to the `HTML` utility.
 
 ## Usage
 
