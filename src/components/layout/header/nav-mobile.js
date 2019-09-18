@@ -41,6 +41,7 @@ const StyledNavLinks = styled(NavLinks)`
   z-index: 9999;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5);
   padding: 0rem 1rem;
+  background-color: ${g.colors.white};
   a {
     color: ${g.colors.gray500};
     font-size: 1.4rem;
