@@ -22,18 +22,18 @@ export const PageAttributes = graphql`
       ... on ContentfulContentContainer {
         title
         blocks {
-          # ... on ContentfulContentBlock {
-          #   id
-          #   title
-          #   body {
-          #     body
-          #     childMarkdownRemark {
-          #       html
-          #     }
-          #   }
-          #   # button_label
-          #   # button_url
-          # }
+          ... on ContentfulContentBlock {
+            id
+            title
+            body {
+              body
+              childMarkdownRemark {
+                html
+              }
+            }
+            button_label
+            button_url
+          }
           ... on ContentfulImageBlock {
             id
             title
