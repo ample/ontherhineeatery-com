@@ -32,33 +32,34 @@ export const query = graphql`
           id
           title
           permalink
-          body {
-            body
-            childMarkdownRemark {
-              html
-            }
-          }
+          # body {
+          #   body
+          #   childMarkdownRemark {
+          #     html
+          #   }
+          # }
           image {
             fluid(maxWidth: 2400) {
               ...GatsbyContentfulFluid_withWebp
             }
           }
+          layout
           containers {
             ... on ContentfulContentContainer {
               title
               blocks {
-                ... on ContentfulContentBlock {
-                  id
-                  title
-                  body {
-                    body
-                    childMarkdownRemark {
-                      html
-                    }
-                  }
-                  # button_label
-                  # button_url
-                }
+                # ... on ContentfulContentBlock {
+                #   id
+                #   title
+                #   body {
+                #     body
+                #     childMarkdownRemark {
+                #       html
+                #     }
+                #   }
+                #   # button_label
+                #   # button_url
+                # }
                 ... on ContentfulImageBlock {
                   id
                   title
@@ -89,6 +90,16 @@ export const query = graphql`
                 type
               }
             }
+            ... on ContentfulLocationContainer {
+              title
+              address {
+                address
+              }
+              hours {
+                hours
+              }
+              phone
+            }
             ... on ContentfulVendorsContainer {
               title
               body {
@@ -100,7 +111,6 @@ export const query = graphql`
               expanded
             }
           }
-          layout
         }
       }
     }

@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import styled, { css } from "styled-components"
+import styled from "styled-components"
 import { Row, Col } from "react-flexbox-grid"
 
 import * as g from "./global/variables"
@@ -88,7 +88,7 @@ const HoursBlock = props => (
     <Hours className="text-sm">{props.hours}</Hours>
     <Note>
       *Restaurant times may vary. See our{" "}
-      <Link to={props.full_lineup} aria-label={`Full Lineup Link`}>
+      <Link to="/vendors" aria-label={`Full Lineup Link`}>
         full lineup
       </Link>{" "}
       for details.
