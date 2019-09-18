@@ -145,7 +145,9 @@ const brand = css`
       line-height: 1.5;
     }
     &.text-quote,
-    &.text-quote * {
+    &.text-quote *,
+    blockquote,
+    blockquote * {
       font-family: ${g.fonts.oswald};
       font-weight: 700;
       text-transform: uppercase;
@@ -170,6 +172,11 @@ const brand = css`
   pre {
     font-family: "courier";
     font-size: 1.3rem;
+  }
+
+  ${"" /* Handles '\n' characters.  */}
+  .newline {
+    white-space: pre-line;
   }
 
   ${"" /* Styles below 'md' breakpoint */}

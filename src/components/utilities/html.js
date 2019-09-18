@@ -6,8 +6,7 @@ const HTML = ({ field, className }) => {
   return (
     <div
       dangerouslySetInnerHTML={{ __html: field.childMarkdownRemark.html }}
-      className={className}
-      style={{ whiteSpace: "pre-line" }}
+      className={"newline " + className}
     />
   )
 }

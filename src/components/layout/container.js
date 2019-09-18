@@ -6,11 +6,10 @@ import { Grid } from "react-flexbox-grid"
 const Wrapper = styled.section`
   background-color: ${props => props.bgColor};
   padding: ${props => props.padding} 0rem;
-  white-space: pre-line;
 `
 
 const ContentBlock = ({ className, children, ...props }) => (
-  <Wrapper className={className} {...props}>
+  <Wrapper className={"newline " + className} {...props}>
     <Grid>{children}</Grid>
   </Wrapper>
 )

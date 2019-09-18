@@ -25,6 +25,7 @@ stories.add(
   () => {
     const vendor = data.edges[0].node
     const small = boolean("Small", false)
+    const link = boolean("Includes a `to` prop.", true)
     return (
       <>
         <GlobalStyles />
@@ -33,7 +34,7 @@ stories.add(
           logo={vendor.logo}
           featured_image={vendor.featured_image}
           small={small}
-          to={`/${vendor.permalink}`}
+          to={link ? `/${vendor.permalink}` : null}
         />
       </>
     )

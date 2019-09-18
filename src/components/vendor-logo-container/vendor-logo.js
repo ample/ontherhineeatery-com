@@ -18,6 +18,7 @@ const StyledLogo = styled(Link)`
   margin: ${props => (props.small ? "0.3rem" : "0.6rem")};
   width: ${props => (props.small ? "8.8rem" : "16.8rem")};
   height: ${props => (props.small ? "8.8rem" : "16.8rem")};
+
   img,
   picture,
   .gatsby-image-wrapper {
@@ -63,10 +64,11 @@ const FeaturedImg = styled.div`
   width: ${props => (props.small ? "8rem" : "16rem")};
   height: ${props => (props.small ? "8rem" : "16rem")};
   opacity: 0;
-  transition: opacity .1s ease;
+  transition: opacity 0.15s ease-in;
 
   ${StyledLogo}:hover & {
     opacity: 1;
+    transition: opacity 0.15s ease-out;
   }
 
   @media ${g.screen.min.md} and ${g.screen.max.lg} {
@@ -83,6 +85,7 @@ const FeaturedImg = styled.div`
 const VendorLogo = ({ children, small, ...props }) => (
   <StyledLogo
     small={small ? 1 : 0}
+    as={!props.to ? "div" : Link}
     aria-label={`${props.title} Link`}
     {...props}
   >
@@ -102,7 +105,7 @@ VendorLogo.propTypes = {
   featured_image: PropTypes.object.isRequired, // gatsby-image fluid object
 
   // Link Props
-  to: PropTypes.string.isRequired,
+  to: PropTypes.string, // if `to` is null, this component renders as a div
   target: PropTypes.string, // exclusive to external links
 }
 

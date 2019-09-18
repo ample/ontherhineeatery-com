@@ -15,7 +15,7 @@ stories.addDecorator(withKnobs)
 stories.addParameters({
   backgrounds: [
     { name: "white", value: colors.white },
-    { name: "gray700", value: colors.gray700, default: true },
+    { name: "gray800", value: colors.gray800, default: true },
   ],
 })
 

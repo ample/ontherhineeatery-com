@@ -22,7 +22,7 @@ stories.add(
         Salt: g.colors.gray100,
         Gray200: g.colors.gray200,
         RobinEgg: g.colors.robinegg,
-        None: "none"
+        None: "none",
       },
       g.colors.gray100
     )
@@ -33,7 +33,7 @@ stories.add(
           <h2>Eat + Drink</h2>
           <h5>Some Serious Good Eats</h5>
           <Row center="md">
-            <Col md={7}>
+            <Col md={9} lg={8} xl={6}>
               <p>
                 Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
                 Donec id elit non mi porta gravida at eget metus. Nullam quis
@@ -46,6 +46,9 @@ stories.add(
             varius blandit sit amet non magna. Praesent commodo cursus magna,
             vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla
             sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+          </p>
+          <p>
+            {`Aenean lacinia bibendum nulla sed consectetur.\nVivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.`}
           </p>
         </Container>
       </>

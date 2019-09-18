@@ -25,6 +25,8 @@ const StyledButton = styled(Link)`
     background: ${g.colors.gray500};
     box-shadow: inset 0 0.1rem 0.9rem 0 rgba(0, 0, 0, 0.5);
     color: ${g.colors.white};
+    transition: background 0.15s ease-out, box-shadow 0.1s ease-out,
+      color 0.1s ease-out;
   }
 
   @media ${g.screen.min.sm} {
