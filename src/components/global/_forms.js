@@ -9,7 +9,7 @@ const fieldMixin = css`
   padding: 2rem;
   border: 1px solid ${g.colors.white};
   height: 4.8rem;
-  &:placeholder {
+  &::placeholder {
     font-style: italic;
     color: ${g.colors.gray500};
   }
