@@ -30,8 +30,8 @@ const StyledLogo = styled(Link)`
 
   @media ${g.screen.min.md} and ${g.screen.max.lg} {
     border: 0.3rem solid ${g.colors.gray100};
-    width: ${props => (props.small ? "8.8rem" : "14rem")};
-    height: ${props => (props.small ? "8.8rem" : "14rem")};
+    width: ${props => (props.small ? "8.8rem" : "13.2rem")};
+    height: ${props => (props.small ? "8.8rem" : "13.2rem")};
   }
 
   @media ${g.screen.max.md} {
@@ -72,8 +72,8 @@ const FeaturedImg = styled.div`
   }
 
   @media ${g.screen.min.md} and ${g.screen.max.lg} {
-    width: ${props => (props.small ? "8.2rem" : "13.4rem")};
-    height: ${props => (props.small ? "8.2rem" : "13.4rem")};
+    width: ${props => (props.small ? "8.2rem" : "12.6rem")};
+    height: ${props => (props.small ? "8.2rem" : "12.6rem")};
   }
 
   @media ${g.screen.max.md} {

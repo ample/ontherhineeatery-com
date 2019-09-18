@@ -2,12 +2,18 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 
+import { screen } from "../global/variables"
+
 import VendorLogo from "./vendor-logo"
 
 const Wrapper = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 2.4rem 0rem;
+  @media ${screen.max.md} {
+    padding: 0.4rem 0rem;
+  }
 `
 
 const VendorLogoContainer = props => (
@@ -27,11 +33,11 @@ const VendorLogoContainer = props => (
 
 VendorLogoContainer.propTypes = {
   logos: PropTypes.array.isRequired,
-  small: PropTypes.bool
+  small: PropTypes.bool,
 }
 
-VendorLogoContainer.defaultProps = {
-  small: false
+VendorLogoContainer.dxefaultProps = {
+  small: false,
 }
 
 export default VendorLogoContainer
