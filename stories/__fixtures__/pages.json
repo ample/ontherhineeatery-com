@@ -29,41 +29,23 @@
             "sizes": "(max-width: 2400px) 100vw, 2400px"
           }
         },
+        "layout": "default",
         "containers": [
           {
-            "__typename": "ContentfulContentContainer",
+            "__typename": "ContentfulLocationContainer",
             "title": "Find Us - Location",
-            "blocks": [
-              {
-                "__typename": "ContentfulContentBlock",
-                "id": "3b6b48a9-f7bc-5e8b-b2c5-b310777a7a70",
-                "title": "[Find Us] Location - Address",
-                "body": {
-                  "body": "351, Monon Blvd \nCarmel, IN 46032\n740-221-2123\n\n[Get directions](#)",
-                  "childMarkdownRemark": {
-                    "html": "<p>351, Monon Blvd\nCarmel, IN 46032\n740-221-2123</p>\n<p><a href=\"#\">Get directions</a></p>"
-                  }
-                }
-              },
-              {
-                "__typename": "ContentfulContentBlock",
-                "id": "d5e7ad67-bad1-575a-868b-71a3cbf00dd2",
-                "title": "[Find Us] Location - Hours",
-                "body": {
-                  "body": "## Food Hall Hours\n\nMon 7am-8pm   \nTues-Thurs 7am-9pm  \nFri 7am-10pm  \nSat 9am-10pm  \nSun 9am-8pm\n\n*Restaurant times may vary. See [our full lineup](#) for details.",
-                  "childMarkdownRemark": {
-                    "html": "<h2>Food Hall Hours</h2>\n<p>Mon 7am-8pm<br>\nTues-Thurs 7am-9pm<br>\nFri 7am-10pm<br>\nSat 9am-10pm<br>\nSun 9am-8pm</p>\n<p>*Restaurant times may vary. See <a href=\"#\">our full lineup</a> for details.</p>"
-                  }
-                }
-              }
-            ],
-            "background_color": "white",
-            "style": "default"
+            "address": {
+              "address": "351 Monon Blvd\nCarmel, IN 46032"
+            },
+            "hours": {
+              "hours": "Mon 7am-8pm\nTues-Thurs 7am-9pm\nFri 7am-10pm\nSat 9am-10pm\nSun 9am-8pm"
+            },
+            "phone": "740-221-2123"
           },
           {
             "__typename": "ContentfulFormContainer",
-            "id": "730c51bb-c428-50c0-9dcd-895f0da0b6a9",
-            "title": "Find Us - Contact Form",
+            "id": "025cc961-9a5c-578c-aa2a-6ff1dbf7dca5",
+            "title": "Find Us - Contact Us Form",
             "body": {
               "body": "## Contact Us",
               "childMarkdownRemark": {
@@ -111,8 +93,7 @@
               }
             ]
           }
-        ],
-        "layout": "default"
+        ]
       }
     },
     {
@@ -134,13 +115,13 @@
             "sizes": "(max-width: 2400px) 100vw, 2400px"
           }
         },
+        "layout": "home",
         "containers": [
           {
             "__typename": "ContentfulContentContainer",
             "title": "Home - Image Grid",
             "blocks": [
               {
-                "__typename": "ContentfulImageBlock",
                 "id": "d383e307-af91-59b9-a62f-0c3e3fba3e99",
                 "title": "[Home] Image Grid - Image #1",
                 "image": {
@@ -156,7 +137,6 @@
                 }
               },
               {
-                "__typename": "ContentfulImageBlock",
                 "id": "bcfa7d41-8a44-5777-9399-3edce741f97d",
                 "title": "[Home] Image Grid - Image #2",
                 "image": {
@@ -172,7 +152,6 @@
                 }
               },
               {
-                "__typename": "ContentfulImageBlock",
                 "id": "7bdb7359-1fc8-518c-83af-12906ea26260",
                 "title": "[Home] Image Grid - Image #3",
                 "image": {
@@ -202,8 +181,7 @@
             },
             "expanded": false
           }
-        ],
-        "layout": "home"
+        ]
       }
     }
   ]
