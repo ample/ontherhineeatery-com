@@ -28,7 +28,7 @@ Classes added to the Container will apply to all child components.
 ### Line Breaks
 
 The `\n` character will create a line-break on any string rendered inside curly
-brackets ` {``} `.
+brackets ` {``} ` when it's container has the `.newline` class.
 
 ## The Grid System
 

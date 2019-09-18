@@ -51,11 +51,14 @@ Which would translate to something like this:
 </div>
 ```
 
-Newline `\n` characters in the data will automatically create line breaks:
+Newline `\n` characters in the data will create line breaks when you add the
+`.newline` class:
 
 ```js
 const body = page.body.childMarkdownRemark.html
 // => <p>Lorem ipsum dolor\nsit amet, consectetur.</p>
+
+<HTML field={body} className="newline" />
 ```
 
 Will display like this when rendered:

@@ -9,7 +9,7 @@ const Wrapper = styled.section`
 `
 
 const ContentBlock = ({ className, children, ...props }) => (
-  <Wrapper className={"newline " + className} {...props}>
+  <Wrapper className={className} {...props}>
     <Grid>{children}</Grid>
   </Wrapper>
 )
