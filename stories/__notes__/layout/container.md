@@ -7,8 +7,10 @@ accepts two optional props:
 
 - `bgColor` (string) - This color will fill the width of its parent container.
   default: `"transparent"`
-- `padding` (string) - Single rem value that affects top and bottom padding.
-  default: `"3.6rem"`
+- `padding` (object) - Top and bottom padding only. Object contains two keys,
+  each of which can have a single rem value:
+  - `desktop`- Padding above the `md` breakpoint. default: `"3.6rem"`
+  - `mobile`- Padding below the `md` breakpoint. default: `"3.6rem"`
 
 ## Styling
 
@@ -28,7 +30,7 @@ Classes added to the Container will apply to all child components.
 ### Line Breaks
 
 The `\n` character will create a line-break on any string rendered inside curly
-brackets ` {``} `.
+brackets ` {``} ` when it's container has the `.newline` class.
 
 ## The Grid System
 
@@ -112,7 +114,11 @@ import { Row, Col } from "react-flexbox-grid"
 import Container from "./layout/container"
 import HTML from "./utilities/html"
 
-<Container bgColor={g.colors.gray100} padding="9rem" className="text-centered">
+<Container
+  bgColor={g.colors.gray100}
+  padding={{ desktop: "9rem" }}
+  className="text-centered"
+>
   <Row center="xs">
     <Col md={9} lg={8} xl={6}>
       <HTML field={props.contentBlockData} />

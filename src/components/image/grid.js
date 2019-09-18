@@ -100,7 +100,7 @@ const StyledGrid = styled.div`
 `
 
 const ImageGrid = props => (
-  <Container padding="0rem">
+  <Container padding={{ desktop: "0rem", mobile: "0rem" }}>
     <StyledGrid>
       {props.images.map((block, idx) => (
         <GridBlock

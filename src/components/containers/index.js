@@ -39,7 +39,11 @@ const Containers = props => {
         }
       `}
       render={data => (
-        <Container className="text-center" bgColor={g.colors.gray100}>
+        <Container
+          className="text-center"
+          bgColor={g.colors.gray200}
+          padding={{ desktop: "9rem", mobile: "3.6rem" }}
+        >
           <Row center="md">
             <Col md={9} lg={8} xl={6}>
               <HTML field={containerData.body} />
@@ -52,7 +56,7 @@ const Containers = props => {
   )
 
   const renderForm = data => (
-    <Container bgColor={g.colors.gray100}>
+    <Container bgColor={g.colors.gray100} padding={{ desktop: "10rem", mobile: "3.6rem"}}>
       <Row center="xs">
         <Col md={9} lg={7} xl={6}>
           <HTML field={data.body} />
@@ -66,7 +70,7 @@ const Containers = props => {
     ContentfulLocationContainer: renderLocation,
     ContentfulFormContainer: renderForm,
     ContentfulContentContainer: renderContent,
-    ContentfulVendorsContainer: renderVendors
+    ContentfulVendorsContainer: renderVendors,
   }
 
   return <div>{props.data.map(n => containerRenderMap[n.__typename](n))}</div>

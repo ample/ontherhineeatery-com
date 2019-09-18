@@ -39,6 +39,10 @@ stories.add(
           }
           color={jumbotron_color}
         />
+        {/* Sample Component */}
+        <div style={{ border: "1px solid orange", height: 100 }}>
+          /* Next Container */
+        </div>
       </>
     )
   },

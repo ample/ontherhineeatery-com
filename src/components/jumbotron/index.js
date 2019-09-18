@@ -29,21 +29,25 @@ const Texture = styled.div`
 const StyledJumbotron = styled.section`
   display: flex;
   flex-direction: column;
-  background-color: ${props => props.color};
-  height: ${props => (props.hero ? "48.8rem" : "auto")};
   position: relative;
   z-index: 10;
   ${Title} {
     position: relative;
-    z-index: 20;
-    padding: 3.2rem;
-    padding-top: 9rem;
+    background-color: ${props => props.color};
+    min-height: ${props => (props.hero ? "48.8rem" : "auto")};
+    z-index: 19;
+    padding: 9rem 3.2rem;
+    padding-bottom: ${props => (props.hero ? "20rem" : "3.2rem")};
+    hgroup {
+      position: relative;
+      z-index: 20;
+    }
   }
   ${Hero} {
     position: relative;
     z-index: 30;
     width: 100%;
-    margin-top: 0.8rem;
+    margin-top: calc((38.2rem / -2) + 3rem);
     img,
     picture,
     .gatsby-image-wrapper {
@@ -55,15 +59,16 @@ const StyledJumbotron = styled.section`
   }
 
   @media ${g.screen.min.sm} and ${g.screen.max.md} {
-    height: ${props => (props.hero ? "38.2rem" : "auto")};
     ${Title} {
-      padding-top: ${props => (props.hero ? "9rem" : "3.2rem")};
       display: ${props => (props.hero ? "block" : "flex")};
       flex-direction: column;
       justify-content: center;
+      padding-bottom: ${props => (props.hero ? "15.8rem" : "3.2rem")};
+      padding-top: ${props => (props.hero ? "9rem" : "3.2rem")};
       min-height: ${props => (props.hero ? "auto" : "34rem")};
     }
     ${Hero} {
+      margin-top: calc((30rem / -2) + 3.2rem);
       img,
       picture,
       .gatsby-image-wrapper {
@@ -121,10 +126,17 @@ const Jumbotron = props => (
     color={colorList[props.color]}
   >
     <Title>
-      <h1 className="text-light">{props.title}</h1>
-      <h4 className={props.color === "gray" ? "text-light" : ""}>
-        {props.subtitle}
-      </h4>
+      <hgroup>
+        <h1 className="text-light">{props.title}</h1>
+        <h4 className={props.color === "gray" ? "text-light" : ""}>
+          {props.subtitle}
+        </h4>
+      </hgroup>
+      {props.texture && (
+        <Texture>
+          <Img fluid={props.texture.fluid} />
+        </Texture>
+      )}
     </Title>
     {props.hero && (
       <Hero>
@@ -136,11 +148,6 @@ const Jumbotron = props => (
           </Row>
         </Grid>
       </Hero>
-    )}
-    {props.texture && (
-      <Texture>
-        <Img fluid={props.texture.fluid} />
-      </Texture>
     )}
   </StyledJumbotron>
 )

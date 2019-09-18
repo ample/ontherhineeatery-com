@@ -110,7 +110,7 @@ const StyledJumbotron = styled.section`
 const HomeJumbotron = ({ children, ...props }) => (
   <StyledJumbotron color={props.color}>
     <Background className="col-color" />
-    <Content padding="5rem">
+    <Content padding={{ desktop: "5rem", mobile: "5rem" }}>
       <StyledRow between="xl">
         <ContentCol sm={12} md={7} xl={6}>
           {children}
@@ -127,11 +127,11 @@ const HomeJumbotron = ({ children, ...props }) => (
 
 HomeJumbotron.propTypes = {
   hero: PropTypes.object, // contains fluid image
-  color: PropTypes.string
+  color: PropTypes.string,
 }
 
 HomeJumbotron.defaultProps = {
-  color: g.colors.robinegg
+  color: g.colors.robinegg,
 }
 
 export default HomeJumbotron

@@ -126,7 +126,7 @@ const AddressBlock = props => (
 )
 
 const Location = props => (
-  <Container>
+  <Container padding={{ desktop: "5rem", mobile: "3.6rem" }}>
     <Row middle="sm">
       <HoursCol xs={12} sm>
         <HoursBlock {...props} />
@@ -141,7 +141,7 @@ const Location = props => (
 Location.propTypes = {
   hours: PropTypes.string.isRequired,
   address: PropTypes.string.isRequired,
-  phone: PropTypes.string.isRequired
+  phone: PropTypes.string.isRequired,
 }
 
 export default Location
