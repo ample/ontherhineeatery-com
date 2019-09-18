@@ -32,10 +32,11 @@ export const query = graphql`
           id
           title
           permalink
-          body {
-            body
-            childMarkdownRemark {
-              html
+          subtitle
+          jumbotron_color
+          jumbotron_texture {
+            fluid(maxWidth: 2400) {
+              ...GatsbyContentfulFluid_withWebp
             }
           }
           image {
