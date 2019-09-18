@@ -13,8 +13,6 @@ import VendorLogoContainer from "../vendor-logo-container"
 import ImageGrid from "../image/grid"
 
 const Containers = props => {
-  console.log(props)
-
   const renderLocation = data => (
     <Location
       hours={data.hours.hours}

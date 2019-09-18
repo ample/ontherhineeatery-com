@@ -8,8 +8,6 @@ import Header from "./header"
 const Layout = ({ children, navMenus, settings }) => {
   const getMenu = name => navMenus.filter(m => m.title === name)[0].links
 
-  console.log(navMenus)
-
   return (
     <>
       <GlobalStyles />
