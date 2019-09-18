@@ -69,12 +69,12 @@ const StyledSelect = styled(Select)`
 `
 
 const FormSelect = ({ className, ...props }) => {
-  const [selectedOption, useSelect] = useState()
-  const setSelect = selectedOption => useSelect(selectedOption)
+  const [selectedOption, setSelect] = useState()
+
   return (
     <StyledSelect
       value={selectedOption}
-      onChange={setSelect}
+      onChange={() => setSelect(selectedOption)}
       className={className}
       classNamePrefix="form-select"
       required
@@ -89,8 +89,8 @@ const FormSelect = ({ className, ...props }) => {
           primary25: colors.robinegg + "40",
           neutral20: colors.gray300, // indicator
           neutral40: colors.gray300, // indicator:hover
-          neutral60: colors.gray300, // indicator:focus
-        },
+          neutral60: colors.gray300 // indicator:focus
+        }
       })}
       {...props}
     />
@@ -101,7 +101,7 @@ const FormSelect = ({ className, ...props }) => {
 // https://react-select.com/props
 
 FormSelect.defaultProps = {
-  isSearchable: false,
+  isSearchable: false
 }
 
 export default FormSelect
