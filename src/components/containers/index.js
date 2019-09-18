@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import { Grid, Row, Col } from "react-flexbox-grid"
 
 // eslint-disable-next-line
 import VendorAttributes from "../../fragments/vendor-attributes"
@@ -37,8 +38,12 @@ const Containers = props => {
         }
       `}
       render={data => (
-        <Container bgColor={g.colors.gray100}>
-          <HTML field={containerData.body} />
+        <Container className="text-center" bgColor={g.colors.gray100}>
+          <Row center="md">
+            <Col md={9} lg={8} xl={6}>
+              <HTML field={containerData.body} />
+            </Col>
+          </Row>
           <VendorLogoContainer logos={data.vendors.edges.map(v => v.node)} />
         </Container>
       )}

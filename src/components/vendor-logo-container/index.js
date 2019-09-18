@@ -2,8 +2,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 
-import * as g from "../global/variables"
-
 import VendorLogo from "./vendor-logo"
 
 const Wrapper = styled.section`
@@ -18,7 +16,7 @@ const VendorLogoContainer = props => (
       <VendorLogo
         key={`vendor-logo_${idx}`}
         title={vendor.title}
-        to={`/${vendor.permalink}`}
+        // to={`/${vendor.permalink}`}
         logo={vendor.logo}
         featured_image={vendor.featured_image}
         small={props.small}
@@ -29,11 +27,11 @@ const VendorLogoContainer = props => (
 
 VendorLogoContainer.propTypes = {
   logos: PropTypes.array.isRequired,
-  small: PropTypes.bool,
+  small: PropTypes.bool
 }
 
 VendorLogoContainer.defaultProps = {
-  small: false,
+  small: false
 }
 
 export default VendorLogoContainer
