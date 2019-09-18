@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import { Grid, Row, Col } from "react-flexbox-grid"
+import { Row, Col } from "react-flexbox-grid"
 
 // eslint-disable-next-line
 import VendorAttributes from "../../fragments/vendor-attributes"
@@ -8,6 +8,7 @@ import VendorAttributes from "../../fragments/vendor-attributes"
 import * as g from "../global/variables"
 
 import Container from "../layout/container"
+import Form from "../form"
 import HTML from "../utilities/html"
 import Location from "../location"
 import VendorLogoContainer from "../vendor-logo-container"
@@ -50,7 +51,16 @@ const Containers = props => {
     />
   )
 
-  const renderForm = data => <p>Form goes here...</p>
+  const renderForm = data => (
+    <Container bgColor={g.colors.gray100}>
+      <Row center="xs">
+        <Col md={9} lg={7} xl={6}>
+          <HTML field={data.body} />
+          <Form config={data.formConfig} />
+        </Col>
+      </Row>
+    </Container>
+  )
 
   const containerRenderMap = {
     ContentfulLocationContainer: renderLocation,

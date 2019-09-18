@@ -58,38 +58,73 @@
                 "label": "Name",
                 "required": true,
                 "options": null,
-                "type": null
+                "type": null,
+                "className": null
               },
               {
                 "name": "email",
                 "label": "Email",
                 "required": true,
                 "options": null,
-                "type": null
+                "type": null,
+                "className": null
+              },
+              {
+                "name": null,
+                "label": ".field-50 .col-left",
+                "required": true,
+                "options": null,
+                "type": null,
+                "className": "field-50 col-left"
+              },
+              {
+                "name": null,
+                "label": ".field-50 .col-right",
+                "required": true,
+                "options": null,
+                "type": null,
+                "className": "field-50 col-right"
               },
               {
                 "name": "subject",
                 "label": "Reason for inquiry",
                 "required": true,
                 "options": [
-                  "Thing #1",
-                  "Thing #2"
+                  {
+                    "label": "Option 1",
+                    "value": "opt1"
+                  },
+                  {
+                    "label": "Option 2",
+                    "value": "opt2"
+                  },
+                  {
+                    "label": "Option 3",
+                    "value": "opt3"
+                  },
+                  {
+                    "label": "Option 4",
+                    "value": "opt4"
+                  }
                 ],
-                "type": "select"
+                "type": "select",
+                "className": null
               },
               {
                 "name": "body",
                 "label": "Short Message...",
                 "required": true,
                 "options": null,
-                "type": "text"
+                "type": "text",
+                "className": null
               },
               {
                 "name": null,
-                "label": "Contact us",
+                "label": "Component Button",
                 "required": null,
                 "options": null,
-                "type": "button"
+                "type": "button",
+                "className": null
               }
             ]
           }
@@ -102,7 +137,7 @@
         "title": "On the Rhine",
         "permalink": "home",
         "subtitle": null,
-        "jumbotron_color": null,
+        "jumbotron_color": "robinegg",
         "jumbotron_texture": null,
         "image": {
           "fluid": {
@@ -119,9 +154,21 @@
         "containers": [
           {
             "__typename": "ContentfulContentContainer",
+            "title": "Home - Jumbotron",
+            "blocks": [
+              {
+                "__typename": "ContentfulContentBlock"
+              }
+            ],
+            "background_color": "white",
+            "style": "default"
+          },
+          {
+            "__typename": "ContentfulContentContainer",
             "title": "Home - Image Grid",
             "blocks": [
               {
+                "__typename": "ContentfulImageBlock",
                 "id": "d383e307-af91-59b9-a62f-0c3e3fba3e99",
                 "title": "[Home] Image Grid - Image #1",
                 "image": {
@@ -137,6 +184,7 @@
                 }
               },
               {
+                "__typename": "ContentfulImageBlock",
                 "id": "bcfa7d41-8a44-5777-9399-3edce741f97d",
                 "title": "[Home] Image Grid - Image #2",
                 "image": {
@@ -152,6 +200,7 @@
                 }
               },
               {
+                "__typename": "ContentfulImageBlock",
                 "id": "7bdb7359-1fc8-518c-83af-12906ea26260",
                 "title": "[Home] Image Grid - Image #3",
                 "image": {
@@ -174,9 +223,9 @@
             "__typename": "ContentfulVendorsContainer",
             "title": "Home - Vendors List",
             "body": {
-              "body": "## Eat + Drink\n\n### Some Serious Good Eats\n\nMorbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.\n",
+              "body": "## Eat + Drink\n\n##### Some Serious Good Eats\n\nMorbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.\n",
               "childMarkdownRemark": {
-                "html": "<h2>Eat + Drink</h2>\n<h3>Some Serious Good Eats</h3>\n<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.</p>"
+                "html": "<h2>Eat + Drink</h2>\n<h5>Some Serious Good Eats</h5>\n<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.</p>"
               }
             },
             "expanded": false

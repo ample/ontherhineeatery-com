@@ -25,6 +25,7 @@ const StyledButton = styled(Link)`
     background: ${g.colors.gray500};
     box-shadow: inset 0 0.1rem 0.9rem 0 rgba(0, 0, 0, 0.5);
     color: ${g.colors.white};
+    cursor: pointer;
     transition: background 0.15s ease-out, box-shadow 0.1s ease-out,
       color 0.1s ease-out;
   }
@@ -42,7 +43,7 @@ const StyledButton = styled(Link)`
 `
 
 const Button = ({ children, bold, ...props }) => (
-  <StyledButton bold={bold ? 1 : 0} {...props}>
+  <StyledButton bold={bold ? 1 : 0} as={!props.to ? "button" : Link} {...props}>
     {children}
   </StyledButton>
 )
@@ -52,14 +53,14 @@ Button.propTypes = {
   padding: PropTypes.string, // single rem value, for left & right padding only
 
   // Link Props
-  to: PropTypes.string.isRequired,
+  to: PropTypes.string,
   target: PropTypes.string, // exclusive to external links
-  activeClassName: PropTypes.string, // exclusive to internal links
+  activeClassName: PropTypes.string // exclusive to internal links
 }
 
 Button.defaultProps = {
   bold: false,
-  padding: "3.6rem",
+  padding: "3.6rem"
 }
 
 export default Button
