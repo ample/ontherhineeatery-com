@@ -1,7 +1,6 @@
 import React, { useRef } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import MediaQuery from "react-responsive"
 import SVG from "react-inlinesvg"
 
 import * as g from "../../global/variables"
@@ -80,7 +79,7 @@ const NavMobile = props => {
 }
 
 NavMobile.propTypes = {
-  nav: PropTypes.array.isRequired,
+  nav: PropTypes.array.isRequired
 }
 
 export default NavMobile

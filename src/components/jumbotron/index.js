@@ -111,18 +111,18 @@ const StyledJumbotron = styled.section`
 const colorList = {
   robinegg: g.colors.robinegg,
   cantaloupe: g.colors.cantaloupe,
-  gray: g.colors.gray500,
+  gray: g.colors.gray500
 }
 
 const Jumbotron = props => (
   <StyledJumbotron
     className="text-center"
     hero={props.hero ? true : false}
-    color={colorList[props.jumbotron_color]}
+    color={colorList[props.color]}
   >
     <Title>
       <h1 className="text-light">{props.title}</h1>
-      <h4 className={props.jumbotron_color === "gray" ? "text-light" : ""}>
+      <h4 className={props.color === "gray" ? "text-light" : ""}>
         {props.subtitle}
       </h4>
     </Title>
@@ -137,9 +137,9 @@ const Jumbotron = props => (
         </Grid>
       </Hero>
     )}
-    {props.jumbotron_texture && (
+    {props.texture && (
       <Texture>
-        <Img fluid={props.jumbotron_texture.fluid} />
+        <Img fluid={props.texture.fluid} />
       </Texture>
     )}
   </StyledJumbotron>
@@ -149,12 +149,12 @@ Jumbotron.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   hero: PropTypes.object, // contains fluid image
-  jumbotron_texture: PropTypes.object, // contains fluid image
-  jumbotron_color: PropTypes.string,
+  texture: PropTypes.object, // contains fluid image
+  color: PropTypes.string
 }
 
 Jumbotron.defaultProps = {
-  jumbotron_color: "robinegg", // "gray", "cantaloupe", "robinegg"
+  color: "robinegg" // "gray", "cantaloupe", "robinegg"
 }
 
 export default Jumbotron
