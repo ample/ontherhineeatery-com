@@ -12,7 +12,6 @@ const Form = ({ config }) => {
       required={opts.required}
       placeholder={opts.label}
       className={opts.className}
-      key={opts.name}
     />
   )
 
@@ -20,18 +19,14 @@ const Form = ({ config }) => {
     <FormSelect
       options={opts.options}
       placeholder={opts.label}
-      key={opts.name}
+      name={opts.name}
     />
   )
 
-  const renderSubmit = opts => (
-    <Button type="submit" key={opts.name}>
-      {opts.label}
-    </Button>
-  )
+  const renderSubmit = opts => <Button type="submit">{opts.label}</Button>
 
   const renderTextarea = opts => (
-    <textarea placeholder={opts.label} rows={opts.rows || 5} key={opts.name} />
+    <textarea name={opts.name} placeholder={opts.label} rows={opts.rows || 5} />
   )
 
   const fieldMap = {
