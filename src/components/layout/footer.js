@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import styled from "styled-components"
 
 import * as g from "../global/variables"
-import { useSetting, useMapLink } from "../hooks"
+import { getSetting, useMapLink } from "../hooks"
 
 import Link from "../utilities/link"
 import Logo from "../logo"
@@ -55,55 +55,54 @@ const Copyright = styled.p`
   margin-top: 3rem;
 `
 
-const Footer = props => {
-  const getSetting = name => useSetting(props.settings, name)
-  return (
-    <StyledFooter className="text-center">
-      <Link to="/" aria-label="On The Rhine Logo - Home Page Link">
-        <StyledLogo />
-      </Link>
+const Footer = props => (
+  <StyledFooter className="text-center">
+    <Link to="/" aria-label="On The Rhine Logo - Home Page Link">
+      <StyledLogo />
+    </Link>
 
-      <StyledNavLinks nav={props.nav} />
+    <StyledNavLinks nav={props.nav} />
 
-      <Hours
-        aria-label="On The Rhine Food Hall Hours"
-        className="newline"
-        dangerouslySetInnerHTML={{
-          __html: getSetting("hours"),
-        }}
-      />
+    <Hours
+      aria-label="On The Rhine Food Hall Hours"
+      className="newline"
+      dangerouslySetInnerHTML={{
+        __html: getSetting(props.settings, "hours")
+      }}
+    />
 
-      <LocationLink
-        to={useMapLink(getSetting("address"))}
-        aria-label={`On The Rhine Google Maps Link`}
-        className="newline"
-        dangerouslySetInnerHTML={{
-          __html: getSetting("address"),
-        }}
-      />
+    <LocationLink
+      to={useMapLink(getSetting(props.settings, "address"))}
+      aria-label={`On The Rhine Google Maps Link`}
+      className="newline"
+      dangerouslySetInnerHTML={{
+        __html: getSetting(props.settings, "address")
+      }}
+    />
 
-      <LocationLink
-        to={`tel:${getSetting("phone")}`}
-        target="_self"
-        aria-label={`On The Rhine Phone Number Link`}
-      >
-        {getSetting("phone")}
-      </LocationLink>
+    <LocationLink
+      to={`tel:${getSetting(props.settings, "phone")}`}
+      target="_self"
+      aria-label={`On The Rhine Phone Number Link`}
+    >
+      {getSetting(props.settings, "phone")}
+    </LocationLink>
 
-      <SocialIcons
-        vendor="On The Rhine Food Hall"
-        icons={JSON.parse(getSetting("footer_icons"))}
-        dark={true}
-      />
+    <SocialIcons
+      vendor="On The Rhine Food Hall"
+      icons={JSON.parse(getSetting(props.settings, "footer_icons"))}
+      dark={true}
+    />
 
-      <Copyright className="text-xs">{getSetting("copyright")}</Copyright>
-    </StyledFooter>
-  )
-}
+    <Copyright className="text-xs">
+      {getSetting(props.settings, "copyright")}
+    </Copyright>
+  </StyledFooter>
+)
 
 Footer.propTypes = {
   settings: PropTypes.array.isRequired,
-  nav: PropTypes.array.isRequired,
+  nav: PropTypes.array.isRequired
 }
 
 export default Footer
