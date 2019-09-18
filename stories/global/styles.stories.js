@@ -100,7 +100,7 @@ stories.add(
             </p>
             <p>
               <div className="text-center">
-                <strong>.text-quote (36px/28px)</strong>
+                <strong>{"<"}blockquote>, .text-quote (36px/28px)</strong>
               </div>
               <div className="text-quote">
                 Integer posuere erat a ante venenatis.
@@ -121,11 +121,31 @@ stories.add(
 
           <Notes className="text-sm">
             <strong>
-              The <code>.border</code> class works with <code>&lt;img></code>{" "}
-              and <code>&lt;svg></code>
+              The <code>.newline</code> class works with any tag.
             </strong>
             <p>
-              <small>(Adds a 10px white border to images.)</small>
+              <small>
+                Use this to handle data with newline <code>\n</code> characters.
+              </small>
+            </p>
+          </Notes>
+          <section>
+            <p>
+              <strong>.newline</strong>
+              <div className="newline">
+                {`Aenean eu leo quam.\nPellentesque ornare sem lacinia.\nCras mattis consectetur purus sit amet fermentum.\nAenean eu leo quam.`}
+              </div>
+            </p>
+          </section>
+
+          <Notes className="text-sm">
+            <strong>
+              The <code>.border</code> class works with:
+              <br />
+              <code>&lt;img> &lt;svg> &lt;picture> .gatsby-image-wrapper</code>
+            </strong>
+            <p>
+              <small>This class adds 10px white border to images.</small>
             </p>
           </Notes>
           <section>

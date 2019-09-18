@@ -1,24 +1,30 @@
 import React from "react"
 import { graphql } from "gatsby"
 
+import Container from "../components/layout/container"
 import Layout from "../components/layout"
 
 const IndexPage = ({ data }) => (
-  <Layout>
-    <h2>Food Menus</h2>
-    <pre>{JSON.stringify(data.foodMenus, null, 2)}</pre>
+  <Layout
+    navMenus={data.navMenus.edges.map(n => n.node)}
+    settings={data.settings.edges.map(n => n.node)}
+  >
+    <Container>
+      <h2>Food Menus</h2>
+      <pre>{JSON.stringify(data.foodMenus, null, 2)}</pre>
 
-    <h2>Nav Menus</h2>
-    <pre>{JSON.stringify(data.navMenus, null, 2)}</pre>
+      <h2>Nav Menus</h2>
+      <pre>{JSON.stringify(data.navMenus, null, 2)}</pre>
 
-    <h2>Pages</h2>
-    <pre>{JSON.stringify(data.pages, null, 2)}</pre>
+      <h2>Pages</h2>
+      <pre>{JSON.stringify(data.pages, null, 2)}</pre>
 
-    <h2>Settings</h2>
-    <pre>{JSON.stringify(data.settings, null, 2)}</pre>
+      <h2>Settings</h2>
+      <pre>{JSON.stringify(data.settings, null, 2)}</pre>
 
-    <h2>Vendors</h2>
-    <pre>{JSON.stringify(data.vendors, null, 2)}</pre>
+      <h2>Vendors</h2>
+      <pre>{JSON.stringify(data.vendors, null, 2)}</pre>
+    </Container>
   </Layout>
 )
 

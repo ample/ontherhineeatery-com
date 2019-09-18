@@ -5,21 +5,23 @@ import { Grid } from "react-flexbox-grid"
 
 const Wrapper = styled.section`
   background-color: ${props => props.bgColor};
-  padding: 3.6rem 0rem;
+  padding: ${props => props.padding} 0rem;
 `
 
 const ContentBlock = ({ className, children, ...props }) => (
-  <Wrapper className={className} {...props}>
+  <Wrapper className={"newline " + className} {...props}>
     <Grid>{children}</Grid>
   </Wrapper>
 )
 
 ContentBlock.propTypes = {
   bgColor: PropTypes.string,
+  padding: PropTypes.string, // single rem value, for top & bottom padding only
 }
 
 ContentBlock.defaultProps = {
-  bgColor: "#FFFFFF",
+  bgColor: "transparent",
+  padding: "3.6rem",
 }
 
 export default ContentBlock

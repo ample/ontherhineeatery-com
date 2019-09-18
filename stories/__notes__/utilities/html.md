@@ -50,3 +50,15 @@ Which would translate to something like this:
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div>
 ```
+
+Newline `\n` characters in the data will automatically create line breaks:
+
+```js
+const body = page.body.childMarkdownRemark.html
+// => <p>Lorem ipsum dolor\nsit amet, consectetur.</p>
+```
+
+Will display like this when rendered:
+
+Lorem ipsum dolor<br/>
+sit amet, consectetur.
