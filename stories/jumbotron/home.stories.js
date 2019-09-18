@@ -24,7 +24,7 @@ stories.add(
       "jumbotron_color",
       {
         Robinegg: g.colors.robinegg,
-        Cantaloupe: g.colors.cantaloupe
+        Cantaloupe: g.colors.cantaloupe,
       },
       g.colors.robinegg
     )
@@ -56,7 +56,7 @@ stories.add(
         </HomeJumbotron>
 
         {/* Sample ImageGrid Component */}
-        <Container padding="0rem">
+        <Container padding={{ desktop: "0rem", mobile: "0rem" }}>
           <Row>
             <Col xs style={{ border: "1px solid orange", height: 300 }}>
               /* ImageGrid will display here */
