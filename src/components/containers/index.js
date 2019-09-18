@@ -56,7 +56,7 @@ const Containers = props => {
   )
 
   const renderForm = data => (
-    <Container bgColor={g.colors.gray100}>
+    <Container bgColor={g.colors.gray100} padding={{ desktop: "10rem", mobile: "3.6rem"}}>
       <Row center="xs">
         <Col md={9} lg={7} xl={6}>
           <HTML field={data.body} />
