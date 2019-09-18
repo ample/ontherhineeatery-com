@@ -24,7 +24,7 @@ stories.add(
       "jumbotron_color",
       {
         Robinegg: g.colors.robinegg,
-        Cantaloupe: g.colors.cantaloupe,
+        Cantaloupe: g.colors.cantaloupe
       },
       g.colors.robinegg
     )
@@ -34,7 +34,7 @@ stories.add(
 
         <HomeJumbotron
           hero={hero ? data.edges[0].node.image : null}
-          jumbotron_color={jumbotron_color}
+          color={jumbotron_color}
         >
           <h1>On The Rhine</h1>
           <h4>{data.edges[0].node.subtitle}</h4>

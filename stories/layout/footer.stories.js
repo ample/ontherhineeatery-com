@@ -2,7 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 
 import GlobalStyles from "../../src/components/global/styles"
-import * as g from "../../src/components/global/variables"
 
 import Footer from "../../src/components/layout/footer"
 import settings from "../__fixtures__/settings"
@@ -15,7 +14,7 @@ stories.add("Footer", () => {
     <>
       <GlobalStyles />
       <Footer
-        settings={settings.edges}
+        settings={settings.edges.map(s => s.node)}
         nav={navMenus.edges[0].node.links}
       />
     </>

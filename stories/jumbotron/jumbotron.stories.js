@@ -23,7 +23,7 @@ stories.add(
       {
         Gray: "gray",
         Robinegg: "robinegg",
-        Cantaloupe: "cantaloupe",
+        Cantaloupe: "cantaloupe"
       },
       "robinegg"
     )
@@ -34,10 +34,10 @@ stories.add(
           title={data.edges[0].node.title}
           subtitle={data.edges[0].node.subtitle}
           hero={hero ? data.edges[0].node.image : null}
-          jumbotron_texture={
+          texture={
             jumbotron_texture ? data.edges[0].node.jumbotron_texture : null
           }
-          jumbotron_color={jumbotron_color}
+          color={jumbotron_color}
         />
         {/* Sample Component */}
         <div style={{ border: "1px solid orange", height: 100 }}>

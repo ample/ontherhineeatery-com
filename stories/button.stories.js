@@ -16,12 +16,12 @@ stories.add(
   () => {
     let bold = boolean("Bold", false)
     let padding = text("Padding", "3.6rem")
-    let content = text("Button Content", "Sample Button")
+    let to = boolean("To", true)
     return (
       <>
         <GlobalStyles />
-        <Button to="/" bold={bold} padding={padding}>
-          {content}
+        <Button to={to ? "/" : null} bold={bold} padding={padding}>
+          Renders as {to ? "<a>" : "<button>"}
         </Button>
       </>
     )

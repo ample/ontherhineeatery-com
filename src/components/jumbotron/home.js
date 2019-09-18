@@ -108,7 +108,7 @@ const StyledJumbotron = styled.section`
 `
 
 const HomeJumbotron = ({ children, ...props }) => (
-  <StyledJumbotron color={props.jumbotron_color}>
+  <StyledJumbotron color={props.color}>
     <Background className="col-color" />
     <Content padding="5rem">
       <StyledRow between="xl">
@@ -127,11 +127,11 @@ const HomeJumbotron = ({ children, ...props }) => (
 
 HomeJumbotron.propTypes = {
   hero: PropTypes.object, // contains fluid image
-  jumbotron_color: PropTypes.string,
+  color: PropTypes.string
 }
 
 HomeJumbotron.defaultProps = {
-  jumbotron_color: g.colors.robinegg,
+  color: g.colors.robinegg
 }
 
 export default HomeJumbotron
