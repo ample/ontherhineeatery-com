@@ -1,20 +1,28 @@
 import React from "react"
 import { graphql } from "gatsby"
-// import PropTypes from "prop-types"
 
 // eslint-disable-next-line
 import PageAttributes from "../fragments/page-attributes"
 
+import Containers from "../components/containers"
+import Jumbotron from "../components/jumbotron"
 import Layout from "../components/layout"
 
 const Page = props => {
-  // const { page } = props.data
+  const { page } = props.data
   const { navMenus, settings } = props.pageContext
-  // console.log(navMenus)
-  // console.log(page)
+
   return (
     <Layout navMenus={navMenus} settings={settings}>
-      123
+      <Jumbotron
+        title={page.title}
+        subtitle={page.subtitle}
+        hero={page.image}
+        texture={page.jumbotron_texture}
+        color={page.jumbotron_color}
+      />
+
+      <Containers data={page.containers} />
     </Layout>
   )
 }
