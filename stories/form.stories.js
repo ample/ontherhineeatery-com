@@ -1,15 +1,13 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 import { withKnobs, boolean } from "@storybook/addon-knobs"
-import { Grid, Row, Col } from "react-flexbox-grid"
+import { Row, Col } from "react-flexbox-grid"
 
 import GlobalStyles from "../src/components/global/styles"
 import * as g from "../src/components/global/variables"
 
 import Container from "../src/components/layout/container"
-import Button from "../src/components/button"
 import Form from "../src/components/form"
-import FormSelect from "../src/components/utilities/form-select"
 import notes from "./__notes__/form.md"
 
 const stories = storiesOf("Form", module)
@@ -65,7 +63,6 @@ stories.add(
       }
     ]
 
-    const invalid = boolean("Missing required field", true)
     return (
       <>
         <GlobalStyles />
