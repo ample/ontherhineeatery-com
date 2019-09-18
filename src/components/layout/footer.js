@@ -31,6 +31,7 @@ const StyledNavLinks = styled(NavLinks)`
 `
 
 const Hours = styled.div`
+  color: #BBB;
   color: ${g.colors.white + "B3"};
   list-style-type: none;
   margin-bottom: 2.4rem;
@@ -38,6 +39,7 @@ const Hours = styled.div`
 
 const LocationLink = styled(Link)`
   display: block;
+  color: #BBB;
   color: ${g.colors.white + "B3"};
   &:last-of-type {
     margin-bottom: 2.4rem;
@@ -49,6 +51,7 @@ const LocationLink = styled(Link)`
 `
 
 const Copyright = styled.p`
+  color: #777;
   color: ${g.colors.white + "66"};
   max-width: 60%;
   margin: auto;
