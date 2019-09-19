@@ -98,7 +98,7 @@ export const query = graphql`
                   value
                 }
                 type
-                className
+                # className
               }
             }
             ... on ContentfulLocationContainer {

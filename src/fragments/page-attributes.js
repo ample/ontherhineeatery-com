@@ -65,7 +65,7 @@ export const PageAttributes = graphql`
             value
           }
           type
-          className
+          # className
         }
       }
       ... on ContentfulLocationContainer {
