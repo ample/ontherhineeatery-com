@@ -9,6 +9,7 @@ exports.createPages = ({ graphql, actions }) => {
           node {
             permalink
             contentful_id
+            layout
           }
         }
       }
@@ -43,7 +44,7 @@ exports.createPages = ({ graphql, actions }) => {
     result.data.pages.edges.forEach(({ node }) => {
       createPage({
         path: node.permalink,
-        component: path.resolve(`./src/templates/page.js`),
+        component: path.resolve(`./src/templates/${node.layout}.js`),
         context: {
           permalink: node.permalink,
           id: node.contentful_id,
