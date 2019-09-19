@@ -32,13 +32,13 @@ stories.add(
       { value: "opt10", label: "Option 10" }
     ]
     return (
-      <Form style={{ maxWidth: 400, margin: "auto" }}>
+      <form style={{ maxWidth: 400, margin: "auto" }}>
         <FormSelect
           options={options}
           placeholder={`Placeholder ${invalid ? ".invalid" : ""}`}
           className={invalid ? "invalid" : ""}
         />
-      </Form>
+      </form>
     )
   },
   {

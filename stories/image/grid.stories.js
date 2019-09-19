@@ -19,7 +19,7 @@ stories.addParameters({
 stories.add(
   "Image Grid",
   () => {
-    return <ImageGrid images={data.edges[1].node.containers[0].blocks} />
+    return <ImageGrid images={data.edges[1].node.containers[1].blocks} />
   },
   { notes: notes }
 )
