@@ -2,6 +2,7 @@ import React from "react"
 import { configure, addDecorator } from "@storybook/react"
 import { action } from "@storybook/addon-actions"
 import { withKnobs } from "@storybook/addon-knobs"
+import { withA11y } from "@storybook/addon-a11y"
 
 import GlobalStyles from "../src/components/global/styles"
 
@@ -21,6 +22,7 @@ const withGlobalStyles = s => (
 // Global Settings
 addDecorator(withGlobalStyles)
 addDecorator(withKnobs)
+addDecorator(withA11y)
 
 // Gatsby's Link overrides:
 // Gatsby defines a global called ___loader to prevent its method calls from creating console errors you override it here
