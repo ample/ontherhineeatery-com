@@ -4,9 +4,10 @@ import PropTypes from "prop-types"
 import FormSelect from "./utilities/form-select"
 import Button from "./button"
 
-const Form = ({ config }) => {
+const Form = ({ config, name }) => {
   const renderInput = opts => (
     <input
+      ref={opts.name}
       type="text"
       name={opts.name}
       required={opts.required}
@@ -17,6 +18,7 @@ const Form = ({ config }) => {
 
   const renderSelect = opts => (
     <FormSelect
+      ref={opts.name}
       options={opts.options}
       placeholder={opts.label}
       name={opts.name}
@@ -26,7 +28,12 @@ const Form = ({ config }) => {
   const renderSubmit = opts => <Button type="submit">{opts.label}</Button>
 
   const renderTextarea = opts => (
-    <textarea name={opts.name} placeholder={opts.label} rows={opts.rows || 5} />
+    <textarea
+      ref={opts.name}
+      name={opts.name}
+      placeholder={opts.label}
+      rows={opts.rows || 5}
+    />
   )
 
   const fieldMap = {
@@ -40,7 +47,8 @@ const Form = ({ config }) => {
   }
 
   return (
-    <form action="" method="get">
+    <form name={name} method="POST" data-netlify="true">
+      <input ref="form-name" type="hidden" name="form-name" value={name} />
       {config.map(f => fieldMap[f.type](f))}
     </form>
   )
@@ -49,7 +57,8 @@ const Form = ({ config }) => {
 export default Form
 
 Form.propTypes = {
-  config: PropTypes.object.isRequired
+  config: PropTypes.object.isRequired,
+  name: PropTypes.string.isRequired
 }
 
 Form.defaultProps = {}

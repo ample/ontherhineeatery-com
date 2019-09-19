@@ -56,11 +56,14 @@ const Containers = props => {
   )
 
   const renderForm = data => (
-    <Container bgColor={g.colors.gray100} padding={{ desktop: "10rem", mobile: "3.6rem"}}>
+    <Container
+      bgColor={g.colors.gray100}
+      padding={{ desktop: "10rem", mobile: "3.6rem" }}
+    >
       <Row center="xs">
         <Col md={9} lg={7} xl={6}>
           <HTML field={data.body} />
-          <Form config={data.formConfig} />
+          <Form name={data.title} config={data.formConfig} />
         </Col>
       </Row>
     </Container>
@@ -70,7 +73,7 @@ const Containers = props => {
     ContentfulLocationContainer: renderLocation,
     ContentfulFormContainer: renderForm,
     ContentfulContentContainer: renderContent,
-    ContentfulVendorsContainer: renderVendors,
+    ContentfulVendorsContainer: renderVendors
   }
 
   return <div>{props.data.map(n => containerRenderMap[n.__typename](n))}</div>
