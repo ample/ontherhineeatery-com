@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { Row, Col } from "react-flexbox-grid"
+import PropTypes from "prop-types"
 
 // eslint-disable-next-line
 import VendorAttributes from "../../fragments/vendor-attributes"
@@ -17,6 +18,7 @@ import ImageGrid from "../image/grid"
 const Containers = props => {
   const renderLocation = data => (
     <Location
+      key={data.title}
       hours={data.hours.hours}
       address={data.address.address}
       phone={data.phone}
@@ -57,6 +59,7 @@ const Containers = props => {
 
   const renderForm = data => (
     <Container
+      key={data.title}
       bgColor={g.colors.gray100}
       padding={{ desktop: "10rem", mobile: "3.6rem" }}
     >
@@ -78,5 +81,11 @@ const Containers = props => {
 
   return <div>{props.data.map(n => containerRenderMap[n.__typename](n))}</div>
 }
+
+Containers.propTypes = {
+  data: PropTypes.object.isRequired
+}
+
+Containers.defaultProps = {}
 
 export default Containers

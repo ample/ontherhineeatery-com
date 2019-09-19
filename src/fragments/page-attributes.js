@@ -45,7 +45,7 @@ export const PageAttributes = graphql`
           }
         }
         background_color
-        style
+        # style
       }
       ... on ContentfulFormContainer {
         id
@@ -58,14 +58,18 @@ export const PageAttributes = graphql`
         }
         formConfig {
           name
-          label
-          required
-          options {
+          action
+          fields {
+            name
             label
-            value
+            required
+            options {
+              label
+              value
+            }
+            type
+            # className
           }
-          type
-          className
         }
       }
       ... on ContentfulLocationContainer {
