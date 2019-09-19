@@ -45,7 +45,6 @@ export const PageAttributes = graphql`
           }
         }
         background_color
-        # style
       }
       ... on ContentfulFormContainer {
         id

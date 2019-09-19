@@ -25,7 +25,26 @@ const Containers = props => {
     />
   )
 
-  const renderContent = data => <ImageGrid images={data.blocks} />
+  const renderContent = data => {
+    if (
+      data.blocks.length === 1 &&
+      data.blocks[0].__typename === "ContentfulContentBlock"
+    ) {
+      return (
+        <Container
+          className="text-center"
+          padding={{ desktop: "9rem", mobile: "3.6rem" }}
+        >
+          <Row center="md">
+            <Col md={9} lg={8} xl={6}>
+              <HTML field={data.blocks[0].body} />
+            </Col>
+          </Row>
+        </Container>
+      )
+    }
+    return <ImageGrid images={data.blocks} />
+  }
 
   const renderVendors = containerData => (
     <StaticQuery

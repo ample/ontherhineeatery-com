@@ -55,18 +55,18 @@ export const query = graphql`
             ... on ContentfulContentContainer {
               title
               blocks {
-                # ... on ContentfulContentBlock {
-                #   id
-                #   title
-                #   body {
-                #     body
-                #     childMarkdownRemark {
-                #       html
-                #     }
-                #   }
-                #   # button_label
-                #   # button_url
-                # }
+                ... on ContentfulContentBlock {
+                  id
+                  title
+                  body {
+                    body
+                    childMarkdownRemark {
+                      html
+                    }
+                  }
+                  button_label
+                  button_url
+                }
                 ... on ContentfulImageBlock {
                   id
                   title
@@ -78,7 +78,6 @@ export const query = graphql`
                 }
               }
               background_color
-              style
             }
             ... on ContentfulFormContainer {
               id
