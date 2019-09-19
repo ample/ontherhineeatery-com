@@ -1,8 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import FormSelect from "./utilities/form-select"
-import Button from "./button"
+import FormSelect from "./select"
+import Button from "../button"
 
 const Form = ({ config }) => {
   const renderInput = opts => (

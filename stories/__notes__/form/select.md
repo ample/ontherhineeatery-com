@@ -5,7 +5,8 @@ The FormSelect utility is a custom-styled select field. It extends the
 
 ## Field Options
 
-The `options` prop is an array of objects with `value` and `label` keys. The dropdown menu will scroll if it has more than 7 options.
+The `options` prop is an array of objects with `value` and `label` keys. The
+dropdown menu will scroll if it has more than 7 options.
 
 The `placeholder` text can be passed in as a string.
 

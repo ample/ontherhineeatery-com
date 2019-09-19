@@ -35,15 +35,12 @@ A form section's background color, header, grid system, etc. should go
 inside a `Container` component. The `Form` component should only include
 form fields as children.
 
-
 ```jsx
 <Container>
   <Row>
     <Col>
       <h3>Form Header</h3>
-      <Form>
-        {/* Form fields */}
-      </Form>
+      <Form>{/* Form fields */}</Form>
     </Col>
   </Row>
 </Container>
@@ -53,14 +50,13 @@ form fields as children.
 
 Any dropdown selection fields should use the `FormSelect` utility instead of a standard `<select>` field. See FormSelect Utility story.
 
-
 ```jsx
 <Form>
   <FormSelect
     placeholder="Placeholder"
     options={[
       { value: "opt1", label: "Option 1" },
-      { value: "opt2", label: "Option 2" },
+      { value: "opt2", label: "Option 2" }
     ]}
   />
 </Form>
@@ -72,11 +68,8 @@ Use the `Button` component for the submit button instead of
 `<input type="submit"/>`.
 
 ```jsx
-<Button type="submit">
-  Submit Button
-</Button>
+<Button type="submit">Submit Button</Button>
 ```
-
 
 ## Putting It All Together
 
@@ -86,7 +79,6 @@ Here is an example of a complete form section with a background color, header, a
 <Container bgColor={g.colors.gray100}>
   <Row center="xs">
     <Col md={9} lg={7} xl={6}>
-
       <h3>Form Header</h3>
 
       <Form>
@@ -94,7 +86,6 @@ Here is an example of a complete form section with a background color, header, a
         <FormSelect options={options} />
         <Button type="submit">Submit</Button>
       </Form>
-
     </Col>
   </Row>
 </Container>
