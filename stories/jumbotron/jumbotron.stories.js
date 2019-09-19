@@ -1,6 +1,6 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { withKnobs, boolean, select } from "@storybook/addon-knobs"
+import { boolean, select } from "@storybook/addon-knobs"
 
 import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
@@ -10,8 +10,6 @@ import data from "../__fixtures__/pages.json"
 import notes from "../__notes__/jumbotron/jumbotron.md"
 
 const stories = storiesOf("Jumbotron", module)
-
-stories.addDecorator(withKnobs)
 
 stories.add(
   "Jumbotron",

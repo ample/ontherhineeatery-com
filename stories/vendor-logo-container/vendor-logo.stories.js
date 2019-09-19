@@ -1,6 +1,6 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { withKnobs, boolean } from "@storybook/addon-knobs"
+import { boolean } from "@storybook/addon-knobs"
 
 import GlobalStyles from "../../src/components/global/styles"
 import { colors } from "../../src/components/global/variables"
@@ -10,8 +10,6 @@ import data from "../__fixtures__/vendors"
 import notes from "../__notes__/vendor-logo-container/vendor-logo.md"
 
 const stories = storiesOf("Vendor Logos", module)
-
-stories.addDecorator(withKnobs)
 
 stories.addParameters({
   backgrounds: [

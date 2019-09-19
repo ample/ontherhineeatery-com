@@ -1,11 +1,15 @@
-import { configure } from "@storybook/react"
+import { configure, addDecorator } from "@storybook/react"
 import { action } from "@storybook/addon-actions"
+import { withKnobs } from "@storybook/addon-knobs"
 
 // automatically import all files ending in *.stories.js
 const req = require.context("../stories", true, /.stories.js$/)
 function loadStories() {
   req.keys().forEach(filename => req(filename))
 }
+
+// Global Settings
+addDecorator(withKnobs)
 
 // Gatsby's Link overrides:
 // Gatsby defines a global called ___loader to prevent its method calls from creating console errors you override it here

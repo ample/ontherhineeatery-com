@@ -1,6 +1,5 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { withKnobs } from "@storybook/addon-knobs"
 import { Row, Col } from "react-flexbox-grid"
 
 import GlobalStyles from "../src/components/global/styles"
@@ -13,8 +12,6 @@ import notes from "./__notes__/form.md"
 import data from "./__fixtures__/pages"
 
 const stories = storiesOf("Form", module)
-
-stories.addDecorator(withKnobs)
 
 stories.add(
   "Form",

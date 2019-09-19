@@ -1,7 +1,7 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 import { Grid, Row, Col } from "react-flexbox-grid"
-import { withKnobs, select } from "@storybook/addon-knobs"
+import { select } from "@storybook/addon-knobs"
 
 import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
@@ -10,8 +10,6 @@ import Container from "../../src/components/layout/container"
 import notes from "../__notes__/layout/container.md"
 
 const stories = storiesOf("Layout", module)
-
-stories.addDecorator(withKnobs)
 
 stories.add(
   "Container",

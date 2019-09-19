@@ -1,6 +1,6 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { withKnobs, boolean } from "@storybook/addon-knobs"
+import { boolean } from "@storybook/addon-knobs"
 
 import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
@@ -15,8 +15,6 @@ const stories = storiesOf("Utilities", module)
 stories.addParameters({
   backgrounds: [{ name: "gray200", value: g.colors.gray200, default: true }],
 })
-
-stories.addDecorator(withKnobs)
 
 stories.add(
   "FormSelect",
