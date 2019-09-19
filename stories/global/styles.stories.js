@@ -3,7 +3,6 @@ import { storiesOf } from "@storybook/react"
 import { boolean } from "@storybook/addon-knobs"
 import styled from "styled-components"
 
-import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
 import notes from "../__notes__/global/styles.md"
 
@@ -14,8 +13,8 @@ stories.addParameters({
     { name: "white", value: g.colors.white, default: true },
     { name: "gray200", value: g.colors.gray200, default: false },
     { name: "robinegg", value: g.colors.robinegg, default: false },
-    { name: "gray700", value: g.colors.gray700, default: false },
-  ],
+    { name: "gray700", value: g.colors.gray700, default: false }
+  ]
 })
 
 stories.add(
@@ -25,7 +24,6 @@ stories.add(
     let textCenter = boolean("`text-center` utility class", false)
     return (
       <>
-        <GlobalStyles />
         <div
           className={
             (textLight ? " text-light " : "") +
@@ -154,7 +152,7 @@ stories.add(
               style={{
                 width: 400,
                 display: "block",
-                margin: "20px auto",
+                margin: "20px auto"
               }}
             />
           </section>

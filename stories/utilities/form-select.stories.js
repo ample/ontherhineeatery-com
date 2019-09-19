@@ -2,7 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import { boolean } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
 
 import FormSelect from "../../src/components/utilities/form-select"
@@ -13,7 +12,7 @@ import notes from "../__notes__/utilities/form-select.md"
 const stories = storiesOf("Utilities", module)
 
 stories.addParameters({
-  backgrounds: [{ name: "gray200", value: g.colors.gray200, default: true }],
+  backgrounds: [{ name: "gray200", value: g.colors.gray200, default: true }]
 })
 
 stories.add(
@@ -30,22 +29,19 @@ stories.add(
       { value: "opt7", label: "Option 7" },
       { value: "opt8", label: "Option 8" },
       { value: "opt9", label: "Option 9" },
-      { value: "opt10", label: "Option 10" },
+      { value: "opt10", label: "Option 10" }
     ]
     return (
-      <>
-        <GlobalStyles />
-        <Form style={{ maxWidth: 400, margin: "auto" }}>
-          <FormSelect
-            options={options}
-            placeholder={`Placeholder ${invalid ? ".invalid" : ""}`}
-            className={invalid ? "invalid" : ""}
-          />
-        </Form>
-      </>
+      <Form style={{ maxWidth: 400, margin: "auto" }}>
+        <FormSelect
+          options={options}
+          placeholder={`Placeholder ${invalid ? ".invalid" : ""}`}
+          className={invalid ? "invalid" : ""}
+        />
+      </Form>
     )
   },
   {
-    notes: notes,
+    notes: notes
   }
 )

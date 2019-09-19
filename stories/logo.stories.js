@@ -13,20 +13,15 @@ const stories = storiesOf("Logo", module)
 stories.addParameters({
   backgrounds: [
     { name: "white", value: colors.white },
-    { name: "gray800", value: colors.gray800, default: true },
-  ],
+    { name: "gray800", value: colors.gray800, default: true }
+  ]
 })
 
 stories.add(
   "Logo",
   () => {
     let color = text("Color", "#FFFFFF")
-    return (
-      <>
-        <GlobalStyles />
-        <Logo color={color} style={{ maxWidth: 300 }} />
-      </>
-    )
+    return <Logo color={color} style={{ maxWidth: 300 }} />
   },
   { notes: notes }
 )

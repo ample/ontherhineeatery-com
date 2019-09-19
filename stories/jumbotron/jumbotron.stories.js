@@ -2,7 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import { boolean, select } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
 
 import Jumbotron from "../../src/components/jumbotron/"
@@ -27,7 +26,6 @@ stories.add(
     )
     return (
       <>
-        <GlobalStyles />
         <Jumbotron
           title={data.edges[0].node.title}
           subtitle={data.edges[0].node.subtitle}

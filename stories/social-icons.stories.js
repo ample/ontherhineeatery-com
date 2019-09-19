@@ -14,8 +14,8 @@ const stories = storiesOf("Social Icons", module)
 stories.addParameters({
   backgrounds: [
     { name: "white", value: g.colors.white, default: true },
-    { name: "gray800", value: g.colors.gray800 },
-  ],
+    { name: "gray800", value: g.colors.gray800 }
+  ]
 })
 
 stories.add(
@@ -23,14 +23,11 @@ stories.add(
   () => {
     const dark = boolean("Dark", false)
     return (
-      <>
-        <GlobalStyles />
-        <SocialIcons
-          vendor={data.edges[0].node.permalink}
-          icons={data.edges[0].node.socialLinks}
-          dark={dark}
-        />
-      </>
+      <SocialIcons
+        vendor={data.edges[0].node.permalink}
+        icons={data.edges[0].node.socialLinks}
+        dark={dark}
+      />
     )
   },
   { notes: notes }

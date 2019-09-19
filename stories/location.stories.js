@@ -13,14 +13,11 @@ stories.add(
   "Location",
   () => {
     return (
-      <>
-        <GlobalStyles />
-        <Location
-          hours={data.edges[0].node.containers[0].hours.hours}
-          address={data.edges[0].node.containers[0].address.address}
-          phone={data.edges[0].node.containers[0].phone}
-        />
-      </>
+      <Location
+        hours={data.edges[0].node.containers[0].hours.hours}
+        address={data.edges[0].node.containers[0].address.address}
+        phone={data.edges[0].node.containers[0].phone}
+      />
     )
   },
   { notes: notes }

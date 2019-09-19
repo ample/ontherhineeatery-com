@@ -16,12 +16,9 @@ stories.add(
     let padding = text("Padding", "3.6rem")
     let to = boolean("To", true)
     return (
-      <>
-        <GlobalStyles />
-        <Button to={to ? "/" : null} bold={bold} padding={padding}>
-          Renders as {to ? "<a>" : "<button>"}
-        </Button>
-      </>
+      <Button to={to ? "/" : null} bold={bold} padding={padding}>
+        Renders as {to ? "<a>" : "<button>"}
+      </Button>
     )
   },
   { notes: notes }

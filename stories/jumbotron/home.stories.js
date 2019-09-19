@@ -3,7 +3,6 @@ import { storiesOf } from "@storybook/react"
 import { Row, Col } from "react-flexbox-grid"
 import { boolean, select } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
 
 import HomeJumbotron from "../../src/components/jumbotron/home"
@@ -22,14 +21,12 @@ stories.add(
       "jumbotron_color",
       {
         Robinegg: g.colors.robinegg,
-        Cantaloupe: g.colors.cantaloupe,
+        Cantaloupe: g.colors.cantaloupe
       },
       g.colors.robinegg
     )
     return (
       <>
-        <GlobalStyles />
-
         <HomeJumbotron
           hero={hero ? data.edges[0].node.image : null}
           color={jumbotron_color}

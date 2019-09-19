@@ -2,7 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 // import { text } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../src/components/global/styles"
 import * as g from "../src/components/global/variables"
 
 import /* Component */ from "../src/components/"
@@ -25,10 +24,7 @@ stories.add(
     // let knob = text("Text", "Hello World")
 
     return (
-      <>
-        <GlobalStyles />
-        {/* <Component /> */}
-      </>
+      {/* <Component /> */}
     )
   },
   // { notes: notes }

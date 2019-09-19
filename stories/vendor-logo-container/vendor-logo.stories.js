@@ -2,7 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import { boolean } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../../src/components/global/styles"
 import { colors } from "../../src/components/global/variables"
 
 import VendorLogo from "../../src/components/vendor-logo-container/vendor-logo"
@@ -14,8 +13,8 @@ const stories = storiesOf("Vendor Logos", module)
 stories.addParameters({
   backgrounds: [
     { name: "white", value: colors.white },
-    { name: "gray200", value: colors.gray200, default: true },
-  ],
+    { name: "gray200", value: colors.gray200, default: true }
+  ]
 })
 
 stories.add(
@@ -25,16 +24,13 @@ stories.add(
     const small = boolean("Small", false)
     const link = boolean("Includes a `to` prop.", true)
     return (
-      <>
-        <GlobalStyles />
-        <VendorLogo
-          title={vendor.title}
-          logo={vendor.logo}
-          featured_image={vendor.featured_image}
-          small={small}
-          to={link ? `/${vendor.permalink}` : null}
-        />
-      </>
+      <VendorLogo
+        title={vendor.title}
+        logo={vendor.logo}
+        featured_image={vendor.featured_image}
+        small={small}
+        to={link ? `/${vendor.permalink}` : null}
+      />
     )
   },
   { notes: notes }

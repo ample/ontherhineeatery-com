@@ -1,6 +1,9 @@
+import React from "react"
 import { configure, addDecorator } from "@storybook/react"
 import { action } from "@storybook/addon-actions"
 import { withKnobs } from "@storybook/addon-knobs"
+
+import GlobalStyles from "../src/components/global/styles"
 
 // automatically import all files ending in *.stories.js
 const req = require.context("../stories", true, /.stories.js$/)
@@ -8,14 +11,22 @@ function loadStories() {
   req.keys().forEach(filename => req(filename))
 }
 
+const withGlobalStyles = s => (
+  <React.Fragment>
+    <GlobalStyles />
+    {s()}
+  </React.Fragment>
+)
+
 // Global Settings
+addDecorator(withGlobalStyles)
 addDecorator(withKnobs)
 
 // Gatsby's Link overrides:
 // Gatsby defines a global called ___loader to prevent its method calls from creating console errors you override it here
 global.___loader = {
   enqueue: () => {},
-  hovering: () => {},
+  hovering: () => {}
 }
 // Gatsby internal mocking to prevent unnecessary errors in storybook testing environment
 global.__PATH_PREFIX__ = ""
