@@ -2,7 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import { boolean } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../src/components/global/styles"
 import * as g from "../src/components/global/variables"
 
 import SocialIcons from "../src/components/social-icons"

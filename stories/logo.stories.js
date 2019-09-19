@@ -2,7 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import { text } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../src/components/global/styles"
 import { colors } from "../src/components/global/variables"
 
 import Logo from "../src/components/logo"

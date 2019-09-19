@@ -2,8 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import { text, boolean } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../src/components/global/styles"
-
 import Button from "../src/components/button"
 import notes from "./__notes__/button.md"
 
