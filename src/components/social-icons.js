@@ -44,7 +44,7 @@ const typeList = {
 }
 
 const SocialIcons = props => (
-  <div>
+  <div aria-label="On The Rhine Social Media Links">
     {props.icons.map((icon, idx) => (
       <Icon
         to={icon.url}

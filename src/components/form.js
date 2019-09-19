@@ -12,6 +12,7 @@ const Form = ({ config }) => {
       name={opts.name}
       required={opts.required}
       placeholder={opts.label}
+      aria-label={opts.label}
       className={opts.className}
     />
   )
@@ -36,6 +37,7 @@ const Form = ({ config }) => {
       key={opts.name}
       name={opts.name}
       placeholder={opts.label}
+      aria-label={opts.label + " text area"}
       rows={opts.rows || 5}
     />
   )
@@ -53,6 +55,7 @@ const Form = ({ config }) => {
   return (
     <form
       name={config.name}
+      aria-label={config.name}
       action={config.action}
       method="POST"
       data-netlify="true"

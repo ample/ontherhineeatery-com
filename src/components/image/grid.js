@@ -100,7 +100,10 @@ const StyledGrid = styled.div`
 `
 
 const ImageGrid = props => (
-  <Container padding={{ desktop: "0rem", mobile: "0rem" }}>
+  <Container
+    padding={{ desktop: "0rem", mobile: "0rem" }}
+    aria-label="On The Rhine Eatery Images"
+  >
     <StyledGrid>
       {props.images.map((block, idx) => (
         <GridBlock

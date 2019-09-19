@@ -17,7 +17,7 @@ const Wrapper = styled.section`
 `
 
 const VendorLogoContainer = props => (
-  <Wrapper>
+  <Wrapper aria-label="On The Rhine Eatery Vendors">
     {props.logos.map((vendor, idx) => (
       <VendorLogo
         key={`vendor-logo_${idx}`}
