@@ -14,7 +14,7 @@ const StyledGrid = styled.div`
   ${'' /* prettier-ignore */}
   -ms-grid-columns: (1fr)[4] 1rem (1fr)[8];
   ${'' /* prettier-ignore */}
-  -ms-grid-rows: (1fr)[4] 1rem (1fr)[3] 0rem;
+  -ms-grid-rows: (1fr)[4] 1rem (1fr)[4];
 
   display: grid;
   height: 64rem;
@@ -22,7 +22,7 @@ const StyledGrid = styled.div`
   grid-gap: 1rem;
   grid-template-columns: repeat(12, 1fr);
 
-  grid-template-rows: repeat(7, 1fr) 0rem;
+  grid-template-rows: repeat(8, 1fr);
 
   img,
   picture,
@@ -115,7 +115,7 @@ const ImageGrid = props => (
 )
 
 ImageGrid.propTypes = {
-  images: PropTypes.array.isRequired, // array of ImageBlocks
+  images: PropTypes.array.isRequired // array of ImageBlocks
 }
 
 export default ImageGrid
