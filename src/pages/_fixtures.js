@@ -91,14 +91,17 @@ export const query = graphql`
               }
               formConfig {
                 name
-                label
-                required
-                options {
+                action
+                form_fields {
+                  name
                   label
-                  value
+                  required
+                  options {
+                    label
+                    value
+                  }
+                  type
                 }
-                type
-                className
               }
             }
             ... on ContentfulLocationContainer {

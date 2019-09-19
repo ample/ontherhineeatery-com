@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import FormSelect from "./utilities/form-select"
 import Button from "./button"
 
-const Form = ({ action, config, name }) => {
+const Form = ({ config }) => {
   const renderInput = opts => (
     <input
       key={opts.name}
@@ -51,9 +51,19 @@ const Form = ({ action, config, name }) => {
   }
 
   return (
-    <form name={name} action={action} method="POST" data-netlify="true">
-      <input key={name} type="hidden" name="form-name" value={name} />
-      {config.map(f => fieldMap[f.type](f))}
+    <form
+      name={config.name}
+      action={config.action}
+      method="POST"
+      data-netlify="true"
+    >
+      <input
+        key={config.name}
+        type="hidden"
+        name="form-name"
+        value={config.name}
+      />
+      {config.form_fields.map(f => fieldMap[f.type](f))}
     </form>
   )
 }
@@ -61,11 +71,7 @@ const Form = ({ action, config, name }) => {
 export default Form
 
 Form.propTypes = {
-  action: PropTypes.string.isRequired,
-  config: PropTypes.array.isRequired,
-  name: PropTypes.string.isRequired
+  config: PropTypes.object.isRequired
 }
 
-Form.defaultProps = {
-  action: ""
-}
+Form.defaultProps = {}

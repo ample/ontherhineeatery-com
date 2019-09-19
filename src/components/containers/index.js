@@ -66,7 +66,7 @@ const Containers = props => {
       <Row center="xs">
         <Col md={9} lg={7} xl={6}>
           <HTML field={data.body} />
-          <Form name={data.title} config={data.formConfig} />
+          <Form config={data.formConfig} />
         </Col>
       </Row>
     </Container>
@@ -83,7 +83,7 @@ const Containers = props => {
 }
 
 Containers.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.array.isRequired
 }
 
 Containers.defaultProps = {}

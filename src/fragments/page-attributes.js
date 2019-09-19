@@ -59,7 +59,7 @@ export const PageAttributes = graphql`
         formConfig {
           name
           action
-          fields {
+          form_fields {
             name
             label
             required
@@ -68,7 +68,6 @@ export const PageAttributes = graphql`
               value
             }
             type
-            # className
           }
         }
       }
