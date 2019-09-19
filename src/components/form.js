@@ -7,7 +7,6 @@ import Button from "./button"
 const Form = ({ config, name }) => {
   const renderInput = opts => (
     <input
-      ref={opts.name}
       type="text"
       name={opts.name}
       required={opts.required}
@@ -18,7 +17,6 @@ const Form = ({ config, name }) => {
 
   const renderSelect = opts => (
     <FormSelect
-      ref={opts.name}
       options={opts.options}
       placeholder={opts.label}
       name={opts.name}
@@ -28,12 +26,7 @@ const Form = ({ config, name }) => {
   const renderSubmit = opts => <Button type="submit">{opts.label}</Button>
 
   const renderTextarea = opts => (
-    <textarea
-      ref={opts.name}
-      name={opts.name}
-      placeholder={opts.label}
-      rows={opts.rows || 5}
-    />
+    <textarea name={opts.name} placeholder={opts.label} rows={opts.rows || 5} />
   )
 
   const fieldMap = {
@@ -48,7 +41,7 @@ const Form = ({ config, name }) => {
 
   return (
     <form name={name} method="POST" data-netlify="true">
-      <input ref="form-name" type="hidden" name="form-name" value={name} />
+      <input type="hidden" name="form-name" value={name} />
       {config.map(f => fieldMap[f.type](f))}
     </form>
   )
