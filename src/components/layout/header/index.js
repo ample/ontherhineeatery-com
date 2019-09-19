@@ -15,7 +15,7 @@ const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.3rem 7rem 2.3rem 4.4rem;
+  padding: 2.3rem 6rem 2.3rem 4.4rem;
   position: relative;
   @media ${g.screen.max.md} {
     padding: 1.4rem;
@@ -24,8 +24,10 @@ const StyledHeader = styled.header`
 
 const StyledLogo = styled(Logo)`
   height: 4.5rem;
+  max-width: 15rem;
   @media ${g.screen.max.md} {
     height: 3.5rem;
+    max-width: 10rem;
   }
 `
 
@@ -44,7 +46,7 @@ const Header = props => (
 )
 
 Header.propTypes = {
-  nav: PropTypes.array.isRequired,
+  nav: PropTypes.array.isRequired
 }
 
 export default Header
