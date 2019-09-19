@@ -78,6 +78,7 @@ const FormSelect = ({ className, ...props }) => {
       className={className}
       classNamePrefix="form-select"
       required
+      aria-label={`${props.placeholder} select field`}
       theme={theme => ({
         ...theme,
         borderRadius: 0,

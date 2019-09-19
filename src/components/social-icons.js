@@ -53,7 +53,7 @@ const SocialIcons = props => (
       >
         <SVG
           src={typeList[icon.icon]}
-          aria-label={`${props.vendor} ${icon.icon} Link`}
+          aria-label={`${props.vendor} ${icon.icon}`}
         />
       </Icon>
     ))}
