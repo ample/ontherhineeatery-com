@@ -19,6 +19,7 @@ const Icon = styled(Link)`
   padding: 0.4rem;
   svg {
     width: 1.8rem;
+    height: 1.8rem;
     fill: ${props => (props.dark ? g.colors.gray300 : "#4A4A4A")};
     transition: fill 0.1s ease-out;
   }
@@ -40,7 +41,7 @@ const typeList = {
   website: website,
   facebook: facebook,
   instagram: instagram,
-  twitter: twitter,
+  twitter: twitter
 }
 
 const SocialIcons = props => (
@@ -64,11 +65,11 @@ SocialIcons.propTypes = {
   icons: PropTypes.array.isRequired,
   // valid icon types: "facebook", "twitter", "instagram", "website"
   vendor: PropTypes.string.isRequired,
-  dark: PropTypes.bool,
+  dark: PropTypes.bool
 }
 
 SocialIcons.defaultProps = {
-  dark: false,
+  dark: false
 }
 
 export default SocialIcons
