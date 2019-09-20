@@ -6,8 +6,18 @@ import Img from "gatsby-image"
 import { screen } from "../global/variables"
 
 import Container from "../layout/container"
+import bgTexture from "../../images/bg-texture.svg"
 
 const GridBlock = styled.div``
+
+const StyledContainer = styled(Container)`
+  @media ${screen.min.md} {
+    display: flex;
+    background-image: url(${bgTexture});
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+`
 
 const StyledGrid = styled.div`
   display: -ms-grid;
@@ -21,7 +31,6 @@ const StyledGrid = styled.div`
   margin: 1rem;
   grid-gap: 1rem;
   grid-template-columns: repeat(12, 1fr);
-
   grid-template-rows: repeat(8, 1fr);
 
   img,
@@ -100,7 +109,7 @@ const StyledGrid = styled.div`
 `
 
 const ImageGrid = props => (
-  <Container
+  <StyledContainer
     padding={{ desktop: "0rem", mobile: "0rem" }}
     aria-label="On The Rhine Eatery Images"
   >
@@ -114,7 +123,7 @@ const ImageGrid = props => (
         </GridBlock>
       ))}
     </StyledGrid>
-  </Container>
+  </StyledContainer>
 )
 
 ImageGrid.propTypes = {
