@@ -9,7 +9,12 @@ import * as g from "../global/variables"
 
 import Container from "../layout/container"
 
-const Content = styled(Container)``
+const Content = styled(Container)`
+  @media ${g.screen.max.sm} {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+`
 const StyledRow = styled(Row)``
 const ContentCol = styled(Col)``
 const ImgCol = styled(Col)``
@@ -39,6 +44,8 @@ const StyledJumbotron = styled.section`
   ${ContentCol} {
     order: 1;
     z-index: 2;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
   }
 
   ${ImgCol} {

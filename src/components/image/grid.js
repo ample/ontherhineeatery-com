@@ -111,7 +111,7 @@ const StyledGrid = styled.div`
 
   @media ${screen.max.sm} {
     ${GridBlock} {
-      margin: 1.5rem 0.75rem;
+      margin: 1.5rem 0rem;
     }
 
     .gatsby-image-wrapper {
