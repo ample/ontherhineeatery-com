@@ -2,8 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Img from "gatsby-image"
 import styled from "styled-components"
-import MediaQuery from "react-responsive"
-import { Grid, Row, Col } from "react-flexbox-grid"
+import { Row, Col } from "react-flexbox-grid"
 
 import * as g from "../global/variables"
 

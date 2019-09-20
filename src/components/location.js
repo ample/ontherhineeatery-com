@@ -6,7 +6,6 @@ import { Row, Col } from "react-flexbox-grid"
 import * as g from "./global/variables"
 import { useMapLink } from "./hooks"
 
-import HTML from "./utilities/html"
 import Link from "./utilities/link"
 import Container from "./layout/container"
 
