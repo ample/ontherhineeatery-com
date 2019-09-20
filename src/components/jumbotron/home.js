@@ -51,6 +51,29 @@ const StyledJumbotron = styled.section`
       max-height: 57.8rem;
       object-fit: cover;
     }
+    ${"" /* IE 11 fallback */}
+    @media all and (-ms-high-contrast:none) {
+      .gatsby-image-wrapper {
+        width: auto !important;
+        height: 100%;
+        max-height: none;
+      }
+      img,
+      picture {
+        width: auto !important;
+        max-height: none;
+        height: 100%;
+        margin-left: -50%;
+      }
+    }
+    @media all and (-ms-high-contrast:none) and ${g.screen.max.md}{
+      img,
+      picture {
+        height: auto;
+        width: 100% !important;
+        margin-left: 0px;
+      }
+    }
   }
 
   @media ${g.screen.min.md} and ${g.screen.max.lg} {
@@ -127,11 +150,11 @@ const HomeJumbotron = ({ children, ...props }) => (
 
 HomeJumbotron.propTypes = {
   hero: PropTypes.object, // contains fluid image
-  color: PropTypes.string,
+  color: PropTypes.string
 }
 
 HomeJumbotron.defaultProps = {
-  color: g.colors.robinegg,
+  color: g.colors.robinegg
 }
 
 export default HomeJumbotron

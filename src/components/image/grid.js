@@ -41,6 +41,18 @@ const StyledGrid = styled.div`
     object-fit: cover;
   }
 
+  ${"" /* IE 11 fallback */}
+  @media all and (-ms-high-contrast:none) {
+    img,
+    picture,
+    .gatsby-image-wrapper {
+      width: auto !important;
+      height: auto;
+      max-height: none;
+      margin: auto;
+    }
+  }
+
   ${GridBlock} {
     box-shadow: 0rem 0rem 0rem 1rem white;
   }

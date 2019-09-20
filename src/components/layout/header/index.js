@@ -24,9 +24,16 @@ const StyledHeader = styled.header`
 
 const StyledLogo = styled(Logo)`
   height: 4.5rem;
-  max-width: 15rem;
+
   @media ${g.screen.max.md} {
     height: 3.5rem;
+  }
+
+  ${"" /* IE 11 fallback */}
+  @media all and (-ms-high-contrast:none) {
+    max-width: 15rem;
+  }
+  @media all and (-ms-high-contrast: none) and ${g.screen.max.md} {
     max-width: 10rem;
   }
 `
