@@ -16,6 +16,7 @@ stories.addParameters({
 stories.add(
   "FormSelect",
   () => {
+    const invalid = boolean("Missing required field", false)
     const config = {
       name: "Demo Form",
       action: "/",
@@ -23,6 +24,7 @@ stories.add(
         {
           name: "demo-field",
           type: "select",
+          className: invalid ? "invalid" : "",
           options: [
             { value: "opt1", label: "Option 1" },
             { value: "opt2", label: "Option 2" },

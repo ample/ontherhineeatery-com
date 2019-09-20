@@ -23,6 +23,7 @@ const Form = ({ config }) => {
       options={opts.options}
       placeholder={opts.label}
       name={opts.name}
+      className={opts.className}
     />
   )
 
