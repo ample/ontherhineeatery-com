@@ -52,81 +52,72 @@
                 "html": "<h2>Contact Us</h2>"
               }
             },
-            "formConfig": [
-              {
-                "name": "name",
-                "label": "Name",
-                "required": true,
-                "options": null,
-                "type": null,
-                "className": null
-              },
-              {
-                "name": "email",
-                "label": "Email",
-                "required": true,
-                "options": null,
-                "type": null,
-                "className": null
-              },
-              {
-                "name": null,
-                "label": ".field-50 .col-left",
-                "required": true,
-                "options": null,
-                "type": null,
-                "className": "field-50 col-left"
-              },
-              {
-                "name": null,
-                "label": ".field-50 .col-right",
-                "required": true,
-                "options": null,
-                "type": null,
-                "className": "field-50 col-right"
-              },
-              {
-                "name": "subject",
-                "label": "Reason for inquiry",
-                "required": true,
-                "options": [
-                  {
-                    "label": "Option 1",
-                    "value": "opt1"
-                  },
-                  {
-                    "label": "Option 2",
-                    "value": "opt2"
-                  },
-                  {
-                    "label": "Option 3",
-                    "value": "opt3"
-                  },
-                  {
-                    "label": "Option 4",
-                    "value": "opt4"
-                  }
-                ],
-                "type": "select",
-                "className": null
-              },
-              {
-                "name": "body",
-                "label": "Short Message...",
-                "required": true,
-                "options": null,
-                "type": "text",
-                "className": null
-              },
-              {
-                "name": null,
-                "label": "Component Button",
-                "required": null,
-                "options": null,
-                "type": "button",
-                "className": null
-              }
-            ]
+            "formConfig": {
+              "name": "Contact Form",
+              "action": "/thank-you",
+              "form_fields": [
+                {
+                  "name": "name",
+                  "label": "Name",
+                  "required": true
+                },
+                {
+                  "name": "email",
+                  "label": "Email",
+                  "required": true
+                },
+                {
+                  "name": "field-left",
+                  "label": ".field-50 .col-left",
+                  "required": true,
+                  "options": null,
+                  "type": null,
+                  "className": "field-50 col-left"
+                },
+                {
+                  "name": "field-right",
+                  "label": ".field-50 .col-right",
+                  "required": true,
+                  "options": null,
+                  "type": null,
+                  "className": "field-50 col-right"
+                },
+                {
+                  "name": "subject",
+                  "type": "select",
+                  "label": "Reason for inquiry",
+                  "options": [
+                    {
+                      "label": "Option 1",
+                      "value": "opt1"
+                    },
+                    {
+                      "label": "Option 2",
+                      "value": "opt2"
+                    },
+                    {
+                      "label": "Option 3",
+                      "value": "opt3"
+                    },
+                    {
+                      "label": "Option 4",
+                      "value": "opt4"
+                    }
+                  ],
+                  "required": true
+                },
+                {
+                  "name": "body",
+                  "type": "text",
+                  "label": "Short Message...",
+                  "required": true
+                },
+                {
+                  "type": "button",
+                  "label": "Component Button"
+                }
+              ]
+            }
           }
         ]
       }

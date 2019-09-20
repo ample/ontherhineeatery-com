@@ -12,9 +12,9 @@ const stories = storiesOf("Images", module)
 
 stories.addParameters({
   backgrounds: [
-    { name: "white", value: g.colors.white, default: true},
-    { name: "robinegg", value: g.colors.robinegg },
-  ],
+    { name: "white", value: g.colors.white, default: true },
+    { name: "robinegg", value: g.colors.robinegg }
+  ]
 })
 
 stories.add(
@@ -23,7 +23,7 @@ stories.add(
     return (
       <>
         <GlobalStyles />
-        <ImageGrid images={data.edges[1].node.containers[0].blocks} />
+        <ImageGrid images={data.edges[1].node.containers[1].blocks} />
       </>
     )
   },
