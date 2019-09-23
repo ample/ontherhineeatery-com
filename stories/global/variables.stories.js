@@ -2,7 +2,6 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import styled from "styled-components"
 
-import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
 import notes from "../__notes__/global/variables.md"
 
@@ -13,8 +12,8 @@ stories.addParameters({
     { name: "white", value: g.colors.white, default: true },
     { name: "gray200", value: g.colors.gray200, default: false },
     { name: "robinegg", value: g.colors.robinegg, default: false },
-    { name: "gray700", value: g.colors.gray700, default: false },
-  ],
+    { name: "gray700", value: g.colors.gray700, default: false }
+  ]
 })
 
 stories.add(
@@ -22,7 +21,6 @@ stories.add(
   () => {
     return (
       <>
-        <GlobalStyles />
         <div style={{ maxWidth: 992, margin: "auto" }} className="text-center">
           <h2 style={{ marginTop: 60 }}>Global Variables</h2>
 
@@ -34,7 +32,7 @@ stories.add(
                 <div
                   style={{
                     backgroundColor: g.colors.white,
-                    color: g.colors.gray700,
+                    color: g.colors.gray700
                   }}
                 >
                   white
@@ -45,7 +43,7 @@ stories.add(
                 <div
                   style={{
                     backgroundColor: g.colors.gray100,
-                    color: g.colors.gray700,
+                    color: g.colors.gray700
                   }}
                 >
                   gray100
@@ -60,7 +58,7 @@ stories.add(
                 <div
                   style={{
                     backgroundColor: g.colors.gray200,
-                    color: g.colors.gray700,
+                    color: g.colors.gray700
                   }}
                 >
                   gray200
@@ -75,7 +73,7 @@ stories.add(
                 <div
                   style={{
                     backgroundColor: g.colors.gray300,
-                    color: g.colors.gray700,
+                    color: g.colors.gray700
                   }}
                 >
                   gray300

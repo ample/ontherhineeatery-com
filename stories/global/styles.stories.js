@@ -1,23 +1,20 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { withKnobs, boolean } from "@storybook/addon-knobs"
+import { boolean } from "@storybook/addon-knobs"
 import styled from "styled-components"
 
-import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
 import notes from "../__notes__/global/styles.md"
 
 const stories = storiesOf("Global", module)
-
-stories.addDecorator(withKnobs)
 
 stories.addParameters({
   backgrounds: [
     { name: "white", value: g.colors.white, default: true },
     { name: "gray200", value: g.colors.gray200, default: false },
     { name: "robinegg", value: g.colors.robinegg, default: false },
-    { name: "gray700", value: g.colors.gray700, default: false },
-  ],
+    { name: "gray700", value: g.colors.gray700, default: false }
+  ]
 })
 
 stories.add(
@@ -27,7 +24,6 @@ stories.add(
     let textCenter = boolean("`text-center` utility class", false)
     return (
       <>
-        <GlobalStyles />
         <div
           className={
             (textLight ? " text-light " : "") +
@@ -58,7 +54,7 @@ stories.add(
               </p>
               <p>.className (Desktop size / Mobile size)</p>
             </Notes>
-            <p>
+            <div>
               <strong>default, .text-md (16px/14px) </strong>
               <div>
                 Cras justo odio, dapibus ac facilisis in, egestas eget quam.{" "}
@@ -68,8 +64,8 @@ stories.add(
                 vestibulum at eros. Curabitur blandit tempus porttitor. Cras
                 justo odio, dapibus ac facilisis in, egestas eget quam.
               </div>
-            </p>
-            <p className="text-sm">
+            </div>
+            <div className="text-sm">
               <strong>.text-sm (14px/14px) </strong>
               <div>
                 Cras justo odio, dapibus ac facilisis in, egestas eget quam.
@@ -79,8 +75,8 @@ stories.add(
                 Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac
                 facilisis in, egestas eget quam.
               </div>
-            </p>
-            <p className="text-xs">
+            </div>
+            <div className="text-xs">
               <strong>.text-xs (13px/10.5px) </strong>
               <div>
                 Cras justo odio, dapibus ac facilisis in, egestas eget quam.
@@ -90,23 +86,23 @@ stories.add(
                 Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac
                 facilisis in, egestas eget quam.
               </div>
-            </p>
-            <p className="text-center">
+            </div>
+            <div className="text-center">
               <strong>.text-center </strong>
               <br />
               <div>
                 Maecenas sed diam eget risus varius blandit sit amet non magna.
               </div>
-            </p>
-            <p>
+            </div>
+            <div>
               <div className="text-center">
                 <strong>{"<"}blockquote>, .text-quote (36px/28px)</strong>
               </div>
               <div className="text-quote">
                 Integer posuere erat a ante venenatis.
               </div>
-            </p>
-            <p>
+            </div>
+            <div>
               <strong>.text-light (turns text white)</strong>
               <div className="text-light">
                 Cras justo odio, dapibus ac facilisis in, egestas eget quam.
@@ -116,7 +112,7 @@ stories.add(
                 Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac
                 facilisis in, egestas eget quam.
               </div>
-            </p>
+            </div>
           </section>
 
           <Notes className="text-sm">
@@ -130,12 +126,12 @@ stories.add(
             </p>
           </Notes>
           <section>
-            <p>
+            <div>
               <strong>.newline</strong>
               <div className="newline">
                 {`Aenean eu leo quam.\nPellentesque ornare sem lacinia.\nCras mattis consectetur purus sit amet fermentum.\nAenean eu leo quam.`}
               </div>
-            </p>
+            </div>
           </section>
 
           <Notes className="text-sm">
@@ -156,7 +152,7 @@ stories.add(
               style={{
                 width: 400,
                 display: "block",
-                margin: "20px auto",
+                margin: "20px auto"
               }}
             />
           </section>

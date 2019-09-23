@@ -1,7 +1,6 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 
-import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
 
 import ImageGrid from "../../src/components/image/grid"
@@ -19,13 +18,6 @@ stories.addParameters({
 
 stories.add(
   "Image Grid",
-  () => {
-    return (
-      <>
-        <GlobalStyles />
-        <ImageGrid images={data.edges[1].node.containers[1].blocks} />
-      </>
-    )
-  },
+  () => <ImageGrid images={data.edges[1].node.containers[1].blocks} />,
   { notes: notes }
 )

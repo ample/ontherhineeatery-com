@@ -1,7 +1,6 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 
-import GlobalStyles from "../../src/components/global/styles"
 import HTML from "../../src/components/utilities/html"
 
 import fixture from "../__fixtures__/utilities/html"
@@ -12,15 +11,10 @@ const stories = storiesOf("Utilities", module)
 stories.add(
   "HTML",
   () => {
-    return (
-      <>
-        <GlobalStyles />
-        <HTML field={fixture[0].data} />
-      </>
-    )
+    return <HTML field={fixture[0].data} />
   },
   {
     knobs: { escapeHTML: false },
-    notes: notes,
+    notes: notes
   }
 )

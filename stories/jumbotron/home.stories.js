@@ -1,9 +1,8 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
 import { Row, Col } from "react-flexbox-grid"
-import { withKnobs, boolean, select } from "@storybook/addon-knobs"
+import { boolean, select } from "@storybook/addon-knobs"
 
-import GlobalStyles from "../../src/components/global/styles"
 import * as g from "../../src/components/global/variables"
 
 import HomeJumbotron from "../../src/components/jumbotron/home"
@@ -14,8 +13,6 @@ import notes from "../__notes__/jumbotron/home.md"
 
 const stories = storiesOf("Jumbotron", module)
 
-stories.addDecorator(withKnobs)
-
 stories.add(
   "Home Jumbotron",
   () => {
@@ -24,14 +21,12 @@ stories.add(
       "jumbotron_color",
       {
         Robinegg: g.colors.robinegg,
-        Cantaloupe: g.colors.cantaloupe,
+        Cantaloupe: g.colors.cantaloupe
       },
       g.colors.robinegg
     )
     return (
       <>
-        <GlobalStyles />
-
         <HomeJumbotron
           hero={hero ? data.edges[0].node.image : null}
           color={jumbotron_color}
