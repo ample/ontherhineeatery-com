@@ -16,6 +16,9 @@ export const PageAttributes = graphql`
       fluid(maxWidth: 2400) {
         ...GatsbyContentfulFluid_withWebp
       }
+      file {
+        url
+      }
     }
     layout
     containers {
@@ -90,6 +93,14 @@ export const PageAttributes = graphql`
         }
         expanded
       }
+    }
+    meta_image {
+      file {
+        url
+      }
+    }
+    meta_description {
+      meta_description
     }
   }
 `
