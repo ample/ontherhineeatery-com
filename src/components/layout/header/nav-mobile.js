@@ -1,10 +1,9 @@
-import React, { useRef } from "react"
+import React, { useRef, useState, useEffect } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 import SVG from "react-inlinesvg"
 
 import * as g from "../../global/variables"
-import { useToggleMenu } from "../../hooks"
 
 import NavLinks from "../nav-links"
 import hamburger from "../../../images/icons/icon-hamburger.svg"
@@ -60,11 +59,20 @@ const StyledNavLinks = styled(NavLinks)`
 
 const NavMobile = props => {
   const nodeRef = useRef()
-  const [isOpen, toggleNav] = useToggleMenu(nodeRef)
+  const [isOpen, setMenuState] = useState(false)
+
+  useEffect(() => {
+    const handleOutsideClick = e => {
+      if (!nodeRef.current.contains(e.target)) setMenuState(!isOpen)
+    }
+    if (isOpen) document.addEventListener("mousedown", handleOutsideClick)
+    return () => document.removeEventListener("mousedown", handleOutsideClick)
+  }, [isOpen])
+
   return (
     <div ref={nodeRef}>
       <NavBtn
-        onClick={toggleNav}
+        onClick={() => setMenuState(!isOpen)}
         role="button"
         aria-expanded={isOpen ? true : false}
         aria-label={`Toggle Navigation Menu`}

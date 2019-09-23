@@ -19,6 +19,8 @@ const IndexPage = props => {
     <Layout
       navMenus={navMenus.edges.map(n => n.node)}
       settings={settings.edges.map(n => n.node)}
+      page={page}
+      location={props.location}
     >
       <GlobalStyles />
       <HomeJumbotron hero={page.image} color={g.colors[page.jumbotron_color]}>

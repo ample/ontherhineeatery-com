@@ -12,7 +12,12 @@ const Page = props => {
   const { navMenus, settings } = props.pageContext
 
   return (
-    <Layout navMenus={navMenus} settings={settings}>
+    <Layout
+      navMenus={navMenus}
+      settings={settings}
+      page={page}
+      location={props.location}
+    >
       <Containers data={page.containers} />
     </Layout>
   )

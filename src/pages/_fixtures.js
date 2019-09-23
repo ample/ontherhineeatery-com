@@ -4,10 +4,11 @@ import { graphql } from "gatsby"
 import Container from "../components/layout/container"
 import Layout from "../components/layout"
 
-const IndexPage = ({ data }) => (
+const IndexPage = ({ data, pageContext }) => (
   <Layout
     navMenus={data.navMenus.edges.map(n => n.node)}
     settings={data.settings.edges.map(n => n.node)}
+    location={pageContext.location}
   >
     <Container>
       <h2>Food Menus</h2>

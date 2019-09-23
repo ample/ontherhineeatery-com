@@ -85,13 +85,13 @@ const HoursBlock = props => (
   <>
     <h6>{props.title}</h6>
     <Hours className="text-sm">{props.hours}</Hours>
-    <Note>
+    {/* <Note>
       *Restaurant times may vary. See our{" "}
       <Link to="/vendors" aria-label={`Full Lineup Link`}>
         full lineup
       </Link>{" "}
       for details.
-    </Note>
+    </Note> */}
   </>
 )
 
