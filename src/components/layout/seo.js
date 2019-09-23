@@ -6,8 +6,6 @@ import dig from "object-dig"
 import { getSetting } from "../hooks"
 
 const SEO = ({ location, page, settings }) => {
-  console.log(location)
-
   const title = page.title || getSetting(settings, "default_meta_title")
   const titleTemplate = getSetting(settings, "meta_title_template")
   const image =
