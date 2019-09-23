@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Img from "gatsby-image"
+import Img from "gatsby-image/withIEPolyfill"
 import styled from "styled-components"
 
 import * as g from "../global/variables"
@@ -72,20 +72,6 @@ const FeaturedImg = styled.div`
     transition: opacity 0.1s ease-out;
   }
 
-  @media all and (-ms-high-contrast:none) {
-    .gatsby-image-wrapper {
-      width: auto !important;
-      height: 100%;
-    }
-    img,
-    picture {
-      min-width: 100%;
-      width: auto !important;
-      height: 100%;
-      border-radius: 0px;
-    }
-  }
-
   @media ${g.screen.min.md} and ${g.screen.max.lg} {
     width: ${props => (props.small ? "8.2rem" : "12.6rem")};
     height: ${props => (props.small ? "8.2rem" : "12.6rem")};
@@ -105,10 +91,18 @@ const VendorLogo = ({ children, small, ...props }) => (
     {...props}
   >
     <Logo small={small ? 1 : 0}>
-      <Img fluid={props.logo.fluid} />
+      <Img
+        fluid={props.logo.fluid}
+        objectFit="cover"
+        objectPosition="50% 50%"
+      />
     </Logo>
     <FeaturedImg small={small ? 1 : 0}>
-      <Img fluid={props.featured_image.fluid} />
+      <Img
+        fluid={props.featured_image.fluid}
+        objectFit="cover"
+        objectPosition="50% 50%"
+      />
     </FeaturedImg>
   </StyledLogo>
 )

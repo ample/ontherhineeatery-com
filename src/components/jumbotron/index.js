@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Img from "gatsby-image"
+import Img from "gatsby-image/withIEPolyfill"
 import styled from "styled-components"
 import { Grid, Row, Col } from "react-flexbox-grid"
 
@@ -55,16 +55,6 @@ const StyledJumbotron = styled.section`
       height: 100%;
       max-height: 38.2rem;
       object-fit: cover;
-    }
-
-    ${"" /* IE 11 fallback */}
-    @media all and (-ms-high-contrast:none) {
-      img,
-      picture,
-      .gatsby-image-wrapper {
-        width: auto !important;
-        max-height: none;
-      }
     }
   }
 
@@ -144,7 +134,11 @@ const Jumbotron = props => (
       </hgroup>
       {props.texture && (
         <Texture>
-          <Img fluid={props.texture.fluid} />
+          <Img
+            fluid={props.texture.fluid}
+            objectFit="cover"
+            objectPosition="50% 50%"
+          />
         </Texture>
       )}
     </Title>
@@ -153,7 +147,12 @@ const Jumbotron = props => (
         <Grid>
           <Row center="xs">
             <Col lg={10}>
-              <Img fluid={props.hero.fluid} className="border" />
+              <Img
+                fluid={props.hero.fluid}
+                className="border"
+                objectFit="cover"
+                objectPosition="50% 50%"
+              />
             </Col>
           </Row>
         </Grid>

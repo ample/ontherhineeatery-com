@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import Img from "gatsby-image"
+import Img from "gatsby-image/withIEPolyfill"
 
 import { screen } from "../global/variables"
 
@@ -39,18 +39,6 @@ const StyledGrid = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-
-  ${"" /* IE 11 fallback */}
-  @media all and (-ms-high-contrast:none) {
-    img,
-    picture,
-    .gatsby-image-wrapper {
-      width: auto !important;
-      height: auto;
-      max-height: none;
-      margin: auto;
-    }
   }
 
   ${GridBlock} {
@@ -131,7 +119,12 @@ const ImageGrid = props => (
           className={`grid-image_${idx}`}
           key={`home-image-grid-${idx}`}
         >
-          <Img fluid={block.image.fluid} alt={block.title} />
+          <Img
+            fluid={block.image.fluid}
+            alt={block.title}
+            objectFit="cover"
+            objectPosition="50% 50%"
+          />
         </GridBlock>
       ))}
     </StyledGrid>
