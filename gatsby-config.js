@@ -20,10 +20,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        short_name: 'On The Rhine Eatery',
+        short_name: "On The Rhine Eatery",
         theme_color: `#252422`,
-        icon: `src/images/favicon.png`,
-      },
+        icon: `src/images/favicon.png`
+      }
     },
     {
       resolve: `gatsby-source-contentful`,
@@ -49,6 +49,12 @@ module.exports = {
         typekit: {
           id: "mez0tqy"
         }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-148538664-1"
       }
     }
   ]
