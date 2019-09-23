@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Img from "gatsby-image"
+import Img from "gatsby-image/withIEPolyfill"
 import styled from "styled-components"
 import { Row, Col } from "react-flexbox-grid"
 
@@ -56,29 +56,6 @@ const StyledJumbotron = styled.section`
       height: 100%;
       max-height: 57.8rem;
       object-fit: cover;
-    }
-    ${"" /* IE 11 fallback */}
-    @media all and (-ms-high-contrast:none) {
-      .gatsby-image-wrapper {
-        width: auto !important;
-        height: 100%;
-        max-height: none;
-      }
-      img,
-      picture {
-        width: auto !important;
-        max-height: none;
-        height: 100%;
-        margin-left: -50%;
-      }
-    }
-    @media all and (-ms-high-contrast:none) and ${g.screen.max.md}{
-      img,
-      picture {
-        height: auto;
-        width: 100% !important;
-        margin-left: 0px;
-      }
     }
   }
 
@@ -146,7 +123,12 @@ const HomeJumbotron = ({ children, ...props }) => (
         </ContentCol>
         {props.hero && (
           <ImgCol m={12} md={5}>
-            <Img fluid={props.hero.fluid} className="border" />
+            <Img
+              fluid={props.hero.fluid}
+              className="border"
+              objectFit="cover"
+              objectPosition="50% 50%"
+            />
           </ImgCol>
         )}
       </StyledRow>
