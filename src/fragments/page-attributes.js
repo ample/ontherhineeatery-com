@@ -9,7 +9,7 @@ export const PageAttributes = graphql`
     jumbotron_color
     jumbotron_texture {
       fluid(maxWidth: 2400) {
-        ...GatsbyContentfulFluid_withWebp
+        ...GatsbyContentfulFluid_withWebp_noBase64
       }
     }
     image {

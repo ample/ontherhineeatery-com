@@ -10,4 +10,7 @@ The following props are required:
 - `hours` (string) - Open days and times. Supports `\n` characters
 - `address` (string) - Address. Supports `\n` characters
 - `phone` (string) - Phone Number
-- `full_lineup` (string) - Permalink for list of vendors
+
+There is also an optional title prop:
+
+- `title` (string) - Title for the Hours column. default: `Food Hall Hours`

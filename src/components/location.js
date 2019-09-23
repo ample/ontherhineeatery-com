@@ -6,7 +6,6 @@ import { Row, Col } from "react-flexbox-grid"
 import * as g from "./global/variables"
 import { useMapLink } from "./hooks"
 
-import HTML from "./utilities/html"
 import Link from "./utilities/link"
 import Container from "./layout/container"
 
@@ -84,7 +83,7 @@ const AddressCol = styled(Col)`
 
 const HoursBlock = props => (
   <>
-    <h6>Food Hall Hours</h6>
+    <h6>{props.title}</h6>
     <Hours className="text-sm">{props.hours}</Hours>
     <Note>
       *Restaurant times may vary. See our{" "}
@@ -139,9 +138,14 @@ const Location = props => (
 )
 
 Location.propTypes = {
+  title: PropTypes.string, // Hours column title
   hours: PropTypes.string.isRequired,
   address: PropTypes.string.isRequired,
-  phone: PropTypes.string.isRequired,
+  phone: PropTypes.string.isRequired
+}
+
+Location.defaultProps = {
+  title: "Food Hall Hours"
 }
 
 export default Location

@@ -14,7 +14,7 @@ const FormContainer = ({ body, formConfig }) => (
     padding={{ desktop: "10rem", mobile: "3.6rem" }}
   >
     <Row center="xs">
-      <Col md={9} lg={7} xl={6}>
+      <Col sm={10} md={8} lg={6} xl={5}>
         <HTML field={body} />
         <Form config={formConfig} />
       </Col>

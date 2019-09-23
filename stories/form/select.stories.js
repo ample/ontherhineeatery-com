@@ -1,14 +1,12 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { boolean } from "@storybook/addon-knobs"
 
 import * as g from "../../src/components/global/variables"
 
 import Form from "../../src/components/form"
+import notes from "../__notes__/form/select.md"
 
-import notes from "../__notes__/utilities/form-select.md"
-
-const stories = storiesOf("Utilities", module)
+const stories = storiesOf("Form", module)
 
 stories.addParameters({
   backgrounds: [{ name: "gray200", value: g.colors.gray200, default: true }]
@@ -39,7 +37,11 @@ const config = {
 
 stories.add(
   "FormSelect",
-  () => <Form style={{ maxWidth: 400, margin: "auto" }} config={config}></Form>,
+  () => (
+    <div style={{ maxWidth: 400, margin: "auto" }}>
+      <Form config={config}></Form>
+    </div>
+  ),
   {
     notes: notes
   }

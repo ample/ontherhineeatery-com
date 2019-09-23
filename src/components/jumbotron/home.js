@@ -2,14 +2,18 @@ import React from "react"
 import PropTypes from "prop-types"
 import Img from "gatsby-image"
 import styled from "styled-components"
-import MediaQuery from "react-responsive"
-import { Grid, Row, Col } from "react-flexbox-grid"
+import { Row, Col } from "react-flexbox-grid"
 
 import * as g from "../global/variables"
 
 import Container from "../layout/container"
 
-const Content = styled(Container)``
+const Content = styled(Container)`
+  @media ${g.screen.max.sm} {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+`
 const StyledRow = styled(Row)``
 const ContentCol = styled(Col)``
 const ImgCol = styled(Col)``
@@ -39,6 +43,8 @@ const StyledJumbotron = styled.section`
   ${ContentCol} {
     order: 1;
     z-index: 2;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
   }
 
   ${ImgCol} {
@@ -50,6 +56,29 @@ const StyledJumbotron = styled.section`
       height: 100%;
       max-height: 57.8rem;
       object-fit: cover;
+    }
+    ${"" /* IE 11 fallback */}
+    @media all and (-ms-high-contrast:none) {
+      .gatsby-image-wrapper {
+        width: auto !important;
+        height: 100%;
+        max-height: none;
+      }
+      img,
+      picture {
+        width: auto !important;
+        max-height: none;
+        height: 100%;
+        margin-left: -50%;
+      }
+    }
+    @media all and (-ms-high-contrast:none) and ${g.screen.max.md}{
+      img,
+      picture {
+        height: auto;
+        width: 100% !important;
+        margin-left: 0px;
+      }
     }
   }
 
@@ -127,11 +156,11 @@ const HomeJumbotron = ({ children, ...props }) => (
 
 HomeJumbotron.propTypes = {
   hero: PropTypes.object, // contains fluid image
-  color: PropTypes.string,
+  color: PropTypes.string
 }
 
 HomeJumbotron.defaultProps = {
-  color: g.colors.robinegg,
+  color: g.colors.robinegg
 }
 
 export default HomeJumbotron

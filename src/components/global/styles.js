@@ -21,6 +21,7 @@ const brand = css`
     font-size: 16px;
     font-size: 1.6rem;
     line-height: 1.5;
+    color: ${g.colors.gray700};
     color: ${g.colors.gray800 + "B3"};
   }
 

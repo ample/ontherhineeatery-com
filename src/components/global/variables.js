@@ -1,5 +1,5 @@
 export const fonts = {
-  oswald: "oswald, sans-serif", // 500, 700
+  oswald: "oswald, 'arial narrow', sans-serif", // 500, 700
   source: "source-sans-pro, sans-serif", // 200, 300, 400, 600, 700, 900
   acumin: "acumin-pro-condensed, sans-serif", // 600
 }

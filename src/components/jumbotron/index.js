@@ -56,6 +56,16 @@ const StyledJumbotron = styled.section`
       max-height: 38.2rem;
       object-fit: cover;
     }
+
+    ${"" /* IE 11 fallback */}
+    @media all and (-ms-high-contrast:none) {
+      img,
+      picture,
+      .gatsby-image-wrapper {
+        width: auto !important;
+        max-height: none;
+      }
+    }
   }
 
   @media ${g.screen.min.sm} and ${g.screen.max.md} {

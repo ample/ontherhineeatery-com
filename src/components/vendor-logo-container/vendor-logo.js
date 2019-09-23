@@ -60,15 +60,30 @@ const Logo = styled.div`
 `
 const FeaturedImg = styled.div`
   position: absolute;
+  top: 0;
+  left: 0;
   border-radius: 100%;
   width: ${props => (props.small ? "8rem" : "16rem")};
   height: ${props => (props.small ? "8rem" : "16rem")};
   opacity: 0;
-  transition: opacity 0.15s ease-in;
-
+  transition: opacity 0.1s ease-in;
   ${StyledLogo}:hover & {
     opacity: 1;
-    transition: opacity 0.15s ease-out;
+    transition: opacity 0.1s ease-out;
+  }
+
+  @media all and (-ms-high-contrast:none) {
+    .gatsby-image-wrapper {
+      width: auto !important;
+      height: 100%;
+    }
+    img,
+    picture {
+      min-width: 100%;
+      width: auto !important;
+      height: 100%;
+      border-radius: 0px;
+    }
   }
 
   @media ${g.screen.min.md} and ${g.screen.max.lg} {
@@ -106,11 +121,11 @@ VendorLogo.propTypes = {
 
   // Link Props
   to: PropTypes.string, // if `to` is null, this component renders as a div
-  target: PropTypes.string, // exclusive to external links
+  target: PropTypes.string // exclusive to external links
 }
 
 VendorLogo.defaultProps = {
-  small: false,
+  small: false
 }
 
 export default VendorLogo

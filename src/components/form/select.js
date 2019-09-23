@@ -66,6 +66,10 @@ const StyledSelect = styled(Select)`
     box-shadow: 0rem 0.3rem 0.6rem ${colors.gray300};
     text-align: left;
   }
+
+  .form-select__option:hover {
+    background-color: rgba(135, 196, 182, 0.25);
+  }
 `
 
 const FormSelect = ({ className, ...props }) => {
@@ -78,6 +82,7 @@ const FormSelect = ({ className, ...props }) => {
       className={className}
       classNamePrefix="form-select"
       required
+      aria-label={`${props.placeholder} select field`}
       theme={theme => ({
         ...theme,
         borderRadius: 0,

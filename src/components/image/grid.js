@@ -6,23 +6,32 @@ import Img from "gatsby-image"
 import { screen } from "../global/variables"
 
 import Container from "../layout/container"
+import bgTexture from "../../images/bg-texture.svg"
 
 const GridBlock = styled.div``
+
+const StyledContainer = styled(Container)`
+  @media ${screen.min.md} {
+    display: flex;
+    background-image: url(${bgTexture});
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+`
 
 const StyledGrid = styled.div`
   display: -ms-grid;
   ${'' /* prettier-ignore */}
   -ms-grid-columns: (1fr)[4] 1rem (1fr)[8];
   ${'' /* prettier-ignore */}
-  -ms-grid-rows: (1fr)[4] 1rem (1fr)[3] 0rem;
+  -ms-grid-rows: (1fr)[4] 1rem (1fr)[4];
 
   display: grid;
   height: 64rem;
   margin: 1rem;
   grid-gap: 1rem;
   grid-template-columns: repeat(12, 1fr);
-
-  grid-template-rows: repeat(7, 1fr) 0rem;
+  grid-template-rows: repeat(8, 1fr);
 
   img,
   picture,
@@ -30,6 +39,18 @@ const StyledGrid = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  ${"" /* IE 11 fallback */}
+  @media all and (-ms-high-contrast:none) {
+    img,
+    picture,
+    .gatsby-image-wrapper {
+      width: auto !important;
+      height: auto;
+      max-height: none;
+      margin: auto;
+    }
   }
 
   ${GridBlock} {
@@ -90,7 +111,7 @@ const StyledGrid = styled.div`
 
   @media ${screen.max.sm} {
     ${GridBlock} {
-      margin: 1.5rem 0.75rem;
+      margin: 1.5rem 0rem;
     }
 
     .gatsby-image-wrapper {
@@ -100,7 +121,10 @@ const StyledGrid = styled.div`
 `
 
 const ImageGrid = props => (
-  <Container padding={{ desktop: "0rem", mobile: "0rem" }}>
+  <StyledContainer
+    padding={{ desktop: "0rem", mobile: "0rem" }}
+    aria-label="On The Rhine Eatery Images"
+  >
     <StyledGrid>
       {props.images.map((block, idx) => (
         <GridBlock
@@ -111,11 +135,11 @@ const ImageGrid = props => (
         </GridBlock>
       ))}
     </StyledGrid>
-  </Container>
+  </StyledContainer>
 )
 
 ImageGrid.propTypes = {
-  images: PropTypes.array.isRequired, // array of ImageBlocks
+  images: PropTypes.array.isRequired // array of ImageBlocks
 }
 
 export default ImageGrid

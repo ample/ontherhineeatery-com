@@ -2,13 +2,13 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import { Row, Col } from "react-flexbox-grid"
 
-import * as g from "../src/components/global/variables"
+import * as g from "../../src/components/global/variables"
 
-import Container from "../src/components/layout/container"
-import Form from "../src/components/form"
-import notes from "./__notes__/form.md"
+import Container from "../../src/components/layout/container"
+import Form from "../../src/components/form"
+import notes from "../__notes__/form/index.md"
 
-import data from "./__fixtures__/pages"
+import data from "../__fixtures__/pages"
 
 const stories = storiesOf("Form", module)
 

@@ -67,7 +67,7 @@ const Footer = props => (
     <StyledNavLinks nav={props.nav} />
 
     <Hours
-      aria-label="On The Rhine Food Hall Hours"
+      aria-label="On The Rhine Eatery Hours"
       className="newline"
       dangerouslySetInnerHTML={{
         __html: getSetting(props.settings, "hours")
@@ -92,7 +92,7 @@ const Footer = props => (
     </LocationLink>
 
     <SocialIcons
-      vendor="On The Rhine Food Hall"
+      vendor="On The Rhine Eatery"
       icons={JSON.parse(getSetting(props.settings, "footer_icons"))}
       dark={true}
     />
