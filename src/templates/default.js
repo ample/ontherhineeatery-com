@@ -30,7 +30,7 @@ const Page = props => {
 export default Page
 
 export const query = graphql`
-  query PageQuery($id: String!) {
+  query DefaultPageQuery($id: String!) {
     page: contentfulPage(contentful_id: { eq: $id }) {
       ...PageAttributes
     }
