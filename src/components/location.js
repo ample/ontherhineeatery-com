@@ -9,6 +9,9 @@ import { useMapLink } from "./hooks"
 import Link from "./utilities/link"
 import Container from "./layout/container"
 
+const Address = styled.div``
+const Hours = styled.div``
+
 const Note = styled.div`
   color: ${g.colors.cantaloupe};
   font-size: 1.1rem;
@@ -22,8 +25,6 @@ const Note = styled.div`
     }
   }
 `
-
-const Hours = styled.div``
 
 const HoursCol = styled(Col)`
   order: 2;
@@ -98,12 +99,7 @@ const HoursBlock = props => (
 const AddressBlock = props => (
   <>
     <Primary>
-      <Link
-        to={useMapLink(props.address)}
-        aria-label={`On The Rhine Google Maps Link`}
-      >
-        {props.address}
-      </Link>
+      <Address>{props.address}</Address>
       <Link
         to={`tel:${props.phone}`}
         target="_self"
@@ -115,7 +111,7 @@ const AddressBlock = props => (
 
     <Note>
       <Link
-        to={useMapLink(props.address)}
+        to={useMapLink(props.address, true)}
         aria-label={`On The Rhine Google Maps Link`}
       >
         Get directions
