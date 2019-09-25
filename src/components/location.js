@@ -65,7 +65,6 @@ const AddressCol = styled(Col)`
     line-height: 1.5;
   }
   a {
-    display: block;
     &:hover,
     &:focus {
       color: ${g.colors.gray400};
