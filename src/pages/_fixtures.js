@@ -11,9 +11,6 @@ const FixturesPage = ({ data, pageContext }) => (
     location={pageContext.location}
   >
     <Container>
-      <h2>Food Menus</h2>
-      <pre>{JSON.stringify(data.foodMenus, null, 2)}</pre>
-
       <h2>Nav Menus</h2>
       <pre>{JSON.stringify(data.navMenus, null, 2)}</pre>
 
@@ -183,8 +180,9 @@ export const query = graphql`
             title
             label
             items {
+              id
               title
-              price
+              label
               body {
                 body
                 childMarkdownRemark {
@@ -204,27 +202,6 @@ export const query = graphql`
           key
           value {
             value
-          }
-        }
-      }
-    }
-
-    foodMenus: allContentfulMenu {
-      edges {
-        node {
-          id
-          title
-          label
-          items {
-            id
-            title
-            label
-            body {
-              body
-              childMarkdownRemark {
-                html
-              }
-            }
           }
         }
       }
