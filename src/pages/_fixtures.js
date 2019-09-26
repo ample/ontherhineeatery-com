@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Container from "../components/layout/container"
 import Layout from "../components/layout"
 
-const IndexPage = ({ data, pageContext }) => (
+const FixturesPage = ({ data, pageContext }) => (
   <Layout
     navMenus={data.navMenus.edges.map(n => n.node)}
     settings={data.settings.edges.map(n => n.node)}
@@ -29,7 +29,7 @@ const IndexPage = ({ data, pageContext }) => (
   </Layout>
 )
 
-export default IndexPage
+export default FixturesPage
 
 export const query = graphql`
   {
@@ -178,6 +178,20 @@ export const query = graphql`
           socialLinks {
             icon
             url
+          }
+          menus {
+            title
+            label
+            items {
+              title
+              price
+              body {
+                body
+                childMarkdownRemark {
+                  html
+                }
+              }
+            }
           }
         }
       }
