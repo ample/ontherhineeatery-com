@@ -9,7 +9,7 @@ import { colors, screen } from "../global/variables"
 import Slideshow from "../utilities/slideshow"
 
 const StyledGrid = styled(Grid)`
-  background-color: ${props => props.bgColor};
+  background-color: ${props => props.bgcolor};
   padding-top: ${props => props.padding.desktop};
   padding-bottom: ${props => props.padding.desktop};
   @media ${screen.max.sm} {
@@ -26,15 +26,14 @@ const StyledCol = styled(Col)`
   picture,
   .gatsby-image-wrapper {
     width: 100%;
-    height: 100%;
-    min-height: 21rem;
-    max-height: 24.8rem;
+    height: 24.8rem;
     object-fit: cover;
   }
+}
 `
 
 const ImageTiles = props => (
-  <StyledGrid fluid padding={props.padding} bgColor={props.bgColor}>
+  <StyledGrid fluid padding={props.padding} bgcolor={props.bgColor}>
     <MediaQuery query={screen.max.sm}>
       <Slideshow>
         {props.images.map((img, idx) => (
@@ -49,6 +48,7 @@ const ImageTiles = props => (
         ))}
       </Slideshow>
     </MediaQuery>
+
     <MediaQuery query={screen.min.sm}>
       <Row>
         {props.images.map((img, idx) => (
@@ -72,7 +72,7 @@ ImageTiles.propTypes = {
 }
 
 ImageTiles.defaultProps = {
-  bgColor: colors.gray100,
+  bgcolor: colors.gray100,
   padding: {
     desktop: "4rem",
     mobile: "2rem"
