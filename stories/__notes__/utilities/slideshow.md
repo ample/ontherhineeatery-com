@@ -51,10 +51,10 @@ the slide, even if the images are different sizes or aspect ratios:
 ## Slide Size
 
 The slide container will match the aspect ratio of the tallest image in the
-slideshow, up to 286px. Images will fill the width of the slide and the slides
+slideshow, up to 660px. Images will fill the width of the slide and the slides
 will fill the width of the containing component.
 
-Images are set to `object-fit: cover`. All gatsby-images should use theIE11
+Images are set to `object-fit: cover`. All gatsby-images should use the IE11
 polyfill:
 
 ```jsx
@@ -71,5 +71,5 @@ import Img from "gatsby-image/withIEPolyfill"
 ## Styling
 
 The Slideshow utility styles can be edited in the
-`./utilities/slideshow/slideshow.scss` file. This file is based on the default
-package CSS, modified to match the Kitchen 1883 brand.
+`./utilities/slideshow/styles.js` file. This file is based on the default
+package CSS, modified to match the On The Rhine brand.

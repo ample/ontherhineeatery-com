@@ -15,7 +15,7 @@ const Hero = styled.div``
 const Logo = styled.div``
 const StyledLogo = styled(VendorLogo)``
 
-const StyledPreview = styled.div`
+const StyledPreview = styled.section`
   padding-bottom: 2.6rem;
   ${Hero} {
     position: relative;
@@ -40,7 +40,7 @@ const StyledPreview = styled.div`
 `
 
 const VendorPreview = props => (
-  <StyledPreview>
+  <StyledPreview aria-label="Vendor">
     <Hero>
       <ImageTiles
         images={props.images}
@@ -57,7 +57,7 @@ const VendorPreview = props => (
     />
     <Container padding={{ desktop: "1.4rem", mobile: "0.8rem" }}>
       <Row center="xs">
-        <Col md={10} xl={8}>
+        <Col md={10} xl={8} aria-label="Vendor Description">
           <h3>{props.title}</h3>
           <HTML field={props.description} />
           <Button to={props.permalink}>Menu + Details</Button>

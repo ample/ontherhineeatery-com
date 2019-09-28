@@ -6,7 +6,7 @@ import * as g from "../../src/components/global/variables"
 
 import ImageTiles from "../../src/components/image/tiles"
 import data from "../__fixtures__/vendors.json"
-// import notes from "../__notes__/image/tiles.md"
+import notes from "../__notes__/image/tiles.md"
 
 const stories = storiesOf("Images", module)
 
@@ -25,6 +25,6 @@ stories.add(
         padding={padding}
       />
     )
-  }
-  // { notes: notes }
+  },
+  { notes: notes }
 )

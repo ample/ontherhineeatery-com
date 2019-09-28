@@ -68,6 +68,7 @@ const ImageTiles = props => (
 
 ImageTiles.propTypes = {
   images: PropTypes.array.isRequired,
+  bgcolor: PropTypes.string,
   padding: PropTypes.object
 }
 

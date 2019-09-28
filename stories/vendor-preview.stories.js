@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react"
 
 import VendorPreview from "../src/components/vendor-preview"
 import data from "./__fixtures__/vendors.json"
-// import notes from "./__notes__/vendor-preview.md"
+import notes from "./__notes__/vendor-preview.md"
 
 const stories = storiesOf("Vendor Preview", module)
 
@@ -18,6 +18,6 @@ stories.add(
       description={data.edges[0].node.description}
       permalink={data.edges[0].node.permalink}
     />
-  )
-  // { notes: notes }
+  ),
+  { notes: notes }
 )
