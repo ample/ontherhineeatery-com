@@ -25,8 +25,8 @@ const slideshowStyles = css`
 
     .control-arrow,
     &.carousel-slider .control-arrow {
-      transition: all 0.15s ease-in-out;
-      opacity: 0.65;
+      transition: all 0.15s ease-out;
+      opacity: 0.75;
       position: absolute;
       z-index: 2;
       top: 2rem;
