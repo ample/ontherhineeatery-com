@@ -30,8 +30,8 @@ const StyledLogo = styled(Link)`
 
   @media ${g.screen.min.md} and ${g.screen.max.lg} {
     border: 0.3rem solid ${g.colors.gray100};
-    width: ${props => (props.small ? "8.8rem" : "13.2rem")};
-    height: ${props => (props.small ? "8.8rem" : "13.2rem")};
+    width: ${props => (props.small ? "8.8rem" : "12.6rem")};
+    height: ${props => (props.small ? "8.8rem" : "12.6rem")};
   }
 
   @media ${g.screen.max.md} {

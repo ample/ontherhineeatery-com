@@ -15,26 +15,26 @@ const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.3rem 6rem 2.3rem 4.4rem;
+  padding: 1.8rem 6rem 1.8rem 4.4rem;
   position: relative;
   @media ${g.screen.max.md} {
-    padding: 1.4rem;
+    padding: 1.1rem 1.4rem;
   }
 `
 
 const StyledLogo = styled(Logo)`
-  height: 4.5rem;
+  height: 5.5rem;
 
   @media ${g.screen.max.md} {
-    height: 3.5rem;
+    height: 4.2rem;
   }
 
   ${"" /* IE 11 fallback */}
   @media all and (-ms-high-contrast:none) {
-    max-width: 15rem;
+    max-width: 12rem;
   }
   @media all and (-ms-high-contrast: none) and ${g.screen.max.md} {
-    max-width: 10rem;
+    max-width: 8rem;
   }
 `
 
