@@ -5,7 +5,7 @@ import * as g from "../../src/components/global/variables"
 
 import ImageHero from "../../src/components/image/hero"
 import data from "../__fixtures__/pages.json"
-import notes from "../__notes__/image/grid.md"
+import notes from "../__notes__/image/hero.md"
 
 const stories = storiesOf("Images", module)
 
