@@ -5,6 +5,7 @@ import { graphql } from "gatsby"
 import PageAttributes from "../fragments/page-attributes"
 
 import Containers from "../components/containers"
+import ImageHero from "../components/image/hero"
 import Layout from "../components/layout"
 
 const Page = props => {
@@ -18,6 +19,7 @@ const Page = props => {
       page={page}
       location={props.location}
     >
+      {page.image && <ImageHero image={page.image} />}
       <Containers data={page.containers} />
     </Layout>
   )
