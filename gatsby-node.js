@@ -4,7 +4,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      pages: allContentfulPage(filter: { layout: { ne: "home" } }) {
+      pages: allContentfulPage(filter: { layout: { nin: ["home", "404"] } }) {
         edges {
           node {
             permalink

@@ -4,16 +4,13 @@ import { graphql } from "gatsby"
 import Container from "../components/layout/container"
 import Layout from "../components/layout"
 
-const IndexPage = ({ data, pageContext }) => (
+const FixturesPage = ({ data, pageContext }) => (
   <Layout
     navMenus={data.navMenus.edges.map(n => n.node)}
     settings={data.settings.edges.map(n => n.node)}
     location={pageContext.location}
   >
     <Container>
-      <h2>Food Menus</h2>
-      <pre>{JSON.stringify(data.foodMenus, null, 2)}</pre>
-
       <h2>Nav Menus</h2>
       <pre>{JSON.stringify(data.navMenus, null, 2)}</pre>
 
@@ -29,7 +26,7 @@ const IndexPage = ({ data, pageContext }) => (
   </Layout>
 )
 
-export default IndexPage
+export default FixturesPage
 
 export const query = graphql`
   {
@@ -179,6 +176,21 @@ export const query = graphql`
             icon
             url
           }
+          menus {
+            title
+            label
+            items {
+              id
+              title
+              label
+              body {
+                body
+                childMarkdownRemark {
+                  html
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -190,27 +202,6 @@ export const query = graphql`
           key
           value {
             value
-          }
-        }
-      }
-    }
-
-    foodMenus: allContentfulMenu {
-      edges {
-        node {
-          id
-          title
-          label
-          items {
-            id
-            title
-            label
-            body {
-              body
-              childMarkdownRemark {
-                html
-              }
-            }
           }
         }
       }

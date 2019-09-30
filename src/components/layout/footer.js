@@ -75,7 +75,7 @@ const Footer = props => (
     />
 
     <LocationLink
-      to={useMapLink(getSetting(props.settings, "address"))}
+      to={useMapLink(getSetting(props.settings, "address"), true)}
       aria-label={`On The Rhine Google Maps Link`}
       className="newline"
       dangerouslySetInnerHTML={{
