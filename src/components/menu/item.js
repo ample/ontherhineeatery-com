@@ -4,6 +4,8 @@ import styled from "styled-components"
 
 import * as g from "../global/variables"
 
+import HTML from "../utilities/html"
+
 const Title = styled.div`
   text-transform: uppercase;
   color: ${g.colors.gray700};
@@ -28,17 +30,19 @@ const Price = styled.div`
   }
 `
 
-const Body = styled.div`
+const Body = styled(HTML)`
   color: ${g.colors.black};
   font-weight: 200;
   font-size: 1.3rem;
-  line-height: 2.4rem;
+  line-height: 2rem;
+  text-align: left;
 `
 
 const StyledItem = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 2.4rem auto;
 
   ${Body} {
     flex-basis: 100%;
@@ -51,7 +55,7 @@ const MenuItem = props => (
   <StyledItem>
     <Title>{props.title}</Title>
     <Price>{formatPrice(props.price)}</Price>
-    <Body>{props.body.body}</Body>
+    <Body className="newline" field={props.body} />
   </StyledItem>
 )
 
