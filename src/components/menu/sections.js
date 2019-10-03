@@ -28,7 +28,7 @@ const getItems = (items, section) =>
 const MenuSections = props => (
   <Container aria-label="">
     <Row center="xs">
-      <Col md={9}>
+      <Col md={9} lg={7} xl={6}>
         {props.menus.map((section, s_idx) => (
           <MenuSection key={`menu-section-${s_idx}`}>
             <Label>{section.label}</Label>

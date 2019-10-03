@@ -53,16 +53,16 @@ const formatPrice = price => (isNaN(parseFloat(price)) ? price : `$${price}`)
 
 const MenuItem = props => (
   <StyledItem>
-    <Title>{props.title}</Title>
-    <Price>{formatPrice(props.price)}</Price>
-    <Body className="newline" field={props.body} />
+    <Title>{props.label}</Title>
+    {props.price && <Price>{formatPrice(props.price)}</Price>}
+    {props.body && <Body className="newline" field={props.body} />}
   </StyledItem>
 )
 
 MenuItem.propTypes = {
-  name: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired,
-  body: PropTypes.string.isRequired
+  label: PropTypes.string.isRequired,
+  price: PropTypes.string,
+  body: PropTypes.object
 }
 
 export default MenuItem

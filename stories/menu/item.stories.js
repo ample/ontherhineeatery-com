@@ -11,12 +11,12 @@ const stories = storiesOf("Menu", module)
 stories.add(
   "MenuItem",
   () => {
-    const item = data.edges[0].node.menus[0].items[0]
+    const item = data.edges[3].node.menus[6].sections[0].items[0]
     const price = text("price", item.price)
     return (
       <MenuItem
-        title={item.title}
-        price={item.price}
+        label={item.label}
+        price={price}
         body={item.body}
       />
     )
