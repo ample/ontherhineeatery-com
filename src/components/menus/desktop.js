@@ -13,22 +13,31 @@ const Tabs = styled(Row)`
 
 const Tab = styled.button`
   flex: 1;
-  color: ${g.colors.gray700};
-  border: none;
-  width: 100%;
-  min-height: 4.6rem;
-  height: 100%;
+  min-width: calc(100% / 6);
+  max-width: calc(100% / 6);
   font-size: 1.6rem;
   font-weight: 200;
   line-height: 2.4rem;
-  border-bottom: 0.2rem solid ${g.colors.white};
+  color: ${g.colors.gray700};
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.2rem solid transparent;
+  height: 100%;
+  padding: 0rem;
   &:hover {
     border-bottom: 0.2rem solid ${g.colors.gray300};
     cursor: pointer;
-    transition: border-bottom 0.15s ease-out;
+    transition: border-bottom 0.1s ease-out;
   }
-  &:focus {
+  span {
+    ${"" /* displays outline only with tab key */}
     outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 4.6rem;
+    height: 100%;
   }
   &.active-tab {
     font-weight: 600;
@@ -41,20 +50,27 @@ const Tab = styled.button`
 
 const DesktopMenus = props => (
   <>
-    <Tabs center="xs">
+    <Tabs center="xs" role="tablist">
       {props.tabs.map((tab, idx) => (
-        <Col md={2} key={`menu_${idx}`}>
-          <Tab
-            type="button"
-            className={idx === props.activeIdx ? " active-tab " : ""}
-            onClick={() => props.onClick(idx)}
-          >
-            {tab}
-          </Tab>
-        </Col>
+        <Tab
+          type="button"
+          role="tab"
+          id={`menutab${idx + 1}`}
+          aria-controls={`menupanel${idx + 1}`}
+          aria-selected={idx === props.activeIdx ? true : false}
+          className={idx === props.activeIdx ? " active-tab " : ""}
+          key={`menu_${idx}`}
+          onClick={() => props.onClick(idx)}
+        >
+          <span tabIndex="-1">{tab}</span>
+        </Tab>
       ))}
     </Tabs>
-    <MenuSections sections={props.sections[props.activeIdx]} />
+    <MenuSections
+      label={props.tabs[props.activeIdx]}
+      sections={props.sections[props.activeIdx]}
+      activeIdx={props.activeIdx}
+    />
   </>
 )
 

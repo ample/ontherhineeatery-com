@@ -16,13 +16,16 @@ const MenuSection = styled.section`
   }
 `
 
-const Label = styled.div`
+const Label = styled.h4`
   text-transform: uppercase;
   font-size: 1.7rem;
   font-weight: 900;
   color: ${g.colors.gray500};
   text-align: center;
   padding-bottom: 1rem;
+  letter-spacing: normal;
+  padding-top: 0.4rem;
+  padding-bottom: 1.4rem;
 `
 
 const getItems = (items, section) =>
@@ -34,20 +37,28 @@ const MenuSections = props => (
   <Container aria-label="" padding={{ desktop: "0rem", mobile: "0.5rem" }}>
     <Row center="xs">
       <Col md={9} lg={7} xl={6}>
-        {props.sections &&
-          props.sections.map((section, s_idx) => (
-            <MenuSection key={`menu-section-${s_idx}`}>
-              <Label>{section.label}</Label>
-              {getItems(section.items, section.label)}
-            </MenuSection>
-          ))}
+        <section role="tabpanel" aria-label={`${props.label}`}>
+          {props.sections &&
+            props.sections.map((section, s_idx) => (
+              <MenuSection
+                key={`menu-section-${s_idx}`}
+                // aria-hidden={s_idx !== props.activeIdx ? true : false}
+                id={`menupanel${s_idx + 1}`}
+              >
+                <Label>{section.label}</Label>
+                {getItems(section.items, section.label)}
+              </MenuSection>
+            ))}
+        </section>
       </Col>
     </Row>
   </Container>
 )
 
 MenuSections.propTypes = {
-  sections: PropTypes.array.isRequired
+  label: PropTypes.string.isRequired,
+  sections: PropTypes.array.isRequired,
+  activeIdx: PropTypes.number
 }
 
 export default MenuSections

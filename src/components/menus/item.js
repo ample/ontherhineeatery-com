@@ -52,7 +52,7 @@ const StyledItem = styled.div`
 const formatPrice = price => (isNaN(parseFloat(price)) ? price : `$${price}`)
 
 const MenuItem = props => (
-  <StyledItem>
+  <StyledItem aria-label={`${props.label}`}>
     <Title>{props.label}</Title>
     {props.price && <Price>{formatPrice(props.price)}</Price>}
     {props.body && <Body className="newline" field={props.body} />}
