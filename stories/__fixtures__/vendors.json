@@ -115,74 +115,12 @@
           {
             "title": "Eli's Sandwiches, Ribs & Sides",
             "label": "Sandwiches, Ribs & Sides",
-            "items": [
-              {
-                "title": "Eli's Pulled Pork",
-                "price": "6.25",
-                "body": {
-                  "body": "Hickory smoked pulled pork piled high on a toasted honey bun",
-                  "childMarkdownRemark": {
-                    "html": "<p>Hickory smoked pulled pork piled high on a toasted honey bun</p>"
-                  }
-                }
-              },
-              {
-                "title": "Eli's Smoked Turkey",
-                "price": "6.25",
-                "body": {
-                  "body": "Layers of hickory smoked, hand-sliced turkey on a toasted honey bun",
-                  "childMarkdownRemark": {
-                    "html": "<p>Layers of hickory smoked, hand-sliced turkey on a toasted honey bun</p>"
-                  }
-                }
-              },
-              {
-                "title": "Eli's Two All-Beef Dogs",
-                "price": "6.25",
-                "body": {
-                  "body": "Two all-beef smoked franks, flash-fried & bunned, topped with coleslaw and pork crispins",
-                  "childMarkdownRemark": {
-                    "html": "<p>Two all-beef smoked franks, flash-fried &#x26; bunned, topped with coleslaw and pork crispins</p>"
-                  }
-                }
-              },
-              {
-                "title": "Eli's Ribs",
-                "price": "prices listed",
-                "body": {
-                  "body": "2 bones ($6)\n4 bones ($11)\n6 bones ($16)\n8 bones ($21)\n10 bones ($26)\n12 bones ($30)\n\nRib Tips ($9)",
-                  "childMarkdownRemark": {
-                    "html": "<p>2 bones ($6)\n4 bones ($11)\n6 bones ($16)\n8 bones ($21)\n10 bones ($26)\n12 bones ($30)</p>\n<p>Rib Tips ($9)</p>"
-                  }
-                }
-              },
-              {
-                "title": "Eli's Sides",
-                "price": "2.25 each",
-                "body": {
-                  "body": "Creamy Southern Cole Slaw\nMacaroni & Cheese\nJalapeno Cheddar Grits\nBaked Beans\nMashed Potatoes\nJalapeno Cornbread\n\n__Make it a Plate__\nAdd two sides to any meat $4",
-                  "childMarkdownRemark": {
-                    "html": "<p>Creamy Southern Cole Slaw\nMacaroni &#x26; Cheese\nJalapeno Cheddar Grits\nBaked Beans\nMashed Potatoes\nJalapeno Cornbread</p>\n<p><strong>Make it a Plate</strong>\nAdd two sides to any meat $4</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Eli's Catering",
             "label": "Catering",
-            "items": [
-              {
-                "title": "Eli's Picnic Menu",
-                "price": "prices listed above",
-                "body": {
-                  "body": "The picnic menu is our large buffet-style option. The food is sold by the pound and available for any size group\n\nPulled Pork $16/lb\nSmoked Turkey $19/lb\nFull Slab Ribs $30\n\n__Sides $7/lb__\nCreamy Southern Cole Slaw\nMacaroni & Cheese\nJalapeno Cheddar Grits\nBaked Beans\nMashed Potatoes\n\nJalapeno Cornbread $2.25/piece\n\n__Suggested Quantities__\nPulled pork, turkey, macaroni & cheese, mashed potatoes - 3 servings/lb\nBaked beans, jalapeno cheddar grits, cole slaw - 5 servings/lb\n\nFor Eli's BBQ catering information please call: 513-263-5910 ext. 2831\n",
-                  "childMarkdownRemark": {
-                    "html": "<p>The picnic menu is our large buffet-style option. The food is sold by the pound and available for any size group</p>\n<p>Pulled Pork $16/lb\nSmoked Turkey $19/lb\nFull Slab Ribs $30</p>\n<p><strong>Sides $7/lb</strong>\nCreamy Southern Cole Slaw\nMacaroni &#x26; Cheese\nJalapeno Cheddar Grits\nBaked Beans\nMashed Potatoes</p>\n<p>Jalapeno Cornbread $2.25/piece</p>\n<p><strong>Suggested Quantities</strong>\nPulled pork, turkey, macaroni &#x26; cheese, mashed potatoes - 3 servings/lb\nBaked beans, jalapeno cheddar grits, cole slaw - 5 servings/lb</p>\n<p>For Eli's BBQ catering information please call: 513-263-5910 ext. 2831</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           }
         ]
       }
@@ -294,289 +232,37 @@
           {
             "title": "Dope! Apps",
             "label": "All That Apps",
-            "items": [
-              {
-                "title": "Dope! Wings",
-                "price": "10",
-                "body": {
-                  "body": "6 pieces tossed in Dope! Sauce and topped with fried garlic, cilantro & mint.",
-                  "childMarkdownRemark": {
-                    "html": "<p>6 pieces tossed in Dope! Sauce and topped with fried garlic, cilantro &#x26; mint.</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Chicken Satay",
-                "price": "7",
-                "body": {
-                  "body": "3 pieces served with sliced cucumber & coconut peanut sauce",
-                  "childMarkdownRemark": {
-                    "html": "<p>3 pieces served with sliced cucumber &#x26; coconut peanut sauce</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Dope! Salads",
             "label": "Superfly Salads",
-            "items": [
-              {
-                "title": "Dope! Green Papaya",
-                "price": "6 (side)/8 (large)",
-                "body": {
-                  "body": "Shredded green papaya with tomato, cucumber, green beans & carrots, tossed in a spicy Thai lime dressing. Topped with crushed peanuts, Thai basil and lime wedge",
-                  "childMarkdownRemark": {
-                    "html": "<p>Shredded green papaya with tomato, cucumber, green beans &#x26; carrots, tossed in a spicy Thai lime dressing. Topped with crushed peanuts, Thai basil and lime wedge</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Ginger Kale",
-                "price": "Side (6) / large $8",
-                "body": {
-                  "body": "Chopped kale with shredded carrots, cucumber & red cabbage, tossed in sesame ginger vinaigrette. Topped with crispy noodles and parmesan cheese\n\n\nAdd chicken ($2) or tofu ($2)",
-                  "childMarkdownRemark": {
-                    "html": "<p>Chopped kale with shredded carrots, cucumber &#x26; red cabbage, tossed in sesame ginger vinaigrette. Topped with crispy noodles and parmesan cheese</p>\n<p>Add chicken ($2) or tofu ($2)</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Dope! Booyah! Bao Buns ",
             "label": "Booyah! Bao Buns",
-            "items": [
-              {
-                "title": "Dope! Char Siu Pork",
-                "price": "4",
-                "body": {
-                  "body": "Shredded port with pickled daikon, pickled carrots, cucumber, cilantro & jalapeno with sriracha aioli",
-                  "childMarkdownRemark": {
-                    "html": "<p>Shredded port with pickled daikon, pickled carrots, cucumber, cilantro &#x26; jalapeno with sriracha aioli</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Lemongrass Chicken",
-                "price": "4",
-                "body": {
-                  "body": "Chicken with arugula, bean sprouts, crispy onions with cilantro Maggi mayo",
-                  "childMarkdownRemark": {
-                    "html": "<p>Chicken with arugula, bean sprouts, crispy onions with cilantro Maggi mayo</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Coconut Curried Tofu",
-                "price": "4",
-                "body": {
-                  "body": "Fried tofu with arugula, pickled red cabbage with spicy hoison sauce",
-                  "childMarkdownRemark": {
-                    "html": "<p>Fried tofu with arugula, pickled red cabbage with spicy hoison sauce</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Dope! Ramen",
             "label": "Hella Bangin' Ramens",
-            "items": [
-              {
-                "title": "Dope! Char Siu Miso Ramen",
-                "price": "13",
-                "body": {
-                  "body": "Ramen in a pork miso broth with charsu pork, served with bok choy, mushrooms, a soft boiled egg, kale, green onions & chili oil",
-                  "childMarkdownRemark": {
-                    "html": "<p>Ramen in a pork miso broth with charsu pork, served with bok choy, mushrooms, a soft boiled egg, kale, green onions &#x26; chili oil</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Pork Belly Miso Ramen",
-                "price": "16",
-                "body": {
-                  "body": "Ramen in a pork miso broth with charsu pork belly, served with bok choy, mushrooms, a soft-boiled egg, kale & green onions",
-                  "childMarkdownRemark": {
-                    "html": "<p>Ramen in a pork miso broth with charsu pork belly, served with bok choy, mushrooms, a soft-boiled egg, kale &#x26; green onions</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Kimchi Ramen",
-                "price": "12",
-                "body": {
-                  "body": "Kimchi miso broth with sliced kimchi, bok choy, mushrooms, bean sprouts, kale & carrots",
-                  "childMarkdownRemark": {
-                    "html": "<p>Kimchi miso broth with sliced kimchi, bok choy, mushrooms, bean sprouts, kale &#x26; carrots</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Tofu Ramen",
-                "price": "12",
-                "body": {
-                  "body": "Fried tofu, bean sprouts, bok choy, corn, mushrooms & green onions in a savory vegetable broth",
-                  "childMarkdownRemark": {
-                    "html": "<p>Fried tofu, bean sprouts, bok choy, corn, mushrooms &#x26; green onions in a savory vegetable broth</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Lemongrass Chicken Shoyu Ramen",
-                "price": "13",
-                "body": {
-                  "body": "Lemongrass chicken, dashi mushrooms, arugula, cilantro, soft-boiled egg & green onions in a savory shoyu ramen broth topped with fried onions",
-                  "childMarkdownRemark": {
-                    "html": "<p>Lemongrass chicken, dashi mushrooms, arugula, cilantro, soft-boiled egg &#x26; green onions in a savory shoyu ramen broth topped with fried onions</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Pork & Shrimp Wonton Shoyu Ramen",
-                "price": "13",
-                "body": {
-                  "body": "Wontons, dashi mushrooms & bok choy in a savory shoyu ramen broth topped with cilantro & green onions",
-                  "childMarkdownRemark": {
-                    "html": "<p>Wontons, dashi mushrooms &#x26; bok choy in a savory shoyu ramen broth topped with cilantro &#x26; green onions</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Dope! Dumplings",
             "label": "Dope! Dumplings",
-            "items": [
-              {
-                "title": "Dope! Pork Dumplings",
-                "price": "5 (3 pc)/7 (5 pc)",
-                "body": {
-                  "body": "Ground pork, napa cabbage, green onions",
-                  "childMarkdownRemark": {
-                    "html": "<p>Ground pork, napa cabbage, green onions</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Chicken Dumplings",
-                "price": "5 (3 pc)/7 (5 pc)",
-                "body": {
-                  "body": "Ground chicken, shiitake mushrooms & sweet onions",
-                  "childMarkdownRemark": {
-                    "html": "<p>Ground chicken, shiitake mushrooms &#x26; sweet onions</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Chive Dumplings",
-                "price": "7",
-                "body": {
-                  "body": "3 pieces with chopped Chinese chives with spices \n\n__Dumpling Sauces__\nSoy vinaigrette, chili oil, sriracha garlic aioli, cilantro Maggi aioli, spicy hoisin, coconut peanut",
-                  "childMarkdownRemark": {
-                    "html": "<p>3 pieces with chopped Chinese chives with spices </p>\n<p><strong>Dumpling Sauces</strong>\nSoy vinaigrette, chili oil, sriracha garlic aioli, cilantro Maggi aioli, spicy hoisin, coconut peanut</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Dope! Legit Libations",
             "label": "Legit Libations",
-            "items": [
-              {
-                "title": "Dope! Ganbei Punch",
-                "price": "9",
-                "body": {
-                  "body": "Spiced rum, Canton ginger liqueur, tamarind simply syrup, lime juice, pineapple juice & oolong tea",
-                  "childMarkdownRemark": {
-                    "html": "<p>Spiced rum, Canton ginger liqueur, tamarind simply syrup, lime juice, pineapple juice &#x26; oolong tea</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Sapporo (Japan)",
-                "price": "price varies",
-                "body": {
-                  "body": "22 oz, (4.9% abv)",
-                  "childMarkdownRemark": {
-                    "html": "<p>22 oz, (4.9% abv)</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Tiger (Malaysia)",
-                "price": "price varies",
-                "body": {
-                  "body": "12 oz, (5% abv)",
-                  "childMarkdownRemark": {
-                    "html": "<p>12 oz, (5% abv)</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Singha (Thailand)",
-                "price": "price varies",
-                "body": {
-                  "body": "12oz (5% abv)",
-                  "childMarkdownRemark": {
-                    "html": "<p>12oz (5% abv)</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Tsingtao (China)",
-                "price": "price varies",
-                "body": {
-                  "body": "12 oz, (4.7% abv)",
-                  "childMarkdownRemark": {
-                    "html": "<p>12 oz, (4.7% abv)</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Dope! Beverages",
             "label": "Beverages",
-            "items": [
-              {
-                "title": "Dope! Vietnamese Iced Coffee",
-                "price": "5",
-                "body": {
-                  "body": "Dark roasted Vietnamese coffee with 2% milk",
-                  "childMarkdownRemark": {
-                    "html": "<p>Dark roasted Vietnamese coffee with 2% milk</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Thai Iced Lime Tea",
-                "price": "5",
-                "body": {
-                  "body": "Spiced Thai tea with a hint of lime & mint",
-                  "childMarkdownRemark": {
-                    "html": "<p>Spiced Thai tea with a hint of lime &#x26; mint</p>"
-                  }
-                }
-              },
-              {
-                "title": "Dope! Chinese Jasmine Tea",
-                "price": "3",
-                "body": null
-              },
-              {
-                "title": "Dope! Ramune",
-                "price": "4",
-                "body": {
-                  "body": "Flavors: original, strawberry, blueberry & pineapple ",
-                  "childMarkdownRemark": {
-                    "html": "<p>Flavors: original, strawberry, blueberry &#x26; pineapple </p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           }
         ]
       }
@@ -688,98 +374,7 @@
           {
             "title": "Queen City Whip Menu",
             "label": "Menu",
-            "items": [
-              {
-                "title": "Whip Classic",
-                "price": "8",
-                "body": {
-                  "body": "1/4 lb ground chick + brisket + sirloin blend, toasted bun, lettuce, tomato, red onion, pickle, ketchup, mustard, mayo and cheddar cheese ",
-                  "childMarkdownRemark": {
-                    "html": "<p>1/4 lb ground chick + brisket + sirloin blend, toasted bun, lettuce, tomato, red onion, pickle, ketchup, mustard, mayo and cheddar cheese </p>"
-                  }
-                }
-              },
-              {
-                "title": "Whip Falafel",
-                "price": "8.50",
-                "body": {
-                  "body": "Toasted bun, tzatziki, lettuce, tomato, red onion, pickle",
-                  "childMarkdownRemark": {
-                    "html": "<p>Toasted bun, tzatziki, lettuce, tomato, red onion, pickle</p>"
-                  }
-                }
-              },
-              {
-                "title": "Whip Chili Dog",
-                "price": "4",
-                "body": {
-                  "body": "All-beef hot dog, chili, cheddar cheese, mustard, onion",
-                  "childMarkdownRemark": {
-                    "html": "<p>All-beef hot dog, chili, cheddar cheese, mustard, onion</p>"
-                  }
-                }
-              },
-              {
-                "title": "Whip Chili Cup",
-                "price": "5",
-                "body": {
-                  "body": "Chili, cheddar cheese, onions, sour cream, pickled jalapeno, oyster crackers ",
-                  "childMarkdownRemark": {
-                    "html": "<p>Chili, cheddar cheese, onions, sour cream, pickled jalapeno, oyster crackers </p>"
-                  }
-                }
-              },
-              {
-                "title": "Whip Fries",
-                "price": "2.50 (small)/ 4 (large)",
-                "body": {
-                  "body": "French fries",
-                  "childMarkdownRemark": {
-                    "html": "<p>French fries</p>"
-                  }
-                }
-              },
-              {
-                "title": "Whip Chili Cheese Fries",
-                "price": "7",
-                "body": {
-                  "body": "French fries, chili, cheddar cheese",
-                  "childMarkdownRemark": {
-                    "html": "<p>French fries, chili, cheddar cheese</p>"
-                  }
-                }
-              },
-              {
-                "title": "Whip Bacon Cheddar Ranch Fries",
-                "price": "7",
-                "body": {
-                  "body": "French fries, cheddar cheese, bacon, ranch",
-                  "childMarkdownRemark": {
-                    "html": "<p>French fries, cheddar cheese, bacon, ranch</p>"
-                  }
-                }
-              },
-              {
-                "title": "Whip Shakes",
-                "price": "5",
-                "body": {
-                  "body": "Vanilla or Chocolate\nAdd candy (+$1): Cookies & Cream, Butterfinger, Reese's, Heath",
-                  "childMarkdownRemark": {
-                    "html": "<p>Vanilla or Chocolate\nAdd candy (+$1): Cookies &#x26; Cream, Butterfinger, Reese's, Heath</p>"
-                  }
-                }
-              },
-              {
-                "title": "Whip Extras",
-                "price": ".50-2",
-                "body": {
-                  "body": "Add bacon ($2)\nAdd cheese ($1)\nAdd extra meat ($2)\nAdd ranch ($.50)\nAdd jalapeno ($.50)\nAdd sour cream ($.50)",
-                  "childMarkdownRemark": {
-                    "html": "<p>Add bacon ($2)\nAdd cheese ($1)\nAdd extra meat ($2)\nAdd ranch ($.50)\nAdd jalapeno ($.50)\nAdd sour cream ($.50)</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           }
         ]
       }
@@ -895,321 +490,113 @@
           {
             "title": "Django Western Taco - Snacks",
             "label": "Snacks",
-            "items": [
-              {
-                "title": "Django Chips & Salsa",
-                "price": "3",
-                "body": {
-                  "body": "corn tortilla chips & pico de gallo",
-                  "childMarkdownRemark": {
-                    "html": "<p>corn tortilla chips &#x26; pico de gallo</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Style Guacamole",
-                "price": "8",
-                "body": {
-                  "body": "avocado, pistachios, Serrano peppers, Cotija cheese ",
-                  "childMarkdownRemark": {
-                    "html": "<p>avocado, pistachios, Serrano peppers, Cotija cheese </p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Queso",
-                "price": "6",
-                "body": {
-                  "body": "roasted poblano peppers",
-                  "childMarkdownRemark": {
-                    "html": "<p>roasted poblano peppers</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Totchos",
-                "price": "7",
-                "body": {
-                  "body": "tater tots, carnitas, queso, house BBQ sauce, green onions, crema",
-                  "childMarkdownRemark": {
-                    "html": "<p>tater tots, carnitas, queso, house BBQ sauce, green onions, crema</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Django Western Taco - Favorites",
             "label": "Favorites",
-            "items": [
-              {
-                "title": "Django Burrito",
-                "price": "9",
-                "body": {
-                  "body": "choice of carne asada, carnitas, jerk chicken or jackfruit, with turmeric rice, spicy black beans, avocado, pico de gallo, creamy spicy sauce & queso",
-                  "childMarkdownRemark": {
-                    "html": "<p>choice of carne asada, carnitas, jerk chicken or jackfruit, with turmeric rice, spicy black beans, avocado, pico de gallo, creamy spicy sauce &#x26; queso</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Jerk Chicken Quesadilla",
-                "price": "9",
-                "body": {
-                  "body": "jerk chicken, avocado, pepper jelly, cheddar cheese, flour tortilla (sub mushrooms for chicken)",
-                  "childMarkdownRemark": {
-                    "html": "<p>jerk chicken, avocado, pepper jelly, cheddar cheese, flour tortilla (sub mushrooms for chicken)</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Django Western Taco - Salads",
             "label": "Salads",
-            "items": [
-              {
-                "title": "Django Seasonal Salad",
-                "price": "6/11",
-                "body": null
-              },
-              {
-                "title": "Django Taco Salad",
-                "price": "6/11",
-                "body": {
-                  "body": "house made chorizo, crispy tortilla, romaine lettuce, whipped black beans, tomato, Serrano peppers, queso fresco, pickled onions, tomatillo avocado dressing",
-                  "childMarkdownRemark": {
-                    "html": "<p>house made chorizo, crispy tortilla, romaine lettuce, whipped black beans, tomato, Serrano peppers, queso fresco, pickled onions, tomatillo avocado dressing</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Django Western Taco - Tacos",
             "label": "Tacos",
-            "items": [
-              {
-                "title": "Django Carnitas",
-                "price": "4",
-                "body": {
-                  "body": "slow cooked pork, house BBQ sauce, Grandma's pickles, Cojita cheese, cilantro",
-                  "childMarkdownRemark": {
-                    "html": "<p>slow cooked pork, house BBQ sauce, Grandma's pickles, Cojita cheese, cilantro</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Carne Asada",
-                "price": "5",
-                "body": {
-                  "body": "Sakura Farms Wagyu skirt steak, pepper crema, guacamole, pickled onion, Cojita cheese, cilantro",
-                  "childMarkdownRemark": {
-                    "html": "<p>Sakura Farms Wagyu skirt steak, pepper crema, guacamole, pickled onion, Cojita cheese, cilantro</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Fried Chicken",
-                "price": "4",
-                "body": {
-                  "body": "buttermilk fried chicken, house pimento cheese, chipotle honey, cilantro",
-                  "childMarkdownRemark": {
-                    "html": "<p>buttermilk fried chicken, house pimento cheese, chipotle honey, cilantro</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Jackfruit Carnitas",
-                "price": "4",
-                "body": {
-                  "body": "jackfruit, salsa verde, pickled onion, Cojita cheese, cilantro",
-                  "childMarkdownRemark": {
-                    "html": "<p>jackfruit, salsa verde, pickled onion, Cojita cheese, cilantro</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Shrimp",
-                "price": "4",
-                "body": {
-                  "body": "fried shrimp, spinach, sweet chili garlic sauce, goat cheese",
-                  "childMarkdownRemark": {
-                    "html": "<p>fried shrimp, spinach, sweet chili garlic sauce, goat cheese</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Cod",
-                "price": "4",
-                "body": {
-                  "body": "beer battered cod, cabbage, lime sriracha, cilantro",
-                  "childMarkdownRemark": {
-                    "html": "<p>beer battered cod, cabbage, lime sriracha, cilantro</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Django Western Taco - Sides",
             "label": "Sides",
-            "items": [
-              {
-                "title": "Django Black Beans",
-                "price": "1.50",
-                "body": null
-              },
-              {
-                "title": "Django Rice",
-                "price": "1.50",
-                "body": null
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Django Western Taco - Sweet Things",
             "label": "Sweet Things",
-            "items": [
-              {
-                "title": "Django Churros",
-                "price": "4",
-                "body": null
-              },
-              {
-                "title": "Django Smoky Chili Chocolate Brownie",
-                "price": "4",
-                "body": null
-              }
-            ]
+            "sections": null
           },
           {
             "title": "Django Western Tacos - Breakfast",
             "label": "Breakfast",
-            "items": [
+            "sections": [
               {
-                "title": "Django Breakfast Sandwich",
-                "price": "6",
-                "body": {
-                  "body": "buttermilk biscuit, applewood smoked bacon, fluffy scrambled eggs, Jack cheese, baby arugula, creamy spicy sauce",
-                  "childMarkdownRemark": {
-                    "html": "<p>buttermilk biscuit, applewood smoked bacon, fluffy scrambled eggs, Jack cheese, baby arugula, creamy spicy sauce</p>"
+                "id": "23f8ba6c-fd8c-57e8-9ec7-fd930fab5f2a",
+                "title": "Django Western Taco - Breakfast",
+                "label": "Breakfast",
+                "items": [
+                  {
+                    "id": "3642148f-3b6a-51d1-a248-c9202c437260",
+                    "title": "Django Breakfast Sandwich",
+                    "label": "Breakfast Sandwich",
+                    "body": {
+                      "body": "buttermilk biscuit, applewood smoked bacon, fluffy scrambled eggs, Jack cheese, baby arugula, creamy spicy sauce",
+                      "childMarkdownRemark": {
+                        "html": "<p>buttermilk biscuit, applewood smoked bacon, fluffy scrambled eggs, Jack cheese, baby arugula, creamy spicy sauce</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "13c8a281-2a61-5dab-a074-ee81e93e51d0",
+                    "title": "Django Breakfast Burrito",
+                    "label": "Breakfast Burrito",
+                    "body": {
+                      "body": "chorizo, hash browns, peppers, onions, queso, pico de gallo (sub jackfruit for chorizo) ",
+                      "childMarkdownRemark": {
+                        "html": "<p>chorizo, hash browns, peppers, onions, queso, pico de gallo (sub jackfruit for chorizo) </p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "d0355a66-3fc2-52fa-843c-2c1757344305",
+                    "title": "Django Churros",
+                    "label": "Churros",
+                    "body": null
                   }
-                }
-              },
-              {
-                "title": "Django Breakfast Burrito",
-                "price": "6",
-                "body": {
-                  "body": "chorizo, hash browns, peppers, onions, queso, pico de gallo (sub jackfruit for chorizo) ",
-                  "childMarkdownRemark": {
-                    "html": "<p>chorizo, hash browns, peppers, onions, queso, pico de gallo (sub jackfruit for chorizo) </p>"
-                  }
-                }
+                ]
               }
             ]
           },
           {
             "title": "Django Western Tacos - Drinks",
             "label": "Drinks",
-            "items": [
+            "sections": [
               {
-                "title": "Django Non-Alcoholic Drinks",
-                "price": "2.50 each",
-                "body": {
-                  "body": "Coke Zero, Mexican Coke, Mexican Sprite, Jarritos Mandarin, Jarritos Grapefruit, IBC Root Beer, Topo-Chico Mineral Water, San Pelligrino Prickly Pear, San Pellegrino Lemonata ",
-                  "childMarkdownRemark": {
-                    "html": "<p>Coke Zero, Mexican Coke, Mexican Sprite, Jarritos Mandarin, Jarritos Grapefruit, IBC Root Beer, Topo-Chico Mineral Water, San Pelligrino Prickly Pear, San Pellegrino Lemonata </p>"
+                "id": "480549f6-d27d-5497-b0cb-dd90587eeb2f",
+                "title": "Django Western Taco - Drinks",
+                "label": "Drinks",
+                "items": [
+                  {
+                    "id": "6ee76e4d-0e3c-5b97-aea9-e4b5fea982bc",
+                    "title": "Django Non-Alcoholic Drinks",
+                    "label": "Non-Alcoholic Drinks",
+                    "body": {
+                      "body": "Coke Zero, Mexican Coke, Mexican Sprite, Jarritos Mandarin, Jarritos Grapefruit, IBC Root Beer, Topo-Chico Mineral Water, San Pelligrino Prickly Pear, San Pellegrino Lemonata ",
+                      "childMarkdownRemark": {
+                        "html": "<p>Coke Zero, Mexican Coke, Mexican Sprite, Jarritos Mandarin, Jarritos Grapefruit, IBC Root Beer, Topo-Chico Mineral Water, San Pelligrino Prickly Pear, San Pellegrino Lemonata </p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "ff45f170-4381-5996-8ffa-d1d4d8ae2b61",
+                    "title": "Django Alcohol",
+                    "label": "Alcohol",
+                    "body": {
+                      "body": "Frozen Margarita, Margarita, Spicy Margarita, Margarita of the Day, Tecate, Lone Star, Pacifico, Negro Modelo",
+                      "childMarkdownRemark": {
+                        "html": "<p>Frozen Margarita, Margarita, Spicy Margarita, Margarita of the Day, Tecate, Lone Star, Pacifico, Negro Modelo</p>"
+                      }
+                    }
                   }
-                }
-              },
-              {
-                "title": "Django Alcohol",
-                "price": "price varies",
-                "body": {
-                  "body": "Frozen Margarita, Margarita, Spicy Margarita, Margarita of the Day, Tecate, Lone Star, Pacifico, Negro Modelo",
-                  "childMarkdownRemark": {
-                    "html": "<p>Frozen Margarita, Margarita, Spicy Margarita, Margarita of the Day, Tecate, Lone Star, Pacifico, Negro Modelo</p>"
-                  }
-                }
+                ]
               }
             ]
           },
           {
             "title": "Django Western Taco - Catering",
             "label": "Catering",
-            "items": [
-              {
-                "title": "Django Chips & Salsa",
-                "price": "20-35",
-                "body": {
-                  "body": "__House Salsa__: crushed tomatoes, red onion, poblano pepper, cilantro & lime ($20)\n__Django Style Guacamole__: pistachios, Serrano peppers, Cojita cheese ($35) \n__Regular Guacamole__: ($30)\n__Chorizo Dip__: chorizo, Yukon Gold potatoes, queso blend ($30)\n__Queso__: pepper jack cheese, queso blanco and pickled peppers ($30)\n",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>House Salsa</strong>: crushed tomatoes, red onion, poblano pepper, cilantro &#x26; lime ($20)\n<strong>Django Style Guacamole</strong>: pistachios, Serrano peppers, Cojita cheese ($35)\n<strong>Regular Guacamole</strong>: ($30)\n<strong>Chorizo Dip</strong>: chorizo, Yukon Gold potatoes, queso blend ($30)\n<strong>Queso</strong>: pepper jack cheese, queso blanco and pickled peppers ($30)</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Taco Bar",
-                "price": "9-13/person",
-                "body": {
-                  "body": "__Fillings:__ pork carnitas, jerk chicken, carne asada (+$1), veggie, grilled shrimp, grilled cod, friend chicken\n\nAll taco bars come with accompanying toppings: Cotija cheese, pico de gallo, sweet chili garlic, pickled onions, sour cream, salsa verde, house hot sauce, shredded red cabbage, pepper crema, creamy spicy sauce.\n\n__2 tacos each (choose 2 fillings: $9/person__\n__3 tacos (choose 3 fillings: $13/person__",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>Fillings:</strong> pork carnitas, jerk chicken, carne asada (+$1), veggie, grilled shrimp, grilled cod, friend chicken</p>\n<p>All taco bars come with accompanying toppings: Cotija cheese, pico de gallo, sweet chili garlic, pickled onions, sour cream, salsa verde, house hot sauce, shredded red cabbage, pepper crema, creamy spicy sauce.</p>\n<p><strong>2 tacos each (choose 2 fillings: $9/person</strong>\n<strong>3 tacos (choose 3 fillings: $13/person</strong></p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Stuffed Poblano Peppers",
-                "price": "12/person",
-                "body": {
-                  "body": "Stuffed with fresh seasonal vegetables, rice, quinoa, Cotija cheese, pico de gallo\n\n__Choice of 1 or 2 fillings:__ pork carnitas, smoky pulled chicken, veggie, carne asada (+$1), shrimp (+$2)\n__1 pepper each: $12/person__",
-                  "childMarkdownRemark": {
-                    "html": "<p>Stuffed with fresh seasonal vegetables, rice, quinoa, Cotija cheese, pico de gallo</p>\n<p><strong>Choice of 1 or 2 fillings:</strong> pork carnitas, smoky pulled chicken, veggie, carne asada (+$1), shrimp (+$2)\n<strong>1 pepper each: $12/person</strong></p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Enchiladas",
-                "price": "12/person",
-                "body": {
-                  "body": "Rolled flour tortillas stuffed with your choice of protein, topped with salsa rojo & queso quesadilla cheese\n\n__Choice of fillings:__ pork carnitas, chicken, jackfruit, and shrimp (+$2)\n__3 each: $12/person__",
-                  "childMarkdownRemark": {
-                    "html": "<p>Rolled flour tortillas stuffed with your choice of protein, topped with salsa rojo &#x26; queso quesadilla cheese</p>\n<p><strong>Choice of fillings:</strong> pork carnitas, chicken, jackfruit, and shrimp (+$2)\n<strong>3 each: $12/person</strong></p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Salads",
-                "price": "30",
-                "body": {
-                  "body": "__Organic Baby Kale (serves 10):__ Cumin scented beets, goat cheese, cucumber, quinoa, tomatillo, radish, hibiscus lime vinaigrette ($30)\n\n__Taco Salad (serves 10):__ house made chorizo, crispy tortilla, mixed greens, whipped black beans, tomatoes, Serrano peppers, queso fresco, tomatillo avocado dressing ($30)",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>Organic Baby Kale (serves 10):</strong> Cumin scented beets, goat cheese, cucumber, quinoa, tomatillo, radish, hibiscus lime vinaigrette ($30)</p>\n<p><strong>Taco Salad (serves 10):</strong> house made chorizo, crispy tortilla, mixed greens, whipped black beans, tomatoes, Serrano peppers, queso fresco, tomatillo avocado dressing ($30)</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Boxed Lunches",
-                "price": "12",
-                "body": {
-                  "body": "(choice of beverage & organic green salad)\n\n__Choose from:__\n__Jerk Chicken Quesadilla:__ cheddar cheese, pepper jelly and avocado (sub mushrooms)\n__Burrito:__ choice of carnitas, jerk chicken, jackfruit or carne asada (+$1), with turmeric rice, spicy black beans, avocado, pico de gallo, creamy spicy sauce & queso.",
-                  "childMarkdownRemark": {
-                    "html": "<p>(choice of beverage &#x26; organic green salad)</p>\n<p><strong>Choose from:</strong>\n<strong>Jerk Chicken Quesadilla:</strong> cheddar cheese, pepper jelly and avocado (sub mushrooms)\n<strong>Burrito:</strong> choice of carnitas, jerk chicken, jackfruit or carne asada (+$1), with turmeric rice, spicy black beans, avocado, pico de gallo, creamy spicy sauce &#x26; queso.</p>"
-                  }
-                }
-              },
-              {
-                "title": "Django Beverages",
-                "price": "2.50/each",
-                "body": {
-                  "body": "Diet Coke (bottle), IBC Root Beer (bottle), Mexican Coke (bottle), Mexican Sprite (bottle), Jarritos Mandarin (bottle), Jarritos Grapefruit (bottle), San Pellegrino Prickly Pear (can), San Pellegrino Lemonata (can), Topo Chico Mineral Water (bottle)",
-                  "childMarkdownRemark": {
-                    "html": "<p>Diet Coke (bottle), IBC Root Beer (bottle), Mexican Coke (bottle), Mexican Sprite (bottle), Jarritos Mandarin (bottle), Jarritos Grapefruit (bottle), San Pellegrino Prickly Pear (can), San Pellegrino Lemonata (can), Topo Chico Mineral Water (bottle)</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           }
         ]
       }
@@ -1325,135 +712,22 @@
           {
             "title": "1883 Cafe & Bar - Breakfast",
             "label": "Breakfast",
-            "items": [
-              {
-                "title": "Kitchen 1883 Toasts",
-                "price": "price",
-                "body": {
-                  "body": "__Morning Magic Toast:__ Yogurt ricotta spread on Sixteen Bricks sourdough with pear, balsamic and sunflower seeds\n\n__Trinity Toast:__ Pressed avocado on Sixteen Bricks sourdough with onions, carrots and celery, topped with a poached egg",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>Morning Magic Toast:</strong> Yogurt ricotta spread on Sixteen Bricks sourdough with pear, balsamic and sunflower seeds</p>\n<p><strong>Trinity Toast:</strong> Pressed avocado on Sixteen Bricks sourdough with onions, carrots and celery, topped with a poached egg</p>"
-                  }
-                }
-              },
-              {
-                "title": "Kitchen 1883 Sandwiches",
-                "price": "10 price ",
-                "body": {
-                  "body": "__Classy Egg Sandwich:__ Classic fried egg sandwich served on a whole wheat croissant with greens and tomato\nAdditions: cheddar cheese (+$), goetta (+$), thick cut bacon (+$)\n\n__Croistata Sandwich:__ Onion, carrot and celery frittata with cheddar cheese on a whole wheat croissant\nAdditions: goetta (+$), thick cut bacon (+$)",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>Classy Egg Sandwich:</strong> Classic fried egg sandwich served on a whole wheat croissant with greens and tomato\nAdditions: cheddar cheese (+$), goetta (+$), thick cut bacon (+$)</p>\n<p><strong>Croistata Sandwich:</strong> Onion, carrot and celery frittata with cheddar cheese on a whole wheat croissant\nAdditions: goetta (+$), thick cut bacon (+$)</p>"
-                  }
-                }
-              },
-              {
-                "title": "Kitchen 1883 From the Bakery",
-                "price": "10 price",
-                "body": {
-                  "body": "__(v) Seasonal Oatcakes:__ Spiced oat muffins with rotating inclusions\n__Everything Bagel Bomb:__ Locally made everything bagel stuffed with leek flavored cream cheese\n__Cinnamon Raisin Bagel Bomb:__ Locally made cinnamon bagel stuffed with cinnamon raisin flavored cream cheese\n__PB&J Hand Pie:__ Pop-tart style pastry filled with locally made jelly and peanut butter",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>(v) Seasonal Oatcakes:</strong> Spiced oat muffins with rotating inclusions\n<strong>Everything Bagel Bomb:</strong> Locally made everything bagel stuffed with leek flavored cream cheese\n<strong>Cinnamon Raisin Bagel Bomb:</strong> Locally made cinnamon bagel stuffed with cinnamon raisin flavored cream cheese\n<strong>PB&#x26;J Hand Pie:</strong> Pop-tart style pastry filled with locally made jelly and peanut butter</p>"
-                  }
-                }
-              },
-              {
-                "title": "Kitchen 1883 A la Carte",
-                "price": "10 price",
-                "body": {
-                  "body": "Whole Wheat Croissant\nGoetta\nThick Cut Bacon\nTrinity Vegetables\nCheddar Cheese\n\n__Beverages__\n1883 Signature Roast Coffee: Regular or decaf\nAssorted beverages",
-                  "childMarkdownRemark": {
-                    "html": "<p>Whole Wheat Croissant\nGoetta\nThick Cut Bacon\nTrinity Vegetables\nCheddar Cheese</p>\n<p><strong>Beverages</strong>\n1883 Signature Roast Coffee: Regular or decaf\nAssorted beverages</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "1883 Cafe & Bar - Brunch",
             "label": "Brunch",
-            "items": [
-              {
-                "title": "Kitchen 1883 Toasts",
-                "price": "price",
-                "body": {
-                  "body": "__Morning Magic Toast:__ Yogurt ricotta spread on Sixteen Bricks sourdough with pear, balsamic and sunflower seeds\n\n__Trinity Toast:__ Pressed avocado on Sixteen Bricks sourdough with onions, carrots and celery, topped with a poached egg",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>Morning Magic Toast:</strong> Yogurt ricotta spread on Sixteen Bricks sourdough with pear, balsamic and sunflower seeds</p>\n<p><strong>Trinity Toast:</strong> Pressed avocado on Sixteen Bricks sourdough with onions, carrots and celery, topped with a poached egg</p>"
-                  }
-                }
-              },
-              {
-                "title": "Kitchen 1883 Sandwiches",
-                "price": "10 price ",
-                "body": {
-                  "body": "__Classy Egg Sandwich:__ Classic fried egg sandwich served on a whole wheat croissant with greens and tomato\nAdditions: cheddar cheese (+$), goetta (+$), thick cut bacon (+$)\n\n__Croistata Sandwich:__ Onion, carrot and celery frittata with cheddar cheese on a whole wheat croissant\nAdditions: goetta (+$), thick cut bacon (+$)",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>Classy Egg Sandwich:</strong> Classic fried egg sandwich served on a whole wheat croissant with greens and tomato\nAdditions: cheddar cheese (+$), goetta (+$), thick cut bacon (+$)</p>\n<p><strong>Croistata Sandwich:</strong> Onion, carrot and celery frittata with cheddar cheese on a whole wheat croissant\nAdditions: goetta (+$), thick cut bacon (+$)</p>"
-                  }
-                }
-              },
-              {
-                "title": "Kitchen 1883 From the Bakery",
-                "price": "10 price",
-                "body": {
-                  "body": "__(v) Seasonal Oatcakes:__ Spiced oat muffins with rotating inclusions\n__Everything Bagel Bomb:__ Locally made everything bagel stuffed with leek flavored cream cheese\n__Cinnamon Raisin Bagel Bomb:__ Locally made cinnamon bagel stuffed with cinnamon raisin flavored cream cheese\n__PB&J Hand Pie:__ Pop-tart style pastry filled with locally made jelly and peanut butter",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>(v) Seasonal Oatcakes:</strong> Spiced oat muffins with rotating inclusions\n<strong>Everything Bagel Bomb:</strong> Locally made everything bagel stuffed with leek flavored cream cheese\n<strong>Cinnamon Raisin Bagel Bomb:</strong> Locally made cinnamon bagel stuffed with cinnamon raisin flavored cream cheese\n<strong>PB&#x26;J Hand Pie:</strong> Pop-tart style pastry filled with locally made jelly and peanut butter</p>"
-                  }
-                }
-              },
-              {
-                "title": "Kitchen 1883 Brunch Specials",
-                "price": "10 price",
-                "body": {
-                  "body": "__Rhine Street Sunday:__ Local grits topped with cheddar cheese and a paoched egg\nAdditions: goetta (+$), trinity vegetables (+$), thick cut bacon (+$)\n__Cabernet Hole in One:__ Ancient grain pancakes with a soft cooked egg inside, topped with cabernet jam and smooth peanut sauce\n__Murray's Manchego Mac:__ Mac & cheese using Murray's manchego & smoked gouda cheese blend\nAdditions: bacon (+$), goetta (+$), caulisprouts (+$)",
-                  "childMarkdownRemark": {
-                    "html": "<p><strong>Rhine Street Sunday:</strong> Local grits topped with cheddar cheese and a paoched egg\nAdditions: goetta (+$), trinity vegetables (+$), thick cut bacon (+$)\n<strong>Cabernet Hole in One:</strong> Ancient grain pancakes with a soft cooked egg inside, topped with cabernet jam and smooth peanut sauce\n<strong>Murray's Manchego Mac:</strong> Mac &#x26; cheese using Murray's manchego &#x26; smoked gouda cheese blend\nAdditions: bacon (+$), goetta (+$), caulisprouts (+$)</p>"
-                  }
-                }
-              },
-              {
-                "title": "Kitchen 1883 A la Carte",
-                "price": "10 price",
-                "body": {
-                  "body": "Whole Wheat Croissant\nGoetta\nThick Cut Bacon\nTrinity Vegetables\nCheddar Cheese\n\n__Beverages__\n1883 Signature Roast Coffee: Regular or decaf\nAssorted beverages",
-                  "childMarkdownRemark": {
-                    "html": "<p>Whole Wheat Croissant\nGoetta\nThick Cut Bacon\nTrinity Vegetables\nCheddar Cheese</p>\n<p><strong>Beverages</strong>\n1883 Signature Roast Coffee: Regular or decaf\nAssorted beverages</p>"
-                  }
-                }
-              },
-              {
-                "title": "Kitchen 1883 Salads",
-                "price": "10 price",
-                "body": {
-                  "body": "Additions to any salad include: chicken (+$), flatiron steak (+$), salmon (+$), bacon (+$)\n__Brussels Sprout Salad:__ Spinach & arugula mix with roasted brussels sprouts & jalapenos, marinated vegetables, dried cranberries, crispy shallots tossed in our signature sweet chili vinaigrette\n\n__1883 Salad:__ Mixed greens, grape tomatoes, carrots, red onion & cornbread croutons served with choice of dressing\n\n__ColorFall Salad:__ Spinach & arugula mix, red quinoa, red cabbage, roasted sweet potato, corn & beets with choice of dressing\n\n__Dark Green Caesar Salad:__ Spinach & arugula mix, shaved parmesan cheese, pressed eggs & cornbread croutons tossed in Caesar dressing\n\n__Greek Salad:__ Mixed greens, carrots, red onion, grape tomatoes, cucumber, kalamata olives & feta cheese with an herb vinaigrette\n\n__Dressings offered:__ ranch, bleu cheese, herb vinaigrette, balsamic & olive oil, Caesar & sweet chili vinaigrette",
-                  "childMarkdownRemark": {
-                    "html": "<p>Additions to any salad include: chicken (+$), flatiron steak (+$), salmon (+$), bacon (+$)\n<strong>Brussels Sprout Salad:</strong> Spinach &#x26; arugula mix with roasted brussels sprouts &#x26; jalapenos, marinated vegetables, dried cranberries, crispy shallots tossed in our signature sweet chili vinaigrette</p>\n<p><strong>1883 Salad:</strong> Mixed greens, grape tomatoes, carrots, red onion &#x26; cornbread croutons served with choice of dressing</p>\n<p><strong>ColorFall Salad:</strong> Spinach &#x26; arugula mix, red quinoa, red cabbage, roasted sweet potato, corn &#x26; beets with choice of dressing</p>\n<p><strong>Dark Green Caesar Salad:</strong> Spinach &#x26; arugula mix, shaved parmesan cheese, pressed eggs &#x26; cornbread croutons tossed in Caesar dressing</p>\n<p><strong>Greek Salad:</strong> Mixed greens, carrots, red onion, grape tomatoes, cucumber, kalamata olives &#x26; feta cheese with an herb vinaigrette</p>\n<p><strong>Dressings offered:</strong> ranch, bleu cheese, herb vinaigrette, balsamic &#x26; olive oil, Caesar &#x26; sweet chili vinaigrette</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "1883 Cafe & Bar - Lunch & Dinner",
             "label": "Lunch & Dinner",
-            "items": [
-              {
-                "title": "Kitchen 1883 Salads",
-                "price": "10 price",
-                "body": {
-                  "body": "Additions to any salad include: chicken (+$), flatiron steak (+$), salmon (+$), bacon (+$)\n__Brussels Sprout Salad:__ Spinach & arugula mix with roasted brussels sprouts & jalapenos, marinated vegetables, dried cranberries, crispy shallots tossed in our signature sweet chili vinaigrette\n\n__1883 Salad:__ Mixed greens, grape tomatoes, carrots, red onion & cornbread croutons served with choice of dressing\n\n__ColorFall Salad:__ Spinach & arugula mix, red quinoa, red cabbage, roasted sweet potato, corn & beets with choice of dressing\n\n__Dark Green Caesar Salad:__ Spinach & arugula mix, shaved parmesan cheese, pressed eggs & cornbread croutons tossed in Caesar dressing\n\n__Greek Salad:__ Mixed greens, carrots, red onion, grape tomatoes, cucumber, kalamata olives & feta cheese with an herb vinaigrette\n\n__Dressings offered:__ ranch, bleu cheese, herb vinaigrette, balsamic & olive oil, Caesar & sweet chili vinaigrette",
-                  "childMarkdownRemark": {
-                    "html": "<p>Additions to any salad include: chicken (+$), flatiron steak (+$), salmon (+$), bacon (+$)\n<strong>Brussels Sprout Salad:</strong> Spinach &#x26; arugula mix with roasted brussels sprouts &#x26; jalapenos, marinated vegetables, dried cranberries, crispy shallots tossed in our signature sweet chili vinaigrette</p>\n<p><strong>1883 Salad:</strong> Mixed greens, grape tomatoes, carrots, red onion &#x26; cornbread croutons served with choice of dressing</p>\n<p><strong>ColorFall Salad:</strong> Spinach &#x26; arugula mix, red quinoa, red cabbage, roasted sweet potato, corn &#x26; beets with choice of dressing</p>\n<p><strong>Dark Green Caesar Salad:</strong> Spinach &#x26; arugula mix, shaved parmesan cheese, pressed eggs &#x26; cornbread croutons tossed in Caesar dressing</p>\n<p><strong>Greek Salad:</strong> Mixed greens, carrots, red onion, grape tomatoes, cucumber, kalamata olives &#x26; feta cheese with an herb vinaigrette</p>\n<p><strong>Dressings offered:</strong> ranch, bleu cheese, herb vinaigrette, balsamic &#x26; olive oil, Caesar &#x26; sweet chili vinaigrette</p>"
-                  }
-                }
-              }
-            ]
+            "sections": null
           },
           {
             "title": "1883 Cafe & Bar - Small Plates",
             "label": "Small Plates",
-            "items": null
+            "sections": null
           }
         ]
       }
