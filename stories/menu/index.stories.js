@@ -4,7 +4,7 @@ import { number } from "@storybook/addon-knobs"
 
 import Menus from "../../src/components/menus"
 import data from "../__fixtures__/vendors.json"
-// import notes from "../__notes__/menus/item.md"
+import notes from "../__notes__/menus/index.md"
 
 const stories = storiesOf("Menu", module)
 
@@ -19,6 +19,6 @@ stories.add(
       step: 1
     })
     return <Menus menus={menus.slice(0, tabCount)} />
-  }
-  // { notes: notes }
+  },
+  { notes: notes }
 )

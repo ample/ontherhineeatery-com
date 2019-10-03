@@ -37,19 +37,19 @@ const MenuSections = props => (
   <Container aria-label="" padding={{ desktop: "0rem", mobile: "0.5rem" }}>
     <Row center="xs">
       <Col md={9} lg={7} xl={6}>
-        <section role="tabpanel" aria-label={`${props.label}`}>
-          {props.sections &&
-            props.sections.map((section, s_idx) => (
+        {props.sections && (
+          <section role="tabpanel" aria-label={`${props.label}`}>
+            {props.sections.map((section, s_idx) => (
               <MenuSection
                 key={`menu-section-${s_idx}`}
-                // aria-hidden={s_idx !== props.activeIdx ? true : false}
                 id={`menupanel${s_idx + 1}`}
               >
                 <Label>{section.label}</Label>
                 {getItems(section.items, section.label)}
               </MenuSection>
             ))}
-        </section>
+          </section>
+        )}
       </Col>
     </Row>
   </Container>
