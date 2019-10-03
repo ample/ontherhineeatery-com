@@ -530,6 +530,7 @@
                     "id": "3642148f-3b6a-51d1-a248-c9202c437260",
                     "title": "Django Breakfast Sandwich",
                     "label": "Breakfast Sandwich",
+                    "price": "6",
                     "body": {
                       "body": "buttermilk biscuit, applewood smoked bacon, fluffy scrambled eggs, Jack cheese, baby arugula, creamy spicy sauce",
                       "childMarkdownRemark": {
@@ -541,6 +542,7 @@
                     "id": "13c8a281-2a61-5dab-a074-ee81e93e51d0",
                     "title": "Django Breakfast Burrito",
                     "label": "Breakfast Burrito",
+                    "price": "6",
                     "body": {
                       "body": "chorizo, hash browns, peppers, onions, queso, pico de gallo (sub jackfruit for chorizo) ",
                       "childMarkdownRemark": {
@@ -552,6 +554,7 @@
                     "id": "d0355a66-3fc2-52fa-843c-2c1757344305",
                     "title": "Django Churros",
                     "label": "Churros",
+                    "price": "4",
                     "body": null
                   }
                 ]
@@ -571,6 +574,7 @@
                     "id": "6ee76e4d-0e3c-5b97-aea9-e4b5fea982bc",
                     "title": "Django Non-Alcoholic Drinks",
                     "label": "Non-Alcoholic Drinks",
+                    "price": "2.50 each",
                     "body": {
                       "body": "Coke Zero, Mexican Coke, Mexican Sprite, Jarritos Mandarin, Jarritos Grapefruit, IBC Root Beer, Topo-Chico Mineral Water, San Pelligrino Prickly Pear, San Pellegrino Lemonata ",
                       "childMarkdownRemark": {
@@ -582,6 +586,7 @@
                     "id": "ff45f170-4381-5996-8ffa-d1d4d8ae2b61",
                     "title": "Django Alcohol",
                     "label": "Alcohol",
+                    "price": "price varies",
                     "body": {
                       "body": "Frozen Margarita, Margarita, Spicy Margarita, Margarita of the Day, Tecate, Lone Star, Pacifico, Negro Modelo",
                       "childMarkdownRemark": {

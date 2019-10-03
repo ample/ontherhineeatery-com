@@ -187,6 +187,7 @@ export const query = graphql`
                 id
                 title
                 label
+                price
                 body {
                   body
                   childMarkdownRemark {
