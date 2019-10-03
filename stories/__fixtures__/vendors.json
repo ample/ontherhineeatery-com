@@ -488,9 +488,27 @@
         ],
         "menus": [
           {
-            "title": "Django Western Taco - Snacks",
+            "title": "Test Content",
             "label": "Snacks",
-            "sections": null
+            "sections": [
+              {
+                "title": "Test Content",
+                "label": "Test Content",
+                "items": [
+                  {
+                    "title": "Test Content",
+                    "label": "Test Content",
+                    "price": "6",
+                    "body": {
+                      "body": "Nullam id dolor id nibh ultricies vehicula ut id elit.",
+                      "childMarkdownRemark": {
+                        "html": "<p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Django Western Taco - Favorites",

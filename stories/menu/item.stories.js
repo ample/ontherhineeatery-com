@@ -2,9 +2,9 @@ import React from "react"
 import { storiesOf } from "@storybook/react"
 import { text } from "@storybook/addon-knobs"
 
-import MenuItem from "../../src/components/menu/item"
+import MenuItem from "../../src/components/menus/item"
 import data from "../__fixtures__/vendors.json"
-// import notes from "../__notes__/menu/item.md"
+// import notes from "../__notes__/menus/item.md"
 
 const stories = storiesOf("Menu", module)
 

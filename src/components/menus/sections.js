@@ -29,7 +29,7 @@ const MenuSections = props => (
   <Container aria-label="">
     <Row center="xs">
       <Col md={9} lg={7} xl={6}>
-        {props.menus.map((section, s_idx) => (
+        {props.sections && props.sections.map((section, s_idx) => (
           <MenuSection key={`menu-section-${s_idx}`}>
             <Label>{section.label}</Label>
             {getItems(section.items, section.label)}
@@ -41,7 +41,7 @@ const MenuSections = props => (
 )
 
 MenuSections.propTypes = {
-  menus: PropTypes.array.isRequired
+  sections: PropTypes.array.isRequired
 }
 
 export default MenuSections
