@@ -8,6 +8,11 @@ import Container from "../layout/container"
 import MobileMenus from "./mobile"
 import DesktopMenus from "./desktop"
 
+const Header = styled.h3`
+  text-align: center;
+  color: ${g.colors.gray700};
+`
+
 const Menus = props => {
   const tabs = Array.from(props.menus, menu => menu.label)
   const sections = Array.from(props.menus, menu => menu.sections)
@@ -17,7 +22,7 @@ const Menus = props => {
 
   return (
     <Container>
-      <h3>Menu</h3>
+      <Header>Menu</Header>
 
       <MediaQuery query={g.screen.max.md}>
         <MobileMenus

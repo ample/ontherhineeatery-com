@@ -42,7 +42,7 @@ const StyledItem = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 2.4rem auto;
+  margin: 1.4rem auto;
 
   ${Body} {
     flex-basis: 100%;

@@ -8,6 +8,7 @@ import MenuSections from "./sections"
 
 const Tabs = styled(Row)`
   align-items: stretch !important;
+  padding-top: 0.7rem;
 `
 
 const Tab = styled.button`
@@ -15,24 +16,20 @@ const Tab = styled.button`
   color: ${g.colors.gray700};
   border: none;
   width: 100%;
-  min-height: 4.4rem;
+  min-height: 4.6rem;
   height: 100%;
-  ${'' /* align-self: stretch; */}
   font-size: 1.6rem;
   font-weight: 200;
   line-height: 2.4rem;
   border-bottom: 0.2rem solid ${g.colors.white};
-
   &:hover {
     border-bottom: 0.2rem solid ${g.colors.gray300};
     cursor: pointer;
     transition: border-bottom 0.15s ease-out;
   }
-
   &:focus {
     outline: none;
   }
-
   &.active-tab {
     font-weight: 600;
     border-bottom: 0.2rem solid ${g.colors.gray700};
@@ -65,7 +62,7 @@ DesktopMenus.propTypes = {
   tabs: PropTypes.array.isRequired,
   sections: PropTypes.array.isRequired,
   activeIdx: PropTypes.number.isRequired,
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func.isRequired
 }
 
 export default DesktopMenus

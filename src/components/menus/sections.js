@@ -10,6 +10,10 @@ import Container from "../layout/container"
 
 const MenuSection = styled.section`
   margin-top: 4rem;
+  @media ${g.screen.max.md} {
+    margin-left: -0.8rem;
+    margin-right: -0.8rem;
+  }
 `
 
 const Label = styled.div`
@@ -18,6 +22,7 @@ const Label = styled.div`
   font-weight: 900;
   color: ${g.colors.gray500};
   text-align: center;
+  padding-bottom: 1rem;
 `
 
 const getItems = (items, section) =>
@@ -26,15 +31,16 @@ const getItems = (items, section) =>
   ))
 
 const MenuSections = props => (
-  <Container aria-label="">
+  <Container aria-label="" padding={{ desktop: "0rem", mobile: "0.5rem" }}>
     <Row center="xs">
       <Col md={9} lg={7} xl={6}>
-        {props.sections && props.sections.map((section, s_idx) => (
-          <MenuSection key={`menu-section-${s_idx}`}>
-            <Label>{section.label}</Label>
-            {getItems(section.items, section.label)}
-          </MenuSection>
-        ))}
+        {props.sections &&
+          props.sections.map((section, s_idx) => (
+            <MenuSection key={`menu-section-${s_idx}`}>
+              <Label>{section.label}</Label>
+              {getItems(section.items, section.label)}
+            </MenuSection>
+          ))}
       </Col>
     </Row>
   </Container>
