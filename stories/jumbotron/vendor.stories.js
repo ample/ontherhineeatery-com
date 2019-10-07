@@ -8,7 +8,7 @@ import data from "../__fixtures__/vendors.json"
 import notes from "../__notes__/jumbotron/vendor.md"
 
 const stories = storiesOf("Jumbotron", module)
-const vendor = data.edges[3].node
+const vendor = data.edges[4].node
 
 stories.add(
   "VendorJumbotron",
