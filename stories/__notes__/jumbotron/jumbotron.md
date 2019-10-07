@@ -4,7 +4,8 @@ The Jumbotron component renders the page header content, including the title,
 subtitle, and hero image, along with a background color and texture. It
 transitions to the mobile layout at the `sm` breakpoint.
 
-The Jumbotron on the Home Page will use a separate component.
+The Jumbotron on the Home Page and Vendor Menu Page will use a separate
+component.
 
 ## Props
 
