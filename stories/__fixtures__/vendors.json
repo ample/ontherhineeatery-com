@@ -2,45 +2,45 @@
   "edges": [
     {
       "node": {
-        "id": "69c9de5f-d903-564d-a60e-883170999f52",
-        "title": "Eli's BBQ",
-        "permalink": "elis-bbq",
+        "id": "3e045074-9cb8-5fae-a0db-2151b01f4b5e",
+        "title": "1883 Cafe & Bar",
+        "permalink": "1883-cafe-and-bar",
         "logo": {
           "fluid": {
-            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAACE3AAAhNwEzWJ96AAAAB3RJTUUH4wkSExEo0wioKgAABEJJREFUOMudlGtMk1ccxonilxk2ChNKS+ntpbS0pfcrLVCglIuwUkoHOimychlltrNgC5YJRUHGxHVjbBCzmWiyL+7Lsg/b+GCyJcbFOSeTi8P7DIPIhzlJ1Mz02duSoS7GEf/JyXlzcp7nPTm/8/zj4jZQEyNt8cdG2uPjXrQkkuzNjkpNjdtZdKrnbetiOOSKDHXviPT5ahd9LRWn9ApOjV4r2bwhM0ZKglLMSprWZNOQQ6SAz94GDo0CdloiCDoF2cxkCMm1LEbSdBrlJeVzzWQ5hFUq4tzPVQlRadbCXmFEmUkNhZgDZQ4BpYCOEjUXVSYpCrRiGDWi+3q1yPpMM6M2R5PJoT/gsNOQyaWDzUwBwUkDl7029BoxaUiDik+FXMRENp8NhTQLPC79QSabrn3K7LDHtsXj0M43lsthNfBhVtBRrslAZ0s1BnvaEPQ0oNPdiJFQF0YPtGPA48C+N/LhtmkQ1djzhfMOE2/LumGbTecMNBbDs6MA9aVK7HVZMTm6Hx8MuNHVXIY+rx3d7Vb4mkoQDrXhxFgfPHVG+Nc1KjgsCue6oVqcMaWTsFBqFMGsF2J8NIRvvzoJf3slSMoIDzRjKLAT/T4HBv112NNsx4FuL57U1JQop2Jm9OStmyRE6qqUSAWfkQxeOgVSkm5Xx25SwMFbrp0xwizqy+DSXoEgIwmdHU3o7/HhSY2IlbTKeHXrpjhznmxbgU4Mg1qEXKUAMhEn9m0rN2Jy/ChOHp/EOx1vorWpHn0BDz4c7oWrvhRRjfE/mkKDLCVOIGBTBSQxmYQHkjKilEly4LBSYS7UI9+ogkREoNxixOtVhbCX5cYor2u4jzVsZio1rqFcFx9oKHjotqlJYgrcuLaA2YvnMH/pZ6zeu4tb1xdwZ3kRK3eWMTv9E25encPS4m3cvnUNy0t/IHzQj2oj+TLktIcWZcZaPL11xjNRYqPBFkTr7PdTuHzpPCKRCG5cmcVvM+dx768/ceHH05i7eJZcm8EP33wZ23t87GCMcp1FeuZxdrPSvHopG+H3+vDo0d84/d3XWJi7EDvZ79fnydOei4mvXv4FN6/8ivmZaXx0ZJD8yV343A0o1mXDUaryrhs2VSoTSLJLZvK+jr5/GJ9NfoIvTnyOTz8OY/BQP97d70ewex/6e7txqL8Xw4MhhI8M49jEOPQyPjLTE5dErOSEp9KikRBWg0oQkYm5MWJVJWtZLiWzLCcpKiUEVGSWLRoCrxXKkB/LMvk6SI1awn12npmMFB+Z2wg/Mx0Em4osgg4eOaKzQZsDtTAd0S70b5blEl6EzaT6nttxTFJGbbGcthLNsr1IgGoTH9v1XOhEdFTm8eEsE8Hr0KLHaVrZZZHVbqgn2gxMinO7JLinoWDG31oRCbSWYe/uEnS5LBHvrryZoKsoONRqpLxQ9x4I1CdOjLQLxwaahCFfdeL/7f8HNeo3BSxIzpoAAAAASUVORK5CYII=",
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABIFBMVEUjISEiICAhHx8oJiYvLi48OjorKSmpqakgHh5SUVF+fX2np6ctKyvp6emBgICtrKwvLS21tLTR0dH29vafnp6op6c4NzdHRUXf399YV1cuLCy4t7dCQECsrKxMS0skISA6NTSBfX0pJSQ0Ly9oZGNMSEdXUlIlICCFUETBbFmwZlWlYVLCbVqyZlWgX1G3aFe0Z1aJUkZ8TEGmYFGgXk+yZVSxZVOgXU+dXE6jX1CDT0NEQkJTUVFfXV06ODiTkpKko6N6eXnGxcUqKCgxMDAsKiqhoKCbmpqdnJzV1dWampqura1XVlZ/fn7a2tqrq6skIiJeXFzt7e0pJyc1MzO+vr6CgYGzsrLS0tKlpKRVVFRdXFyKiYlIR0c+PDxqaGjPleQVAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH4wkXEzgTEZsu1wAAAKxJREFUGNOVkL0OAVEQhe+5ZuauTUjoReslvAOi8H4eQqVSkGio1BIvoLLZZa/l7s9sxykmM18y50zGmF+FUAFvLDJr8gZaKjCe/Eq/kMKCIGMIHmGi2shaoGpryEQ0aMF+4SB3Zp0+Rqnk2nh2KxgrGJcsE+V5igqdnesddJBz7jI9irTuFGCySxitkzihYToTmSu4iPbcWbqNbPWXVp/s2wjrXL/Oh8Z785fe9hkgxOFyvRwAAAAASUVORK5CYII=",
             "aspectRatio": 1,
-            "src": "//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=2400&q=50",
-            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=600&h=600&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=968&h=968&q=50 968w",
-            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=2400&q=50&fm=webp",
-            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=600&h=600&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=968&h=968&q=50&fm=webp 968w",
+            "src": "//images.ctfassets.net/wdb98kvzqgep/4brkr33PVyHJGMkNdOatlI/49f5a17a6bc642cba3e9cd6277d7aa95/Logo_1883__1_.png?w=2400&q=50",
+            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/4brkr33PVyHJGMkNdOatlI/49f5a17a6bc642cba3e9cd6277d7aa95/Logo_1883__1_.png?w=292&h=292&q=50 292w",
+            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/4brkr33PVyHJGMkNdOatlI/49f5a17a6bc642cba3e9cd6277d7aa95/Logo_1883__1_.png?w=2400&q=50&fm=webp",
+            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/4brkr33PVyHJGMkNdOatlI/49f5a17a6bc642cba3e9cd6277d7aa95/Logo_1883__1_.png?w=292&h=292&q=50&fm=webp 292w",
             "sizes": "(max-width: 2400px) 100vw, 2400px"
           }
         },
         "featured_image": {
           "fluid": {
-            "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAPABQDAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAABgADBf/EACcQAAEDAwQCAAcAAAAAAAAAAAECAwQFBhEAEiExByIWMkFCUpGh/8QAGQEAAgMBAAAAAAAAAAAAAAAABAYBAgMF/8QAJBEAAgECBAcBAAAAAAAAAAAAAQIDAAQREyFREjFBYYGR4QX/2gAMAwEAAhEDEQA/AC9ieaYVWgP0m/a+l+7I8qUFomRAXEspUDuyG9qUgZPXSSroZ0nyyO6mZ1AGHQdtt6bZ7BIJBHbPxjfH7TObHpFSpEN+3K2/KRJbK9zCUONoUn5kYyrkDCsceqgesaXIP1Ibm4FvllSR108c+xqJbWWBC5YEDah/wrU5eXDNirye3G/b+YH6Gu3ligs2qrg8P0C/boqDjU5dJrLra5Bn4ypbQQpLpzsUR6EpI6UD1nUMXQgodNjyopJ2C4H3WQ55ctGl27R6NZFKjzp1JJLNSYhCLte5AeW4s71H2/H7EjGBqiWql82ZvHX3Q7yPqE+eqlGuGrQoKUT5qZspSi446lboyVHJ+vPJPOtWBJJU1VeHDUV//9k=",
-            "aspectRatio": 1.333762886597938,
-            "src": "//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=2400&q=50",
-            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=600&h=450&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=1200&h=900&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=2400&h=1799&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=3600&h=2699&q=50 3600w",
-            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
-            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=600&h=450&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=1200&h=900&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=2400&h=1799&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=3600&h=2699&q=50&fm=webp 3600w",
+            "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAARABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMFBgf/xAAsEAABAgYBAAgHAAAAAAAAAAABAgMABAUREiEGMTIzNUFRdME0QmFxg7Gy/8QAFgEBAQEAAAAAAAAAAAAAAAAABQQG/8QAIBEAAQMEAgMAAAAAAAAAAAAAAAECESExQVEDEjLB8P/aAAwDAQACEQMRAD8Ayc6zIJ5I/LzEu+tpxOZKCE2OPy36xytrx2NdMRcfYbptbxQ4w8l1pTZDeSXGyFDZSokgEjwJ94c1p0/R5xyoyzC56nzQTlks3lli+SRbaRexGiN284r6U+zMLk5ha3G5Vp9txxL7agUkW6ivEAk/YD6i+fb2m1Np7+Qbe1j2rC1TB03jL7s1SgntEsvOoSo36CtSv2owiaQq7nHW3JU01eTjinyl1N8cjqxGiCLG484RVOwyCrrndqPUD+VRi+RfC/khCIePyQadk0a+7aR6Br3hCEWBi3P/2Q==",
+            "aspectRatio": 1.1819899244332495,
+            "src": "//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=2400&q=50",
+            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=600&h=508&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=1200&h=1015&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=2400&h=2030&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=3600&h=3046&q=50 3600w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=3754&h=3176&q=50 3754w",
+            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=2400&q=50&fm=webp",
+            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=600&h=508&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=1200&h=1015&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=2400&h=2030&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=3600&h=3046&q=50&fm=webp 3600w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=3754&h=3176&q=50&fm=webp 3754w",
             "sizes": "(max-width: 2400px) 100vw, 2400px"
           }
         },
         "body": {
-          "body": "## Smokin'\n\nIn 2011, Eli's BBQ began serving hickory smoked pork sandwiches topped with homemade BBQ sauce and coleslaw on Cincinnati's Fountain Square. Today they have expanded to numerous locations and are still growing. Serving the same great and high-quality taste since the beginning, their BBQ will surely satisfy your taste buds.\n\nChef Eli began his venture as a one-man BBQ stand. With assistance from his right-hand man Drew, they opened their first brick and mortar location. Now serving Cincinnati's residents for over 8 years.",
+          "body": "##### New American comfort food\n\nKitchen 1883 Cafe & Bar is a regionally centric restaurant serving All-American comfort food. Offering breakfast, weekend brunch, lunch & dinner, as well as, a full-service bar! Maintaining its menu favorites from its current Union, KY location, while introducing lighter fare options including salads, flatbreads, sandwiches and more! Perfect for enjoying a casual sit-down meal or for great grab and go options.\n\nAt the bar enjoy a hand-crafted cocktail and many local favorites. Happy hour is from 3-6:30p Monday-Friday.\n\nOur Chef, Arthur Kurtzman, is a local Cincinnati native. As a college student he realized his passion for the culinary arts while cooking at Maggiano's and baking at Silverton Donut Shop. He graduated from the Culinary Institute of America with an Associate's Degree in Culinary Arts and a Bachelor's Degree in Hospitality Management. He moved to New Orleans where he spent time doing butchery and pastry work for Commander's Palace. Soon after achieving the Chef Tournant position at Shaya, a James Beard Award winning restaurant. While owning and operating, Sharp and Shiny Knives, Arthur was a General Manager for Little Korea BBQ. An up and coming Korean BBQ spot in the Lower Garden District of New Orleans. Chef Kurtzman attributes much of his diverse culinary style to his mother, Tome Kurtzman. Kitchen 1883 Cafe and Bar is an ideal location for Arthur to present his midwestern and homestyle cooking background for the community in which he grew up.",
           "childMarkdownRemark": {
-            "html": "<h2>Smokin'</h2>\n<p>In 2011, Eli's BBQ began serving hickory smoked pork sandwiches topped with homemade BBQ sauce and coleslaw on Cincinnati's Fountain Square. Today they have expanded to numerous locations and are still growing. Serving the same great and high-quality taste since the beginning, their BBQ will surely satisfy your taste buds.</p>\n<p>Chef Eli began his venture as a one-man BBQ stand. With assistance from his right-hand man Drew, they opened their first brick and mortar location. Now serving Cincinnati's residents for over 8 years.</p>"
+            "html": "<h5>New American comfort food</h5>\n<p>Kitchen 1883 Cafe &#x26; Bar is a regionally centric restaurant serving All-American comfort food. Offering breakfast, weekend brunch, lunch &#x26; dinner, as well as, a full-service bar! Maintaining its menu favorites from its current Union, KY location, while introducing lighter fare options including salads, flatbreads, sandwiches and more! Perfect for enjoying a casual sit-down meal or for great grab and go options.</p>\n<p>At the bar enjoy a hand-crafted cocktail and many local favorites. Happy hour is from 3-6:30p Monday-Friday.</p>\n<p>Our Chef, Arthur Kurtzman, is a local Cincinnati native. As a college student he realized his passion for the culinary arts while cooking at Maggiano's and baking at Silverton Donut Shop. He graduated from the Culinary Institute of America with an Associate's Degree in Culinary Arts and a Bachelor's Degree in Hospitality Management. He moved to New Orleans where he spent time doing butchery and pastry work for Commander's Palace. Soon after achieving the Chef Tournant position at Shaya, a James Beard Award winning restaurant. While owning and operating, Sharp and Shiny Knives, Arthur was a General Manager for Little Korea BBQ. An up and coming Korean BBQ spot in the Lower Garden District of New Orleans. Chef Kurtzman attributes much of his diverse culinary style to his mother, Tome Kurtzman. Kitchen 1883 Cafe and Bar is an ideal location for Arthur to present his midwestern and homestyle cooking background for the community in which he grew up.</p>"
           }
         },
         "body_image": {
           "fluid": {
-            "base64": "data:image/jpeg;base64,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",
-            "aspectRatio": 0.8000329978551394,
-            "src": "//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=2400&q=50",
-            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=600&h=750&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=1200&h=1500&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=2400&h=3000&q=50 2400w",
-            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=2400&q=50&fm=webp",
-            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=600&h=750&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=1200&h=1500&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=2400&h=3000&q=50&fm=webp 2400w",
+            "base64": "data:image/jpeg;base64,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",
+            "aspectRatio": 0.7999123703811888,
+            "src": "//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=2400&q=50",
+            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=600&h=750&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=1200&h=1500&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=2400&h=3000&q=50 2400w",
+            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=2400&q=50&fm=webp",
+            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=600&h=750&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=1200&h=1500&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=2400&h=3000&q=50&fm=webp 2400w",
             "sizes": "(max-width: 2400px) 100vw, 2400px"
           }
         },
@@ -58,34 +58,34 @@
         "images": [
           {
             "fluid": {
-              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAARABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAUDBAYH/8QAKxAAAgECBAQEBwAAAAAAAAAAAQIDAAQFERIhBhMxQSIyUXEUJDM0YYGC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgMF/8QAHhEAAwABBAMAAAAAAAAAAAAAAAECQQMSIXERMaH/2gAMAwEAAhEDEQA/AL/EuPw2si2ojIkaNnB5/JVfTUxOwz9899q5aDEra7+dSYIzgxuxdWjYqTkuvuO/WtnHuFGxOMG5RAUXZs8wo7DLfb8Gol9h1vFh0SRPzXtmPMRJdNpp3zLRE6dYJ65ad9wdgcVRVV7XRqaSVLalz2QZ8cvrW/vo5MSnRfiHMauSAEPTTt5fSlZHTFbuR5oUsGiY+DUNPhGw21DLp33pS2rLFVT54S+nocv0V/VclxN9n/a0pUqwSjJFg8h9zSlKoE//2Q==",
-              "aspectRatio": 1.1846314325452016,
-              "src": "//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=2400&q=50",
-              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=600&h=506&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=1200&h=1013&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=2400&h=2026&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=3600&h=3039&q=50 3600w",
-              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=2400&q=50&fm=webp",
-              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=600&h=506&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=1200&h=1013&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=2400&h=2026&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=3600&h=3039&q=50&fm=webp 3600w",
+              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBv/EACoQAAIABQEECwAAAAAAAAAAAAECAAMEBRFBBhJhchMVISIxNDVDcXPC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwX/xAAbEQACAwADAAAAAAAAAAAAAAAAAQMSIQIRMf/aAAwDAQACEQMRAD8AzU40FDWPTdW1MmWzLh1ll8oQO8HLAHXQcMeMIstdNsO0aXSdNs9Nb5cthLZgOlyRjeC5JBHaRxxGf2n9Qp/o/TRLqPa5REvhFb1sqSPpYixdGp7lcairtiFaWY5ZAyhfnA0GYIVavJjmMELZrAap6f/Z",
+              "aspectRatio": 2.250214592274678,
+              "src": "//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=2400&q=50",
+              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=600&h=267&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=1200&h=533&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=2400&h=1067&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=3600&h=1600&q=50 3600w",
+              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
+              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=600&h=267&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=1200&h=533&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=2400&h=1067&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=3600&h=1600&q=50&fm=webp 3600w",
               "sizes": "(max-width: 2400px) 100vw, 2400px"
             }
           },
           {
             "fluid": {
-              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAPABQDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUG/8QAKBAAAgEDAwIFBQAAAAAAAAAAAQIDBAURAAYhBxIIEzFBURQVIjKB/8QAGQEAAgMBAAAAAAAAAAAAAAAABAUAAQMG/8QAJhEAAgEDAwIHAQAAAAAAAAAAAQIRAAMEEhMhMXEiMkFRYYHB0f/aAAwDAQACEQMRAD8AidTt+XReuMcRniFlfbEsiLUxK9OKpZn7Qz9pZSfwGAccj31ywS0yG6/mHH126ftOU3pFpOQfbr/fylLw8eIOx7h2nS7Su80UNVDG60dZTgmBZzKZUDMTlcSE4JA+PjLHEvKrCyaEzMdwNwgx81U35036YzX9qlNw/aRVRJVfST3WmpSnmDvGEmBbBDA5HHJA9NatgYuo6jB71iuXfA4E0PdVbRbt328W5xJJIwZVdZWiYKf2z2+oyBwT/NIten0kU1SUOpTBoOEW4bPuGkrKS9pDHSSxuIGpElhk8s5USAgFwT6g8EccaqzsIwfT4hzyaKv5F+6m2SIiOBWgo7fFDDioWhqJmJd5BTMmSTk8BsDk+2oxZmJmhAEAiK//2Q==",
-              "aspectRatio": 1.333762886597938,
-              "src": "//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=2400&q=50",
-              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=600&h=450&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=1200&h=900&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=2400&h=1799&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=3600&h=2699&q=50 3600w",
-              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=2400&q=50&fm=webp",
-              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=600&h=450&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=1200&h=900&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=2400&h=1799&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=3600&h=2699&q=50&fm=webp 3600w",
+              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUHBv/EACgQAAEDBAIBAQkAAAAAAAAAAAECAwQABRESITEGBxMkQUJRUmGBsf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAHxEAAQMDBQAAAAAAAAAAAAAAAAECAxETMRQiMlFS/9oADAMBAAIRAxEAPwDLybc9Y7o9BMKdJW2hB92ZLuCUg4PIxyfqOjzTNy0x2HSJK0h1pouvpVskLXrsEI74+UnHZph6gXaZZvZXKC6GpUxnR9eiVbjroggcAdCpbN868icYU2q5r1Axw2gfwVBRkz15UqWtjcpgo8DyKyS4bTjlkkKXjBWUuHbnvA64+H4oqTMeVX9tsJavVxaT9rUhaEj9AgUU2mk9BXW9H//Z",
+              "aspectRatio": 1.7949568679495687,
+              "src": "//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=2400&q=50",
+              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=600&h=334&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=1200&h=669&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=2400&h=1337&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=3600&h=2006&q=50 3600w",
+              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
+              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=600&h=334&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=1200&h=669&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=2400&h=1337&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=3600&h=2006&q=50&fm=webp 3600w",
               "sizes": "(max-width: 2400px) 100vw, 2400px"
             }
           },
           {
             "fluid": {
-              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAQABQDAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAkEAACAQUAAgICAwAAAAAAAAABAgMEBQYRIQAHEhMIFCMxQv/EABoBAAICAwAAAAAAAAAAAAAAAAQFAAYBAgP/xAAoEQABAwEGBQUAAAAAAAAAAAABAAIDBBEhMUFR8QUSEyKhFGGBsdH/2gAMAwEAAhEDEQA/AD3qvJaimtl/t+fX+Ojraa6TSIMim/n+oooX60kBZhpf8qd9Pd+UuSrfKQ55y0VvrKCnpXBlKeYH3VGlx7FsZgsd3uV2kNmudSsLz2ZQqRlugOGClSdNwqNabvPETuL0pkEYFupGX0sRUM7wTbhqhuWYFleMXye3STT1jRaP3wQRyI4PQQwTvCPGoLTugiTmpt+VWDRQVzZJFLaY7Pd1JuNL+yEkpKkkfIwRqGcqxAfgY9Ya1rRVK+x5bZfjuiQ9oZY/Dyj1V7xt9wx+ms9sx2oqKtERairllNDBUuGDFzFpy22AJIEbf30bI8VO4TFI8vkcPj93UbWyRHt8pzbPdXtKsoIitZarfGmwlPBAnwUFix0XR2PWPWYnzv6aNna0XLTq817jev/Z",
-              "aspectRatio": 1.269736842105263,
-              "src": "//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=2400&q=50",
-              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=600&h=473&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=1200&h=945&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=2400&h=1890&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=3474&h=2736&q=50 3474w",
-              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=2400&q=50&fm=webp",
-              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=600&h=473&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=1200&h=945&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=2400&h=1890&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=3474&h=2736&q=50&fm=webp 3474w",
+              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABwAEBv/EACcQAAIBAwMDAwUAAAAAAAAAAAECAwQFEQASIQYTMVFh8AcUQVKB/8QAFgEBAQEAAAAAAAAAAAAAAAAABQID/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEhETIf/aAAwDAQACEQMRAD8ARur+pJrXLR0lMRSJOwD1UiFl2kEBExxvz+xGMH21zz315DVGOF6hqfcJUV41dSBxgYAbPOSW8jjjWD6gQXG5VKQ0Va0H2ynBDFTuPPkfPOjAL1NFcDElYokYMhYBdzZ8kt5JyPz6DQUoWfJC9WllDZar/b5LfBIsvZ7i7ykpAYE+uPn851aJrbS1VupzDPVu8pYuxyTyffVrXUibs//Z",
+              "aspectRatio": 1.2957050551121247,
+              "src": "//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=2400&q=50",
+              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=600&h=463&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=1200&h=926&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=2400&h=1852&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=3409&h=2631&q=50 3409w",
+              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=2400&q=50&fm=webp",
+              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=600&h=463&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=1200&h=926&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=2400&h=1852&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=3409&h=2631&q=50&fm=webp 3409w",
               "sizes": "(max-width: 2400px) 100vw, 2400px"
             }
           }
@@ -96,30 +96,148 @@
         "socialLinks": [
           {
             "icon": "website",
-            "url": "http://www.elisbarbeque.com/"
+            "url": "http://www.kitchen1883.com/"
           },
           {
             "icon": "facebook",
-            "url": "https://www.facebook.com/elisbbqcincy/"
-          },
-          {
-            "icon": "twitter",
-            "url": "https://twitter.com/ElisBBQCincy"
+            "url": "https://www.facebook.com/Kitchen1883/"
           },
           {
             "icon": "instagram",
-            "url": "https://www.instagram.com/elisbbq/"
+            "url": "https://www.instagram.com/kitchen1883/"
           }
         ],
         "menus": [
           {
-            "title": "Eli's Sandwiches, Ribs & Sides",
-            "label": "Sandwiches, Ribs & Sides",
+            "title": "1883 Cafe & Bar - Breakfast",
+            "label": "Breakfast",
             "sections": null
           },
           {
-            "title": "Eli's Catering",
-            "label": "Catering",
+            "title": "1883 Cafe & Bar - Brunch",
+            "label": "Brunch",
+            "sections": null
+          },
+          {
+            "title": "1883 Cafe & Bar - Lunch & Dinner",
+            "label": "Lunch & Dinner",
+            "sections": null
+          },
+          {
+            "title": "1883 Cafe & Bar - Small Plates",
+            "label": "Small Plates",
+            "sections": null
+          }
+        ]
+      }
+    },
+    {
+      "node": {
+        "id": "811e5995-9c07-5ff7-a32d-012625285651",
+        "title": "Queen City Whip",
+        "permalink": "queen-city-whip",
+        "logo": {
+          "fluid": {
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAz1BMVEVpVaRpVaSHd7Z/brJuWqd/Z62Jb7GcgLeyjb6IbrBxXql7aq+Jerh5Z619bLBvXKiMcbKqir7EncfVqMyvhbqMcK6PdbKQcrFsWKVtWaaLe7mKeriXicCBcbNsWaamhLiRdrKJbq6Ocq+ofrauhbq0g7jPkL53Za11Y6uWiMCIeLepf7bAi72tgrjQkr+2hrqsgbeRbq2GdraPgbt/brF6aK6NfrqEdLVzXaWSbq12Xqh2X6ZoVaJpVaOCcrNyX6l4Zq1zYKqEc7RqVqRrV6V31ly5AAAAAXRSTlP+GuMHfQAAAAlwSFlzAAAhNwAAITcBM1ifegAAAAd0SU1FB+MJEhMRKNMIqCoAAABaSURBVBjTY2RkwARMDAMhyAjlsYBJZkYE+AQW5GdEAaiCtxnUgORHkDFAH2khqbumfQpiJi+Ye8QWqOCO6QGoShgwZvr3VPbjLVQn8fGefcF3C00lTQMEKwAAK4UP6nGIl18AAAAASUVORK5CYII=",
+            "aspectRatio": 0.995711222301644,
+            "src": "//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=2400&q=50",
+            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=600&h=603&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=1200&h=1205&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=1393&h=1399&q=50 1393w",
+            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=2400&q=50&fm=webp",
+            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=600&h=603&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=1200&h=1205&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=1393&h=1399&q=50&fm=webp 1393w",
+            "sizes": "(max-width: 2400px) 100vw, 2400px"
+          }
+        },
+        "featured_image": {
+          "fluid": {
+            "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIFBgcI/8QAJBAAAgEDAwQDAQAAAAAAAAAAAQIDAAQRBRIxBiFBYRMUIlH/xAAXAQADAQAAAAAAAAAAAAAAAAABAgQF/8QAHREAAQMFAQAAAAAAAAAAAAAAAgABEQMEBRQhEv/aAAwDAQACEQMRAD8A6B0Xra01W3UyFVYjuAaj723iv1k+JVLxfhmORvI5Pcf3NZbqdjqenWFvL07M00u8fZilIQ7fG1znA54weKtuka1NJZRzXYkhnwBIjSbsnyQQDnPus8sgwlEcVLWbuPqepp7R45CrKcj3RTzXTSPuDs+QO7KBRTbtNDVNf//Z",
+            "aspectRatio": 1.3188795088257868,
+            "src": "//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=2400&q=50",
+            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=600&h=455&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=1200&h=910&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=2400&h=1820&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=3600&h=2730&q=50 3600w",
+            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=2400&q=50&fm=webp",
+            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=600&h=455&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=1200&h=910&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=2400&h=1820&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=3600&h=2730&q=50&fm=webp 3600w",
+            "sizes": "(max-width: 2400px) 100vw, 2400px"
+          }
+        },
+        "body": {
+          "body": "##### All-American diner food\n\nQueen City Whip has a classic lineup of menu items that represent the standard of All-American diner food. Best known for the Whip Classic Burgers, Chili Dogs, and Cheese Fries. These great tasting examples create an authentic All-American atmosphere. With the ongoing support of loyal customers Queen City Whip is now able to expand to a new location at On the Rhine Eatery.\n\nChef and Co-Owner, Ian Sobeck, although a glass blower by trade, has been working in the food industry since his mid-twenties. His culinary journey started as a dishwasher quickly advancing to a line cook in Seattle. Soon after Ian migrated to California and worked for a food truck service up and down the west coast. This is where he met Colin Patterson and accepted a position back in Seattle to work at Colin's locally sourced restaurant called Sutra. Several years later Ian moved to Cincinnati, where he created the entire menu for the local restaurant O Pie O. Ian's next opportunity was to create a food truck concept from the ground up. He designed a throwback themed food truck utilizing local vendors. Thus, creating the Queen City Whip food truck we all love.",
+          "childMarkdownRemark": {
+            "html": "<h5>All-American diner food</h5>\n<p>Queen City Whip has a classic lineup of menu items that represent the standard of All-American diner food. Best known for the Whip Classic Burgers, Chili Dogs, and Cheese Fries. These great tasting examples create an authentic All-American atmosphere. With the ongoing support of loyal customers Queen City Whip is now able to expand to a new location at On the Rhine Eatery.</p>\n<p>Chef and Co-Owner, Ian Sobeck, although a glass blower by trade, has been working in the food industry since his mid-twenties. His culinary journey started as a dishwasher quickly advancing to a line cook in Seattle. Soon after Ian migrated to California and worked for a food truck service up and down the west coast. This is where he met Colin Patterson and accepted a position back in Seattle to work at Colin's locally sourced restaurant called Sutra. Several years later Ian moved to Cincinnati, where he created the entire menu for the local restaurant O Pie O. Ian's next opportunity was to create a food truck concept from the ground up. He designed a throwback themed food truck utilizing local vendors. Thus, creating the Queen City Whip food truck we all love.</p>"
+          }
+        },
+        "body_image": {
+          "fluid": {
+            "base64": "data:image/jpeg;base64,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",
+            "aspectRatio": 0.8,
+            "src": "//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=2400&q=50",
+            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=600&h=750&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=1200&h=1500&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=2400&h=3000&q=50 2400w",
+            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=2400&q=50&fm=webp",
+            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=600&h=750&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=1200&h=1500&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=2400&h=3000&q=50&fm=webp 2400w",
+            "sizes": "(max-width: 2400px) 100vw, 2400px"
+          }
+        },
+        "description": {
+          "description": "Queen City Whip has a classic lineup of menu items that represent the standard of All-American diner food. Best known for the Whip Classic Burgers, Chili Dogs, and Cheese Fries. \n\n",
+          "childMarkdownRemark": {
+            "html": "<p>Queen City Whip has a classic lineup of menu items that represent the standard of All-American diner food. Best known for the Whip Classic Burgers, Chili Dogs, and Cheese Fries. </p>"
+          }
+        },
+        "menu_pdf": {
+          "file": {
+            "url": "//assets.ctfassets.net/wdb98kvzqgep/5S5X1TwVRJhPfrcEqBgRLA/08737725208231bf846f09730a9cf2d1/menu-sample.pdf"
+          }
+        },
+        "images": [
+          {
+            "fluid": {
+              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMGBQf/xAAiEAABBAICAwADAAAAAAAAAAABAgMEEQAFBiESQWFRYnH/xAAWAQEBAQAAAAAAAAAAAAAAAAAFAQL/xAAbEQEAAgMBAQAAAAAAAAAAAAACAAESE0ERIf/aAAwDAQACEQMRAD8ATpNFI1Wnd28ptwbFyvNaO0xW6sI7I6HdqBq/lDKPVL1y9tIm7JhcFLrQaRIkPBDRIrsA0PI/339vJ7n5K+IPAqUAXmwfFRHv5mPxDh2jkwmZL0IreLZJWXl3dn9sEYaedLyq5FTZJxuvt9nVGYMeSFriNyCyFFKVPRy2VffFQusMZrIrUCE3GjhaWmxSUqWpVD8WSThmd5l1Kf/Z",
+              "aspectRatio": 1.8927572272303388,
+              "src": "//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=2400&q=50",
+              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=600&h=317&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=1200&h=634&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=2400&h=1268&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=3600&h=1902&q=50 3600w",
+              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
+              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=600&h=317&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=1200&h=634&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=2400&h=1268&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=3600&h=1902&q=50&fm=webp 3600w",
+              "sizes": "(max-width: 2400px) 100vw, 2400px"
+            }
+          },
+          {
+            "fluid": {
+              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgACBf/EACYQAAIBAwQABgMAAAAAAAAAAAECAwQFEQAGEiEHEyJRYXEjMUH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EACARAAAEBgMAAAAAAAAAAAAAAAABAiEDERNRkfAUIiP/2gAMAwEAAhEDEQA/AM+FlmgamnuE9A9VOYxPwViGEecKFx3nHePdiP6NNt1b2strttUk1XHLW0QCUxgCPzDnj+mzkr1jB7zjvQWCihuK1KzmZREkiL5MzxdEEEHgRkY99dmj21ZbI0Yt1qo6cgD1rEvM/JY9k/Z1EXFJHpM2aTCqmGauoHmXdVCqQNYKKtKqPzrUgc/sMAQfjHWrTuWWTmfWdWictNtyEUDvuB//2Q==",
+              "aspectRatio": 1.762276504658776,
+              "src": "//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=2400&q=50",
+              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=600&h=340&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=1200&h=681&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=2400&h=1362&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=3600&h=2043&q=50 3600w",
+              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
+              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=600&h=340&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=1200&h=681&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=2400&h=1362&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=3600&h=2043&q=50&fm=webp 3600w",
+              "sizes": "(max-width: 2400px) 100vw, 2400px"
+            }
+          },
+          {
+            "fluid": {
+              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgAEBf/EACQQAAIBBAEDBQEAAAAAAAAAAAEDAgAEESEFBhIxFCJRYYGx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgX/xAAcEQACAgIDAAAAAAAAAAAAAAABAgARAwQU8PH/2gAMAwEAAhEDEQA/AET+b5PozjFX9youQ09kJLZgR8DJyN7I0N+finHA9Us5jjlXKmLb3D3CMZEx3jccZFF5AMUVzAlAncZbB/K1IQq3tphKoKBGcQiB/KiNs5btWqUxr4ytERK+7Yxnd6aZ/aq51ouEkRMoRJ3sj7qpjefvkPEWf//Z",
+              "aspectRatio": 1.990891959798995,
+              "src": "//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=2400&q=50",
+              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=600&h=301&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=1200&h=603&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=2400&h=1205&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=3600&h=1808&q=50 3600w",
+              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=2400&q=50&fm=webp",
+              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=600&h=301&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=1200&h=603&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=2400&h=1205&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=3600&h=1808&q=50&fm=webp 3600w",
+              "sizes": "(max-width: 2400px) 100vw, 2400px"
+            }
+          }
+        ],
+        "hours": {
+          "hours": "Mon 7am-8pm \nTues-Thurs 7am-9pm \nFri 7am-10pm \nSat 9am-10pm \nSun 9am-8pm"
+        },
+        "socialLinks": [
+          {
+            "icon": "facebook",
+            "url": "https://www.facebook.com/queencitywhip"
+          },
+          {
+            "icon": "instagram",
+            "url": "https://www.instagram.com/queencitywhip/"
+          }
+        ],
+        "menus": [
+          {
+            "title": "Queen City Whip Menu",
+            "label": "Menu",
             "sections": null
           }
         ]
@@ -153,9 +271,9 @@
           }
         },
         "body": {
-          "body": "## This stuff is dope!\n\nDOPE! Asian Street Fare has returned to the Cincinnati food scene with a renewed focus to create a story telling cuisine. You will be transported with each dish into the heart of an Asian metropolis. Opened as a quirky 90's-themed noodle and dumpling shop in 2017, DOPE! is broadening it's menu. Enjoy comforting ramen bowls, crispy dumplings, and soft & sweet bao buns. Whether you are a seasoned veteran or a new convert to Asian street fare, we are sure you will soon agree that, #ThisStuffIsDope.\n\nChef Kam Siu was born in China and migrated to the United States at a young age. With his family in the restaurant business, Siu learned the value of hard work and appreciation for food as an integral piece of community and fmaily. With his longtime friend Fancett, Siu founded Panda Trading Company in 2014 and has built it into a trusted name in foodservice distribution. DOPE! Asian Street Fare is a culmination of Kam's experiences and passions for food, family, friends, and life.",
+          "body": "##### This stuff is dope!\n\nDOPE! Asian Street Fare has returned to the Cincinnati food scene with a renewed focus to create a story telling cuisine. You will be transported with each dish into the heart of an Asian metropolis. Opened as a quirky 90's-themed noodle and dumpling shop in 2017, DOPE! is broadening it's menu. Enjoy comforting ramen bowls, crispy dumplings, and soft & sweet bao buns. Whether you are a seasoned veteran or a new convert to Asian street fare, we are sure you will soon agree that, #ThisStuffIsDope.\n\nChef Kam Siu was born in China and migrated to the United States at a young age. With his family in the restaurant business, Siu learned the value of hard work and appreciation for food as an integral piece of community and fmaily. With his longtime friend Fancett, Siu founded Panda Trading Company in 2014 and has built it into a trusted name in foodservice distribution. DOPE! Asian Street Fare is a culmination of Kam's experiences and passions for food, family, friends, and life.",
           "childMarkdownRemark": {
-            "html": "<h2>This stuff is dope!</h2>\n<p>DOPE! Asian Street Fare has returned to the Cincinnati food scene with a renewed focus to create a story telling cuisine. You will be transported with each dish into the heart of an Asian metropolis. Opened as a quirky 90's-themed noodle and dumpling shop in 2017, DOPE! is broadening it's menu. Enjoy comforting ramen bowls, crispy dumplings, and soft &#x26; sweet bao buns. Whether you are a seasoned veteran or a new convert to Asian street fare, we are sure you will soon agree that, #ThisStuffIsDope.</p>\n<p>Chef Kam Siu was born in China and migrated to the United States at a young age. With his family in the restaurant business, Siu learned the value of hard work and appreciation for food as an integral piece of community and fmaily. With his longtime friend Fancett, Siu founded Panda Trading Company in 2014 and has built it into a trusted name in foodservice distribution. DOPE! Asian Street Fare is a culmination of Kam's experiences and passions for food, family, friends, and life.</p>"
+            "html": "<h5>This stuff is dope!</h5>\n<p>DOPE! Asian Street Fare has returned to the Cincinnati food scene with a renewed focus to create a story telling cuisine. You will be transported with each dish into the heart of an Asian metropolis. Opened as a quirky 90's-themed noodle and dumpling shop in 2017, DOPE! is broadening it's menu. Enjoy comforting ramen bowls, crispy dumplings, and soft &#x26; sweet bao buns. Whether you are a seasoned veteran or a new convert to Asian street fare, we are sure you will soon agree that, #ThisStuffIsDope.</p>\n<p>Chef Kam Siu was born in China and migrated to the United States at a young age. With his family in the restaurant business, Siu learned the value of hard work and appreciation for food as an integral piece of community and fmaily. With his longtime friend Fancett, Siu founded Panda Trading Company in 2014 and has built it into a trusted name in foodservice distribution. DOPE! Asian Street Fare is a culmination of Kam's experiences and passions for food, family, friends, and life.</p>"
           }
         },
         "body_image": {
@@ -269,52 +387,52 @@
     },
     {
       "node": {
-        "id": "811e5995-9c07-5ff7-a32d-012625285651",
-        "title": "Queen City Whip",
-        "permalink": "queen-city-whip",
+        "id": "69c9de5f-d903-564d-a60e-883170999f52",
+        "title": "Eli's BBQ",
+        "permalink": "elis-bbq",
         "logo": {
           "fluid": {
-            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAz1BMVEVpVaRpVaSHd7Z/brJuWqd/Z62Jb7GcgLeyjb6IbrBxXql7aq+Jerh5Z619bLBvXKiMcbKqir7EncfVqMyvhbqMcK6PdbKQcrFsWKVtWaaLe7mKeriXicCBcbNsWaamhLiRdrKJbq6Ocq+ofrauhbq0g7jPkL53Za11Y6uWiMCIeLepf7bAi72tgrjQkr+2hrqsgbeRbq2GdraPgbt/brF6aK6NfrqEdLVzXaWSbq12Xqh2X6ZoVaJpVaOCcrNyX6l4Zq1zYKqEc7RqVqRrV6V31ly5AAAAAXRSTlP+GuMHfQAAAAlwSFlzAAAhNwAAITcBM1ifegAAAAd0SU1FB+MJEhMRKNMIqCoAAABaSURBVBjTY2RkwARMDAMhyAjlsYBJZkYE+AQW5GdEAaiCtxnUgORHkDFAH2khqbumfQpiJi+Ye8QWqOCO6QGoShgwZvr3VPbjLVQn8fGefcF3C00lTQMEKwAAK4UP6nGIl18AAAAASUVORK5CYII=",
-            "aspectRatio": 0.995711222301644,
-            "src": "//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=2400&q=50",
-            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=600&h=603&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=1200&h=1205&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=1393&h=1399&q=50 1393w",
-            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=2400&q=50&fm=webp",
-            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=600&h=603&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=1200&h=1205&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7AykPQfTJg5EaH2YYd1RYy/8c697969a2928c9740d45429f5143082/QueenCity_Logo.png?w=1393&h=1399&q=50&fm=webp 1393w",
+            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAACE3AAAhNwEzWJ96AAAAB3RJTUUH4wkSExEo0wioKgAABEJJREFUOMudlGtMk1ccxonilxk2ChNKS+ntpbS0pfcrLVCglIuwUkoHOimychlltrNgC5YJRUHGxHVjbBCzmWiyL+7Lsg/b+GCyJcbFOSeTi8P7DIPIhzlJ1Mz02duSoS7GEf/JyXlzcp7nPTm/8/zj4jZQEyNt8cdG2uPjXrQkkuzNjkpNjdtZdKrnbetiOOSKDHXviPT5ahd9LRWn9ApOjV4r2bwhM0ZKglLMSprWZNOQQ6SAz94GDo0CdloiCDoF2cxkCMm1LEbSdBrlJeVzzWQ5hFUq4tzPVQlRadbCXmFEmUkNhZgDZQ4BpYCOEjUXVSYpCrRiGDWi+3q1yPpMM6M2R5PJoT/gsNOQyaWDzUwBwUkDl7029BoxaUiDik+FXMRENp8NhTQLPC79QSabrn3K7LDHtsXj0M43lsthNfBhVtBRrslAZ0s1BnvaEPQ0oNPdiJFQF0YPtGPA48C+N/LhtmkQ1djzhfMOE2/LumGbTecMNBbDs6MA9aVK7HVZMTm6Hx8MuNHVXIY+rx3d7Vb4mkoQDrXhxFgfPHVG+Nc1KjgsCue6oVqcMaWTsFBqFMGsF2J8NIRvvzoJf3slSMoIDzRjKLAT/T4HBv112NNsx4FuL57U1JQop2Jm9OStmyRE6qqUSAWfkQxeOgVSkm5Xx25SwMFbrp0xwizqy+DSXoEgIwmdHU3o7/HhSY2IlbTKeHXrpjhznmxbgU4Mg1qEXKUAMhEn9m0rN2Jy/ChOHp/EOx1vorWpHn0BDz4c7oWrvhRRjfE/mkKDLCVOIGBTBSQxmYQHkjKilEly4LBSYS7UI9+ogkREoNxixOtVhbCX5cYor2u4jzVsZio1rqFcFx9oKHjotqlJYgrcuLaA2YvnMH/pZ6zeu4tb1xdwZ3kRK3eWMTv9E25encPS4m3cvnUNy0t/IHzQj2oj+TLktIcWZcZaPL11xjNRYqPBFkTr7PdTuHzpPCKRCG5cmcVvM+dx768/ceHH05i7eJZcm8EP33wZ23t87GCMcp1FeuZxdrPSvHopG+H3+vDo0d84/d3XWJi7EDvZ79fnydOei4mvXv4FN6/8ivmZaXx0ZJD8yV343A0o1mXDUaryrhs2VSoTSLJLZvK+jr5/GJ9NfoIvTnyOTz8OY/BQP97d70ewex/6e7txqL8Xw4MhhI8M49jEOPQyPjLTE5dErOSEp9KikRBWg0oQkYm5MWJVJWtZLiWzLCcpKiUEVGSWLRoCrxXKkB/LMvk6SI1awn12npmMFB+Z2wg/Mx0Em4osgg4eOaKzQZsDtTAd0S70b5blEl6EzaT6nttxTFJGbbGcthLNsr1IgGoTH9v1XOhEdFTm8eEsE8Hr0KLHaVrZZZHVbqgn2gxMinO7JLinoWDG31oRCbSWYe/uEnS5LBHvrryZoKsoONRqpLxQ9x4I1CdOjLQLxwaahCFfdeL/7f8HNeo3BSxIzpoAAAAASUVORK5CYII=",
+            "aspectRatio": 1,
+            "src": "//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=2400&q=50",
+            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=600&h=600&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=968&h=968&q=50 968w",
+            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=2400&q=50&fm=webp",
+            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=600&h=600&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/4d1WkVTMih3U9CDVHjsjaU/d8b394c4f7493fab460d78d124af7747/ElisBBQ_Logo.png?w=968&h=968&q=50&fm=webp 968w",
             "sizes": "(max-width: 2400px) 100vw, 2400px"
           }
         },
         "featured_image": {
           "fluid": {
-            "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIFBgcI/8QAJBAAAgEDAwQDAQAAAAAAAAAAAQIDAAQRBRIxBiFBYRMUIlH/xAAXAQADAQAAAAAAAAAAAAAAAAABAgQF/8QAHREAAQMFAQAAAAAAAAAAAAAAAgABEQMEBRQhEv/aAAwDAQACEQMRAD8A6B0Xra01W3UyFVYjuAaj723iv1k+JVLxfhmORvI5Pcf3NZbqdjqenWFvL07M00u8fZilIQ7fG1znA54weKtuka1NJZRzXYkhnwBIjSbsnyQQDnPus8sgwlEcVLWbuPqepp7R45CrKcj3RTzXTSPuDs+QO7KBRTbtNDVNf//Z",
-            "aspectRatio": 1.3188795088257868,
-            "src": "//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=2400&q=50",
-            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=600&h=455&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=1200&h=910&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=2400&h=1820&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=3600&h=2730&q=50 3600w",
-            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=2400&q=50&fm=webp",
-            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=600&h=455&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=1200&h=910&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=2400&h=1820&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/7mnWuachkUxVmEmz6hJFAQ/b6fcc57f170ca3fc0dec7c4e9eeb5225/KrogerFoodHall_Whip_Item3_opt2_FINAL.jpg?w=3600&h=2730&q=50&fm=webp 3600w",
+            "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAPABQDAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAABgADBf/EACcQAAEDAwQCAAcAAAAAAAAAAAECAwQFBhEAEiExByIWMkFCUpGh/8QAGQEAAgMBAAAAAAAAAAAAAAAABAYBAgMF/8QAJBEAAgECBAcBAAAAAAAAAAAAAQIDAAQREyFREjFBYYGR4QX/2gAMAwEAAhEDEQA/AC9ieaYVWgP0m/a+l+7I8qUFomRAXEspUDuyG9qUgZPXSSroZ0nyyO6mZ1AGHQdtt6bZ7BIJBHbPxjfH7TObHpFSpEN+3K2/KRJbK9zCUONoUn5kYyrkDCsceqgesaXIP1Ibm4FvllSR108c+xqJbWWBC5YEDah/wrU5eXDNirye3G/b+YH6Gu3ligs2qrg8P0C/boqDjU5dJrLra5Bn4ypbQQpLpzsUR6EpI6UD1nUMXQgodNjyopJ2C4H3WQ55ctGl27R6NZFKjzp1JJLNSYhCLte5AeW4s71H2/H7EjGBqiWql82ZvHX3Q7yPqE+eqlGuGrQoKUT5qZspSi446lboyVHJ+vPJPOtWBJJU1VeHDUV//9k=",
+            "aspectRatio": 1.333762886597938,
+            "src": "//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=2400&q=50",
+            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=600&h=450&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=1200&h=900&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=2400&h=1799&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=3600&h=2699&q=50 3600w",
+            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
+            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=600&h=450&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=1200&h=900&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=2400&h=1799&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/7s8eQ0PcCRX1DG6dJdHNrW/692663104735db05001fe7f9b43da647/KrogerFoodHall_Elis_Item5_qtr_FINAL.jpg?w=3600&h=2699&q=50&fm=webp 3600w",
             "sizes": "(max-width: 2400px) 100vw, 2400px"
           }
         },
         "body": {
-          "body": "## All-American diner food\n\nQueen City Whip has a classic lineup of menu items that represent the standard of All-American diner food. Best known for the Whip Classic Burgers, Chili Dogs, and Cheese Fries. These great tasting examples create an authentic All-American atmosphere. With the ongoing support of loyal customers Queen City Whip is now able to expand to a new location at On the Rhine Eatery.\n\nChef and Co-Owner, Ian Sobeck, although a glass blower by trade, has been working in the food industry since his mid-twenties. His culinary journey started as a dishwasher quickly advancing to a line cook in Seattle. Soon after Ian migrated to California and worked for a food truck service up and down the west coast. This is where he met Colin Patterson and accepted a position back in Seattle to work at Colin's locally sourced restaurant called Sutra. Several years later Ian moved to Cincinnati, where he created the entire menu for the local restaurant O Pie O. Ian's next opportunity was to create a food truck concept from the ground up. He designed a throwback themed food truck utilizing local vendors. Thus, creating the Queen City Whip food truck we all love.",
+          "body": "##### Smokin'\n\nIn 2011, Eli's BBQ began serving hickory smoked pork sandwiches topped with homemade BBQ sauce and coleslaw on Cincinnati's Fountain Square. Today they have expanded to numerous locations and are still growing. Serving the same great and high-quality taste since the beginning, their BBQ will surely satisfy your taste buds.\n\nChef Eli began his venture as a one-man BBQ stand. With assistance from his right-hand man Drew, they opened their first brick and mortar location. Now serving Cincinnati's residents for over 8 years.",
           "childMarkdownRemark": {
-            "html": "<h2>All-American diner food</h2>\n<p>Queen City Whip has a classic lineup of menu items that represent the standard of All-American diner food. Best known for the Whip Classic Burgers, Chili Dogs, and Cheese Fries. These great tasting examples create an authentic All-American atmosphere. With the ongoing support of loyal customers Queen City Whip is now able to expand to a new location at On the Rhine Eatery.</p>\n<p>Chef and Co-Owner, Ian Sobeck, although a glass blower by trade, has been working in the food industry since his mid-twenties. His culinary journey started as a dishwasher quickly advancing to a line cook in Seattle. Soon after Ian migrated to California and worked for a food truck service up and down the west coast. This is where he met Colin Patterson and accepted a position back in Seattle to work at Colin's locally sourced restaurant called Sutra. Several years later Ian moved to Cincinnati, where he created the entire menu for the local restaurant O Pie O. Ian's next opportunity was to create a food truck concept from the ground up. He designed a throwback themed food truck utilizing local vendors. Thus, creating the Queen City Whip food truck we all love.</p>"
+            "html": "<h5>Smokin'</h5>\n<p>In 2011, Eli's BBQ began serving hickory smoked pork sandwiches topped with homemade BBQ sauce and coleslaw on Cincinnati's Fountain Square. Today they have expanded to numerous locations and are still growing. Serving the same great and high-quality taste since the beginning, their BBQ will surely satisfy your taste buds.</p>\n<p>Chef Eli began his venture as a one-man BBQ stand. With assistance from his right-hand man Drew, they opened their first brick and mortar location. Now serving Cincinnati's residents for over 8 years.</p>"
           }
         },
         "body_image": {
           "fluid": {
-            "base64": "data:image/jpeg;base64,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",
-            "aspectRatio": 0.8,
-            "src": "//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=2400&q=50",
-            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=600&h=750&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=1200&h=1500&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=2400&h=3000&q=50 2400w",
-            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=2400&q=50&fm=webp",
-            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=600&h=750&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=1200&h=1500&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/4KsXIgfD6cG9ljACt5yqy3/7c110f1414e6bf2e1ac3675246da47cb/IAN_SOBECK_071819_PR__75.jpg?w=2400&h=3000&q=50&fm=webp 2400w",
+            "base64": "data:image/jpeg;base64,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",
+            "aspectRatio": 0.8000329978551394,
+            "src": "//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=2400&q=50",
+            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=600&h=750&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=1200&h=1500&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=2400&h=3000&q=50 2400w",
+            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=2400&q=50&fm=webp",
+            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=600&h=750&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=1200&h=1500&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/7zR1Q8l0DZ9VfzjFzBh0gP/fb9d3c7bd4b3b7e7505f850fa77a8fbb/ELIS_BBQ_0030.jpg?w=2400&h=3000&q=50&fm=webp 2400w",
             "sizes": "(max-width: 2400px) 100vw, 2400px"
           }
         },
         "description": {
-          "description": "Queen City Whip has a classic lineup of menu items that represent the standard of All-American diner food. Best known for the Whip Classic Burgers, Chili Dogs, and Cheese Fries. \n\n",
+          "description": "Hip counter-serve pizzeria dishing up crispy, thin-crust pies made with creative toppings & sauces",
           "childMarkdownRemark": {
-            "html": "<p>Queen City Whip has a classic lineup of menu items that represent the standard of All-American diner food. Best known for the Whip Classic Burgers, Chili Dogs, and Cheese Fries. </p>"
+            "html": "<p>Hip counter-serve pizzeria dishing up crispy, thin-crust pies made with creative toppings &#x26; sauces</p>"
           }
         },
         "menu_pdf": {
@@ -325,34 +443,34 @@
         "images": [
           {
             "fluid": {
-              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMGBQf/xAAiEAABBAICAwADAAAAAAAAAAABAgMEEQAFBiESQWFRYnH/xAAWAQEBAQAAAAAAAAAAAAAAAAAFAQL/xAAbEQEAAgMBAQAAAAAAAAAAAAACAAESE0ERIf/aAAwDAQACEQMRAD8ATpNFI1Wnd28ptwbFyvNaO0xW6sI7I6HdqBq/lDKPVL1y9tIm7JhcFLrQaRIkPBDRIrsA0PI/339vJ7n5K+IPAqUAXmwfFRHv5mPxDh2jkwmZL0IreLZJWXl3dn9sEYaedLyq5FTZJxuvt9nVGYMeSFriNyCyFFKVPRy2VffFQusMZrIrUCE3GjhaWmxSUqWpVD8WSThmd5l1Kf/Z",
-              "aspectRatio": 1.8927572272303388,
-              "src": "//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=2400&q=50",
-              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=600&h=317&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=1200&h=634&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=2400&h=1268&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=3600&h=1902&q=50 3600w",
-              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
-              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=600&h=317&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=1200&h=634&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=2400&h=1268&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/3xVqmnWnQOGPyurbhGhltL/f9f71b8e2e945579c3afe5bacc866245/KrogerFoodHall_Whip_Item2_qtr_FINAL.jpg?w=3600&h=1902&q=50&fm=webp 3600w",
+              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAARABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAUDBAYH/8QAKxAAAgECBAQEBwAAAAAAAAAAAQIDAAQFERIhBhMxQSIyUXEUJDM0YYGC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgMF/8QAHhEAAwABBAMAAAAAAAAAAAAAAAECQQMSIXERMaH/2gAMAwEAAhEDEQA/AL/EuPw2si2ojIkaNnB5/JVfTUxOwz9899q5aDEra7+dSYIzgxuxdWjYqTkuvuO/WtnHuFGxOMG5RAUXZs8wo7DLfb8Gol9h1vFh0SRPzXtmPMRJdNpp3zLRE6dYJ65ad9wdgcVRVV7XRqaSVLalz2QZ8cvrW/vo5MSnRfiHMauSAEPTTt5fSlZHTFbuR5oUsGiY+DUNPhGw21DLp33pS2rLFVT54S+nocv0V/VclxN9n/a0pUqwSjJFg8h9zSlKoE//2Q==",
+              "aspectRatio": 1.1846314325452016,
+              "src": "//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=2400&q=50",
+              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=600&h=506&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=1200&h=1013&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=2400&h=2026&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=3600&h=3039&q=50 3600w",
+              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=2400&q=50&fm=webp",
+              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=600&h=506&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=1200&h=1013&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=2400&h=2026&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/5FaBNlpgMl7x3JKKfLwwt0/bdca63719dac848621fbfa6de99d3457/KrogerFoodHall_Elis_Item1_qtr_opt2_FINAL.jpg?w=3600&h=3039&q=50&fm=webp 3600w",
               "sizes": "(max-width: 2400px) 100vw, 2400px"
             }
           },
           {
             "fluid": {
-              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgACBf/EACYQAAIBAwQABgMAAAAAAAAAAAECAwQFEQAGEiEHEyJRYXEjMUH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EACARAAAEBgMAAAAAAAAAAAAAAAABAiEDERNRkfAUIiP/2gAMAwEAAhEDEQA/AM+FlmgamnuE9A9VOYxPwViGEecKFx3nHePdiP6NNt1b2strttUk1XHLW0QCUxgCPzDnj+mzkr1jB7zjvQWCihuK1KzmZREkiL5MzxdEEEHgRkY99dmj21ZbI0Yt1qo6cgD1rEvM/JY9k/Z1EXFJHpM2aTCqmGauoHmXdVCqQNYKKtKqPzrUgc/sMAQfjHWrTuWWTmfWdWictNtyEUDvuB//2Q==",
-              "aspectRatio": 1.762276504658776,
-              "src": "//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=2400&q=50",
-              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=600&h=340&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=1200&h=681&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=2400&h=1362&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=3600&h=2043&q=50 3600w",
-              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
-              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=600&h=340&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=1200&h=681&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=2400&h=1362&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/9FlNwcTu7i43lt2ZibV6I/d30048490ff6b2f5b1cec6962d71aef1/KrogerFoodHall_Whip_Item1_qtr_FINAL.jpg?w=3600&h=2043&q=50&fm=webp 3600w",
+              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAPABQDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABwUG/8QAKBAAAgEDAwIFBQAAAAAAAAAAAQIDBAURAAYhBxIIEzFBURQVIjKB/8QAGQEAAgMBAAAAAAAAAAAAAAAABAUAAQMG/8QAJhEAAgEDAwIHAQAAAAAAAAAAAQIRAAMEEhMhMXEiMkFRYYHB0f/aAAwDAQACEQMRAD8AidTt+XReuMcRniFlfbEsiLUxK9OKpZn7Qz9pZSfwGAccj31ywS0yG6/mHH126ftOU3pFpOQfbr/fylLw8eIOx7h2nS7Su80UNVDG60dZTgmBZzKZUDMTlcSE4JA+PjLHEvKrCyaEzMdwNwgx81U35036YzX9qlNw/aRVRJVfST3WmpSnmDvGEmBbBDA5HHJA9NatgYuo6jB71iuXfA4E0PdVbRbt328W5xJJIwZVdZWiYKf2z2+oyBwT/NIten0kU1SUOpTBoOEW4bPuGkrKS9pDHSSxuIGpElhk8s5USAgFwT6g8EccaqzsIwfT4hzyaKv5F+6m2SIiOBWgo7fFDDioWhqJmJd5BTMmSTk8BsDk+2oxZmJmhAEAiK//2Q==",
+              "aspectRatio": 1.333762886597938,
+              "src": "//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=2400&q=50",
+              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=600&h=450&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=1200&h=900&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=2400&h=1799&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=3600&h=2699&q=50 3600w",
+              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=2400&q=50&fm=webp",
+              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=600&h=450&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=1200&h=900&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=2400&h=1799&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/1XirrHkv1hnU5pnbMGW4ht/8ad8cdda1c98fdb52af2834543292c3c/KrogerFoodHall_Elis_Item4_FINAL.jpg?w=3600&h=2699&q=50&fm=webp 3600w",
               "sizes": "(max-width: 2400px) 100vw, 2400px"
             }
           },
           {
             "fluid": {
-              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgAEBf/EACQQAAIBBAEDBQEAAAAAAAAAAAEDAgAEESEFBhIxFCJRYYGx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgX/xAAcEQACAgIDAAAAAAAAAAAAAAABAgARAwQU8PH/2gAMAwEAAhEDEQA/AET+b5PozjFX9youQ09kJLZgR8DJyN7I0N+finHA9Us5jjlXKmLb3D3CMZEx3jccZFF5AMUVzAlAncZbB/K1IQq3tphKoKBGcQiB/KiNs5btWqUxr4ytERK+7Yxnd6aZ/aq51ouEkRMoRJ3sj7qpjefvkPEWf//Z",
-              "aspectRatio": 1.990891959798995,
-              "src": "//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=2400&q=50",
-              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=600&h=301&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=1200&h=603&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=2400&h=1205&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=3600&h=1808&q=50 3600w",
-              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=2400&q=50&fm=webp",
-              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=600&h=301&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=1200&h=603&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=2400&h=1205&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/74LLRvqLoyrhWf291K2wre/6ab6c9080394c8592363c6d53f98d258/KrogerFoodHall_Whip_Item3_opt1_FINAL.jpg?w=3600&h=1808&q=50&fm=webp 3600w",
+              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAQABQDAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgf/xAAkEAACAQUAAgICAwAAAAAAAAABAgMEBQYRIQAHEhMIFCMxQv/EABoBAAICAwAAAAAAAAAAAAAAAAQFAAYBAgP/xAAoEQABAwEGBQUAAAAAAAAAAAABAAIDBBEhMUFR8QUSEyKhFGGBsdH/2gAMAwEAAhEDEQA/AD3qvJaimtl/t+fX+Ojraa6TSIMim/n+oooX60kBZhpf8qd9Pd+UuSrfKQ55y0VvrKCnpXBlKeYH3VGlx7FsZgsd3uV2kNmudSsLz2ZQqRlugOGClSdNwqNabvPETuL0pkEYFupGX0sRUM7wTbhqhuWYFleMXye3STT1jRaP3wQRyI4PQQwTvCPGoLTugiTmpt+VWDRQVzZJFLaY7Pd1JuNL+yEkpKkkfIwRqGcqxAfgY9Ya1rRVK+x5bZfjuiQ9oZY/Dyj1V7xt9wx+ms9sx2oqKtERairllNDBUuGDFzFpy22AJIEbf30bI8VO4TFI8vkcPj93UbWyRHt8pzbPdXtKsoIitZarfGmwlPBAnwUFix0XR2PWPWYnzv6aNna0XLTq817jev/Z",
+              "aspectRatio": 1.269736842105263,
+              "src": "//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=2400&q=50",
+              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=600&h=473&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=1200&h=945&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=2400&h=1890&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=3474&h=2736&q=50 3474w",
+              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=2400&q=50&fm=webp",
+              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=600&h=473&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=1200&h=945&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=2400&h=1890&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/4ydYKI1LFuJyuzRKc54FvY/2a829783795d775c283b02aef205588e/KrogerFoodHall_Elis_Item3_qtr_FINAL_.jpg?w=3474&h=2736&q=50&fm=webp 3474w",
               "sizes": "(max-width: 2400px) 100vw, 2400px"
             }
           }
@@ -362,18 +480,31 @@
         },
         "socialLinks": [
           {
+            "icon": "website",
+            "url": "http://www.elisbarbeque.com/"
+          },
+          {
             "icon": "facebook",
-            "url": "https://www.facebook.com/queencitywhip"
+            "url": "https://www.facebook.com/elisbbqcincy/"
+          },
+          {
+            "icon": "twitter",
+            "url": "https://twitter.com/ElisBBQCincy"
           },
           {
             "icon": "instagram",
-            "url": "https://www.instagram.com/queencitywhip/"
+            "url": "https://www.instagram.com/elisbbq/"
           }
         ],
         "menus": [
           {
-            "title": "Queen City Whip Menu",
-            "label": "Menu",
+            "title": "Eli's Sandwiches, Ribs & Sides",
+            "label": "Sandwiches, Ribs & Sides",
+            "sections": null
+          },
+          {
+            "title": "Eli's Catering",
+            "label": "Catering",
             "sections": null
           }
         ]
@@ -407,9 +538,9 @@
           }
         },
         "body": {
-          "body": "## Mexican cuisine with an American flair\n\nBorn in the heart of Northside, Django Western Taco has been serving western style tacos with a modern flare for over 7 years. Now expanding with a new location at On the Rhine Eatery. In addition to serving their crowd-pleasing favorites, they will introduce a brand new breakfast menu. Available to you every Monday through Friday, and for brunch on Saturday and Sunday (starting October 5). \"We hope to feed you soon!\"\n\nOwner and chef Joshua Campbell, has been tantalizing the taste buds of the culinarily curious for over 20 years. He has turned his love for food into a tastefully creative experience, and through Django Western Taco, he is awakening new flavor twists that delight and amaze. He is an award-winning chef with the ambition and talents to exceed expectations.",
+          "body": "##### Mexican cuisine with an American flair\n\nBorn in the heart of Northside, Django Western Taco has been serving western style tacos with a modern flare for over 7 years. Now expanding with a new location at On the Rhine Eatery. In addition to serving their crowd-pleasing favorites, they will introduce a brand new breakfast menu. Available to you every Monday through Friday, and for brunch on Saturday and Sunday (starting October 5). \"We hope to feed you soon!\"\n\nOwner and chef Joshua Campbell, has been tantalizing the taste buds of the culinarily curious for over 20 years. He has turned his love for food into a tastefully creative experience, and through Django Western Taco, he is awakening new flavor twists that delight and amaze. He is an award-winning chef with the ambition and talents to exceed expectations.",
           "childMarkdownRemark": {
-            "html": "<h2>Mexican cuisine with an American flair</h2>\n<p>Born in the heart of Northside, Django Western Taco has been serving western style tacos with a modern flare for over 7 years. Now expanding with a new location at On the Rhine Eatery. In addition to serving their crowd-pleasing favorites, they will introduce a brand new breakfast menu. Available to you every Monday through Friday, and for brunch on Saturday and Sunday (starting October 5). \"We hope to feed you soon!\"</p>\n<p>Owner and chef Joshua Campbell, has been tantalizing the taste buds of the culinarily curious for over 20 years. He has turned his love for food into a tastefully creative experience, and through Django Western Taco, he is awakening new flavor twists that delight and amaze. He is an award-winning chef with the ambition and talents to exceed expectations.</p>"
+            "html": "<h5>Mexican cuisine with an American flair</h5>\n<p>Born in the heart of Northside, Django Western Taco has been serving western style tacos with a modern flare for over 7 years. Now expanding with a new location at On the Rhine Eatery. In addition to serving their crowd-pleasing favorites, they will introduce a brand new breakfast menu. Available to you every Monday through Friday, and for brunch on Saturday and Sunday (starting October 5). \"We hope to feed you soon!\"</p>\n<p>Owner and chef Joshua Campbell, has been tantalizing the taste buds of the culinarily curious for over 20 years. He has turned his love for food into a tastefully creative experience, and through Django Western Taco, he is awakening new flavor twists that delight and amaze. He is an award-winning chef with the ambition and talents to exceed expectations.</p>"
           }
         },
         "body_image": {
@@ -488,34 +619,243 @@
         ],
         "menus": [
           {
-            "title": "Django Western Taco - Snacks",
-            "label": "Snacks",
-            "sections": null
-          },
-          {
-            "title": "Django Western Taco - Favorites",
-            "label": "Favorites",
-            "sections": null
-          },
-          {
-            "title": "Django Western Taco - Salads",
-            "label": "Salads",
-            "sections": null
-          },
-          {
-            "title": "Django Western Taco - Tacos",
-            "label": "Tacos",
-            "sections": null
-          },
-          {
-            "title": "Django Western Taco - Sides",
-            "label": "Sides",
-            "sections": null
-          },
-          {
-            "title": "Django Western Taco - Sweet Things",
-            "label": "Sweet Things",
-            "sections": null
+            "title": "Django Western Tacos - Lunch/Dinner",
+            "label": "Lunch/Dinner",
+            "sections": [
+              {
+                "id": "95f3fb6d-94e7-5005-95f2-eff83a3d438b",
+                "title": "Django Western Taco - Snacks",
+                "label": "Snacks",
+                "items": [
+                  {
+                    "id": "8506f424-22f4-5c9d-abef-205f6050a883",
+                    "title": "Django Chips & Salsa",
+                    "label": "(vg)(gf) Chips & Salsa",
+                    "price": "3",
+                    "body": {
+                      "body": "corn tortilla chips & pico de gallo",
+                      "childMarkdownRemark": {
+                        "html": "<p>corn tortilla chips &#x26; pico de gallo</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "18e805ff-fa46-5f1f-ab61-4e5ed9a53e40",
+                    "title": "Django Style Guacamole",
+                    "label": "(vg)(gf) Django Style Guacamole",
+                    "price": "8",
+                    "body": {
+                      "body": "avocado, pistachios, Serrano peppers, Cotija cheese ",
+                      "childMarkdownRemark": {
+                        "html": "<p>avocado, pistachios, Serrano peppers, Cotija cheese </p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "c8ea4c7a-cff7-5ffb-a495-6cba4ae690a8",
+                    "title": "Django Queso",
+                    "label": "(gf) Queso",
+                    "price": "6",
+                    "body": {
+                      "body": "roasted poblano peppers",
+                      "childMarkdownRemark": {
+                        "html": "<p>roasted poblano peppers</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "f263192d-f845-51dd-8692-672bad2536b3",
+                    "title": "Django Totchos",
+                    "label": "(gf) Totchos",
+                    "price": "7",
+                    "body": {
+                      "body": "tater tots, carnitas, queso, house BBQ sauce, green onions, crema",
+                      "childMarkdownRemark": {
+                        "html": "<p>tater tots, carnitas, queso, house BBQ sauce, green onions, crema</p>"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "2567d79d-6566-5d7b-b581-6a339a8bafe1",
+                "title": "Django Western Taco - Favorites",
+                "label": "Favorites",
+                "items": [
+                  {
+                    "id": "c7eeff3f-bc04-5c3b-9cad-96bbedc4133d",
+                    "title": "Django Burrito",
+                    "label": "(vg) Burrito",
+                    "price": "9",
+                    "body": {
+                      "body": "choice of carne asada, carnitas, jerk chicken or jackfruit, with turmeric rice, spicy black beans, avocado, pico de gallo, creamy spicy sauce & queso",
+                      "childMarkdownRemark": {
+                        "html": "<p>choice of carne asada, carnitas, jerk chicken or jackfruit, with turmeric rice, spicy black beans, avocado, pico de gallo, creamy spicy sauce &#x26; queso</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "26348150-cb5a-5ef4-96b8-d712fc2681ff",
+                    "title": "Django Jerk Chicken Quesadilla",
+                    "label": "Jerk Chicken Quesadilla",
+                    "price": "9",
+                    "body": {
+                      "body": "jerk chicken, avocado, pepper jelly, cheddar cheese, flour tortilla (sub mushrooms for chicken)",
+                      "childMarkdownRemark": {
+                        "html": "<p>jerk chicken, avocado, pepper jelly, cheddar cheese, flour tortilla (sub mushrooms for chicken)</p>"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "6ed689ff-5b43-5448-a78f-a08be6b276ca",
+                "title": "Django Western Taco - Salads",
+                "label": "Salads",
+                "items": [
+                  {
+                    "id": "e8d945bd-010f-58da-a4a2-a01db4989a0f",
+                    "title": "Django Seasonal Salad",
+                    "label": "(vg)(gf) Seasonal Salad",
+                    "price": "6/11",
+                    "body": null
+                  },
+                  {
+                    "id": "b369fdad-2627-53ad-8e03-272eb3b372a5",
+                    "title": "Django Taco Salad",
+                    "label": "(gf) Taco Salad",
+                    "price": "6/11",
+                    "body": {
+                      "body": "house made chorizo, crispy tortilla, romaine lettuce, whipped black beans, tomato, Serrano peppers, queso fresco, pickled onions, tomatillo avocado dressing",
+                      "childMarkdownRemark": {
+                        "html": "<p>house made chorizo, crispy tortilla, romaine lettuce, whipped black beans, tomato, Serrano peppers, queso fresco, pickled onions, tomatillo avocado dressing</p>"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "9d56ef3e-3952-5300-be02-c8b600c7ff1c",
+                "title": "Django Western Taco - Tacos",
+                "label": "Tacos",
+                "items": [
+                  {
+                    "id": "3afdefbb-8343-53d9-8a0f-3be0e3ca0602",
+                    "title": "Django Carnitas",
+                    "label": "(gf) Carnitas",
+                    "price": "4",
+                    "body": {
+                      "body": "slow cooked pork, house BBQ sauce, Grandma's pickles, Cojita cheese, cilantro",
+                      "childMarkdownRemark": {
+                        "html": "<p>slow cooked pork, house BBQ sauce, Grandma's pickles, Cojita cheese, cilantro</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "46c0bcd8-3396-5e13-9eed-7c53950eaa93",
+                    "title": "Django Carne Asada",
+                    "label": "Carne Asada",
+                    "price": "5",
+                    "body": {
+                      "body": "Sakura Farms Wagyu skirt steak, pepper crema, guacamole, pickled onion, Cojita cheese, cilantro",
+                      "childMarkdownRemark": {
+                        "html": "<p>Sakura Farms Wagyu skirt steak, pepper crema, guacamole, pickled onion, Cojita cheese, cilantro</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "2e804722-b8e7-5a86-a3c3-1611121adfc8",
+                    "title": "Django Fried Chicken",
+                    "label": "Fried Chicken",
+                    "price": "4",
+                    "body": {
+                      "body": "buttermilk fried chicken, house pimento cheese, chipotle honey, cilantro",
+                      "childMarkdownRemark": {
+                        "html": "<p>buttermilk fried chicken, house pimento cheese, chipotle honey, cilantro</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "140c3f86-3776-532c-8ab6-e190b7e8eee6",
+                    "title": "Django Jackfruit Carnitas",
+                    "label": "(vg)(gf) Jackfruit Carnitas",
+                    "price": "4",
+                    "body": {
+                      "body": "jackfruit, salsa verde, pickled onion, Cojita cheese, cilantro",
+                      "childMarkdownRemark": {
+                        "html": "<p>jackfruit, salsa verde, pickled onion, Cojita cheese, cilantro</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "6dbb0e41-2408-5b72-8150-01788decb203",
+                    "title": "Django Shrimp",
+                    "label": "Shrimp",
+                    "price": "4",
+                    "body": {
+                      "body": "fried shrimp, spinach, sweet chili garlic sauce, goat cheese",
+                      "childMarkdownRemark": {
+                        "html": "<p>fried shrimp, spinach, sweet chili garlic sauce, goat cheese</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "c3c62534-051b-545b-85b3-859687b27bec",
+                    "title": "Django Cod",
+                    "label": "Cod",
+                    "price": "4",
+                    "body": {
+                      "body": "beer battered cod, cabbage, lime sriracha, cilantro",
+                      "childMarkdownRemark": {
+                        "html": "<p>beer battered cod, cabbage, lime sriracha, cilantro</p>"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "2be9e70d-62ff-5d30-b4cd-00fa55998694",
+                "title": "Django Western Taco - Sides",
+                "label": "Sides",
+                "items": [
+                  {
+                    "id": "54e028f9-9ea7-563f-a626-8c52a8df3a2c",
+                    "title": "Django Black Beans",
+                    "label": "(vg)(gf) Black Beans",
+                    "price": "1.50",
+                    "body": null
+                  },
+                  {
+                    "id": "24825356-ae2e-5652-b6aa-7e46c4e6a347",
+                    "title": "Django Rice",
+                    "label": "(vg)(gf) Rice",
+                    "price": "1.50",
+                    "body": null
+                  }
+                ]
+              },
+              {
+                "id": "efe6c1ff-4153-555e-89e4-8540b82bb6b3",
+                "title": "Django Western Taco - Sweet Things",
+                "label": "Sweet Things",
+                "items": [
+                  {
+                    "id": "d0355a66-3fc2-52fa-843c-2c1757344305",
+                    "title": "Django Churros",
+                    "label": "Churros",
+                    "price": "4",
+                    "body": null
+                  },
+                  {
+                    "id": "f8d5dcb4-5496-5443-97e5-db67f5d857e8",
+                    "title": "Django Smoky Chili Chocolate Brownie",
+                    "label": "Smoky Chili Chocolate Brownie",
+                    "price": "4",
+                    "body": null
+                  }
+                ]
+              }
+            ]
           },
           {
             "title": "Django Western Tacos - Breakfast",
@@ -601,137 +941,6 @@
           {
             "title": "Django Western Taco - Catering",
             "label": "Catering",
-            "sections": null
-          }
-        ]
-      }
-    },
-    {
-      "node": {
-        "id": "3e045074-9cb8-5fae-a0db-2151b01f4b5e",
-        "title": "1883 Cafe & Bar",
-        "permalink": "1883-cafe-and-bar",
-        "logo": {
-          "fluid": {
-            "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAABIFBMVEUjISEiICAhHx8oJiYvLi48OjorKSmpqakgHh5SUVF+fX2np6ctKyvp6emBgICtrKwvLS21tLTR0dH29vafnp6op6c4NzdHRUXf399YV1cuLCy4t7dCQECsrKxMS0skISA6NTSBfX0pJSQ0Ly9oZGNMSEdXUlIlICCFUETBbFmwZlWlYVLCbVqyZlWgX1G3aFe0Z1aJUkZ8TEGmYFGgXk+yZVSxZVOgXU+dXE6jX1CDT0NEQkJTUVFfXV06ODiTkpKko6N6eXnGxcUqKCgxMDAsKiqhoKCbmpqdnJzV1dWampqura1XVlZ/fn7a2tqrq6skIiJeXFzt7e0pJyc1MzO+vr6CgYGzsrLS0tKlpKRVVFRdXFyKiYlIR0c+PDxqaGjPleQVAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH4wkXEzgTEZsu1wAAAKxJREFUGNOVkL0OAVEQhe+5ZuauTUjoReslvAOi8H4eQqVSkGio1BIvoLLZZa/l7s9sxykmM18y50zGmF+FUAFvLDJr8gZaKjCe/Eq/kMKCIGMIHmGi2shaoGpryEQ0aMF+4SB3Zp0+Rqnk2nh2KxgrGJcsE+V5igqdnesddJBz7jI9irTuFGCySxitkzihYToTmSu4iPbcWbqNbPWXVp/s2wjrXL/Oh8Z785fe9hkgxOFyvRwAAAAASUVORK5CYII=",
-            "aspectRatio": 1,
-            "src": "//images.ctfassets.net/wdb98kvzqgep/4brkr33PVyHJGMkNdOatlI/49f5a17a6bc642cba3e9cd6277d7aa95/Logo_1883__1_.png?w=2400&q=50",
-            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/4brkr33PVyHJGMkNdOatlI/49f5a17a6bc642cba3e9cd6277d7aa95/Logo_1883__1_.png?w=292&h=292&q=50 292w",
-            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/4brkr33PVyHJGMkNdOatlI/49f5a17a6bc642cba3e9cd6277d7aa95/Logo_1883__1_.png?w=2400&q=50&fm=webp",
-            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/4brkr33PVyHJGMkNdOatlI/49f5a17a6bc642cba3e9cd6277d7aa95/Logo_1883__1_.png?w=292&h=292&q=50&fm=webp 292w",
-            "sizes": "(max-width: 2400px) 100vw, 2400px"
-          }
-        },
-        "featured_image": {
-          "fluid": {
-            "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAARABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMFBgf/xAAsEAABAgYBAAgHAAAAAAAAAAABAgMABAUREiEGMTIzNUFRdME0QmFxg7Gy/8QAFgEBAQEAAAAAAAAAAAAAAAAABQQG/8QAIBEAAQMEAgMAAAAAAAAAAAAAAAECESExQVEDEjLB8P/aAAwDAQACEQMRAD8Ayc6zIJ5I/LzEu+tpxOZKCE2OPy36xytrx2NdMRcfYbptbxQ4w8l1pTZDeSXGyFDZSokgEjwJ94c1p0/R5xyoyzC56nzQTlks3lli+SRbaRexGiN284r6U+zMLk5ha3G5Vp9txxL7agUkW6ivEAk/YD6i+fb2m1Np7+Qbe1j2rC1TB03jL7s1SgntEsvOoSo36CtSv2owiaQq7nHW3JU01eTjinyl1N8cjqxGiCLG484RVOwyCrrndqPUD+VRi+RfC/khCIePyQadk0a+7aR6Br3hCEWBi3P/2Q==",
-            "aspectRatio": 1.1819899244332495,
-            "src": "//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=2400&q=50",
-            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=600&h=508&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=1200&h=1015&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=2400&h=2030&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=3600&h=3046&q=50 3600w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=3754&h=3176&q=50 3754w",
-            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=2400&q=50&fm=webp",
-            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=600&h=508&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=1200&h=1015&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=2400&h=2030&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=3600&h=3046&q=50&fm=webp 3600w,\n//images.ctfassets.net/wdb98kvzqgep/BZU1YBZ3gbn13S1cywb5f/872bb8f7f70b51e34ab64f1c7ecbd381/KrogerFoodHall_Kitchen1883_Item5_FINAL.jpg?w=3754&h=3176&q=50&fm=webp 3754w",
-            "sizes": "(max-width: 2400px) 100vw, 2400px"
-          }
-        },
-        "body": {
-          "body": "## New American comfort food\n\nKitchen 1883 Cafe & Bar is a regionally centric restaurant serving All-American comfort food. Offering breakfast, weekend brunch, lunch & dinner, as well as, a full-service bar! Maintaining its menu favorites from its current Union, KY location, while introducing lighter fare options including salads, flatbreads, sandwiches and more! Perfect for enjoying a casual sit-down meal or for great grab and go options.\n\nAt the bar enjoy a hand-crafted cocktail and many local favorites. Happy hour is from 3-6:30p Monday-Friday.\n\nOur Chef, Arthur Kurtzman, is a local Cincinnati native. As a college student he realized his passion for the culinary arts while cooking at Maggiano's and baking at Silverton Donut Shop. He graduated from the Culinary Institute of America with an Associate's Degree in Culinary Arts and a Bachelor's Degree in Hospitality Management. He moved to New Orleans where he spent time doing butchery and pastry work for Commander's Palace. Soon after achieving the Chef Tournant position at Shaya, a James Beard Award winning restaurant. While owning and operating, Sharp and Shiny Knives, Arthur was a General Manager for Little Korea BBQ. An up and coming Korean BBQ spot in the Lower Garden District of New Orleans. Chef Kurtzman attributes much of his diverse culinary style to his mother, Tome Kurtzman. Kitchen 1883 Cafe and Bar is an ideal location for Arthur to present his midwestern and homestyle cooking background for the community in which he grew up.",
-          "childMarkdownRemark": {
-            "html": "<h2>New American comfort food</h2>\n<p>Kitchen 1883 Cafe &#x26; Bar is a regionally centric restaurant serving All-American comfort food. Offering breakfast, weekend brunch, lunch &#x26; dinner, as well as, a full-service bar! Maintaining its menu favorites from its current Union, KY location, while introducing lighter fare options including salads, flatbreads, sandwiches and more! Perfect for enjoying a casual sit-down meal or for great grab and go options.</p>\n<p>At the bar enjoy a hand-crafted cocktail and many local favorites. Happy hour is from 3-6:30p Monday-Friday.</p>\n<p>Our Chef, Arthur Kurtzman, is a local Cincinnati native. As a college student he realized his passion for the culinary arts while cooking at Maggiano's and baking at Silverton Donut Shop. He graduated from the Culinary Institute of America with an Associate's Degree in Culinary Arts and a Bachelor's Degree in Hospitality Management. He moved to New Orleans where he spent time doing butchery and pastry work for Commander's Palace. Soon after achieving the Chef Tournant position at Shaya, a James Beard Award winning restaurant. While owning and operating, Sharp and Shiny Knives, Arthur was a General Manager for Little Korea BBQ. An up and coming Korean BBQ spot in the Lower Garden District of New Orleans. Chef Kurtzman attributes much of his diverse culinary style to his mother, Tome Kurtzman. Kitchen 1883 Cafe and Bar is an ideal location for Arthur to present his midwestern and homestyle cooking background for the community in which he grew up.</p>"
-          }
-        },
-        "body_image": {
-          "fluid": {
-            "base64": "data:image/jpeg;base64,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",
-            "aspectRatio": 0.7999123703811888,
-            "src": "//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=2400&q=50",
-            "srcSet": "//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=600&h=750&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=1200&h=1500&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=2400&h=3000&q=50 2400w",
-            "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=2400&q=50&fm=webp",
-            "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=600&h=750&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=1200&h=1500&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5TKWOmX4qV7zXQVdMs6hor/0350fc27cec388a365610aa69b051372/ARTHUR_KURTZMAN_PR_7063.jpg?w=2400&h=3000&q=50&fm=webp 2400w",
-            "sizes": "(max-width: 2400px) 100vw, 2400px"
-          }
-        },
-        "description": {
-          "description": "Hip counter-serve pizzeria dishing up crispy, thin-crust pies made with creative toppings & sauces",
-          "childMarkdownRemark": {
-            "html": "<p>Hip counter-serve pizzeria dishing up crispy, thin-crust pies made with creative toppings &#x26; sauces</p>"
-          }
-        },
-        "menu_pdf": {
-          "file": {
-            "url": "//assets.ctfassets.net/wdb98kvzqgep/5S5X1TwVRJhPfrcEqBgRLA/08737725208231bf846f09730a9cf2d1/menu-sample.pdf"
-          }
-        },
-        "images": [
-          {
-            "fluid": {
-              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBv/EACoQAAIABQEECwAAAAAAAAAAAAECAAMEBRFBBhJhchMVISIxNDVDcXPC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwX/xAAbEQACAwADAAAAAAAAAAAAAAAAAQMSIQIRMf/aAAwDAQACEQMRAD8AzU40FDWPTdW1MmWzLh1ll8oQO8HLAHXQcMeMIstdNsO0aXSdNs9Nb5cthLZgOlyRjeC5JBHaRxxGf2n9Qp/o/TRLqPa5REvhFb1sqSPpYixdGp7lcairtiFaWY5ZAyhfnA0GYIVavJjmMELZrAap6f/Z",
-              "aspectRatio": 2.250214592274678,
-              "src": "//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=2400&q=50",
-              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=600&h=267&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=1200&h=533&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=2400&h=1067&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=3600&h=1600&q=50 3600w",
-              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
-              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=600&h=267&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=1200&h=533&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=2400&h=1067&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/5ant8UnwrfsZLJyeLMU3J/18a42b40965a5a70bfc94fcf05089145/KrogerFoodHall_Kitchen1883_Item2_qtr_FINAL.jpg?w=3600&h=1600&q=50&fm=webp 3600w",
-              "sizes": "(max-width: 2400px) 100vw, 2400px"
-            }
-          },
-          {
-            "fluid": {
-              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUHBv/EACgQAAEDBAIBAQkAAAAAAAAAAAECAwQABRESITEGBxMkQUJRUmGBsf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAHxEAAQMDBQAAAAAAAAAAAAAAAAECAxETMRQiMlFS/9oADAMBAAIRAxEAPwDLybc9Y7o9BMKdJW2hB92ZLuCUg4PIxyfqOjzTNy0x2HSJK0h1pouvpVskLXrsEI74+UnHZph6gXaZZvZXKC6GpUxnR9eiVbjroggcAdCpbN868icYU2q5r1Axw2gfwVBRkz15UqWtjcpgo8DyKyS4bTjlkkKXjBWUuHbnvA64+H4oqTMeVX9tsJavVxaT9rUhaEj9AgUU2mk9BXW9H//Z",
-              "aspectRatio": 1.7949568679495687,
-              "src": "//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=2400&q=50",
-              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=600&h=334&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=1200&h=669&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=2400&h=1337&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=3600&h=2006&q=50 3600w",
-              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=2400&q=50&fm=webp",
-              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=600&h=334&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=1200&h=669&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=2400&h=1337&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/2nXOWf8L6P4YhNs6LuwGWk/422b71dfe90080b4623e1b4440286577/KrogerFoodHall_Kitchen1883_Item6_qtr_FINAL.jpg?w=3600&h=2006&q=50&fm=webp 3600w",
-              "sizes": "(max-width: 2400px) 100vw, 2400px"
-            }
-          },
-          {
-            "fluid": {
-              "base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAYEBAUEBAYFBQUGBgYHCQ4JCQgICRINDQoOFRIWFhUSFBQXGiEcFxgfGRQUHScdHyIjJSUlFhwpLCgkKyEkJST/2wBDAQYGBgkICREJCREkGBQYJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCT/wAARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABwAEBv/EACcQAAIBAwMDAwUAAAAAAAAAAAECAwQFEQASIQYTMVFh8AcUQVKB/8QAFgEBAQEAAAAAAAAAAAAAAAAABQID/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEhETIf/aAAwDAQACEQMRAD8ARur+pJrXLR0lMRSJOwD1UiFl2kEBExxvz+xGMH21zz315DVGOF6hqfcJUV41dSBxgYAbPOSW8jjjWD6gQXG5VKQ0Va0H2ynBDFTuPPkfPOjAL1NFcDElYokYMhYBdzZ8kt5JyPz6DQUoWfJC9WllDZar/b5LfBIsvZ7i7ykpAYE+uPn851aJrbS1VupzDPVu8pYuxyTyffVrXUibs//Z",
-              "aspectRatio": 1.2957050551121247,
-              "src": "//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=2400&q=50",
-              "srcSet": "//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=600&h=463&q=50 600w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=1200&h=926&q=50 1200w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=2400&h=1852&q=50 2400w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=3409&h=2631&q=50 3409w",
-              "srcWebp": "//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=2400&q=50&fm=webp",
-              "srcSetWebp": "//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=600&h=463&q=50&fm=webp 600w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=1200&h=926&q=50&fm=webp 1200w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=2400&h=1852&q=50&fm=webp 2400w,\n//images.ctfassets.net/wdb98kvzqgep/6HAADSPGqhFiN3IBuZGIJV/0952c15fa0be7305340bf56e58fdd805/KrogerFoodHall_Kitchen1883_Item15_qtr_opt2_FINAL.jpg?w=3409&h=2631&q=50&fm=webp 3409w",
-              "sizes": "(max-width: 2400px) 100vw, 2400px"
-            }
-          }
-        ],
-        "hours": {
-          "hours": "Mon 7am-8pm \nTues-Thurs 7am-9pm \nFri 7am-10pm \nSat 9am-10pm \nSun 9am-8pm"
-        },
-        "socialLinks": [
-          {
-            "icon": "website",
-            "url": "http://www.kitchen1883.com/"
-          },
-          {
-            "icon": "facebook",
-            "url": "https://www.facebook.com/Kitchen1883/"
-          },
-          {
-            "icon": "instagram",
-            "url": "https://www.instagram.com/kitchen1883/"
-          }
-        ],
-        "menus": [
-          {
-            "title": "1883 Cafe & Bar - Breakfast",
-            "label": "Breakfast",
-            "sections": null
-          },
-          {
-            "title": "1883 Cafe & Bar - Brunch",
-            "label": "Brunch",
-            "sections": null
-          },
-          {
-            "title": "1883 Cafe & Bar - Lunch & Dinner",
-            "label": "Lunch & Dinner",
-            "sections": null
-          },
-          {
-            "title": "1883 Cafe & Bar - Small Plates",
-            "label": "Small Plates",
             "sections": null
           }
         ]
