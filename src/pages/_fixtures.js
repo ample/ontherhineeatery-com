@@ -179,14 +179,20 @@ export const query = graphql`
           menus {
             title
             label
-            items {
+            sections {
               id
               title
               label
-              body {
-                body
-                childMarkdownRemark {
-                  html
+              items {
+                id
+                title
+                label
+                price
+                body {
+                  body
+                  childMarkdownRemark {
+                    html
+                  }
                 }
               }
             }
