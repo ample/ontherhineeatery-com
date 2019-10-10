@@ -1,14 +1,12 @@
-import React, { useState, useCallback } from "react"
+import React, { useCallback } from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import { Row, Col } from "react-flexbox-grid"
 import SVG from "react-inlinesvg"
 
 import * as g from "../global/variables"
 import iconDown from "../../images/icons/icon-down.svg"
 import { Accordion, Panel } from "../utilities/accordion"
 import MenuSections from "./sections"
-import Container from "../layout/container"
 
 const StyledAccordion = styled(Accordion)`
   &.rc-collapse {

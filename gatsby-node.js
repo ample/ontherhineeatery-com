@@ -38,6 +38,15 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
+
+      vendors: allContentfulVendor {
+        edges {
+          node {
+            contentful_id
+            permalink
+          }
+        }
+      }
     }
   `).then(result => {
     // Create Pages
@@ -45,6 +54,21 @@ exports.createPages = ({ graphql, actions }) => {
       createPage({
         path: node.permalink,
         component: path.resolve(`./src/templates/${node.layout}.js`),
+        context: {
+          permalink: node.permalink,
+          id: node.contentful_id,
+          // locations: result.data.locations.edges.map(e => e.node),
+          navMenus: result.data.navMenus.edges.map(e => e.node),
+          settings: result.data.settings.edges.map(e => e.node)
+        }
+      })
+    })
+
+    // Create Vendor Detail Pages
+    result.data.vendors.edges.forEach(({ node }) => {
+      createPage({
+        path: `/vendors/${node.permalink}`,
+        component: path.resolve(`./src/templates/vendor.js`),
         context: {
           permalink: node.permalink,
           id: node.contentful_id,

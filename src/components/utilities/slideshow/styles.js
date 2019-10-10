@@ -1,5 +1,5 @@
 import { css } from "styled-components"
-import { colors, screen } from "../../global/variables"
+import { colors } from "../../global/variables"
 import chevron from "../../../images/icons/icon-chevron.svg"
 
 const slideshowStyles = css`

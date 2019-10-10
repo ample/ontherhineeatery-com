@@ -49,5 +49,34 @@ export const VendorAttributes = graphql`
       icon
       url
     }
+    meta_image {
+      fluid(maxWidth: 2400) {
+        ...GatsbyContentfulFluid_withWebp
+      }
+    }
+    meta_description {
+      meta_description
+    }
+    menus {
+      title
+      label
+      sections {
+        id
+        title
+        label
+        items {
+          id
+          title
+          label
+          price
+          body {
+            body
+            childMarkdownRemark {
+              html
+            }
+          }
+        }
+      }
+    }
   }
 `

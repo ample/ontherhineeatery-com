@@ -12,7 +12,7 @@ import Container from "../layout/container"
 import HTML from "../utilities/html"
 import VendorLogoContainer from "../vendor-logo-container"
 
-const VendorsContainer = ({ body }) => (
+const VendorsContainer = ({ body, children, ignoreVendors }) => (
   <StaticQuery
     query={graphql`
       {
@@ -33,19 +33,30 @@ const VendorsContainer = ({ body }) => (
       >
         <Row center="md">
           <Col md={9} lg={8} xl={6}>
-            <HTML field={body} />
+            {body && <HTML field={body} />}
+            {children && children}
           </Col>
         </Row>
-        <VendorLogoContainer logos={data.vendors.edges.map(v => v.node)} />
+        <VendorLogoContainer
+          logos={data.vendors.edges
+            .filter(
+              ({ node }) =>
+                !ignoreVendors.map(v => v.permalink).includes(node.permalink)
+            )
+            .map(v => v.node)}
+        />
       </Container>
     )}
   />
 )
 
 VendorsContainer.propTypes = {
-  body: PropTypes.object
+  body: PropTypes.object,
+  ignoreVendors: PropTypes.array
 }
 
-VendorsContainer.defaultProps = {}
+VendorsContainer.defaultProps = {
+  ignoreVendors: []
+}
 
 export default VendorsContainer

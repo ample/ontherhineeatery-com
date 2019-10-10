@@ -1,7 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
-import { Row, Col } from "react-flexbox-grid"
+import { Row } from "react-flexbox-grid"
 
 import * as g from "../global/variables"
 import MenuSections from "./sections"
