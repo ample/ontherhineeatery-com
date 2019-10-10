@@ -12,7 +12,6 @@ import VendorLogo from "./vendor-logo-container/vendor-logo"
 import ImageTiles from "./image/tiles"
 
 const Hero = styled.div``
-const Logo = styled.div``
 const StyledLogo = styled(VendorLogo)``
 
 const StyledPreview = styled.section`
