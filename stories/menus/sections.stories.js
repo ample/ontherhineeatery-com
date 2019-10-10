@@ -10,7 +10,7 @@ const stories = storiesOf("Menu", module)
 stories.add(
   "MenuSections",
   () => {
-    const sections = data.edges[3].node.menus[6].sections
+    const sections = data.edges[4].node.menus[1].sections
     return <MenuSections sections={sections} label={sections[0].label}/>
   },
   { notes: notes }

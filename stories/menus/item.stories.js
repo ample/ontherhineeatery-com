@@ -11,7 +11,7 @@ const stories = storiesOf("Menu", module)
 stories.add(
   "MenuItem",
   () => {
-    const item = data.edges[3].node.menus[6].sections[0].items[0]
+    const item = data.edges[4].node.menus[0].sections[0].items[0]
     const price = text("price", item.price)
     return <MenuItem label={item.label} price={price} body={item.body} />
   },

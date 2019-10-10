@@ -11,7 +11,7 @@ const stories = storiesOf("Menu", module)
 stories.add(
   "Menus (Primary)",
   () => {
-    const menus = data.edges[3].node.menus
+    const menus = data.edges[4].node.menus
     const tabCount = number("Tab Count", menus.length, {
       range: true,
       min: 1,
