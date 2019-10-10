@@ -898,6 +898,41 @@
                     "body": null
                   }
                 ]
+              },
+              {
+                "id": "23f8ba6c-fd8c-57e8-9ec7-fd930fab5f2a",
+                "title": "Django Western Taco - Breakfast",
+                "label": "Breakfast",
+                "items": [
+                  {
+                    "id": "3642148f-3b6a-51d1-a248-c9202c437260",
+                    "title": "Django Breakfast Sandwich",
+                    "label": "Breakfast Sandwich",
+                    "body": {
+                      "body": "buttermilk biscuit, applewood smoked bacon, fluffy scrambled eggs, Jack cheese, baby arugula, creamy spicy sauce",
+                      "childMarkdownRemark": {
+                        "html": "<p>buttermilk biscuit, applewood smoked bacon, fluffy scrambled eggs, Jack cheese, baby arugula, creamy spicy sauce</p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "13c8a281-2a61-5dab-a074-ee81e93e51d0",
+                    "title": "Django Breakfast Burrito",
+                    "label": "Breakfast Burrito",
+                    "body": {
+                      "body": "chorizo, hash browns, peppers, onions, queso, pico de gallo (sub jackfruit for chorizo) ",
+                      "childMarkdownRemark": {
+                        "html": "<p>chorizo, hash browns, peppers, onions, queso, pico de gallo (sub jackfruit for chorizo) </p>"
+                      }
+                    }
+                  },
+                  {
+                    "id": "d0355a66-3fc2-52fa-843c-2c1757344305",
+                    "title": "Django Churros",
+                    "label": "Churros",
+                    "body": null
+                  }
+                ]
               }
             ]
           },
