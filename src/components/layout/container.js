@@ -13,20 +13,20 @@ const Wrapper = styled.section`
   }
 `
 
-const ContentBlock = ({ className, children, ...props }) => (
+const Container = ({ className, children, ...props }) => (
   <Wrapper className={className} {...props}>
     <Grid>{children}</Grid>
   </Wrapper>
 )
 
-ContentBlock.propTypes = {
+Container.propTypes = {
   bgColor: PropTypes.string,
   padding: PropTypes.object // object with two keys:
   // desktop: single rem value, for top & bottom padding above 'md'
   // mobile: single rem value, for top & bottom padding below 'md'
 }
 
-ContentBlock.defaultProps = {
+Container.defaultProps = {
   bgColor: "transparent",
   padding: {
     desktop: "3.6rem",
@@ -34,4 +34,4 @@ ContentBlock.defaultProps = {
   }
 }
 
-export default ContentBlock
+export default Container
