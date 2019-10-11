@@ -13,8 +13,9 @@ const Tabs = styled(Row)`
 
 const Tab = styled.button`
   flex: 1;
-  min-width: calc(100% / 6);
-  max-width: calc(100% / 6);
+  min-width: calc((100% / 6) - 0.61rem);
+  max-width: calc((100% / 6) - 0.61rem);
+  margin: 1rem 0.3rem;
   font-size: 1.6rem;
   font-weight: 200;
   line-height: 2.4rem;
@@ -38,6 +39,7 @@ const Tab = styled.button`
     width: 100%;
     min-height: 4.6rem;
     height: 100%;
+    padding: 0rem 0.5rem;
   }
   &.active-tab {
     font-weight: 600;

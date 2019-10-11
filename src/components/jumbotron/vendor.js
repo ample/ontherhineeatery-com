@@ -96,7 +96,10 @@ const VendorJumbotron = props => (
         </Col>
       </Row>
     </HeroContainer>
-    <ContentContainer padding={{ desktop: "5rem", mobile: "5rem" }}>
+    <ContentContainer
+      padding={{ desktop: "5rem", mobile: "5rem" }}
+      aria-label={`${props.title} Description`}
+    >
       <Row center="xs" start="md">
         <Col xs>
           <h2>{props.title}</h2>

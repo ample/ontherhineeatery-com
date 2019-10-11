@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import PropTypes from "prop-types"
 import styled from "styled-components"
 import MediaQuery from "react-responsive"
 
@@ -20,7 +21,7 @@ const Menus = props => {
   const changeCategory = idx => setIdx(idx)
 
   return (
-    <Container>
+    <Container aria-label="Menu">
       <Header>Menu</Header>
 
       <MediaQuery query={g.screen.max.md}>
@@ -44,6 +45,8 @@ const Menus = props => {
   )
 }
 
-Menus.propTypes = {}
+Menus.propTypes = {
+  menus: PropTypes.array.isRequired
+}
 
 export default Menus
