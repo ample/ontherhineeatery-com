@@ -29,6 +29,13 @@ const StyledCol = styled(Col)`
     height: 24.8rem;
     object-fit: cover;
   }
+  @media ${screen.min.xl}{
+    img,
+    picture,
+    .gatsby-image-wrapper {
+      height: 30rem;
+    }
+  }
 }
 `
 

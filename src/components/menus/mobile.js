@@ -37,17 +37,17 @@ const StyledSVG = styled(SVG)`
   margin-right: 0rem;
 `
 
-const MobileMenus = props => {
-  const handleChange = useCallback(keys => {
+const MobileMenus = ({onClick, ...props}) => {
+  const handleChange = useCallback((keys) => {
     // return the most recently opened Panel idx
     // else fallback to default activeIdx value
     if (keys.length > 0) {
       let idx = parseInt(keys.slice(-1)[0])
-      return props.onClick(idx)
+      onClick(idx)
     } else {
-      return props.onClick(-1)
+      onClick(-1)
     }
-  })
+  }, [onClick])
 
   return (
     <StyledAccordion

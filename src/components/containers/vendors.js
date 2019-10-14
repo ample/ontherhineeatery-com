@@ -18,10 +18,10 @@ const ExpandedVendorsContainer = ({ body, children, vendors }) => (
     <Container
       className="text-center"
       bgColor={g.colors.gray200}
-      padding={{ desktop: "6rem", mobile: "3rem" }}
+      padding={{ desktop: "6rem", mobile: "6rem" }}
     >
       <Row center="md">
-        <Col md={9} lg={8} xl={6}>
+        <Col md={10} lg={8} xl={6}>
           {body && <HTML field={body} />}
           {children && children}
         </Col>
