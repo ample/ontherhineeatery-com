@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 import Location from "../location"
 
-const LocationContainer = ({ title, hours, address, phone }) => (
+const LocationContainer = ({ hours, address, phone }) => (
   <Location hours={hours.hours} address={address.address} phone={phone} />
 )
 

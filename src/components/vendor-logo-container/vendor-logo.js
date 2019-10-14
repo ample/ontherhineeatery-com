@@ -87,7 +87,7 @@ const VendorLogo = ({ children, small, ...props }) => (
   <StyledLogo
     small={small ? 1 : 0}
     as={!props.to ? "div" : Link}
-    aria-label={`${props.title} Link`}
+    aria-label={`${props.title} ${!props.to ? "Logo" : "Link"}`}
     {...props}
   >
     <Logo small={small ? 1 : 0}>
