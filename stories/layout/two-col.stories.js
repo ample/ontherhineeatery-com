@@ -1,8 +1,6 @@
 import React from "react"
 import { storiesOf } from "@storybook/react"
-import { boolean } from "@storybook/addon-knobs"
 
-import * as g from "../../src/components/global/variables"
 import data from "../__fixtures__/pages.json"
 
 import TwoColContainer from "../../src/components/layout/two-col"
