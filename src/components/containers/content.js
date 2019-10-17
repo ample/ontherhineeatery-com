@@ -17,7 +17,7 @@ const ContentContainer = ({ blocks, ...props }) => {
   const button = block => {
     if (!block.button_label || !block.button_url) return null
     return (
-      <Button key="block-button" to={block.button_url}>
+      <Button key="block-button" to={block.button_url} bold>
         {block.button_label}
       </Button>
     )
@@ -44,14 +44,20 @@ const ContentContainer = ({ blocks, ...props }) => {
     )
   }
 
+  const padding = small => {
+    const desktop = small ? "4.5rem" : "9rem"
+    const mobile = small ? "3.6rem" : "5.5rem"
+    return { desktop: desktop, mobile: mobile }
+  }
+
   return (
     <Container
       className="text-center"
-      padding={{ desktop: "9rem", mobile: "3.6rem" }}
+      padding={padding(props.smPadding)}
       bgColor={colors[props.background_color === "gray" ? "gray100" : "white"]}
     >
-      <Row center="md">
-        <Col md={9} lg={8} xl={6}>
+      <Row center="sm">
+        <Col sm={11} lg={9} xl={8}>
           {blocks.map((b, i) =>
             b.__typename === "ContentfulContentBlock" ? (
               <div key={i}>
@@ -69,9 +75,12 @@ const ContentContainer = ({ blocks, ...props }) => {
 }
 
 ContentContainer.propTypes = {
-  blocks: PropTypes.array.isRequired
+  blocks: PropTypes.array.isRequired,
+  smPadding: PropTypes.bool
 }
 
-ContentContainer.defaultProps = {}
+ContentContainer.defaultProps = {
+  smPadding: false
+}
 
 export default ContentContainer

@@ -148,6 +148,10 @@ const brand = css`
     &.text-quote *,
     blockquote,
     blockquote * {
+      margin-block-start: 0.5em;
+      margin-block-end: 0.5em;
+      margin-inline-start: 0rem;
+      margin-inline-end: 0rem;
       font-family: ${g.fonts.oswald};
       font-weight: 700;
       text-transform: uppercase;
@@ -233,8 +237,10 @@ const brand = css`
         line-height: 1.4;
       }
       &.text-quote,
-      &.text-quote * {
-        font-size: 2.8rem;
+      &.text-quote *,
+      blockquote,
+      blockquote * {
+        font-size: 2.9rem;
       }
     }
 
