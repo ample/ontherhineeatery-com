@@ -2,14 +2,16 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import ContentContainer from "./content"
+import EventsContainer from "./events"
 import FormContainer from "./form"
 import LocationContainer from "./location"
 import VendorsContainer from "./vendors"
 
 const compMap = {
-  ContentfulLocationContainer: LocationContainer,
-  ContentfulFormContainer: FormContainer,
   ContentfulContentContainer: ContentContainer,
+  ContentfulEventsContainer: EventsContainer,
+  ContentfulFormContainer: FormContainer,
+  ContentfulLocationContainer: LocationContainer,
   ContentfulVendorsContainer: VendorsContainer
 }
 
