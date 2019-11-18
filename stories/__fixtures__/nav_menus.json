@@ -8,22 +8,14 @@
           {
             "id": "3730d3f3-7d07-5445-ae4a-1b1df2461e57",
             "title": "Eat + Drink",
-            "url": "#"
-          },
-          {
-            "id": "98939aaa-626a-568e-a019-eb75930712a3",
-            "title": "Who We Are",
-            "url": "#"
-          },
-          {
-            "id": "feeab922-45f6-5d4a-94cd-81111c2f67c6",
-            "title": "Events",
-            "url": "#"
+            "url": "/vendors",
+            "children_links": null
           },
           {
             "id": "7fbe44fe-1832-544b-90eb-793dffb50be3",
             "title": "Find Us",
-            "url": "#"
+            "url": "/find-us",
+            "children_links": null
           }
         ]
       }
@@ -36,22 +28,31 @@
           {
             "id": "3730d3f3-7d07-5445-ae4a-1b1df2461e57",
             "title": "Eat + Drink",
-            "url": "#"
-          },
-          {
-            "id": "98939aaa-626a-568e-a019-eb75930712a3",
-            "title": "Who We Are",
-            "url": "#"
+            "url": "/vendors",
+            "children_links": null
           },
           {
             "id": "feeab922-45f6-5d4a-94cd-81111c2f67c6",
             "title": "Events",
-            "url": "#"
+            "url": "#",
+            "children_links": [
+              {
+                "id": "03e04262-172f-5fce-b431-aa4961d5eb86",
+                "title": "Private Events",
+                "url": "/private-events"
+              },
+              {
+                "id": "c7daf696-7b99-5e95-b9d1-911920c4e90f",
+                "title": "Special Events",
+                "url": "/special-events"
+              }
+            ]
           },
           {
             "id": "7fbe44fe-1832-544b-90eb-793dffb50be3",
             "title": "Find Us",
-            "url": "#"
+            "url": "/find-us",
+            "children_links": null
           }
         ]
       }
