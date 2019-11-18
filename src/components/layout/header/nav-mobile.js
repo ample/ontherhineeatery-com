@@ -76,7 +76,7 @@ const NavMobile = props => {
         role="button"
         aria-expanded={isOpen ? true : false}
         aria-label={`Toggle Navigation Menu`}
-        tabindex="0"
+        tabIndex="0"
       >
         <span tabIndex="-1">
           <SVG src={hamburger} aria-label={`Navigation Menu Button`} />
