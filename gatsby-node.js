@@ -23,6 +23,11 @@ exports.createPages = ({ graphql, actions }) => {
               id
               title
               url
+              children_links {
+                id
+                title
+                url
+              }
             }
           }
         }
