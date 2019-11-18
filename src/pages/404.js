@@ -35,6 +35,11 @@ export const query = graphql`
             id
             title
             url
+            children_links {
+              id
+              title
+              url
+            }
           }
         }
       }
