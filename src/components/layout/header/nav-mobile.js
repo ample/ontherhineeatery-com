@@ -5,7 +5,7 @@ import SVG from "react-inlinesvg"
 
 import * as g from "../../global/variables"
 
-import NavLinks from "../nav-links"
+import Link from "../../utilities/link"
 import hamburger from "../../../images/icons/icon-hamburger.svg"
 
 const NavBtn = styled.button`
@@ -30,7 +30,7 @@ const NavBtn = styled.button`
   }
 `
 
-const StyledNavLinks = styled(NavLinks)`
+const StyledNavLinks = styled.div`
   display: ${props => (props.isOpen ? "flex" : "none")};
   flex-direction: column;
   position: absolute;
@@ -42,6 +42,10 @@ const StyledNavLinks = styled(NavLinks)`
   padding: 0rem 1rem;
   background-color: ${g.colors.white};
   a {
+    font-family: ${g.fonts.acumin};
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
     color: ${g.colors.gray500};
     font-size: 1.4rem;
     padding: 2.4rem 0rem;
@@ -69,6 +73,11 @@ const NavMobile = props => {
     return () => document.removeEventListener("mousedown", handleOutsideClick)
   }, [isOpen])
 
+  const navLink = (link, idx) => (
+    <Link to={link.url} activeClassName="nav-active" key={`mobile_nav_${idx}`}>
+      {link.title}
+    </Link>
+  )
   return (
     <div ref={nodeRef}>
       <NavBtn
@@ -82,7 +91,13 @@ const NavMobile = props => {
           <SVG src={hamburger} aria-label={`Navigation Menu Button`} />
         </span>
       </NavBtn>
-      <StyledNavLinks nav={props.nav} isOpen={isOpen} />
+      <StyledNavLinks isOpen={isOpen}>
+        {props.nav.map((link, idx) =>
+          link.children_links
+            ? link.children_links.map((sub_link, idx) => navLink(sub_link, idx))
+            : navLink(link, idx)
+        )}
+      </StyledNavLinks>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 
 import * as g from "../global/variables"
 
@@ -9,34 +9,39 @@ import Tooltip from "../utilities/tooltip"
 
 const StyledLink = styled(Link)``
 
+export const StyledText = css`
+  margin: 1rem;
+  padding: 1rem;
+  font-family: ${g.fonts.acumin};
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: ${g.colors.white};
+  letter-spacing: 0.08rem;
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &.nav-active {
+    cursor: pointer;
+    color: ${g.colors.gray300};
+  }
+
+  @media ${g.screen.max.sm} {
+    margin: 0.2rem;
+    padding: 0.6rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.07rem;
+  }
+`
+
 const Wrapper = styled.nav`
   .trigger,
   ${StyledLink} {
-    margin: 1rem;
-    padding: 1rem;
-    font-family: ${g.fonts.acumin};
-    font-size: 1.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: ${g.colors.white};
-    letter-spacing: 0.08rem;
-    text-decoration: none;
-    &:hover,
-    &:focus,
-    &.nav-active {
-      cursor: pointer;
-      color: ${g.colors.gray300};
-    }
+    ${StyledText}
   }
   @media ${g.screen.max.sm} {
     display: flex;
     flex-direction: column;
-    .trigger {
-      margin: 0.2rem;
-      padding: 0.6rem;
-      font-size: 1.4rem;
-      letter-spacing: 0.07rem;
-    }
   }
 `
 
