@@ -11,6 +11,9 @@ const FixturesPage = ({ data, pageContext }) => (
     location={pageContext.location}
   >
     <Container>
+      <h2>Events</h2>
+      <pre>{JSON.stringify(data.events, null, 2)}</pre>
+
       <h2>Nav Menus</h2>
       <pre>{JSON.stringify(data.navMenus, null, 2)}</pre>
 
@@ -222,6 +225,34 @@ export const query = graphql`
             id
             title
             url
+            children_links {
+              id
+              title
+              url
+            }
+          }
+        }
+      }
+    }
+
+    events: allContentfulEvent {
+      edges {
+        node {
+          id
+          title
+          permalink
+          date
+          subtitle
+          image {
+            fluid(maxWidth: 2400) {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
+          body {
+            body
+            childMarkdownRemark {
+              html
+            }
           }
         }
       }

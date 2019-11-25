@@ -73,6 +73,9 @@ export const PageAttributes = graphql`
           }
         }
       }
+      ... on ContentfulEventsContainer {
+        title
+      }
       ... on ContentfulLocationContainer {
         title
         address {

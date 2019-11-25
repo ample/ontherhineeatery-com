@@ -9,5 +9,5 @@ import navMenus from "../__fixtures__/nav_menus"
 const stories = storiesOf("Layout", module)
 
 stories.add("Header", () => {
-  return <Header nav={navMenus.edges[0].node.links} />
+  return <Header nav={navMenus.edges[1].node.links} />
 })
