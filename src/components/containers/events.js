@@ -18,7 +18,7 @@ const StyledLink = styled(Link)`
   margin-bottom: 3.6rem;
   &:hover h3,
   &:focus h3 {
-    text-decoration: underline;
+    text-decoration: ${props => (props.as === "div" ? "none" : "underline")};
   }
 
   img,
@@ -32,7 +32,7 @@ const StyledLink = styled(Link)`
     margin-bottom: 5rem;
     text-align: center;
     h3 {
-      text-decoration: underline;
+      text-decoration: ${props => (props.as === "div" ? "none" : "underline")};
     }
     .gatsby-image-wrapper {
       margin-bottom: 1.8rem;
@@ -56,7 +56,8 @@ const EventsContainer = props => (
     render={data => {
       const events = data.events.edges.map(({ node }, idx) => (
         <StyledLink
-          to={node.permalink}
+          as={node.permalink ? Link : "div"}
+          to={node.permalink && node.permalink}
           key={`special-event_${idx}`}
           aria-label={`Event: ${node.title}. Description: ${node.subtitle}. ${node.body.body}`}
         >
@@ -89,9 +90,5 @@ const EventsContainer = props => (
     }}
   />
 )
-
-EventsContainer.propTypes = {}
-
-EventsContainer.defaultProps = {}
 
 export default EventsContainer
