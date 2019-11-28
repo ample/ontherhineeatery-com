@@ -43,10 +43,10 @@ const Header = props => (
     <Link to="/" aria-label="On The Rhine Logo - Home Page Link">
       <StyledLogo />
     </Link>
-    <MediaQuery query={g.screen.max.sm}>
+    <MediaQuery query={`(max-width: 900px)`}>
       <NavMobile nav={props.nav} />
     </MediaQuery>
-    <MediaQuery query={g.screen.min.sm}>
+    <MediaQuery query={`(min-width: 901px)`}>
       <NavLinks nav={props.nav} />
     </MediaQuery>
   </StyledHeader>
