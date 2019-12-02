@@ -3,8 +3,7 @@ import styled from "styled-components"
 import { Row, Col } from "react-flexbox-grid"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
-// eslint-disable-next-line
-import EventAttributes from "../../fragments/event-attributes"
+import dig from "object-dig"
 
 import { screen } from "../global/variables"
 import Container from "../layout/container"
@@ -54,18 +53,32 @@ const EventsContainer = props => (
       }
     `}
     render={data => {
-      const events = data.events.edges.map(({ node }, idx) => (
+      // Filter events
+      const events = data.events.edges
+        .map(({ node }) => node)
+        .filter(event => {
+          // If the container hasn't specified an event type, show all events.
+          if (!props.event_type) return true
+          // Otherwise, the event's event type must match the container's event
+          // type.
+          return (
+            dig(event, "event_type", "contentful_id") ===
+            dig(props, "event_type", "contentful_id")
+          )
+        })
+
+      const eventsHtml = events.map((event, idx) => (
         <StyledLink
-          as={node.permalink ? Link : "div"}
-          to={node.permalink && node.permalink}
+          as={event.permalink ? Link : "div"}
+          to={event.permalink && event.permalink}
           key={`special-event_${idx}`}
-          aria-label={`Event: ${node.title}. Description: ${node.subtitle}. ${node.body.body}`}
+          aria-label={`Event: ${event.title}. Description: ${event.subtitle}. ${event.body.body}`}
         >
           <Row>
-            {node.image && (
+            {event.image && (
               <Col md={5} xl={4}>
                 <Img
-                  fluid={node.image.fluid}
+                  fluid={event.image.fluid}
                   objectFit="cover"
                   objectPosition="50% 50%"
                   aria-hidden={true}
@@ -73,9 +86,9 @@ const EventsContainer = props => (
               </Col>
             )}
             <Col xs>
-              <h3>{node.title}</h3>
-              <h6>{node.subtitle}</h6>
-              {node.body && <HTML field={node.body} />}
+              <h3>{event.title}</h3>
+              <h6>{event.subtitle}</h6>
+              {event.body && <HTML field={event.body} />}
             </Col>
           </Row>
         </StyledLink>
@@ -83,7 +96,7 @@ const EventsContainer = props => (
       return (
         <Container as="section" aria-label="Upcoming Special Events">
           <Row center="xs">
-            <Col lg={9}>{events}</Col>
+            <Col lg={9}>{eventsHtml}</Col>
           </Row>
         </Container>
       )

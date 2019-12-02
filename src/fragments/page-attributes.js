@@ -75,6 +75,10 @@ export const PageAttributes = graphql`
       }
       ... on ContentfulEventsContainer {
         title
+        event_type {
+          contentful_id
+          title
+        }
       }
       ... on ContentfulLocationContainer {
         title

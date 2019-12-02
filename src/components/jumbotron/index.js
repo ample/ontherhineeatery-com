@@ -128,9 +128,11 @@ const Jumbotron = props => (
     <Title>
       <hgroup>
         <h1 className="text-light">{props.title}</h1>
-        <h4 className={props.color === "gray" ? "text-light" : ""}>
-          {props.subtitle}
-        </h4>
+        {props.subtitle && (
+          <h4 className={props.color === "gray" ? "text-light" : ""}>
+            {props.subtitle}
+          </h4>
+        )}
       </hgroup>
       {props.texture && (
         <Texture>
@@ -163,7 +165,7 @@ const Jumbotron = props => (
 
 Jumbotron.propTypes = {
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
   hero: PropTypes.object, // contains fluid image
   texture: PropTypes.object, // contains fluid image
   color: PropTypes.string
