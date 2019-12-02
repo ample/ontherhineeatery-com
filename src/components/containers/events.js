@@ -3,22 +3,25 @@ import styled from "styled-components"
 import { Row, Col } from "react-flexbox-grid"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
-// eslint-disable-next-line
-import EventAttributes from "../../fragments/event-attributes"
+import dig from "object-dig"
 
 import { screen } from "../global/variables"
 import Container from "../layout/container"
 import Link from "../utilities/link"
 import HTML from "../utilities/html"
 
-const StyledLink = styled(Link)`
-  display: block;
-  text-align: left;
-  text-decoration: none;
+const StyledEvent = styled(Row)`
   margin-bottom: 3.6rem;
-  &:hover h3,
-  &:focus h3 {
-    text-decoration: ${props => (props.as === "div" ? "none" : "underline")};
+  text-align: left;
+
+  a,
+  a > h3 {
+    text-decoration: none;
+  }
+
+  a:hover > h3,
+  a:focus > h3 {
+    text-decoration: underline;
   }
 
   img,
@@ -31,9 +34,11 @@ const StyledLink = styled(Link)`
   @media ${screen.max.md} {
     margin-bottom: 5rem;
     text-align: center;
-    h3 {
-      text-decoration: ${props => (props.as === "div" ? "none" : "underline")};
+
+    a > h3 {
+      text-decoration: underline;
     }
+
     .gatsby-image-wrapper {
       margin-bottom: 1.8rem;
     }
@@ -54,36 +59,52 @@ const EventsContainer = props => (
       }
     `}
     render={data => {
-      const events = data.events.edges.map(({ node }, idx) => (
-        <StyledLink
-          as={node.permalink ? Link : "div"}
-          to={node.permalink && node.permalink}
-          key={`special-event_${idx}`}
-          aria-label={`Event: ${node.title}. Description: ${node.subtitle}. ${node.body.body}`}
-        >
-          <Row>
-            {node.image && (
-              <Col md={5} xl={4}>
-                <Img
-                  fluid={node.image.fluid}
-                  objectFit="cover"
-                  objectPosition="50% 50%"
-                  aria-hidden={true}
-                />
-              </Col>
-            )}
-            <Col xs>
-              <h3>{node.title}</h3>
-              <h6>{node.subtitle}</h6>
-              {node.body && <HTML field={node.body} />}
+      // Filter events
+      const events = data.events.edges
+        .map(({ node }) => node)
+        .filter(event => {
+          // If the container hasn't specified an event type, show all events.
+          if (!props.event_type) return true
+          // Otherwise, the event's event type must match the container's event
+          // type.
+          return (
+            dig(event, "event_type", "contentful_id") ===
+            dig(props, "event_type", "contentful_id")
+          )
+        })
+
+      const eventTitle = event => {
+        const title = <h3>{event.title}</h3>
+        return event.permalink ? (
+          <Link to={event.permalink}>{title}</Link>
+        ) : (
+          title
+        )
+      }
+
+      const eventsHtml = events.map((event, idx) => (
+        <StyledEvent key={idx}>
+          {event.image && (
+            <Col md={5} xl={4}>
+              <Img
+                fluid={event.image.fluid}
+                objectFit="cover"
+                objectPosition="50% 50%"
+                aria-hidden={true}
+              />
             </Col>
-          </Row>
-        </StyledLink>
+          )}
+          <Col xs>
+            {eventTitle(event)}
+            <h6>{event.subtitle}</h6>
+            {event.body && <HTML field={event.body} />}
+          </Col>
+        </StyledEvent>
       ))
       return (
         <Container as="section" aria-label="Upcoming Special Events">
           <Row center="xs">
-            <Col lg={9}>{events}</Col>
+            <Col lg={9}>{eventsHtml}</Col>
           </Row>
         </Container>
       )

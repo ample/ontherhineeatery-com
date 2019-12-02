@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 export const EventAttributes = graphql`
   fragment EventAttributes on ContentfulEvent {
     id
+    contentful_id
     title
     subtitle
     permalink
@@ -16,6 +17,10 @@ export const EventAttributes = graphql`
       childMarkdownRemark {
         html
       }
+    }
+    event_type {
+      contentful_id
+      title
     }
   }
 `
