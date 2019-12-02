@@ -10,14 +10,18 @@ import Container from "../layout/container"
 import Link from "../utilities/link"
 import HTML from "../utilities/html"
 
-const StyledLink = styled(Link)`
-  display: block;
-  text-align: left;
-  text-decoration: none;
+const StyledEvent = styled(Row)`
   margin-bottom: 3.6rem;
-  &:hover h3,
-  &:focus h3 {
-    text-decoration: ${props => (props.as === "div" ? "none" : "underline")};
+  text-align: left;
+
+  a,
+  a > h3 {
+    text-decoration: none;
+  }
+
+  a:hover > h3,
+  a:focus > h3 {
+    text-decoration: underline;
   }
 
   img,
@@ -30,9 +34,11 @@ const StyledLink = styled(Link)`
   @media ${screen.max.md} {
     margin-bottom: 5rem;
     text-align: center;
-    h3 {
-      text-decoration: ${props => (props.as === "div" ? "none" : "underline")};
+
+    a > h3 {
+      text-decoration: underline;
     }
+
     .gatsby-image-wrapper {
       margin-bottom: 1.8rem;
     }
@@ -67,31 +73,33 @@ const EventsContainer = props => (
           )
         })
 
+      const eventTitle = event => {
+        const title = <h3>{event.title}</h3>
+        return event.permalink ? (
+          <Link to={event.permalink}>{title}</Link>
+        ) : (
+          title
+        )
+      }
+
       const eventsHtml = events.map((event, idx) => (
-        <StyledLink
-          as={event.permalink ? Link : "div"}
-          to={event.permalink && event.permalink}
-          key={`special-event_${idx}`}
-          aria-label={`Event: ${event.title}. Description: ${event.subtitle}. ${event.body.body}`}
-        >
-          <Row>
-            {event.image && (
-              <Col md={5} xl={4}>
-                <Img
-                  fluid={event.image.fluid}
-                  objectFit="cover"
-                  objectPosition="50% 50%"
-                  aria-hidden={true}
-                />
-              </Col>
-            )}
-            <Col xs>
-              <h3>{event.title}</h3>
-              <h6>{event.subtitle}</h6>
-              {event.body && <HTML field={event.body} />}
+        <StyledEvent key={idx}>
+          {event.image && (
+            <Col md={5} xl={4}>
+              <Img
+                fluid={event.image.fluid}
+                objectFit="cover"
+                objectPosition="50% 50%"
+                aria-hidden={true}
+              />
             </Col>
-          </Row>
-        </StyledLink>
+          )}
+          <Col xs>
+            {eventTitle(event)}
+            <h6>{event.subtitle}</h6>
+            {event.body && <HTML field={event.body} />}
+          </Col>
+        </StyledEvent>
       ))
       return (
         <Container as="section" aria-label="Upcoming Special Events">
