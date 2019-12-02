@@ -240,7 +240,6 @@ export const query = graphql`
         node {
           id
           title
-          permalink
           date
           subtitle
           image {

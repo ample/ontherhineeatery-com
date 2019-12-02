@@ -6,7 +6,6 @@ export const EventAttributes = graphql`
     contentful_id
     title
     subtitle
-    permalink
     image {
       fluid(maxWidth: 2400) {
         ...GatsbyContentfulFluid_withWebp
