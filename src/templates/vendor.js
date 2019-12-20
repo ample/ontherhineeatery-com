@@ -51,23 +51,13 @@ const VendorDetailPage = ({ data, location, pageContext }) => {
 
       <Menus menus={vendor.menus} />
 
-      {(vendor.menu_pdf || vendor.pickup_url || vendor.delivery_url) && (
+      {vendor.buttons && (
         <StyledContainer>
-          {vendor.menu_pdf && (
-            <Button to={vendor.menu_pdf.file.url} style={{ margin: "0 1rem" }}>
-              Download Menu
+          {vendor.buttons.map((button, idx) => (
+            <Button to={button.url} style={{ margin: "0 1rem" }} key={idx}>
+              {button.label}
             </Button>
-          )}
-          {vendor.pickup_url && (
-            <Button to={vendor.pickup_url} style={{ margin: "0 1rem" }}>
-              Order pick up
-            </Button>
-          )}
-          {vendor.delivery_url && (
-            <Button to={vendor.delivery_url} style={{ margin: "0 1rem" }}>
-              Order delivery
-            </Button>
-          )}
+          ))}
         </StyledContainer>
       )}
 

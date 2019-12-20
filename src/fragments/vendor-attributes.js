@@ -32,13 +32,10 @@ export const VendorAttributes = graphql`
         html
       }
     }
-    menu_pdf {
-      file {
-        url
-      }
+    buttons {
+      label
+      url
     }
-    pickup_url
-    delivery_url
     images {
       fluid(maxWidth: 2400) {
         ...GatsbyContentfulFluid_withWebp
