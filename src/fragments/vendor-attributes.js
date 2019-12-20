@@ -37,6 +37,8 @@ export const VendorAttributes = graphql`
         url
       }
     }
+    pickup_url
+    delivery_url
     images {
       fluid(maxWidth: 2400) {
         ...GatsbyContentfulFluid_withWebp
