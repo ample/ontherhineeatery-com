@@ -30,6 +30,7 @@ const NavBtn = styled.button`
 
 const linkMixin = css`
   display: flex;
+  justify-content: center;
   font-family: ${g.fonts.acumin};
   text-decoration: none;
   text-transform: uppercase;
