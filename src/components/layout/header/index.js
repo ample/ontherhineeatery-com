@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
   align-items: center;
   padding: 1.8rem 6rem 1.8rem 4.4rem;
   position: relative;
-  @media ${g.screen.max.md} {
+  @media ${g.screen.max.xl} {
     padding: 1.1rem 1.4rem;
   }
 `
@@ -25,7 +25,7 @@ const StyledHeader = styled.header`
 const StyledLogo = styled(Logo)`
   height: 5.5rem;
 
-  @media ${g.screen.max.md} {
+  @media ${g.screen.max.xl} {
     height: 4.2rem;
   }
 
@@ -43,10 +43,10 @@ const Header = props => (
     <Link to="/" aria-label="On The Rhine Logo - Home Page Link">
       <StyledLogo />
     </Link>
-    <MediaQuery query={`(max-width: 1200px)`}>
+    <MediaQuery query={g.screen.max.xl}>
       <NavMobile nav={props.nav} />
     </MediaQuery>
-    <MediaQuery query={`(min-width: 1201px)`}>
+    <MediaQuery query={g.screen.min.xl}>
       <NavLinks nav={props.nav} />
     </MediaQuery>
   </StyledHeader>
