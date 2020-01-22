@@ -6,6 +6,7 @@ import Footer from "./footer"
 import GlobalStyles from "../global/styles"
 import Header from "./header"
 import SEO from "./seo"
+import HelloBarScript from "./hellobar"
 
 const StyledLayout = styled.div`
   display: flex;
@@ -27,6 +28,7 @@ const Layout = ({ children, location, navMenus, page, settings }) => {
         <Header nav={getMenu("header")} />
         <main>{children}</main>
         <Footer nav={getMenu("footer")} settings={settings} />
+        <HelloBarScript />
       </StyledLayout>
     </>
   )
