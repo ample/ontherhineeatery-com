@@ -58,6 +58,7 @@ exports.createPages = ({ graphql, actions }) => {
           node {
             sourceUrl
             destinationUrl
+            isPermanent
           }
         }
       }
@@ -95,12 +96,14 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Create Redirects
     result.data.redirects.edges.forEach(({ node }) => {
+      console.log(node.isPermanent)
+
       createRedirect({
         fromPath: node.sourceUrl,
         toPath: node.destinationUrl,
         force: true,
         redirectInBrowser: true,
-        isPermanent: true
+        isPermanent: node.isPermanent
       })
     })
   })
