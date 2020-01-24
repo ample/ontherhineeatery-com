@@ -1,7 +1,7 @@
 const path = require(`path`)
 
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
   return graphql(`
     {
       pages: allContentfulPage(filter: { layout: { nin: ["home", "404"] } }) {
@@ -52,6 +52,16 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
+
+      redirects: allContentfulRedirect {
+        edges {
+          node {
+            sourceUrl
+            destinationUrl
+            isPermanent
+          }
+        }
+      }
     }
   `).then(result => {
     // Create Pages
@@ -81,6 +91,19 @@ exports.createPages = ({ graphql, actions }) => {
           navMenus: result.data.navMenus.edges.map(e => e.node),
           settings: result.data.settings.edges.map(e => e.node)
         }
+      })
+    })
+
+    // Create Redirects
+    result.data.redirects.edges.forEach(({ node }) => {
+      console.log(node.isPermanent)
+
+      createRedirect({
+        fromPath: node.sourceUrl,
+        toPath: node.destinationUrl,
+        force: true,
+        redirectInBrowser: true,
+        isPermanent: node.isPermanent
       })
     })
   })
