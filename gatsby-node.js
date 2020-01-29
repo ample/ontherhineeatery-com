@@ -96,10 +96,17 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Create Redirects
     result.data.redirects.edges.forEach(({ node }) => {
-      console.log(node.isPermanent)
-
+      // Case specific to as it was entered in the CMS.
       createRedirect({
         fromPath: node.sourceUrl,
+        toPath: node.destinationUrl,
+        force: true,
+        redirectInBrowser: true,
+        isPermanent: node.isPermanent
+      })
+      // Lower case
+      createRedirect({
+        fromPath: node.sourceUrl.toLowerCase(),
         toPath: node.destinationUrl,
         force: true,
         redirectInBrowser: true,
