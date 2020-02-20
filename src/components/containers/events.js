@@ -62,24 +62,11 @@ const EventsContainer = props => (
       // Filter events
       const events = data.events.edges
         .map(({ node }) => node)
-        .filter(event => {
-          // If the container hasn't specified an event type, show all events.
-          if (!props.event_type) return true
-          // Otherwise, the event's event type must match the container's event
-          // type.
-          return (
-            dig(event, "event_type", "contentful_id") ===
-            dig(props, "event_type", "contentful_id")
-          )
-        })
+        .filter(event => dig(event, "event_type", "contentful_id") === dig(props, "contentful_id"))
 
       const eventTitle = event => {
         const title = <h3>{event.title}</h3>
-        return event.permalink ? (
-          <Link to={event.permalink}>{title}</Link>
-        ) : (
-          title
-        )
+        return event.permalink ? <Link to={event.permalink}>{title}</Link> : title
       }
 
       const eventsHtml = events.map((event, idx) => (
