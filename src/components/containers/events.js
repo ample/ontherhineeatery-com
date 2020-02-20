@@ -67,7 +67,12 @@ const EventsContainer = props => (
 
       const eventTitle = event => {
         const title = <h3>{event.title}</h3>
-        return event.permalink ? <Link to={event.permalink}>{title}</Link> : title
+        if (!event.attachment && !event.permalink) return title
+        return (
+          <Link to={event.attachment ? dig(event, "attachment", "file", "url") : event.permalink}>
+            {title}
+          </Link>
+        )
       }
 
       const eventsHtml = events.map((event, idx) => (

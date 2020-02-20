@@ -23,5 +23,10 @@ export const EventAttributes = graphql`
       contentful_id
       title
     }
+    attachment {
+      file {
+        url
+      }
+    }
   }
 `
