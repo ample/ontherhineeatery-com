@@ -6,6 +6,8 @@ export const EventAttributes = graphql`
     contentful_id
     title
     subtitle
+    meta
+    date
     image {
       fluid(maxWidth: 2400) {
         ...GatsbyContentfulFluid_withWebp

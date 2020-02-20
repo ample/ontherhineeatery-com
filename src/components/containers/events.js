@@ -49,7 +49,7 @@ const EventsContainer = props => (
   <StaticQuery
     query={graphql`
       {
-        events: allContentfulEvent(sort: { fields: [title] }) {
+        events: allContentfulEvent {
           edges {
             node {
               ...EventAttributes
@@ -63,6 +63,7 @@ const EventsContainer = props => (
       const events = data.events.edges
         .map(({ node }) => node)
         .filter(event => dig(event, "event_type", "contentful_id") === dig(props, "contentful_id"))
+        .sort((a, b) => (a[props.sort] > b[props.sort] ? 1 : -1))
 
       const eventTitle = event => {
         const title = <h3>{event.title}</h3>
@@ -85,11 +86,22 @@ const EventsContainer = props => (
             {eventTitle(event)}
             <h6>{event.subtitle}</h6>
             {event.body && <HTML field={event.body} />}
+            <p>---</p>
+            <p>Meta stuff goes here ...</p>
+            {event.meta && event.meta.map((m, i) => <p key={i}>{m}</p>)}
           </Col>
         </StyledEvent>
       ))
       return (
         <Container as="section" aria-label="Upcoming Special Events">
+          {props.body && <HTML field={props.body} />}
+          <p>---</p>
+          <p>
+            <strong>
+              This container should have {props.layout} and a {props.background_color} background
+              color.
+            </strong>
+          </p>
           <Row center="xs">
             <Col lg={9}>{eventsHtml}</Col>
           </Row>
