@@ -5,45 +5,144 @@ import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
 import dig from "object-dig"
 
-// import { screen } from "../global/variables"
+import { screen, colors } from "../global/variables"
 import Container from "../layout/container"
 import Link from "../utilities/link"
 import HTML from "../utilities/html"
+import WeeklyEventImage from "../../images/header_img-1@2x.png"
 
-// const StyledEvent = styled(Row)`
-//   margin-bottom: 3.6rem;
-//   text-align: left;
+const StyledRow = styled(Row)`
+  border-style: solid;
+  border-color: ${colors.gray300};
+  border-width: 0 0 1px 0;
 
-//   a,
-//   a > h3 {
-//     text-decoration: none;
-//   }
+  &:last-of-type {
+    border-style: none;
+  }
 
-//   a:hover > h3,
-//   a:focus > h3 {
-//     text-decoration: underline;
-//   }
+  .col-lg-9,
+  .col-md-6 {
+    padding-left: 16px;
+    padding-right: 16px;
 
-//   img,
-//   picture,
-//   .gatsby-image-wrapper {
-//     height: 100%;
-//     height: 24.6rem;
-//   }
+    &:first-of-type {
+      div {
+        position: relative;
 
-//   @media ${screen.max.md} {
-//     margin-bottom: 5rem;
-//     text-align: center;
+        :after {
+          background-color: ${colors.gray300};
+          position: absolute;
+          right: -15px;
+          height: 100%;
+          top: 0;
+          box-sizing: border-box;
+          border: 0.5px solid ${colors.gray300};
 
-//     a > h3 {
-//       text-decoration: underline;
-//     }
+          @media ${screen.max.md} {
+            border-style: none;
+          }
+        }
+      }
+    }
+  }
 
-//     .gatsby-image-wrapper {
-//       margin-bottom: 1.8rem;
-//     }
-//   }
-// `
+  @media ${screen.max.md} {
+    border-style: none;
+    padding-bottom: 0;
+  }
+`
+
+const StyledImage = styled.div``
+
+const StyledDetails = styled.div`
+  text-align: left;
+  margin: 3rem 0;
+
+  :after {
+    content: "";
+  }
+
+  ul {
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+
+    li {
+      display: inline;
+
+      :after {
+        content: "•";
+        letter-spacing: 1em;
+        background: center center no-repeat;
+        padding-left: 1rem;
+        white-space: nowrap;
+      }
+
+      :last-of-type {
+        :after {
+          content: " ";
+        }
+      }
+    }
+  }
+
+  h3 {
+    margin-bottom: 1.5rem;
+  }
+
+  a,
+  a > h3 {
+    text-decoration: none;
+  }
+
+  a:hover > h3,
+  a:focus > h3 {
+    text-decoration: underline;
+  }
+
+  img,
+  picture,
+  .gatsby-image-wrapper {
+    height: 100%;
+    height: 24.6rem;
+  }
+
+  @media ${screen.max.md} {
+    img {
+      height: 100%;
+      width: 50%;
+      height: 12rem;
+    }
+
+    a > h3 {
+      text-decoration: underline;
+    }
+
+    .gatsby-image-wrapper {
+      margin-bottom: 1.8rem;
+    }
+  }
+`
+const StyledCol = styled(Col)`
+  h2 {
+    margin-bottom: 3rem;
+  }
+  h3 {
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    @media ${screen.max.md} {
+      margin-top: 1.5rem;
+    }
+  }
+  img {
+    height: 250px;
+    width: auto;
+  }
+`
+const StyledEvents = styled.div`
+  background-color: ${colors.gray200};
+  padding-top: 3rem;
+`
 
 const EventsContainer = props => (
   <StaticQuery
@@ -76,18 +175,23 @@ const EventsContainer = props => (
       }
 
       const eventImage = image => (
-        <Img fluid={image.fluid} objectFit="cover" objectPosition="50% 50%" aria-hidden={true} />
+        <StyledImage>
+          <Img fluid={image.fluid} objectFit="cover" objectPosition="50% 50%" aria-hidden={true} />
+        </StyledImage>
       )
 
       const eventDetails = event => (
-        <>
+        <StyledDetails>
           {eventTitle(event)}
           <h6>{event.subtitle}</h6>
           {event.body && <HTML field={event.body} />}
-          <p>---</p>
-          <p>Meta stuff goes here ...</p>
+          <ul>
+            <li>8 pm - 2 am</li>
+            <li>8 pm - 2 am</li>
+            <li>8 pm - 2 am</li>
+          </ul>
           {event.meta && event.meta.map((m, i) => <p key={i}>{m}</p>)}
-        </>
+        </StyledDetails>
       )
 
       const eventsLayout = []
@@ -98,29 +202,49 @@ const EventsContainer = props => (
       })
 
       const eventsHtml = eventsLayout.map((cols, idx) => (
-        <Row key={idx}>
+        <StyledRow key={idx}>
           {cols.map((col, idx) => (
             <Col md={props.layout === "One Column" ? 12 : 6}>
               {col.fluid ? eventImage(col) : eventDetails(col)}
             </Col>
           ))}
-        </Row>
+        </StyledRow>
       ))
 
       return (
-        <Container as="section" aria-label="Upcoming Special Events" layout={props.layout}>
-          {props.body && <HTML field={props.body} />}
-          <p>---</p>
-          <p>
-            <strong>
-              This container should have {props.layout} and a {props.background_color} background
-              color.
-            </strong>
-          </p>
-          <Row center="xs">
-            <Col lg={9}>{eventsHtml}</Col>
-          </Row>
-        </Container>
+        <>
+          <Container as="section" aria-label="Upcoming Special Events" layout={props.layout}>
+            {props.body && <HTML field={props.body} />}
+            <Row center="xs">
+              <Col lg={9}>{eventsHtml}</Col>
+            </Row>
+          </Container>
+
+          <StyledEvents>
+            <Container>
+              <Row center="xs">
+                <StyledCol lg={9}>
+                  <h2>Weekly Events</h2>
+                  <img
+                    alt=""
+                    src={WeeklyEventImage}
+                    objectFit="cover"
+                    objectPosition="50% 50%"
+                    aria-hidden={true}
+                  />
+
+                  <h3>Sunday Brunch</h3>
+                  <h6>New American comfort food</h6>
+                  <p>
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam
+                    eget risus varius blandit sit amet non magna.
+                  </p>
+                </StyledCol>
+              </Row>
+            </Container>
+          </StyledEvents>
+        </>
       )
     }}
   />
