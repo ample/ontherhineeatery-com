@@ -26,7 +26,7 @@ const StyledRow = styled(Row)`
     padding-right: 16px;
 
     &:first-of-type {
-      div {
+      > div {
         position: relative;
 
         :after {
@@ -52,7 +52,17 @@ const StyledRow = styled(Row)`
   }
 `
 
-const StyledImage = styled.div``
+const StyledImage = styled.div`
+  .gatsby-image-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    @media ${screen.max.md} {
+      height: 24rem;
+      margin-bottom: 0px;
+    }
+  }
+`
 
 const StyledDetails = styled.div`
   text-align: left;
@@ -100,13 +110,6 @@ const StyledDetails = styled.div`
     text-decoration: underline;
   }
 
-  img,
-  picture,
-  .gatsby-image-wrapper {
-    height: 100%;
-    height: 24.6rem;
-  }
-
   @media ${screen.max.md} {
     img {
       height: 100%;
@@ -139,6 +142,7 @@ const StyledCol = styled(Col)`
     width: auto;
   }
 `
+
 const StyledEvents = styled.div`
   background-color: ${colors.gray200};
   padding-top: 3rem;
