@@ -11,6 +11,18 @@ import Link from "../utilities/link"
 import HTML from "../utilities/html"
 import WeeklyEventImage from "../../images/header_img-1@2x.png"
 
+const OneColumnContainer = styled(Container)`
+  /* One column styles here ... */
+`
+
+const TwoColumnContainer = styled(Container)`
+  /* Two column styles here ... */
+
+  ${StyledRow} {
+    /* Nested styled row styles here ... */
+  }
+`
+
 const StyledRow = styled(Row)`
   border-style: solid;
   border-color: ${colors.gray300};
@@ -130,6 +142,7 @@ const StyledDetails = styled.div`
     }
   }
 `
+
 const StyledCol = styled(Col)`
   h2 {
     margin-bottom: 3rem;
@@ -223,14 +236,17 @@ const EventsContainer = props => (
         </StyledRow>
       ))
 
+      const ContainerTagName =
+        props.layout === "One Column" ? OneColumnContainer : TwoColumnContainer
+
       return (
         <>
-          <Container as="section" aria-label="Upcoming Special Events" layout={props.layout}>
+          <ContainerTagName as="section" aria-label={props.title}>
             {props.body && <HTML field={props.body} />}
             <Row center="xs">
               <Col lg={9}>{eventsHtml}</Col>
             </Row>
-          </Container>
+          </ContainerTagName>
 
           <StyledEvents>
             <Container>
