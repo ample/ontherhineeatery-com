@@ -46,6 +46,10 @@ const StyledRow = styled(Row)`
     }
   }
 
+  .has-image {
+    align-self: center;
+  }
+
   @media ${screen.max.md} {
     border-style: none;
     padding-bottom: 0;
@@ -208,7 +212,11 @@ const EventsContainer = props => (
       const eventsHtml = eventsLayout.map((cols, idx) => (
         <StyledRow key={idx}>
           {cols.map((col, idx) => (
-            <Col md={props.layout === "One Column" ? 12 : 6}>
+            <Col
+              md={props.layout === "One Column" ? 12 : 6}
+              key={idx}
+              className={col.fluid ? "has-image" : null}
+            >
               {col.fluid ? eventImage(col) : eventDetails(col)}
             </Col>
           ))}
