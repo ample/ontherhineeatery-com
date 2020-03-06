@@ -18,10 +18,13 @@ const StyledRow = styled(Row)``
 
 const OneColumnContainer = styled(Container)`
   background-color: ${colors.gray200};
-  text-align: center;
   padding: 8rem 1.5rem;
+  text-align: center;
 
   > div {
+    max-width: 90rem;
+    margin: 0 auto;
+
     &:first-of-type {
       width: 75%;
       margin: auto;
@@ -126,6 +129,10 @@ const TwoColumnContainer = styled(Container)`
 
     .has-image {
       align-self: center;
+
+      & + .col-md-6 {
+        align-self: center;
+      }
     }
 
     @media ${screen.max.md} {
@@ -245,12 +252,13 @@ const EventsContainer = props => (
           {eventTitle(event)}
           <h6>{event.subtitle}</h6>
           {event.body && <HTML field={event.body} />}
-          <ul>
-            <li>8 pm - 2 am</li>
-            <li>8 pm - 2 am</li>
-            <li>8 pm - 2 am</li>
-          </ul>
-          {event.meta && event.meta.map((m, i) => <p key={i}>{m}</p>)}
+          {event.meta && (
+            <ul>
+              {event.meta.map((m, i) => (
+                <li key={i}>{m}</li>
+              ))}
+            </ul>
+          )}
         </StyledDetails>
       )
 
