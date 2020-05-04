@@ -29,7 +29,7 @@ const Label = styled.h4`
 `
 
 const getItems = (items, section) =>
-  items.map((item, idx) => (
+  (items || []).map((item, idx) => (
     <MenuItem {...item} key={`${section}-item-${idx}`} />
   ))
 
@@ -39,15 +39,17 @@ const MenuSections = props => (
       <Col md={9} lg={7} xl={6}>
         {props.sections && (
           <section role="tabpanel" aria-label={`${props.label}`}>
-            {props.sections.map((section, s_idx) => (
-              <MenuSection
-                key={`menu-section-${s_idx}`}
-                id={`menupanel${s_idx + 1}`}
-              >
-                <Label>{section.label}</Label>
-                {getItems(section.items, section.label)}
-              </MenuSection>
-            ))}
+            {props.sections
+              .filter(({ items }) => items)
+              .map((section, s_idx) => (
+                <MenuSection
+                  key={`menu-section-${s_idx}`}
+                  id={`menupanel${s_idx + 1}`}
+                >
+                  <Label>{section.label}</Label>
+                  {getItems(section.items, section.label)}
+                </MenuSection>
+              ))}
           </section>
         )}
       </Col>
