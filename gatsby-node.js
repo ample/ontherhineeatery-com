@@ -1,5 +1,24 @@
 const path = require(`path`)
 
+exports.createSchemaCustomization = ({ actions, schema, getNodesByType }) => {
+  const typeDefs = `
+
+    type ContentfulAssetFile @infer {
+      url: String
+    }
+
+    type ContentfulAsset implements Node @infer {
+      file: ContentfulAssetFile
+    }
+
+    type ContentfulEvent implements Node @infer {
+      attachment: ContentfulAsset
+    }
+  `
+
+  actions.createTypes(typeDefs)
+}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions
   return graphql(`
