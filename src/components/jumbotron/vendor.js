@@ -111,7 +111,7 @@ const VendorJumbotron = props => (
           {props.social_links && <SocialIcons vendor={props.title} icons={props.social_links} />}
         </ContentCol>
         <Col xs={7} sm={6} md={4} lg={3}>
-          {props.body_image.fluid && (
+          {props.body_image && (
             <Img
               fluid={props.body_image.fluid}
               objectFit="cover"
