@@ -108,17 +108,17 @@ const VendorJumbotron = props => (
       <Row center="xs" start="md" middle="md" between="md">
         <ContentCol md={7} lg={7}>
           <HTML field={props.body} />
-          {props.social_links && (
-            <SocialIcons vendor={props.title} icons={props.social_links} />
-          )}
+          {props.social_links && <SocialIcons vendor={props.title} icons={props.social_links} />}
         </ContentCol>
         <Col xs={7} sm={6} md={4} lg={3}>
-          <Img
-            fluid={props.body_image.fluid}
-            objectFit="cover"
-            objectPosition="50% 50%"
-            aria-hidden={true}
-          />
+          {props.body_image && (
+            <Img
+              fluid={props.body_image.fluid}
+              objectFit="cover"
+              objectPosition="50% 50%"
+              aria-hidden={true}
+            />
+          )}
         </Col>
       </Row>
     </ContentContainer>
